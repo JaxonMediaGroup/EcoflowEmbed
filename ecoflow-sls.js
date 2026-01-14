@@ -38,7 +38,7 @@ window.ECOFLOW_CONFIG = {
     themeChatWindowHeight: 500,
     themeChatWindowWidth: 400,
     themeChatWindowShowAgentMessages: false,
-    themeChatWindowBackgroundColor: "#ffffff",
+    themeChatWindowBackgroundColor: "rgba(255, 255, 255, 0.05)",
 
     // Theme - Mensajes del Bot
     themeBotMessageBackgroundColor: "#f7f8ff",
@@ -54,21 +54,23 @@ window.ECOFLOW_CONFIG = {
     // Theme - Input de Texto
     themeTextInputPlaceholder: "Haz tu pregunta aquí",
     themeTextInputSendButtonColor: "#1b2f55",
+    themeTextInputTextColor: "#ffffff",
 
     // Theme - Footer
     themeFooterText: "POWERED BY",
     themeFooterCompany: "koppi",
     themeFooterCompanyLink: "https://koppi.mx",
-    themeFooterTextColor: "#303235",
+    themeFooterTextColor: "#ffffff",
 
     // Theme - Z-Index
     themeZIndex: "10000"
 };
 
-// Cargar el script core
+// Cargar el script core (VERSION LOCAL PARA TESTING)
 (function() {
     const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.js';
+    // script.src = 'https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.js';
+    script.src = 'ecoflow-core.js'; // Usar versión local
     script.defer = true;
     document.head.appendChild(script);
 })();

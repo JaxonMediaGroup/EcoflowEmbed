@@ -17,19 +17,18 @@ Pega el código **antes de la etiqueta de cierre `</body>`** en tu archivo HTML:
 ```html
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Mi Sitio Web</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Tu contenido aquí -->
     <h1>Bienvenido</h1>
     <p>Contenido de tu sitio...</p>
-    
+
     <!-- 👇 PEGA EL SCRIPT AQUÍ (antes del </body>) -->
     <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-TU_NOMBRE_CLIENTE.js"></script>
-</body>
+  </body>
 </html>
 ```
 
@@ -56,6 +55,7 @@ Sí, pero debes agregar el script en cada página donde quieras que aparezca el 
 ### ¿Puedo personalizar la posición del botón?
 
 Sí, contacta a tu proveedor para ajustar:
+
 - Posición (derecha, izquierda, arriba, abajo)
 - Tamaño del botón
 - Colores
@@ -91,11 +91,11 @@ Edita `footer.php` de tu theme y agrega antes de `</body>`:
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
     <!-- Contenido -->
-    
+
     <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-TU_NOMBRE_CLIENTE.js"></script>
-</body>
+  </body>
 </html>
 ```
 
@@ -104,20 +104,21 @@ Edita `footer.php` de tu theme y agrega antes de `</body>`:
 En `_app.js` o en tu componente principal:
 
 ```jsx
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-TU_NOMBRE_CLIENTE.js';
+    const script = document.createElement("script");
+    script.src =
+      "https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-TU_NOMBRE_CLIENTE.js";
     script.async = true;
     document.body.appendChild(script);
-    
+
     return () => {
       document.body.removeChild(script);
     };
   }, []);
-  
+
   return <Component {...pageProps} />;
 }
 ```

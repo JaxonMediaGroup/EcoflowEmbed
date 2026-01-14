@@ -28,19 +28,20 @@ El cliente solo necesita agregar **UNA LÍNEA** en su HTML:
 ```
 
 **Ejemplo real:**
+
 ```html
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Mi Sitio Web</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Bienvenido a mi sitio</h1>
-    
+
     <!-- Chatbot - Una sola línea -->
     <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-sls.js"></script>
-</body>
+  </body>
 </html>
 ```
 
@@ -61,22 +62,23 @@ Abre el archivo `ecoflow-nombre_cliente.js` y modifica solo estos valores:
 
 ```javascript
 window.ECOFLOW_CONFIG = {
-    // ⚠️ REQUERIDO: ID del flujo de chat de Flowise
-    chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
-    
-    // ⚠️ REQUERIDO: URL de la animación Lottie
-    lottieAnimationPath: "https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json",
-    
-    // Personalización visual
-    themeChatWindowTitle: "Nombre del Cliente",
-    themeChatWindowWelcomeMessage: "¡Hola! ¿En qué puedo ayudarte?",
-    
-    // Colores personalizados
-    themeButtonBackgroundColor: "#1b2f55",
-    themeUserMessageBackgroundColor: "#1b2f55",
-    themeTextInputSendButtonColor: "#1b2f55",
-    
-    // ... más configuraciones (ver plantilla completa)
+  // ⚠️ REQUERIDO: ID del flujo de chat de Flowise
+  chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
+
+  // ⚠️ REQUERIDO: URL de la animación Lottie
+  lottieAnimationPath:
+    "https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json",
+
+  // Personalización visual
+  themeChatWindowTitle: "Nombre del Cliente",
+  themeChatWindowWelcomeMessage: "¡Hola! ¿En qué puedo ayudarte?",
+
+  // Colores personalizados
+  themeButtonBackgroundColor: "#1b2f55",
+  themeUserMessageBackgroundColor: "#1b2f55",
+  themeTextInputSendButtonColor: "#1b2f55",
+
+  // ... más configuraciones (ver plantilla completa)
 };
 ```
 
@@ -127,15 +129,17 @@ Consulta el archivo `ecoflow-template.js` para ver todas las opciones disponible
 ```javascript
 // ecoflow-sls.js
 window.ECOFLOW_CONFIG = {
-    chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
-    lottieAnimationPath: "https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json",
-    themeChatWindowTitle: "Residences, Yacht & Sail Club",
-    themeButtonBackgroundColor: "#1b2f55",
-    // ... más configuraciones
+  chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
+  lottieAnimationPath:
+    "https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json",
+  themeChatWindowTitle: "Residences, Yacht & Sail Club",
+  themeButtonBackgroundColor: "#1b2f55",
+  // ... más configuraciones
 };
 ```
 
 **HTML del cliente:**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-sls.js"></script>
 ```
@@ -145,15 +149,16 @@ window.ECOFLOW_CONFIG = {
 ```javascript
 // ecoflow-hotel-ejemplo.js
 window.ECOFLOW_CONFIG = {
-    chatflowid: "abc123-hotel-id",
-    lottieAnimationPath: "https://example.com/hotel-animation.json",
-    themeChatWindowTitle: "Hotel Paradise",
-    themeButtonBackgroundColor: "#ff6b6b",
-    themeUserMessageBackgroundColor: "#ff6b6b",
+  chatflowid: "abc123-hotel-id",
+  lottieAnimationPath: "https://example.com/hotel-animation.json",
+  themeChatWindowTitle: "Hotel Paradise",
+  themeButtonBackgroundColor: "#ff6b6b",
+  themeUserMessageBackgroundColor: "#ff6b6b",
 };
 ```
 
 **HTML del cliente:**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-hotel-ejemplo.js"></script>
 ```
@@ -161,16 +166,18 @@ window.ECOFLOW_CONFIG = {
 ## 🔧 Ventajas del Sistema
 
 ### Para el Cliente
+
 ✅ **Súper simple**: Solo una línea de código  
 ✅ **Sin configuración**: No necesita entender atributos `data-*`  
 ✅ **Actualizaciones automáticas**: Los cambios se reflejan sin modificar su HTML  
 ✅ **Fácil de implementar**: Copiar y pegar
 
 ### Para el Desarrollador
+
 ✅ **Centralizado**: Toda la lógica en `ecoflow-core.js`  
 ✅ **Mantenible**: Un solo archivo para actualizar funcionalidades  
 ✅ **Escalable**: Crear nuevos clientes en minutos  
-✅ **Organizado**: Cada cliente tiene su archivo de configuración  
+✅ **Organizado**: Cada cliente tiene su archivo de configuración
 
 ## 📦 Proceso de Implementación
 
@@ -235,11 +242,13 @@ Si un cliente necesita cambios en su configuración:
 ## 🌐 CDN y Caché
 
 El sistema usa **jsDelivr CDN** que:
+
 - ✅ Cachea automáticamente los archivos
 - ✅ Distribución global rápida
 - ✅ Actualización: espera hasta 24 horas o usa versiones
 
 Para forzar actualización inmediata, usa versión específica:
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@{COMMIT_HASH}/ecoflow-cliente.js"></script>
 ```
@@ -283,6 +292,7 @@ Para forzar actualización inmediata, usa versión específica:
 ## 📞 Soporte
 
 Para preguntas o problemas:
+
 - Revisa este README
 - Consulta `ecoflow-template.js` para opciones completas
 - Revisa ejemplos en `ecoflow-sls.js`

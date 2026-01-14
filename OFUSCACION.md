@@ -158,10 +158,11 @@ Ya lo tienes en ecoflow! 🎉
 
 ```javascript
 window.ECOFLOW_CONFIG = {
-    chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
-    apiHost: "https://ecoflow.koppi.mx",
-    lottieAnimationPath: "https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json",
-    themeButtonBackgroundColor: "#1b2f55"
+  chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
+  apiHost: "https://ecoflow.koppi.mx",
+  lottieAnimationPath:
+    "https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json",
+  themeButtonBackgroundColor: "#1b2f55",
 };
 ```
 
@@ -170,7 +171,27 @@ window.ECOFLOW_CONFIG = {
 ### Archivo Ofuscado (ecoflow-sls.min.js):
 
 ```javascript
-var _0x4f2a=['\x77\x69\x6e\x64\x6f\x77','\x45\x43\x4f\x46\x4c\x4f\x57\x5f\x43\x4f\x4e\x46\x49\x47'];(function(_0x2d8f05,_0x4b81bb){var _0x4d74cb=function(_0x32719f){while(--_0x32719f){_0x2d8f05['push'](_0x2d8f05['shift']());}};_0x4d74cb(++_0x4b81bb);}(_0x4f2a,0x1f4));var _0xaf69=function(_0x2d8f05,_0x4b81bb){_0x2d8f05=_0x2d8f05-0x0;var _0x4d74cb=_0x4f2a[_0x2d8f05];return _0x4d74cb;};window[_0xaf69('0x1')]={'chatflowid':_0xaf69('0x0'),'apiHost':_0xaf69('0x2')};
+var _0x4f2a = [
+  "\x77\x69\x6e\x64\x6f\x77",
+  "\x45\x43\x4f\x46\x4c\x4f\x57\x5f\x43\x4f\x4e\x46\x49\x47",
+];
+(function (_0x2d8f05, _0x4b81bb) {
+  var _0x4d74cb = function (_0x32719f) {
+    while (--_0x32719f) {
+      _0x2d8f05["push"](_0x2d8f05["shift"]());
+    }
+  };
+  _0x4d74cb(++_0x4b81bb);
+})(_0x4f2a, 0x1f4);
+var _0xaf69 = function (_0x2d8f05, _0x4b81bb) {
+  _0x2d8f05 = _0x2d8f05 - 0x0;
+  var _0x4d74cb = _0x4f2a[_0x2d8f05];
+  return _0x4d74cb;
+};
+window[_0xaf69("0x1")] = {
+  chatflowid: _0xaf69("0x0"),
+  apiHost: _0xaf69("0x2"),
+};
 ```
 
 **Muy difícil de leer** ✅
@@ -218,10 +239,12 @@ Antes de subir a producción:
 ### El archivo ofuscado no funciona
 
 **Posibles causas:**
+
 1. Error de sintaxis en el original
 2. Ofuscación muy agresiva
 
 **Solución:**
+
 ```bash
 # Reducir nivel de ofuscación en build.js
 # Cambiar algunos valores de true a false
@@ -232,6 +255,7 @@ npm run obfuscate
 ### npm install falla
 
 **Solución:**
+
 ```bash
 # Limpiar cache
 npm cache clean --force
@@ -244,6 +268,7 @@ npm install
 ### No se genera el archivo .min.js
 
 **Verificar:**
+
 ```bash
 # 1. Node instalado
 node --version
@@ -261,15 +286,18 @@ node build.js --all
 ## 💡 Tips
 
 1. **Mantén los originales seguros:**
+
    - Usa un repo privado para originales
    - O mantenerlos solo localmente
    - Haz backups regulares
 
 2. **Documenta cambios:**
+
    - Anota qué cliente y qué cambios en cada commit
    - Facilita rastrear modificaciones
 
 3. **Testing:**
+
    - Siempre prueba el .min.js localmente antes de subir
    - Verifica en el sitio del cliente antes de confirmar
 

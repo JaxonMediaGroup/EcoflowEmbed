@@ -10,16 +10,19 @@
 ## 🚀 Comandos Rápidos
 
 ### Ofuscar archivo actual (SLS)
+
 ```bash
 npm run obfuscate
 ```
 
 ### Ofuscar archivo específico
+
 ```bash
 node build.js ecoflow-nuevo-cliente.js
 ```
 
 ### Ofuscar todos los clientes
+
 ```bash
 npm run obfuscate:all
 ```
@@ -65,11 +68,13 @@ git push
 ## 🔐 Protección Actual
 
 ### Cliente ve en el HTML:
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/.../ecoflow-sls.min.js"></script>
 ```
 
 ### Si abre el archivo, ve:
+
 ```javascript
 var _0x4f2a=['\x77\x69\x6e\x64\x6f\x77','\x45\x43\x4f'];
 (function(_0x2d8f05,_0x4b81bb){var _0x4d74cb=function...
@@ -77,6 +82,7 @@ var _0x4f2a=['\x77\x69\x6e\x64\x6f\x77','\x45\x43\x4f'];
 ```
 
 ### Protección real:
+
 - ✅ Código ofuscado (difícil de leer)
 - ✅ Validación de URL en ecoflow (solo dominios autorizados)
 - ✅ Aunque copien el chatflowid, NO funcionará en otro dominio
@@ -117,6 +123,7 @@ git push
 ## 🧪 Testing
 
 ### Local (antes de subir):
+
 ```bash
 # Abrir test.html
 start test.html
@@ -129,6 +136,7 @@ start test.html
 ```
 
 ### En producción (después de subir):
+
 ```bash
 # Esperar 5-15 min para jsDelivr
 # Abrir sitio del cliente
@@ -137,28 +145,31 @@ start test.html
 
 ## 📊 Ventajas
 
-| Aspecto | Sin Ofuscar | Con Ofuscar |
-|---------|-------------|-------------|
-| chatflowid visible | ✅ Sí, fácil | ❌ Muy difícil |
-| Cliente modifica config | ✅ Sí, fácil | ❌ Muy difícil |
-| Alguien copia ID | ⚠️ Sí, funcional | ⚠️ Sí, pero bloqueado por URL |
-| Seguridad general | ⭐⭐ | ⭐⭐⭐⭐ |
+| Aspecto                 | Sin Ofuscar      | Con Ofuscar                   |
+| ----------------------- | ---------------- | ----------------------------- |
+| chatflowid visible      | ✅ Sí, fácil     | ❌ Muy difícil                |
+| Cliente modifica config | ✅ Sí, fácil     | ❌ Muy difícil                |
+| Alguien copia ID        | ⚠️ Sí, funcional | ⚠️ Sí, pero bloqueado por URL |
+| Seguridad general       | ⭐⭐             | ⭐⭐⭐⭐                      |
 
 ## 🎉 Resumen
 
 **Antes:**
+
 ```javascript
 // En ecoflow-sls.js (visible)
-chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3"
+chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3";
 ```
 
 **Después:**
+
 ```javascript
 // En ecoflow-sls.min.js (ofuscado)
-var _0x4f2a=['\x31\x35\x36\x61\x30\x65\x61\x39']; // ...
+var _0x4f2a = ["\x31\x35\x36\x61\x30\x65\x61\x39"]; // ...
 ```
 
 **Resultado:**
+
 - 🔒 Código protegido
 - 🛡️ Validación de URL activa
 - ✅ Cliente solo ve código ofuscado

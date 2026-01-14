@@ -10,32 +10,32 @@ Se ha creado un **sistema modular** para integrar chatbots en sitios web de clie
 
 ### Core del Sistema
 
-| Archivo | Propósito | Modificar |
-|---------|-----------|-----------|
-| `ecoflow-core.js` | Script base con toda la lógica | ❌ NO (afecta a todos) |
-| `ecoflow-template.js` | Plantilla para nuevos clientes | ❌ NO (es plantilla) |
+| Archivo               | Propósito                      | Modificar              |
+| --------------------- | ------------------------------ | ---------------------- |
+| `ecoflow-core.js`     | Script base con toda la lógica | ❌ NO (afecta a todos) |
+| `ecoflow-template.js` | Plantilla para nuevos clientes | ❌ NO (es plantilla)   |
 
 ### Configuraciones de Clientes
 
-| Archivo | Propósito | Modificar |
-|---------|-----------|-----------|
-| `ecoflow-sls.js` | Cliente: SLS Residences | ✅ SÍ (solo este cliente) |
-| `ecoflow-NUEVO.js` | Crear para cada nuevo cliente | ✅ SÍ (nuevo cliente) |
+| Archivo            | Propósito                     | Modificar                 |
+| ------------------ | ----------------------------- | ------------------------- |
+| `ecoflow-sls.js`   | Cliente: SLS Residences       | ✅ SÍ (solo este cliente) |
+| `ecoflow-NUEVO.js` | Crear para cada nuevo cliente | ✅ SÍ (nuevo cliente)     |
 
 ### Ejemplos y Testing
 
-| Archivo | Propósito |
-|---------|-----------|
+| Archivo             | Propósito                   |
+| ------------------- | --------------------------- |
 | `index_simple.html` | Ejemplo de uso simplificado |
-| `test.html` | Página de testing completo |
+| `test.html`         | Página de testing completo  |
 
 ### Documentación
 
-| Archivo | Para Quién |
-|---------|------------|
-| `README.md` | Desarrolladores (completo) |
-| `GUIA_CLIENTE.md` | Clientes (simple) |
-| `COMPARACION.md` | Análisis antes/después |
+| Archivo           | Para Quién                 |
+| ----------------- | -------------------------- |
+| `README.md`       | Desarrolladores (completo) |
+| `GUIA_CLIENTE.md` | Clientes (simple)          |
+| `COMPARACION.md`  | Análisis antes/después     |
 
 ---
 
@@ -48,6 +48,7 @@ El cliente solo necesita agregar **1 línea** en su HTML:
 ```
 
 **Ejemplo real:**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-sls.js"></script>
 ```
@@ -88,22 +89,22 @@ git push origin main
 
 ### Para el Cliente
 
-| Antes | Después |
-|-------|---------|
-| 32 líneas | 1 línea |
-| 27 atributos | 0 atributos |
-| 20-30 min integrar | 2 min integrar |
-| Propenso a errores | Sin errores |
-| Actualizaciones manuales | Automáticas |
+| Antes                    | Después        |
+| ------------------------ | -------------- |
+| 32 líneas                | 1 línea        |
+| 27 atributos             | 0 atributos    |
+| 20-30 min integrar       | 2 min integrar |
+| Propenso a errores       | Sin errores    |
+| Actualizaciones manuales | Automáticas    |
 
 ### Para el Desarrollador
 
-| Métrica | Mejora |
-|---------|--------|
-| Tiempo por cliente | **-83%** |
-| Errores de cliente | **-100%** |
-| Mantenibilidad | **+500%** |
-| Escalabilidad | **Infinita** |
+| Métrica                  | Mejora           |
+| ------------------------ | ---------------- |
+| Tiempo por cliente       | **-83%**         |
+| Errores de cliente       | **-100%**        |
+| Mantenibilidad           | **+500%**        |
+| Escalabilidad            | **Infinita**     |
 | Actualizaciones globales | **Instantáneas** |
 
 ---
@@ -218,13 +219,13 @@ git push
 
 ## 🎓 Recursos de Aprendizaje
 
-| Documento | Audiencia | Propósito |
-|-----------|-----------|-----------|
-| [README.md](README.md) | Desarrolladores | Documentación completa del sistema |
-| [GUIA_CLIENTE.md](GUIA_CLIENTE.md) | Clientes | Cómo integrar el chatbot (simple) |
-| [COMPARACION.md](COMPARACION.md) | Stakeholders | ROI y beneficios del sistema |
-| [test.html](test.html) | QA/Testing | Verificar funcionamiento |
-| [index_simple.html](index_simple.html) | Todos | Ejemplo visual de uso |
+| Documento                              | Audiencia       | Propósito                          |
+| -------------------------------------- | --------------- | ---------------------------------- |
+| [README.md](README.md)                 | Desarrolladores | Documentación completa del sistema |
+| [GUIA_CLIENTE.md](GUIA_CLIENTE.md)     | Clientes        | Cómo integrar el chatbot (simple)  |
+| [COMPARACION.md](COMPARACION.md)       | Stakeholders    | ROI y beneficios del sistema       |
+| [test.html](test.html)                 | QA/Testing      | Verificar funcionamiento           |
+| [index_simple.html](index_simple.html) | Todos           | Ejemplo visual de uso              |
 
 ---
 
@@ -261,6 +262,7 @@ git push
 ### Inmediatos (Ahora)
 
 1. **Subir archivos a GitHub**
+
    ```bash
    git add .
    git commit -m "Add: ECOflow Modular System"
@@ -268,6 +270,7 @@ git push
    ```
 
 2. **Verificar jsDelivr**
+
    - Esperar 5-10 minutos para que jsDelivr cachee
    - Probar URL: `https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.js`
 
@@ -279,6 +282,7 @@ git push
 ### Corto Plazo (Esta Semana)
 
 1. **Migrar cliente SLS**
+
    - Reemplazar script antiguo por nuevo
    - Verificar funcionalidad
    - Obtener feedback
@@ -299,12 +303,12 @@ git push
 
 ## 📈 KPIs de Éxito
 
-| Métrica | Meta |
-|---------|------|
-| Tiempo de integración | < 5 min |
-| Errores de cliente | 0 |
-| Clientes migrados | 100% |
-| Satisfacción cliente | > 95% |
+| Métrica                 | Meta    |
+| ----------------------- | ------- |
+| Tiempo de integración   | < 5 min |
+| Errores de cliente      | 0       |
+| Clientes migrados       | 100%    |
+| Satisfacción cliente    | > 95%   |
 | Tiempo de actualización | < 2 min |
 
 ---
@@ -318,16 +322,18 @@ git push
 ✅ **100% eliminación** de errores de cliente  
 ✅ **Documentación completa** para todos los usuarios  
 ✅ **Sistema escalable** para infinitos clientes  
-✅ **Actualizaciones centralizadas** y automáticas  
+✅ **Actualizaciones centralizadas** y automáticas
 
 ### Lo que el cliente ve:
 
 **Antes:**
+
 ```html
 <!-- 32 líneas de código confuso con 27 atributos data-* -->
 ```
 
 **Después:**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-cliente.js"></script>
 ```
@@ -337,6 +343,7 @@ git push
 ## 💡 Contacto y Soporte
 
 Para preguntas sobre implementación:
+
 - Revisar [README.md](README.md) (desarrolladores)
 - Revisar [GUIA_CLIENTE.md](GUIA_CLIENTE.md) (clientes)
 - Consultar [COMPARACION.md](COMPARACION.md) (análisis)

@@ -20,6 +20,7 @@ ls -la
 ```
 
 Debes ver:
+
 ```
 ecoflow-core.js          # ⚙️ Core del sistema
 ecoflow-template.js      # 📝 Plantilla
@@ -101,11 +102,12 @@ git push origin main
 jsDelivr necesita tiempo para cachear los archivos:
 
 - **Tiempo de espera:** 5-15 minutos
-- **URL a verificar:** 
+- **URL a verificar:**
   - `https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.js`
   - `https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-sls.js`
 
 **Verificación:**
+
 ```bash
 # Verificar que el archivo esté disponible
 curl https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.js
@@ -116,25 +118,28 @@ curl https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.
 ### 7️⃣ Testing
 
 1. **Abrir test.html localmente:**
+
    ```bash
    # Windows
    start test.html
-   
+
    # Mac/Linux
    open test.html
    ```
 
 2. **Verificar que:**
+
    - ✅ El botón Lottie aparece
    - ✅ El tooltip funciona al pasar el mouse
    - ✅ El chat abre al hacer clic
    - ✅ No hay errores en la consola (F12)
 
 3. **Abrir index_simple.html:**
+
    ```bash
    # Windows
    start index_simple.html
-   
+
    # Mac/Linux
    open index_simple.html
    ```
@@ -146,18 +151,21 @@ curl https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.
 ## ✅ Checklist de Verificación
 
 ### Pre-Deploy
+
 - [ ] Todos los archivos creados
 - [ ] Archivos revisados sin errores
 - [ ] Testing local exitoso
 - [ ] Documentación completa
 
 ### Deploy
+
 - [ ] Git add ejecutado
 - [ ] Commit creado con mensaje descriptivo
 - [ ] Push exitoso a GitHub
 - [ ] Archivos visibles en GitHub
 
 ### Post-Deploy
+
 - [ ] jsDelivr cache actualizado (5-15 min)
 - [ ] URL de ecoflow-core.js accesible
 - [ ] URL de ecoflow-sls.js accesible
@@ -165,6 +173,7 @@ curl https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.
 - [ ] Sin errores en consola del navegador
 
 ### Producción
+
 - [ ] Cliente de prueba (SLS) migrado
 - [ ] Verificación en sitio real del cliente
 - [ ] Feedback del cliente recopilado
@@ -177,6 +186,7 @@ curl https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-core.
 ### Problema: Git push rechazado
 
 **Solución:**
+
 ```bash
 # Primero hacer pull
 git pull origin main
@@ -190,20 +200,24 @@ git push origin main
 ### Problema: jsDelivr no actualiza
 
 **Solución 1 - Esperar:**
+
 - Espera 15-30 minutos más
 
 **Solución 2 - Cache purge:**
+
 - Ve a: `https://www.jsdelivr.com/tools/purge`
 - Pega la URL del archivo
 - Click "Purge cache"
 
 **Solución 3 - Usar commit específico:**
+
 ```html
 <!-- En lugar de @main, usa el hash del commit -->
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@{COMMIT_HASH}/ecoflow-sls.js"></script>
 ```
 
 Para obtener el commit hash:
+
 ```bash
 git log -1 --format="%H"
 ```
@@ -211,12 +225,14 @@ git log -1 --format="%H"
 ### Problema: 404 Not Found
 
 **Causas posibles:**
+
 1. Archivo no subido a GitHub → Verificar en GitHub
 2. Nombre de archivo incorrecto → Verificar capitalización
 3. jsDelivr no ha cacheado → Esperar más tiempo
 4. Ruta incorrecta → Verificar URL completa
 
 **Verificación:**
+
 ```bash
 # Verificar que el archivo existe en GitHub
 curl https://raw.githubusercontent.com/JaxonMediaGroup/EcoflowEmbed/main/ecoflow-core.js
@@ -225,6 +241,7 @@ curl https://raw.githubusercontent.com/JaxonMediaGroup/EcoflowEmbed/main/ecoflow
 ### Problema: El chatbot no aparece
 
 **Debug:**
+
 1. Abrir consola del navegador (F12)
 2. Buscar errores en rojo
 3. Verificar que se cargue:
@@ -233,6 +250,7 @@ curl https://raw.githubusercontent.com/JaxonMediaGroup/EcoflowEmbed/main/ecoflow
    - Librería Lottie se carga
 
 **Solución:**
+
 ```javascript
 // En la consola del navegador, verificar:
 console.log(window.ECOFLOW_CONFIG);
@@ -258,12 +276,14 @@ cp ecoflow-template.js ecoflow-nombre_cliente.js
 Del HTML antiguo, extraer valores de atributos `data-*` y convertir:
 
 **Antiguo (HTML):**
+
 ```html
 data-chatflowid="156a0ea9-c2b4-413e-995f-348a9be512f3"
 data-theme-Button-Background-Color="#1b2f55"
 ```
 
 **Nuevo (JS):**
+
 ```javascript
 chatflowid: "156a0ea9-c2b4-413e-995f-348a9be512f3",
 themeButtonBackgroundColor: "#1b2f55",
@@ -280,17 +300,13 @@ git push origin main
 #### 4. Actualizar HTML del cliente
 
 **Reemplazar:**
+
 ```html
-<script
-    src="..."
-    data-chatflowid="..."
-    data-theme-...="..."
-    ...
->
-</script>
+<script src="..." data-chatflowid="..." data-theme-...="..." ...></script>
 ```
 
 **Por:**
+
 ```html
 <script src="https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/ecoflow-nombre_cliente.js"></script>
 ```
@@ -309,10 +325,12 @@ git push origin main
 ### Métricas a monitorear:
 
 1. **jsDelivr Stats**
+
    - Visitas: `https://cdn.jsdelivr.net/gh/JaxonMediaGroup/EcoflowEmbed@main/`
    - Estadísticas de uso
 
 2. **Errores de Clientes**
+
    - Consultar con clientes si hay problemas
    - Revisar logs si los hay
 
@@ -335,9 +353,11 @@ curl https://data.jsdelivr.com/v1/package/gh/JaxonMediaGroup/EcoflowEmbed
 ### Para el equipo de ventas:
 
 **Mensaje clave:**
+
 > "Ahora la integración es súper simple: el cliente solo pega 1 línea de código en su sitio. Nosotros nos encargamos de todo lo demás desde nuestro servidor."
 
 **Demo:**
+
 1. Mostrar [index_simple.html](index_simple.html)
 2. Destacar la única línea de script
 3. Enfatizar facilidad y profesionalismo
@@ -345,6 +365,7 @@ curl https://data.jsdelivr.com/v1/package/gh/JaxonMediaGroup/EcoflowEmbed
 ### Para el equipo técnico:
 
 **Capacitación:**
+
 1. Leer [README.md](README.md) completo
 2. Practicar crear un cliente nuevo con `ecoflow-template.js`
 3. Hacer un deploy de prueba
@@ -355,17 +376,20 @@ curl https://data.jsdelivr.com/v1/package/gh/JaxonMediaGroup/EcoflowEmbed
 ## 📅 Plan de Rollout
 
 ### Fase 1: Prueba (Semana 1)
+
 - [ ] Deploy inicial
 - [ ] Testing completo
 - [ ] 1 cliente piloto (SLS)
 - [ ] Recopilar feedback
 
 ### Fase 2: Migración (Semana 2-3)
+
 - [ ] Migrar 5 clientes existentes
 - [ ] Monitorear problemas
 - [ ] Ajustar según feedback
 
 ### Fase 3: Adopción Completa (Semana 4+)
+
 - [ ] Migrar todos los clientes restantes
 - [ ] Nuevos clientes usan solo sistema nuevo
 - [ ] Deprecar sistema antiguo
@@ -382,7 +406,7 @@ curl https://data.jsdelivr.com/v1/package/gh/JaxonMediaGroup/EcoflowEmbed
 ✅ Cliente piloto funcionando  
 ✅ Sin errores en consola  
 ✅ Equipo capacitado  
-✅ Documentación compartida  
+✅ Documentación compartida
 
 ---
 
@@ -391,11 +415,13 @@ curl https://data.jsdelivr.com/v1/package/gh/JaxonMediaGroup/EcoflowEmbed
 ### Si surge algún problema:
 
 1. **Revisar documentación:**
+
    - [README.md](README.md)
    - [GUIA_CLIENTE.md](GUIA_CLIENTE.md)
    - Esta guía (DEPLOYMENT.md)
 
 2. **Verificar:**
+
    - GitHub commits
    - jsDelivr cache
    - Consola del navegador

@@ -41,9 +41,17 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
+
+# Archivos originales sin ofuscar (opcional - descomentar para mayor seguridad)
+# ecoflow-sls.js
+# ecoflow-*.js
+# !ecoflow-core.js
+# !ecoflow-template.js
+# !ecoflow-*.min.js
 
 # TypeScript cache
 *.tsbuildinfo

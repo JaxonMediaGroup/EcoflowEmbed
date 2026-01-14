@@ -1,0 +1,21 @@
+{
+  "name": "ecoflow-embed",
+  "version": "2.0.0",
+  "description": "Sistema modular de chatbot ECOflow con ofuscación",
+  "main": "ecoflow-core.js",
+  "scripts": {
+    "obfuscate": "node build.js",
+    "obfuscate:all": "node build.js --all",
+    "obfuscate:client": "node build.js"
+  },
+  "keywords": [
+    "chatbot",
+    "ecoflow",
+    "embed"
+  ],
+  "author": "Koppi",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.0"
+  }
+}

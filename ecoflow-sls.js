@@ -42,7 +42,7 @@ window.ECOFLOW_CONFIG = {
 
     // Theme - Mensajes del Bot
     themeBotMessageBackgroundColor: "#f7f8ff",
-    themeBotMessageTextColor: "#303235",
+    themeBotMessageTextColor: "#ffffff",
     themeBotMessageShowAvatar: false,
 
     // Theme - Mensajes del Usuario

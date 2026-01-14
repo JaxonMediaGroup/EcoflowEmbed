@@ -32,8 +32,19 @@ const obfuscatorOptions = {
     stringArrayWrappersParametersMaxCount: 4,
     stringArrayWrappersType: 'function',
     stringArrayThreshold: 0.75,
-    transformObjectKeys: true,
-    unicodeEscapeSequence: false
+    transformObjectKeys: false, // Cambiar a false para no transformar ECOFLOW_CONFIG
+    unicodeEscapeSequence: false,
+    reservedNames: [
+        'ECOFLOW_CONFIG',
+        'window',
+        'document',
+        'script',
+        'src',
+        'defer',
+        'head',
+        'appendChild',
+        'createElement'
+    ]
 };
 
 // Función para ofuscar un archivo

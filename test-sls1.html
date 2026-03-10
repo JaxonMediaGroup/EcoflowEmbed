@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - ECOflow Core + SLS1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .test-container {
+            max-width: 900px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .checklist li {
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            display: flex;
+            align-items: center;
+        }
+
+        .checklist li::before {
+            content: "⏳";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .checklist li.done::before {
+            content: "✅";
+        }
+
+        .checklist li.error::before {
+            content: "❌";
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-card h3 {
+            color: #667eea;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .info-card p {
+            color: #333;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .code-block {
+            background: #282c34;
+            color: #61dafb;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Test ECOflow</h1>
+        <p class="subtitle">Core + SLS1 (Versiones Minificadas)</p>
+
+        <div id="status" class="status info">
+            🔄 Inicializando prueba...
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>📦 Core</h3>
+                <p id="core-status">Cargando...</p>
+            </div>
+            <div class="info-card">
+                <h3>🎯 Cliente</h3>
+                <p id="client-status">Cargando...</p>
+            </div>
+            <div class="info-card">
+                <h3>⏱️ Tiempo Carga</h3>
+                <p id="load-time">-- ms</p>
+            </div>
+        </div>
+
+        <h3>Verificaciones:</h3>
+        <ul class="checklist" id="checklist">
+            <li id="check-core">Cargando ecoflow-core.min.js...</li>
+            <li id="check-client">Cargando ecoflow-sls1.min.js...</li>
+            <li id="check-config">Verificando configuración ECOFLOW_CONFIG...</li>
+            <li id="check-chat">Verificando inicialización del chat...</li>
+        </ul>
+
+        <div class="button-group">
+            <button class="btn-primary" onclick="openChat()">💬 Abrir Chat</button>
+            <button class="btn-secondary" onclick="location.reload()">🔄 Recargar</button>
+        </div>
+
+        <div class="code-block">
+            <strong>Configuración actual:</strong><br>
+            <pre id="config-output">Esperando carga de scripts...</pre>
+        </div>
+
+        <div class="footer">
+            <p>💡 El chat debe aparecer en la esquina inferior derecha</p>
+            <p>🔍 Verifica la consola del navegador para más detalles</p>
+        </div>
+    </div>
+
+    <!-- Scripts de ECOflow -->
+    <script src="./ecoflow-core.min.js"></script>
+    <script src="./ecoflow-sls1.min.js"></script>
+
+    <!-- Script de prueba -->
+    <script>
+        const startTime = Date.now();
+        let checks = {
+            core: false,
+            client: false,
+            config: false,
+            chat: false
+        };
+
+        function updateCheck(id, success, message) {
+            const element = document.getElementById(id);
+            element.textContent = message;
+            if (success) {
+                element.classList.add('done');
+            } else {
+                element.classList.add('error');
+            }
+        }
+
+        function updateStatus(type, message) {
+            const statusEl = document.getElementById('status');
+            statusEl.className = `status ${type}`;
+            statusEl.textContent = message;
+        }
+
+        function checkScripts() {
+            // Verificar ecoflow-core.min.js
+            setTimeout(() => {
+                if (typeof window.ECOFLOW_CONFIG !== 'undefined') {
+                    checks.core = true;
+                    updateCheck('check-core', true, '✅ ecoflow-core.min.js cargado correctamente');
+                    document.getElementById('core-status').textContent = 'Cargado ✅';
+                } else {
+                    updateCheck('check-core', false, '❌ ecoflow-core.min.js no se cargó');
+                    document.getElementById('core-status').textContent = 'Error ❌';
+                }
+
+                // Verificar ecoflow-sls1.min.js
+                if (typeof window.ECOFLOW_CONFIG !== 'undefined' && 
+                    window.ECOFLOW_CONFIG.chatbotId) {
+                    checks.client = true;
+                    updateCheck('check-client', true, '✅ ecoflow-sls1.min.js cargado correctamente');
+                    document.getElementById('client-status').textContent = 'SLS1 ✅';
+                } else {
+                    updateCheck('check-client', false, '❌ ecoflow-sls1.min.js no se cargó');
+                    document.getElementById('client-status').textContent = 'Error ❌';
+                }
+
+                // Verificar ECOFLOW_CONFIG
+                if (window.ECOFLOW_CONFIG) {
+                    checks.config = true;
+                    updateCheck('check-config', true, '✅ ECOFLOW_CONFIG definido correctamente');
+                    
+                    // Mostrar configuración
+                    document.getElementById('config-output').textContent = 
+                        JSON.stringify(window.ECOFLOW_CONFIG, null, 2);
+                } else {
+                    updateCheck('check-config', false, '❌ ECOFLOW_CONFIG no encontrado');
+                }
+
+                // Verificar inicialización del chat
+                const chatContainer = document.querySelector('[id*="ecoflow"], [class*="ecoflow"]');
+                if (chatContainer || document.getElementById('ecoflow-chat-container')) {
+                    checks.chat = true;
+                    updateCheck('check-chat', true, '✅ Chat inicializado');
+                } else {
+                    updateCheck('check-chat', false, '⚠️ Chat no inicializado aún (puede ser normal)');
+                }
+
+                // Tiempo de carga
+                const loadTime = Date.now() - startTime;
+                document.getElementById('load-time').textContent = `${loadTime} ms`;
+
+                // Estado final
+                const allSuccess = checks.core && checks.client && checks.config;
+                if (allSuccess) {
+                    updateStatus('success', '✅ Todos los scripts cargados correctamente');
+                } else {
+                    updateStatus('error', '❌ Algunos scripts no se cargaron correctamente');
+                }
+
+                console.log('🔍 Estado de las verificaciones:', checks);
+                console.log('📦 ECOFLOW_CONFIG:', window.ECOFLOW_CONFIG);
+            }, 1000);
+        }
+
+        function openChat() {
+            const chatButton = document.querySelector('[class*="chat-button"], [id*="chat-button"]');
+            if (chatButton) {
+                chatButton.click();
+                console.log('💬 Abriendo chat...');
+            } else {
+                alert('⚠️ No se encontró el botón del chat. Verifica la consola.');
+                console.error('No se encontró el botón del chat');
+            }
+        }
+
+        // Ejecutar verificaciones cuando el DOM esté listo
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', checkScripts);
+        } else {
+            checkScripts();
+        }
+
+        // Log inicial
+        console.log('🚀 Iniciando prueba de ECOflow Core + SLS1');
+        console.log('📁 Scripts a cargar:');
+        console.log('  - ecoflow-core.min.js');
+        console.log('  - ecoflow-sls1.min.js');
+    </script>
+</body>
+</html>

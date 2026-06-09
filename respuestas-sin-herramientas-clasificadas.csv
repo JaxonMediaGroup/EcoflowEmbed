@@ -1,0 +1,158 @@
+﻿Chatflow,Fecha,Agente,Pregunta,Respuesta,Herramientas,LineaCSV,Decision,Motivo
+Anahuac Emocional,2026-05-14,-,Hola,"Hola. ¿En qué momento estás con lo de elegir carrera: apenas empezando a explorarlo, o ya tienes un par de opciones y te está costando decidir?",-,2,descartar_del_kpi,saludo_bienvenida
+Anahuac Emocional,2026-06-09,-,Hola,"Hola. Si hoy pudieras salir de esta conversación con una sola cosa clara sobre tu futuro, ¿qué te gustaría que fuera?",-,3,descartar_del_kpi,saludo_bienvenida
+Torre Zero Providencia,2026-05-14,-,Hola,¡Hola! ¿En qué puedo ayudarte hoy sobre Torre Zero Providencia?,-,4,descartar_del_kpi,saludo_bienvenida
+Torre Zero Centro de Neogcios,2026-05-14,-,Hola,"¡Hola! ¿En qué puedo ayudarte hoy sobre Torre Zero Centro de Negocios? Si tienes alguna duda sobre el edificio, sus oficinas o los servicios que ofrece, dime y con gusto te ayudo.",-,5,descartar_del_kpi,saludo_bienvenida
+plataformaNauma,2026-05-29,-,Test2905,"Hello! 👋 Bienvenido a Nauma Lomas. Soy tu asistente virtual para dudas sobre el proyecto.  
+
+Cuéntame, ¿qué te gustaría saber de Nauma Lomas?",-,6,descartar_del_kpi,bienvenida_generica
+Novotech Mision Punta Norte,2026-05-14,-,Hola,"Hola, ¡bienvenido a Misión Punta Norte!  
+¿En qué te podemos ayudar: quieres información de los lotes, precios, formas de pago, o te interesa más la ubicación y cómo llegar?",-,7,descartar_del_kpi,saludo_bienvenida
+Novotech La Paz,2026-05-14,-,Hola,"Hola, ¿cómo te ayudamos con Novotech La Paz?",-,8,descartar_del_kpi,saludo_bienvenida
+Xerena,2026-05-12,-,English? ,"Hi there! 😊 I'm here to help you with everything about Xerena Cabo Tezal. From condo types and premium amenities to investment opportunities, payment plans, and life in Los Cabos — just let me know what you'd like to kn...",-,9,descartar_del_kpi,cambio_de_idioma
+Xerena,2026-05-20,-,in English ,"Hi there! 😊 I'm here to help you with everything about Xerena Cabo Tezal. From condo types and premium amenities to investment opportunities, payment plans, and life in Los Cabos — just let me know what you'd like to kn...",-,10,descartar_del_kpi,cambio_de_idioma
+Xerena,2026-05-20,-,cuando terminan los depas,No cuento con información confirmada sobre la fecha exacta de entrega o finalización de los departamentos en Xerena Cabo Tezal. La información sobre fechas de entrega puede variar dependiendo de la etapa del proyecto y e...,-,11,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+Terralago,2026-06-08,-,¿Que es Terralago?,"Terralago es un desarrollo residencial privado de tipo campestre, planeado para ofrecer lotes y casas en un entorno natural, con acceso controlado y amenidades pensadas para vivir o vacacionar con tranquilidad.
+
+En térmi...",-,12,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+Terralago,2026-06-08,-,Porque es buena idea comprar aquí? ,"Comprar en Terralago suele ser una buena idea por varias razones clave:
+
+1. **Ubicación estratégica**  
+   - Zona de alta plusvalía en Lomas Verdes / zona Presa Madín.  
+   - Conectado con vías importantes, pero mantenie...",-,13,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+Terralago,2026-06-08,-,Hay casas?,"En Terralago el enfoque principal son **lotes residenciales urbanizados**, no casas construidas en serie.
+
+Te explico rápido cómo funciona:
+
+- 🧱 **Se venden lotes**, para que tú construyas tu casa con tu propio proyecto...",-,14,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-09,-,Hola quiero un espacio para mañana de 5 pm a 1 am,"En el WTC CDMX contamos con diferentes espacios, pero no tengo acceso a la disponibilidad específica por horarios o fechas. Te recomiendo revisar las opciones y contactar directamente al área comercial para ver si hay al...",-,15,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-09,-,Como puedo comprar para apartsr lugar ,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta y venta. Para revisar opciones disponibles y avanzar con la separación o compra de un espacio, te recomiendo consultar el listado...",-,16,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-10,-,"hola, busco una oficina pequeña ","En el WTC CDMX contamos con oficinas de distintos tamaños, incluyendo opciones pequeñas. Te recomiendo revisar el listado oficial donde podrás ver las alternativas actuales con precios y características actualizadas:  
+
+...",-,17,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-11,-,Precios de renta de oficinas WTC,"En el WTC CDMX contamos con oficinas en renta, pero no tengo acceso a precios específicos ni disponibilidad actualizada. Te recomiendo revisar el listado oficial donde podrás ver costos, metrajes y características al día...",-,18,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-11,-,¿Cuál es el costo de un local?,En el WTC CDMX hay distintos tipos de locales y el costo puede variar según características como tamaño y ubicación. No cuento con esa información en este momento; te recomiendo consultar directamente las opciones actual...,-,19,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+WTC,2026-05-11,-,"Gracias, estoy buscando un espacio físico para 65 personas.","En el WTC CDMX contamos con oficinas y espacios que pueden adaptarse a distintos tamaños de equipos, incluyendo grupos grandes como el que mencionas. Para ver opciones específicas, características y precios actualizados,...",-,20,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-12,-,Cómo puedo rentar ?,"En el WTC CDMX puedes encontrar oficinas, locales comerciales, bodegas y consultorios en renta. Para ver las opciones disponibles y contactar directamente al área comercial, consulta el listado oficial de inmuebles aquí:...",-,21,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-12,-,necesito el contacto para rentar una estructura para stand,"No cuento con esa información en este momento. Te recomiendo consultar directamente con el área comercial / ventas de WTC CDMX para la renta de estructuras y stands para exposiciones.  
+Si también te interesa revisar esp...",-,22,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+WTC,2026-05-12,-,Renta de espacios para un módulo,"En el WTC CDMX contamos con diferentes opciones de renta para módulos, ya sea en oficinas, locales comerciales u otros espacios. Te recomiendo revisar el listado oficial para ver disponibilidad, características y detalle...",-,23,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-13,-,Cuál es el precio de una oficina de 44 metros en el piso 38 oficina de?,"En el WTC CDMX sí hay oficinas de distintos tamaños y niveles, pero no cuento con información específica de precios, metros exactos por oficina ni disponibilidad por piso. Te recomiendo consultar el listado oficial, dond...",-,24,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+WTC,2026-05-13,-,En la hoja que me dieron está el sello de grupo oro Paez world trade center,"Entendido, entonces tu hoja tiene un sello que dice algo de **Grupo Oro Páez / World Trade Center**.
+
+• Puedo ayudarte a verificar si existe algún **despacho u oficina con ese nombre dentro del WTC CDMX**  
+• También a i...",-,25,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-14,-,Hola estoy buscando la renta de una sala de juntas con alimentos para 7 personas,"En el WTC CDMX contamos con diferentes espacios que pueden adaptarse como salas de juntas y servicios complementarios de alimentos, según disponibilidad y proveedor. Para ver las opciones actuales y solicitar más informa...",-,26,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-14,-,busco un espacio para realizar una reunion ejecutiva para 7 personas,"En el WTC CDMX puedes encontrar diferentes espacios y salas ideales para reuniones ejecutivas de ese tamaño, con servicios y configuraciones variables. Te recomiendo revisar las opciones actuales con características y pr...",-,27,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-15,-,renta salón para evento,"En el WTC CDMX contamos con espacios y salones para eventos corporativos, sociales y convenciones. Para revisar opciones disponibles, características y contacto comercial, te recomiendo consultar el listado oficial de in...",-,28,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-15,-,Oficinas piso 37,"En el WTC CDMX contamos con oficinas en distintos pisos de la torre, incluyendo niveles altos como el 37. Para verificar qué espacios hay disponibles ahora mismo, con precios y características actualizadas, te recomiendo...",-,29,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-15,-,Locales piso37,"En el WTC CDMX hay locales y espacios comerciales en distintos niveles de la torre, incluyendo pisos altos como el 37. Para saber exactamente qué locales hay disponibles ahora mismo, con precios y características actuali...",-,30,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-16,-,Precio de renta de oficina ,"En el WTC CDMX contamos con oficinas en renta de diferentes tamaños y características, pero no manejo precios ni disponibilidad específicos desde aquí. Te recomiendo revisar el listado oficial donde verás opciones actual...",-,31,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-17,-,"Buen día, necesito información sobre valores y disponibilidades para el año próximo","En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta y venta. Los valores y disponibilidades cambian con frecuencia, por lo que te recomiendo revisar el listado oficial actualizado c...",-,32,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-17,-,"mayo, agosto, septiembre, octubre, evento de tres días","**World Trade Center Mexico City**
+
+Para un evento de tres días en mayo, agosto, septiembre u octubre con aforo de 3,000 personas, te sugiero:
+
+• Tener listas 2–3 opciones de mes y rangos de fechas (por ejemplo: “segunda...",-,33,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-17,-,Existe un descuento o preventa ,"En el **World Trade Center Ciudad de México** los descuentos y preventas dependen 100% del organizador del evento, no del WTC.  
+
+• Puede haber preventa, códigos de descuento o precios especiales, pero los define cada or...",-,34,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-19,-,como se que vacantes tienen disponibles?,"En el WTC CDMX hay distintas opciones de espacios (oficinas, locales, bodegas y consultorios) que se actualizan constantemente. Para ver qué inmuebles están disponibles en este momento con sus características y precios, ...",-,35,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-20,-,Cuánto cuesta poner un stand en un salón del wtc,No cuento con información actualizada sobre costos para colocar un stand en los salones del WTC CDMX. Te recomiendo contactar directamente al área comercial o de eventos del WTC para cotizaciones y detalles específicos. ...,-,36,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+WTC,2026-05-20,-,Viajo del 3 al 5 de junio ,"Puedo darte solo orientación general (no disponibilidad ni tarifas):
+
+• Por cercanía puerta a puerta al WTC CDMX:  
+  - **Novotel Mexico City World Trade Center**  
+  - **Hotel Novit**  
+
+• Categoría business, también mu...",-,37,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-21,-,Tiene algún costo o requisito visitar la expo manualidades? ,"**World Trade Center Mexico City**
+
+La **Expo Manualidades** es organizada por un tercero dentro del CIEC, por lo que costos y requisitos los define directamente el organizador.
+
+Lo que sí puedo decirte es:
+
+• Normalment...",-,38,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-22,-,piso 26,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en distintos niveles del edificio. Para ver qué opciones hay actualmente disponibles (incluyendo en pisos altos), te recomiendo revisar el...",-,39,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-22,-,Costo de las oficinas ,"En el WTC CDMX contamos con oficinas y otros espacios en diferentes tamaños y rangos de precio, que cambian según disponibilidad y características. Para ver costos y opciones actualizadas, te invito a revisar el listado ...",-,40,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-22,-,Hola estoy viendo la oficina SN piso .47 quiero saber si el precio está en pesos o en dólares en venta,"En el WTC CDMX contamos con oficinas en venta y renta, pero no tengo acceso al detalle de precios, moneda o condiciones específicas de cada espacio. Te recomiendo revisar directamente la ficha de la oficina que te intere...",-,41,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-23,-,"Quiero poner un puesto de luminaria, focos, lamparas novedosas","Para instalar un stand o puesto de luminarias, focos y lámparas novedosas en el WTC CDMX, necesitas hacerlo dentro de alguna expo o evento que rente el recinto (por ejemplo, una expo de tecnología, iluminación, construcc...",-,42,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-25,-,rentar un espacio,"En el WTC CDMX contamos con espacios como oficinas, locales comerciales, bodegas y consultorios en renta. Puedes revisar todas las opciones disponibles con precios y características actualizadas en nuestro sitio oficial:...",-,43,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-25,-,Hola qué tal quisiera ver opciones de renta para una Expo ,"En el WTC CDMX puedes encontrar distintas opciones de espacios para exposiciones y eventos, según el tamaño y tipo de Expo que necesites organizar. Te recomiendo revisar las áreas disponibles y sus características actual...",-,44,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-25,-,Compra de Oficinas,"En el WTC CDMX puedes encontrar oficinas en venta y renta dentro del complejo, con distintas características y tamaños. Te recomiendo revisar el listado oficial para ver opciones actuales, fotos y detalles actualizados:
+...",-,45,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-25,-,compra de oficina,"En el WTC CDMX contamos con oficinas en venta y renta, además de locales comerciales, bodegas y consultorios. Puedes revisar todas las opciones disponibles con precios y características actualizadas en nuestro sitio ofic...",-,46,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-26,-,Quiero poner un negocio en em world trade center,"En el WTC CDMX puedes encontrar oficinas y locales comerciales ideales para poner tu negocio, con diferentes tamaños y configuraciones. Te recomiendo revisar el listado oficial para ver opciones actuales, características...",-,47,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-26,-,QUIERO VER LAS OFICINAS,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta o venta. Te invito a consultar todas las opciones disponibles con precios y características actualizadas en nuestro listado ofici...",-,48,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-26,-,cual es el costo de una oficina de 45 a 60 m2 con un cajón del estacionamiento,"En el WTC CDMX no manejo información de costos específicos, ya que pueden variar según el nivel, la ubicación y las condiciones del contrato. Te recomiendo revisar directamente las opciones actuales y contactar al área c...",-,49,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-27,-,cuartos de conferencia ,"En el WTC CDMX hay espacios para reuniones, salas y áreas de conferencia que puedes rentar según tus necesidades. Para ver las opciones disponibles con características y precios actualizados, consulta aquí:
+
+<a href=""htt...",-,50,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-27,-,Rentar,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta. Te invito a revisar todas las opciones disponibles con información actualizada directamente en nuestro sitio oficial:  
+
+<a href...",-,51,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-27,-,Quisiera cotizar la renta de un espacio para un evento,"En el WTC CDMX puedes rentar distintos espacios para eventos, pero no tengo acceso a cotizaciones ni disponibilidad en tiempo real. Te recomiendo revisar las opciones y contactar directamente al área correspondiente desd...",-,52,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-28,-,Como puedo comprar?,"En el WTC CDMX puedes encontrar oficinas, locales comerciales, bodegas y consultorios en venta y renta. Para ver las opciones disponibles y el proceso de compra, te recomiendo revisar el listado oficial de inmuebles aquí...",-,53,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-28,-,Departamento en venta ,"En el WTC CDMX hay diferentes inmuebles en venta, incluyendo opciones tipo oficina/departamento corporativo dentro del complejo. Para ver todo lo disponible con precios y características actualizadas, consulta el listado...",-,54,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-29,-,Piso 40,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en distintos niveles del complejo. Para conocer qué espacios hay disponibles (incluyendo opciones en pisos altos) con precios y caracterís...",-,55,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-30,-,Me gustaría conocer precios,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta y venta, pero los precios pueden variar según el espacio y la disponibilidad. Te recomiendo revisar el listado oficial, donde enc...",-,56,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-05-31,-,Costo para expo,"No cuento con esa información en este momento. Te recomiendo consultar directamente con el área comercial o de eventos del WTC CDMX para conocer costos y opciones de espacios para expo.  
+
+<a href=""https://wtcmexico.mx/i...",-,57,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+WTC,2026-05-31,-,Como puedo conseguir un lugar para la exposición de textiles ,"En el WTC CDMX contamos con espacios ideales para exposiciones, ferias y eventos como una muestra de textiles. Para conocer las áreas disponibles y elegir la que mejor se adapte a tu exposición, te recomiendo revisar el ...",-,58,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-02,-,costo oficina renta,"En el WTC CDMX contamos con oficinas en renta, pero no tengo acceso a costos específicos ni disponibilidad actual. Te recomiendo consultar todas las opciones con precios y características actualizadas aquí:  
+
+<a href=""h...",-,59,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-02,-,hola como funciona para rentar una oficina,"En el WTC CDMX contamos con oficinas en renta con diferentes tamaños y configuraciones. Para ver el proceso, requisitos, precios y opciones disponibles, te recomiendo consultar directamente el listado oficial de inmueble...",-,60,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-02,-,Quiero hacer un congreso y cotizar,"En el WTC CDMX puedes organizar congresos y eventos de distintos tamaños. Para cotizaciones de salones, espacios y servicios, te recomiendo revisar las opciones de inmuebles y contactar al área comercial desde ahí para u...",-,61,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-02,-,Piso 35,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en distintos niveles del edificio. Para conocer qué espacios hay disponibles (incluyendo opciones en pisos altos), revisa el listado ofici...",-,62,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-03,-,Oficina en específico ,"¿De qué oficina en específico necesitas información del piso 35?  
+
+• Puedes decirme el **nombre de la empresa**  
+• O el **número de oficina** (por ejemplo: 3514, 3518–19, 3531)  
+
+Con eso te digo lo que haya registrado...",-,63,descartar_del_kpi,descartado_por_regla_backend
+WTC,2026-06-03,-,cómo puedo rentar uno de sus espacios ,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta. Para ver opciones disponibles, requisitos y seguir el proceso de contratación, consulta nuestro listado oficial de espacios:
+
+<a...",-,64,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-03,-,busco un consultorio para rentar,"En el WTC CDMX contamos con consultorios en renta, además de oficinas, locales comerciales y bodegas. Te recomiendo revisar el listado oficial con opciones actuales, características y datos de contacto para cada espacio:...",-,65,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-03,-,Para el 2027 Expo de forex  de 1 a 3 días y si ocupo catering y montaje y que más me podría incluir ,"En el WTC CDMX contamos con diferentes espacios ideales para exposiciones y congresos, que pueden adaptarse a un Expo de Forex de 1 a 3 días, con opciones de catering, montaje y servicios adicionales según tus necesidade...",-,66,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-04,-,Cuáles son los precios de las oficinas ,"En el WTC CDMX contamos con oficinas en renta y venta, pero no cuento con información de precios específica ni actualizada. Te recomiendo revisar el listado oficial donde podrás ver costos, metraje y características vige...",-,67,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+WTC,2026-06-04,-,Piso 42,"En el WTC CDMX contamos con diversas opciones de oficinas y espacios en diferentes niveles de la torre, pero no tengo acceso al detalle específico del piso 42. Te recomiendo revisar el inventario actualizado de inmuebles...",-,68,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-05,-,Hola! Me gustaría conocer los espacios en renta para oficinas ,"En el WTC CDMX contamos con diferentes espacios en renta para oficinas, con características y precios que se actualizan constantemente. Te recomiendo revisar el listado oficial para ver toda la oferta disponible en tiemp...",-,69,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-05,-,Busca trabajar ahi,"En el WTC CDMX hay muchas empresas, consultorios y comercios instalados, pero yo no tengo acceso a sus vacantes específicas.  
+Te recomiendo buscar directamente en los portales de empleo (por ejemplo, filtrando por “Worl...",-,70,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-05,-,RENTA,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios en renta. Te invito a revisar todas las opciones disponibles con información actualizada directamente en nuestro sitio oficial:  
+
+<a href...",-,71,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-07,-,Cotizar un espacio ,"En el WTC CDMX contamos con oficinas, locales comerciales, bodegas y consultorios que puedes cotizar directamente en línea con información actualizada de precios y características. Te recomiendo revisar el listado oficia...",-,72,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-07,-,Renta por un día ,"En el WTC CDMX puedes encontrar distintos tipos de espacios en renta; para ver cuáles ofrecen renta por día y sus tarifas, es necesario consultar el listado oficial en línea, donde se muestra la información más actualiza...",-,73,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-07,-,Quiero una oficina con dos o tres privados ,"En el WTC CDMX contamos con oficinas de diferentes configuraciones, incluyendo opciones con varios privados. Para ver espacios con 2 o 3 privados y detalles actualizados de cada inmueble, te recomiendo revisar el listado...",-,74,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-07,-,Puedo llegar a Bellini sin reservación? ,"Bellini es un restaurante operado por un tercero dentro del complejo.
+
+• En muchos casos manejan **reservación previa**, sobre todo en horarios pico (noche y fines de semana).  
+• En algunos horarios pueden recibir **wal...",-,75,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+WTC,2026-06-07,-,Hola qué opciones de renta de oficinas tienes ?,"En el WTC CDMX contamos con opciones de renta de oficinas de distintos tamaños y configuraciones, así como otros espacios corporativos. Para ver la disponibilidad actual con precios y características detalladas, consulta...",-,76,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+ORIGINA_CRM_Agentflow,2026-05-25,-,Responde solo con OK,OK,-,77,descartar_del_kpi,respuesta_minima_o_test
+LST San Lucas,2026-05-12,-,Listo gracias ,"Con gusto 😊  
+
+Si más adelante necesitas ayuda para elegir tipo de habitación, actividades con niños o armar un plan de 2–3 días en San Lucas, aquí estoy.",-,78,descartar_del_kpi,cierre_social
+LST San Lucas,2026-05-12,-,puedo reservar una cata de vinos en sabado,"¡Hola! 😊 Estoy aquí para ayudarte con todo sobre LST San Lucas. Desde hospedaje y experiencias vinícolas hasta restaurante, spa o eventos, dime qué te gustaría conocer y te apoyo.",-,79,descartar_del_kpi,bienvenida_generica
+LST San Lucas,2026-05-13,-,RESERVA PARA 3 ADULTOS Y UN NIÑO DEL 15 AL 17 DE MAYO,"¡Hola! 😊 Estoy aquí para ayudarte con todo sobre LST San Lucas. Desde hospedaje y experiencias vinícolas hasta restaurante, spa o eventos, dime qué te gustaría conocer y te apoyo.",-,80,descartar_del_kpi,bienvenida_generica
+LST San Lucas,2026-05-17,-,Hola,¡Hola! ¿En qué puedo ayudarte con Viñedo San Lucas?,-,81,descartar_del_kpi,saludo_bienvenida
+LST San Lucas,2026-05-17,-,Cuál es el mejore viñedo cerca de San Miguel de Allende?,"No cuento con información oficial para comparar viñedos ni para afirmar cuál es el “mejor”, ya que eso depende mucho de lo que busques: experiencia enoturística, gastronomía, ambiente, vinos, actividades, etc.
+
+Viñedo Sa...",-,82,descartar_del_kpi,brecha_conocimiento_no_alucinacion
+LST San Lucas,2026-05-19,-,Buenos días ,¡Buenos días! ¿En qué puedo ayudarte hoy sobre Viñedo San Lucas?,-,83,descartar_del_kpi,saludo_bienvenida
+LST San Lucas,2026-05-19,-,"buenas tardes,",¡Buenas tardes! ¿En qué puedo ayudarte hoy sobre Viñedo San Lucas?,-,84,descartar_del_kpi,saludo_bienvenida
+LST San Lucas,2026-05-20,-,Hola buenos días! ,"¡Hola, buenos días! ¿En qué puedo ayudarte hoy sobre Viñedo San Lucas?",-,85,descartar_del_kpi,saludo_bienvenida
+LST San Lucas,2026-05-20,-,Ok de acuerdo gracias ,"¡De nada! Si en algún momento necesitas más información o quieres reservar otra experiencia en Viñedo San Lucas, aquí estoy para ayudarte. ¡Que tengas un excelente día!",-,86,descartar_del_kpi,cierre_social
+LST San Lucas,2026-05-20,-,Muchas gracias por la información ,"¡Con mucho gusto! Si más adelante tienes otra pregunta o quieres regresar a Viñedo San Lucas, aquí estaré para ayudarte. ¡Que sigas teniendo un gran día!",-,87,descartar_del_kpi,cierre_social
+LST San Lucas,2026-05-20,-,Excelente diaaaa,"¡Igualmente, que tengas un día maravilloso! 😊",-,88,descartar_del_kpi,cierre_social
+LST San Lucas,2026-05-21,-,"BUENOS DIAS, UNA VEZ HE COMPRADO CON USTEDES ACEITES EXTRA VIRGEN DE OLIVO, MUCHAS VECES LO HE PEDIDO OTRA VEZ PERO USTEDES NUNCA ME HAN CON...",¡Buenos días! Lamentamos mucho cualquier inconveniente que hayas tenido al intentar contactarnos. Puedes adquirir nuevamente nuestro aceite extra virgen de oliva y otros productos directamente en nuestra tienda de Amazon...,-,89,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+LST San Lucas,2026-05-21,-,SALUDOS,"¡Saludos! Si necesitas más información sobre nuestros productos, el viñedo o cualquier otro tema, aquí estoy para ayudarte. ¡Que tengas un excelente día!",-,90,descartar_del_kpi,saludo_bienvenida
+LST San Lucas,2026-05-21,-,Excelente ,"¡Me alegra que te haya gustado la información! Si tienes más dudas sobre las amenidades, el viñedo o quieres saber cómo visitarlo, dime y con gusto te ayudo.",-,91,descartar_del_kpi,cierre_social
+LST San Lucas,2026-05-22,-,hola buena tarde,¡Hola! Muy buena tarde. ¿En qué puedo ayudarte con Viñedo San Lucas?,-,92,descartar_del_kpi,saludo_bienvenida
+LST San Lucas,2026-05-28,-,No pude visualizar el menú digital ,"¡Gracias por avisar! A veces el enlace puede dar problemas dependiendo del dispositivo o navegador. Si prefieres, puedo enviarte el menú directamente por correo electrónico o compartirte aquí una descripción general de l...",-,93,mantener_en_auditoria,posible_alucinacion_sustantiva_sin_herramienta
+LST San Lucas,2026-05-28,-,Que,Parece que tu mensaje está incompleto. ¿Podrías decirme qué información necesitas sobre Viñedo San Lucas? Estoy aquí para ayudarte.,-,94,descartar_del_kpi,aclaracion_o_mensaje_incompleto
+LST San Lucas,2026-05-30,-,ok gracias,"¡De nada, Jimena! Si tienes otra pregunta sobre Viñedo San Lucas, aquí estoy para ayudarte. ¡Que disfrutes tu visita!",-,95,descartar_del_kpi,cierre_social

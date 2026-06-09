@@ -1,0 +1,1380 @@
+﻿Chatflow,Fecha,Pregunta del usuario,Respuesta del bot,clasificacion_nueva,motivo
+Xerena,2026-05-20,cuanto depas tiene todo el desarrollo?,"No cuento con información confirmada sobre el número total de departamentos que tiene todo el desarrollo Xerena Cabo Tezal. La información está sujeta a actualización y puede variar dependiendo de la etapa del proyecto.
+...",descartar,respuesta_parcial_util
+Xerena,2026-05-20,cuando terminan los depas,No cuento con información confirmada sobre la fecha exacta de entrega o finalización de los departamentos en Xerena Cabo Tezal. La información sobre fechas de entrega puede variar dependiendo de la etapa del proyecto y e...,descartar,dato_dinamico_comercial
+Volterra,2026-05-31, Cuanto valen los mas chicos,"No tengo información confirmada sobre el precio de los departamentos más chicos en Volterra. La información disponible solo menciona el precio de los departamentos más grandes.
+
+Si quieres, puedo ponerte en contacto con ...",mantener_brecha,brecha_accionable
+Volterra,2026-06-01,Y ubicacion estacionamientos,"Cada departamento en Volterra cuenta con 2 cajones de estacionamiento. No se especifica la ubicación exacta de los cajones (por ejemplo, si son techados, subterráneos o asignados por número). Para ese detalle específico,...",descartar,respuesta_parcial_util
+Quivira,2026-05-29,me gusta correr maratones,"¡Te va a encantar Quivira si eres maratonista! El desarrollo cuenta con senderos naturales y caminos privados para caminar y correr, con vistas espectaculares al mar y las montañas. El clima es muy favorable todo el año,...",descartar,respuesta_parcial_util
+Punta Zero,2026-05-17,Zara,"No tengo información confirmada de que la tienda Zara esté presente en Punta Zero Centro Comercial. El listado actual de marcas y locales disponibles no menciona Zara entre las opciones.
+
+Si quieres saber si hay planes p...",descartar,respuesta_negativa_catalogo_directorio
+Punta Zero,2026-05-17,Adidas,"No tengo información confirmada de que Adidas tenga una tienda en Punta Zero Centro Comercial. El listado de marcas y locales disponibles actualmente no menciona Adidas.
+
+Si buscas saber si próximamente abrirán una sucur...",descartar,respuesta_negativa_catalogo_directorio
+Punta Zero,2026-05-23,Hay lugar para colocar las bicicletas ?,"No tengo información confirmada sobre un área específica para bicicletas en Punta Zero Centro Comercial. La plaza cuenta con estacionamiento en sótano, pero no se especifican racks o espacios exclusivos para bicicletas. ...",descartar,respuesta_parcial_util
+Punta Zero,2026-05-31,A que hora cierran la tienda de artículos chinos,"No cuento con información confirmada sobre los horarios de cierre específicos de la tienda de artículos chinos dentro de Punta Zero Centro Comercial. Te recomiendo consultarlo directamente en el local o, si lo prefieres,...",descartar,dato_dinamico_comercial
+Punta Zero,2026-06-02,Tienen locales disponibles en renta?,No tengo información confirmada sobre disponibilidad exacta de locales en renta en este momento. La oferta puede variar según la etapa comercial y la actualización de inventario. Te recomiendo validarlo directamente con ...,descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-12,Y precio,"No tengo esa información específica de precios por departamento en este momento.
+
+Para esa información específica, te conecto con ventas, donde te pueden compartir lista actualizada, unidades disponibles y promociones:
+
+...",descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-13,Cuánto cuestan los departamentos ,"No tengo esa información específica de precios por departamento.
+
+Para esa información específica, te conecto con ventas. Puedes escribir o llamar a:
+
+- WhatsApp: 5550075349  
+- Mail: ventas@torrealhena.mx  
+
+Si quieres,...",descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-15,Hola busco un departamento chico para dos personas adultas y un niño y q sea económico ,"Para una familia de dos adultos y un niño, te recomendaría un departamento de 2 recámaras en Torre Alhena. Hay opciones de 81.75 m² y 81.56 m², ambos con 2 recámaras, 2 baños y 1 cajón de estacionamiento. También existen...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-17,En cuanto está el departamento y como puedo entrar en l,"Actualmente no tengo información específica sobre el precio exacto de los departamentos en Torre Alhena. Los precios pueden variar según el tipo de departamento, nivel y disponibilidad, y están sujetos a actualización co...",descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-21,Cómo puedo hacer para tener un crédito ,No tengo información específica sobre créditos hipotecarios o financiamiento directo en Torre Alhena dentro del documento oficial. La información sobre opciones de crédito puede variar y depende de la etapa comercial y a...,descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-21,Y para un apoyo porque yo no tengo ni apoyo ya voy a cumplir 55 años ,"No tengo información específica sobre apoyos económicos o programas especiales para personas mayores de 55 años en Torre Alhena. Los planes de pago y descuentos dependen del anticipo y la forma de pago, pero no hay menci...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-21,En dónde se ubican y cuánto al mes,"Torre Alhena se ubica en Cto. Interior Melchor Ocampo 193, Verónica Anzúres, Miguel Hidalgo, Ciudad de México, CDMX.
+
+Sobre el costo mensual: No tengo información específica sobre la renta mensual de los departamentos. L...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-22,Casa en renta por piletas 1 2 y 3seccion ,"No tengo información sobre casas en renta en Piletas 1, 2 y 3 Sección dentro del documento oficial de Torre Alhena. Torre Alhena es un desarrollo de departamentos en la zona de Verónica Anzúres, CDMX, y no aparecen casas...",mantener_brecha,brecha_accionable
+Torre Alhena,2026-05-22,Departamentos amueblados en renta ,"Por el momento, no tengo información confirmada sobre departamentos amueblados en renta en Torre Alhena. Toda la información disponible corresponde a departamentos en venta y sus características, pero no se menciona rent...",mantener_brecha,brecha_accionable
+Torre Alhena,2026-05-23,Precio,"No tengo información específica de precios en el documento oficial. Los precios pueden variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor.
+
+Si quieres, puedes contac...",descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-23,Zapopan Jalisco ,"Torre Alhena no se encuentra en Zapopan, Jalisco. El desarrollo está ubicado en Ciudad de México, específicamente en Cto. Interior Melchor Ocampo 193, Verónica Anzúres, Miguel Hidalgo.
+
+Si buscas opciones en Zapopan, no ...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-23,Renta de un departamento barato ,"Actualmente no tengo información específica sobre precios de renta ni disponibilidad exacta para departamentos en Torre Alhena. Sin embargo, los departamentos más compactos son de 1 recámara, con superficies desde 61 m² ...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-25,La oferta,Actualmente no hay una oferta o promoción específica mencionada en el documento oficial para los departamentos de Torre Alhena. Los planes de pago disponibles ofrecen descuentos que van del 0% al 12% dependiendo del anti...,descartar,respuesta_parcial_util
+Torre Alhena,2026-05-28,Los mochis,"No tengo información sobre ""Los Mochis"" relacionada con Torre Alhena. Si buscas detalles sobre el desarrollo, departamentos, amenidades o ubicación, Torre Alhena está en Ciudad de México, no en Los Mochis.
+
+Si necesitas ...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-30,Busco renta de 4500 ,"No tengo información específica sobre departamentos en renta en Torre Alhena por $4,500. La información disponible es sobre venta de departamentos y sus características, pero no se menciona renta ni precios de renta.
+
+Si...",mantener_brecha,brecha_accionable
+Torre Alhena,2026-05-30,Tienen en taciba,"No tengo información sobre ""Taciba"" en el documento oficial de Torre Alhena. Si buscas departamentos en Torre Alhena, la ubicación es Cto. Interior Melchor Ocampo 193, Verónica Anzúres, Miguel Hidalgo, CDMX.
+
+Si necesita...",mantener_brecha,brecha_accionable
+Torre Alhena,2026-05-30,Taciba,"No tengo información sobre ""Taciba"" como ubicación, desarrollo o amenidad dentro de Torre Alhena. El proyecto Torre Alhena está ubicado en Cto. Interior Melchor Ocampo 193, Verónica Anzúres, Miguel Hidalgo, CDMX.
+
+Si bus...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-30,Rentas en Iztapalapa ,"No tengo información sobre rentas en Iztapalapa para Torre Alhena. El desarrollo Torre Alhena está ubicado en la zona de Verónica Anzures, Miguel Hidalgo, CDMX.
+
+Si buscas opciones de renta en Iztapalapa, te recomiendo c...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-30,Costos,"No tengo información específica sobre los costos exactos de los departamentos en Torre Alhena. Los precios pueden variar según el tipo de departamento, nivel y disponibilidad, y están sujetos a actualización comercial.
+
+...",descartar,dato_dinamico_comercial
+Torre Alhena,2026-05-31,Costo,"No tengo información específica de precios en el documento oficial. Los departamentos en Torre Alhena tienen diferentes tamaños y distribuciones, pero para conocer el costo exacto de cada tipo, te recomiendo contactar di...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-31,Cómo puedo acceder ala compra pagando como renta ,"No tengo información específica sobre un esquema de compra ""pagando como renta"" en Torre Alhena. Los planes de pago que aparecen en el documento son tradicionales, con anticipos, mensualidades y finiquito, pero no mencio...",mantener_brecha,brecha_accionable
+Torre Alhena,2026-05-31,Tiene departamento en renta en Atizapan?,"No tengo información de departamentos en renta en Atizapán para Torre Alhena. El desarrollo está ubicado en la colonia Verónica Anzúres, Miguel Hidalgo, CDMX.
+
+Si buscas opciones en Atizapán o renta, te sugiero contactar...",descartar,respuesta_parcial_util
+Torre Alhena,2026-05-31,Sin enganche y a mensualidades ,"No tengo información confirmada sobre un esquema sin enganche y a mensualidades en Torre Alhena. Los planes de pago oficiales requieren un anticipo mínimo del 10%.
+
+Si buscas opciones personalizadas o deseas validar si h...",mantener_brecha,brecha_accionable
+Torre Alhena,2026-06-01,cuándo inician la construcción?,No tengo información específica sobre la fecha exacta de inicio de la construcción de Torre Alhena. La información oficial solo menciona que la entrega de los departamentos está prevista para el segundo semestre de 2028....,mantener_brecha,brecha_accionable
+Torre Alhena,2026-06-01,Un departamento de dos recámaras en Azcapotzalco ,"En Torre Alhena, los departamentos de 2 recámaras cuentan con las siguientes opciones:
+
+- Tipo 05: 81.75 m² totales, 2 baños, 1 cajón de estacionamiento.
+- Tipo 06: 81.56 m² totales, 2 baños, 1 cajón de estacionamiento.
+...",descartar,respuesta_parcial_util
+Torre Alhena,2026-06-03,Esquina con qué calle ,"No tengo información específica sobre la calle con la que hace esquina Torre Alhena. Si necesitas ese dato exacto, te sugiero contactar directamente al equipo de ventas por WhatsApp al 5550075349 o al correo ventas@torre...",descartar,captura_contacto_no_brecha
+Torre Alhena,2026-06-03,Tienen depa muestra,No tengo información confirmada sobre la existencia de un departamento muestra en Torre Alhena. Te sugiero contactar directamente al equipo de ventas por WhatsApp al 5550075349 o al correo ventas@torrealhena.mx para que ...,descartar,captura_contacto_no_brecha
+Torre Alhena,2026-06-03,Pero en Iztapalapa por la central de abastos en México ,"No tengo información de departamentos en renta en Iztapalapa ni cerca de la Central de Abastos en esa zona. Torre Alhena está ubicado en Miguel Hidalgo, cerca de Reforma y Polanco, no en Iztapalapa.
+
+Si buscas opciones e...",descartar,respuesta_parcial_util
+Torre Alhena,2026-06-03,Casas en venta pagadas como renta,"No tengo información confirmada sobre casas en venta pagadas como renta en Torre Alhena. El desarrollo ofrece departamentos en venta y cuenta con diferentes planes de pago, pero no se menciona un esquema específico de pa...",descartar,respuesta_parcial_util
+Torre Alhena,2026-06-04,Y cuál es el precio de un departamento de 2 recámaras ,"No tengo información específica sobre el precio de los departamentos de 2 recámaras en Torre Alhena. Los metros cuadrados de estos departamentos van desde 81.56 m² hasta 81.75 m², pero el precio exacto puede variar según...",descartar,dato_dinamico_comercial
+Torre Alhena,2026-06-04,Q precio ,"No tengo información específica de precios en el documento oficial. La información puede variar según disponibilidad y actualización comercial.
+
+Si quieres una cotización detallada o saber el precio actual de algún depar...",descartar,dato_dinamico_comercial
+Reserva Castilla,2026-05-11,Habrá casas mas grandes?,"Sí, actualmente ya hay varias opciones de casas con diferentes tamaños, desde modelos más compactos hasta otros más amplios.
+
+Hoy tienes principalmente tres modelos:
+
+- **Cantabria** – aprox. **80.64 m²** de construcción...",descartar,respuesta_parcial_util
+Reserva Castilla,2026-05-11,¿Me pueden dar crédito hipotecario Infonavit?,"No cuento con información confirmada sobre si actualmente Reserva Castilla acepta directamente crédito Infonavit ni bajo qué modalidades.
+
+En general:
+- Muchos desarrollos en el Estado de México sí trabajan con Infonavit...",descartar,respuesta_parcial_util
+Reserva Castilla,2026-05-13,el aifa bus pasar por aqui ?,"No cuento con información confirmada sobre una ruta de camión directo del AIFA que pase específicamente por Reserva Castilla.
+
+El tema del transporte público y rutas al aeropuerto puede cambiar con frecuencia, así que lo...",mantener_brecha,brecha_accionable
+Reserva Castilla,2026-05-15,Hola quisiera saber cuándo van a entregar estas casas?,"La fecha de entrega puede variar según la etapa del proyecto, el modelo de casa y la disponibilidad al momento de tu compra. No cuento con esa información confirmada y la información está sujeta a actualización.
+
+Te reco...",descartar,dato_dinamico_comercial
+Reserva Castilla,2026-05-15,Un TV TV TV,"Perfecto, un TV.
+
+En las casas de Reserva Castilla no tengo confirmado que se incluya una televisión como parte del equipamiento; generalmente se entrega la vivienda sin aparatos electrónicos como TV. No cuento con infor...",revisar_manual,no_match_no_info_actual
+Reserva Castilla,2026-05-17,toledo,"El modelo Toledo en Reserva Castilla es una casa de aproximadamente 102.61 m² de construcción con la siguiente distribución:
+
+Planta baja:
+- Sala  
+- Comedor  
+- Cocina  
+- ½ baño  
+- Área de lavado  
+- 2 cajones de esta...",descartar,respuesta_parcial_util
+Reserva Castilla,2026-05-20,Precios de las casas ,"Puedo darte una referencia general, pero es importante aclarar que:
+
+La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor.
+
+Hoy los modelos de cas...",descartar,dato_dinamico_comercial
+Reserva Castilla,2026-05-23,Costo casa cantabria,"El modelo de casa Cantabria se anuncia **desde $2,500,000 MXN* de contado**.
+
+Sin embargo, es muy importante tomar en cuenta que:
+
+- La información puede variar según disponibilidad y actualización comercial.  
+- El prec...",descartar,dato_dinamico_comercial
+Reserva Castilla,2026-05-24,Actualmente las casas están en construcción?,"No cuento con información confirmada y actualizada sobre el estatus exacto de la construcción en este momento (si ya iniciaron obra en todas las etapas, en algunos clusters o solo en parte del proyecto).
+
+Ese tipo de det...",mantener_brecha,brecha_accionable
+Reserva Castilla,2026-05-24,Desde cuándo inició este proyecto con el público general?,"No cuento con información confirmada sobre la fecha exacta en que Reserva Castilla inició su comercialización con el público general.
+
+Esa información puede variar y está sujeta a actualización por parte del área comerci...",descartar,dato_dinamico_comercial
+Prologis - Lerma,2026-05-25,que proyectos tienes disponibles en monterrey,"No tengo información confirmada sobre proyectos disponibles de Prologis en Monterrey en este momento. Toda la información que manejo corresponde al desarrollo Prologis Lerma, ubicado en el Estado de México.
+
+Si te intere...",descartar,respuesta_parcial_util
+Prologis - Lerma,2026-05-25,Hola estoy buscando un terreno,"Actualmente en Prologis Lerma no hay terrenos residenciales disponibles, ya que el desarrollo está enfocado en espacios industriales de clase A, ideales para empresas de logística y manufactura. Sin embargo, si buscas un...",descartar,respuesta_parcial_util
+Prologis - Lerma,2026-05-29,show avalability for this building,"Here’s the current availability for Prologis Lerma buildings:
+
+- Building 01: Not available.
+- Building 02: No availability info listed.
+- Building 03: Available for Q2 2025 (291,210 SF / 27,054 m²).
+- Building 04: No av...",descartar,respuesta_parcial_util
+Mozaiko Lindavista,2026-05-14,Cuentan con un departamento planta baja de 3 recamaras ,"Actualmente, el inventario de departamentos de 3 recámaras en Mozaiko Lindavista está agotado. No tengo información sobre disponibilidad de departamentos de 3 recámaras en planta baja. Si te interesa recibir información ...",descartar,respuesta_parcial_util
+Mozaiko Lindavista,2026-05-23,Aceptan créditos? O es con recursos propios ,"No tengo información específica en el documento sobre si Mozaiko Lindavista acepta créditos hipotecarios o solo recursos propios. Para esa información puntual, te conecto con el equipo de ventas, quienes pueden aclarar t...",descartar,dato_dinamico_comercial
+Mozaiko Lindavista,2026-05-23,Cuáles son las opciones para adquisición?,"Las opciones para adquirir un departamento en Mozaiko Lindavista son:
+
+- Compra de departamentos de 2 recámaras, tanto en entrega inmediata como en preventa.
+- Los departamentos de 3 recámaras están agotados.
+- Puedes el...",descartar,respuesta_parcial_util
+Mozaiko Lindavista,2026-05-23,Cuando inician torre f,"No tengo información confirmada sobre la fecha exacta de inicio de obra de la Torre F. Solo está disponible la fecha de entrega (diciembre 2027). Si necesitas el dato puntual del inicio de obra, te sugiero consultarlo di...",mantener_brecha,brecha_accionable
+Lst Providencia Coahuila,2026-05-12,Cuáles son los precios por terreno?,"En el documento oficial de Viñedo Providencia no se especifican los precios por terreno. Para obtener información detallada sobre los precios de los lotes, te recomiendo contactar directamente al equipo de ventas al telé...",descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-05-20,Cuál es .por medtro cuadrado?,No tengo información confirmada sobre el precio por metro cuadrado de los terrenos. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor al +52 41...,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-05-20,Hay reglamento de lo que se puede construir en cada terreno?,"No tengo información específica sobre un reglamento detallado de construcción para los terrenos en Viñedo Providencia. Sin embargo, el proyecto promueve diseños arquitectónicos que se integren con la naturaleza y manteng...",descartar,respuesta_parcial_util
+Lst Providencia Coahuila,2026-05-22,Precio ,No tengo información específica sobre los precios de los lotes en Viñedo Providencia. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del pro...,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-05-23,Cuánto valen los terrenos?,"No tengo información específica sobre los precios de los terrenos. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del proyecto. Si quieres, ...",descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-05-24,Precio por m cuadrado,No tengo información específica sobre el precio por metro cuadrado. Te recomiendo contactar directamente al equipo comercial para obtener ese dato actualizado. Puedes comunicarte al +52 415 688 2210.,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-05-26,Precio por metro cuadrado ??,"No tengo información confirmada sobre el precio por metro cuadrado. Te recomiendo consultarlo directamente con el área comercial para obtener el dato actualizado, ya que puede variar según disponibilidad y etapa del proy...",descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-05-26,Precios y disponibilidad ,"Por el momento, no tengo información específica sobre precios ni disponibilidad exacta de los lotes en Viñedo Providencia. Estos datos pueden variar según la etapa del proyecto y la actualización comercial.
+
+Te recomiend...",descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-06-01,Qué precio tienen los terrenos y de qué dimensiones son,No tengo información específica sobre los precios ni las dimensiones exactas de los terrenos en Viñedo Providencia. Estos datos pueden variar según disponibilidad y actualización comercial. Te recomiendo contactar direct...,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-06-04,Me puedes pasar más información como precios y forma de pago ,No tengo información específica sobre precios ni formas de pago en este momento. Estos datos suelen variar según la disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del proyect...,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-06-06,Tamaño de terrenos y precio ,No tengo información específica sobre el tamaño exacto de los terrenos ni los precios en este momento. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con ...,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-06-06,Precio por metro cuadrado,No cuento con información confirmada sobre el precio por metro cuadrado. Estos datos pueden variar según la etapa y disponibilidad del proyecto. Te sugiero consultarlo directamente con un asesor comercial para obtener la...,descartar,dato_dinamico_comercial
+Lst Providencia Coahuila,2026-06-09,Costo del metro cuadrado?,"No tengo información confirmada sobre el costo por metro cuadrado. Te recomiendo validar este dato directamente con el área comercial, ya que puede variar según disponibilidad y actualización comercial. Si lo deseas, pue...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-14,Precio de la casa Castilla de 3 recámaras ,"No cuento con esa información confirmada en los documentos del proyecto.
+
+Además, el precio es información dinámica y puede variar según la etapa comercial y la disponibilidad.  
+Te recomiendo validarlo directamente con ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-14,"Buena tarde, que precio tiene","Buena tarde.  
+
+No cuento con información de precios en el documento del proyecto.  
+La información puede variar según disponibilidad y actualización comercial, así que te recomiendo validarlo directamente con un asesor ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-14,precios,"No cuento con información de precios en los documentos que tengo.  
+
+La información puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con el área comercial del proyecto para ob...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-14,costo promedio,"No cuento con información de costo promedio ni rangos de precios en los documentos del proyecto.  
+
+La información puede variar según la etapa y la disponibilidad, así que la mejor opción es validarlo directamente con el...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-15,Cuál es el precio ,"No cuento con esa información confirmada en los documentos del proyecto.  
+
+Los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad, así que la información está sujeta a actualización.  
+...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-15,En Puebla ,"Sí, Vinte también tiene comunidades en Puebla, pero Punta Cuerna Residencial está ubicado en Cuernavaca, Morelos, en:
+
+Calle Barrancas No. 2, Fracc. Punta Cuerna, Delegación Lázaro Cárdenas del Río, CP 62076, Cuernavaca,...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-15,"Hola, donde estarán ubicadas exactamente las casas?","Las casas forman parte del fraccionamiento Punta Cuerna Residencial, ubicado en:
+
+Calle Barrancas No. 2,  
+Fraccionamiento Punta Cuerna,  
+Delegación Lázaro Cárdenas del Río, C.P. 62076,  
+Cuernavaca, Morelos.
+
+Es un des...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-15,Cuales son los precios,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precios, promociones y disponibilidad es dinámica y puede cambiar según la etapa comercial, así que es muy importante validarla di...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-15,Métodos de pago,"No cuento con información sobre métodos de pago en los documentos que tengo del proyecto.  
+
+La información sobre formas de pago, enganches, mensualidades o financiamiento es dinámica y puede variar según la etapa comerc...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-15,Costos ,"No cuento con información de costos en los documentos del proyecto.  
+
+La información de precios, promociones y disponibilidad se actualiza constantemente, así que es algo que solo el equipo comercial puede confirmarte. ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-15,costos,"No cuento con información de costos en los documentos del proyecto.  
+
+La información de precios y costos es dinámica y puede cambiar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con e...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-16,precio,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos y disponibilidad puede variar según la etapa comercial, así que te recomiendo validarlo directamente con un asesor del proy...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-16,Precios,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que puede variar según la etapa del proyecto. Te re...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-16,cual es el costo de las casas?,"No cuento con información de costos en los documentos del proyecto.  
+
+Además, los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad.  
+Te recomiendo validarlo directamente con un aseso...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-16,donde hay modulos de informacion?,"En los documentos del proyecto no aparece información específica sobre módulos físicos de información (ubicaciones de casetas, stands en plazas comerciales, etc.).  
+
+No cuento con esa información confirmada. Te recomien...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-16,cuantos metros cuadrados tiene cada tipologia?,"En los documentos del proyecto solo aparecen las distribuciones de cada prototipo (cómo se componen las casas y departamentos), pero no se especifican los metros cuadrados de cada tipología.  
+
+No cuento con esa informac...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-16,cuantas viviendas va a haber en el desarollo?,"En los documentos que tengo de Punta Cuerna Residencial no aparece el número total de viviendas que habrá en el desarrollo.  
+
+No cuento con esa información confirmada y, además, es un dato que puede ajustarse según etap...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-16,Cuál es el costo de los departamentos 6 casas,"No cuento con información de costos en los documentos que tengo disponibles.  
+
+La información de precios y disponibilidad es dinámica y puede cambiar según la etapa del proyecto, por lo que te recomiendo validarla direc...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-16,Las casas ya están ter,"Las casas están en proyecto dentro de un fraccionamiento que incluye varias privadas con amenidades (alberca, asador, áreas comunes, etc.), pero no tengo en el documento el estatus exacto de obra (si ya están todas termi...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-16,Precio,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que puede variar según la etapa comercial. Te recomiendo val...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-16,Costos de casa,"No cuento con información de costos o rangos de precios en los documentos del proyecto. La información de precios puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un aseso...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-16,Ok,"Perfecto.  
+
+Sobre los costos de las casas, en los documentos que tengo de Punta Cuerna no vienen precios ni rangos de inversión por prototipo. La información de costos es dinámica y puede cambiar según la etapa del proy...",descartar,cierre_social_no_brecha
+Punta Cuerna,2026-05-16,Cuanto es el costo ,"No cuento con información de costos en los documentos del proyecto.  
+
+La inversión puede variar según el tipo de vivienda, etapa y disponibilidad, y es información que se actualiza constantemente. Te recomiendo validarl...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-17,Precios,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información comercial (precios, descuentos, promociones y disponibilidad) puede variar según la etapa del proyecto y la actualización de...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-17,Me gustaría conocer costos ,"No cuento con información de costos en los documentos del proyecto.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comercial de Pu...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-17,aceptan credito infonavit,"No cuento con información confirmada sobre si aceptan crédito Infonavit en Punta Cuerna.  
+
+La información sobre tipos de crédito y financiamiento puede variar según la etapa del proyecto y las políticas comerciales vige...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-17,Me puedes compartir precios?,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que puede variar según la etapa del proyecto. Te recomiendo val...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-17,Que precio tienen las casas y que tipo de creditos aceptan?,"No cuento con información de precios ni de tipos de crédito aceptados en los documentos que tengo del proyecto.
+
+La información de precios, disponibilidad y formas de pago puede variar según la etapa comercial, y está su...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-18,"hola buenos dias, me puedes dar precios de los difedrentes departamentos y casas","Claro, buenos días.  
+
+En los documentos que tengo de Punta Cuerna aparecen los prototipos (tipos de vivienda) y su distribución, pero **no vienen rangos de precios ni listas por modelo**.  
+
+No cuento con esa informació...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-18,costo de la casa cordoba,"No cuento con información de precios específicos de la Casa Córdoba en los documentos que tengo disponibles.  
+
+Además, los costos pueden cambiar según disponibilidad y actualización comercial. Te recomiendo validarlo di...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-18,si,"Perfecto, te comparto los datos de contacto que vienen en la información oficial del proyecto:
+
+Punta Cuerna Residencial  
+Ubicación: Calle Barrancas No. 2, Fraccionamiento Punta Cuerna, Delegación Lázaro Cárdenas del Rí...",descartar,captura_contacto_no_brecha
+Punta Cuerna,2026-05-18,Me gustaria conocer los precios,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa comercial, así que es muy importante validarlo directamente con u...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-18,Cómo llego de chipitlan,"Chipitlán está relativamente cerca, pero en los documentos no vienen las rutas exactas desde cada colonia.
+
+No cuento con esa información confirmada de cómo llegar específicamente desde Chipitlán. Te recomiendo poner en ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-18,precio de la casa castilla,"No cuento con información de precio específica para la Casa Castilla en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomien...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-18,Costos,"Sobre costos no tengo información específica en los documentos del proyecto.  
+
+La inversión puede variar según el tipo de vivienda, ubicación dentro del fraccionamiento y etapa comercial, y es información dinámica.  
+Te...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-19,Cuánto vale el modelo casa castilla,"No cuento con información de precios del modelo Casa Castilla en los documentos que tengo disponibles.  
+
+La información de costos puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo valid...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-19,Cual es el precio io,"No cuento con información de precios en los documentos que tengo.  
+
+La información de precio es dinámica y puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo directamente con u...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-19,Precio casa Castilla ,"No cuento con información de precios específicos para la Casa Castilla en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomi...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-19,Precio ,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precio, promociones y disponibilidad es dinámica y puede cambiar, así que te recomiendo validarla directamente con el área comerci...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-19,Si precios ,"Sí manejan precios, pero en los documentos que tengo no aparecen números específicos ni rangos de costo por modelo.
+
+La información de precios es dinámica y puede cambiar según disponibilidad y etapa del proyecto. No cue...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-05-20,precios de todas las tipologias,"No cuento con información de precios por tipología en los documentos que tengo disponibles.  
+
+La información de precios, disponibilidad y promociones puede variar según la etapa del proyecto y las actualizaciones comerc...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-20,Cuanto,"¿De qué te gustaría saber el “cuánto”?  
+
+Por ejemplo:
+- ¿Cuánto cuestan las casas o departamentos?
+- ¿Cuánto miden (metros cuadrados)?
+- ¿Cuánto tiempo se hace desde CDMX?
+- ¿Cuánto se paga de mantenimiento?
+
+Aclárame u...",descartar,aclaracion_no_brecha
+Punta Cuerna,2026-05-20,Precio,"No cuento con información de precios en el documento del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede cambiar, así que te recomendaría validarla directamente con el área comerci...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-20,Cuándo comienza la preventa ,"No cuento con esa información confirmada sobre la fecha de inicio de la preventa.  
+
+La información puede variar según la etapa comercial, así que te recomiendo validarlo directamente con el área comercial del proyecto. ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-20,Infonavit ,"No cuento con información sobre Infonavit dentro de los documentos del proyecto Punta Cuerna.  
+
+La relación con Infonavit (si aplica, montos de crédito, esquemas de pago, etc.) puede variar y es información dinámica. Te...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-20,Precios?,"No cuento con información de precios en los documentos que tengo.  
+
+La información puede variar según la etapa y la disponibilidad, así que te recomiendo validar precios directamente con un asesor comercial del proyecto...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-20,Ok,"Perfecto 😊  
+
+Por ahora no tengo información de precios en los documentos del proyecto.  
+La información de costos y promociones puede cambiar según la etapa y la disponibilidad, así que es algo que el área comercial ac...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-20,PRECIOS,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos y promociones puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor come...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-20,QUERETARO,"Punta Cuerna Residencial está en **Cuernavaca, Morelos**, pero la desarrolladora Vinte también tiene comunidades en **Querétaro**, entre otros estados, según los documentos.  
+
+No tengo información específica de precios ...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-20,que tipo de promoción manejan en el departamento alcala,"No cuento con información específica de promociones para el departamento Alcalá en los documentos que tengo a la mano.  
+
+La información de promociones es dinámica y puede variar según la etapa comercial y la disponibili...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,Precios ,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarla directamente con un asesor com...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,Precio,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede cambiar según la etapa comercial, por lo que es muy importante validarla ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-21,Precio de los departamentos y financiamiento con Infonavit ,"No cuento con información específica de precios de los departamentos ni de las condiciones de financiamiento con Infonavit dentro de los documentos del proyecto.
+
+Además, todos esos datos (precios, mensualidades, enganch...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-21,Precios ,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, por lo que puede variar según la etapa del proyecto. Te recomiendo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,cuales son los precios?,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos es dinámica y puede cambiar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con el área co...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,si,"Perfecto. Aquí tienes los datos de contacto del proyecto para que un asesor te comparta precios actualizados y promociones vigentes:
+
+Punta Cuerna Residencial  
+Ubicación: Calle Barrancas No. 2, Fraccionamiento Punta Cue...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,Costos de un departamento ,"No cuento con información de costos o rangos de precios en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,costo casa modelo castilla,"No cuento con información de costo o rango de precios para la casa modelo Castilla en los documentos que tengo disponibles.  
+
+La información de precios y disponibilidad puede variar según la etapa del proyecto y las act...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,Precios,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que puede variar según la etapa del proyecto. Te recomiendo val...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-21,Quisiera saber cuantos departamentos y casas hay ,"No cuento con esa información confirmada en los documentos: ahí solo aparecen los prototipos (Departamentos Alcalá y Cádiz, y Casas Córdoba y Castilla), pero no el número total de unidades.
+
+La cantidad de departamentos ...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-21,Hay departamentos aún en preventa?,"No cuento con esa información confirmada en los documentos.  
+
+La preventa, la disponibilidad y el inventario de departamentos son datos que cambian constantemente, así que no es posible asegurarte si aún hay departament...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-22,Soy asesor inmobiliario y me gustaría ser parte de la comunidad vinte ,"Qué bueno que te interese formar parte de la comunidad Vinte 😊  
+
+En los documentos que tengo de Punta Cuerna y Vinte solo aparece información del desarrollo (ubicación, amenidades, prototipos de vivienda y respaldo de ...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-22,Precio de la casa Casillas,"No cuento con información de precios para la casa Castilla en los documentos que tengo disponibles.  
+
+La información de precios, promociones y disponibilidad puede variar según la etapa comercial, así que te recomiendo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-22,Cual es el precio de esta casa,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comer...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,Costo de las casas,"No cuento con información de costos o rangos de precios en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,Precios,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de precio y disponibilidad es dinámica y puede variar según la etapa del proyecto, promociones y actualización comercial, as...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,Cuánto cuesta las casa,"No cuento con información de precios en los documentos del proyecto.  
+
+Los costos de las casas pueden variar según el prototipo (Casa Córdoba, Casa Castilla), la ubicación dentro del fraccionamiento y la etapa comercial...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,Precios ?,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos puede variar según disponibilidad y actualización comercial; te recomiendo validarlo directamente con un asesor del proyecto p...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,En mi presupuesto. ,"Entiendo, quieres saber si hay opciones que entren en tu presupuesto.
+
+En la información del proyecto no vienen precios ni rangos, así que no puedo decirte si se ajusta o no a lo que tú tienes considerado. La información...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-23,Cual es el precio del departamento cadiz,"No cuento con información de precios del departamento Cádiz en los documentos que tengo disponibles.  
+
+Además, los precios son información dinámica y pueden cambiar según la etapa del proyecto y la disponibilidad, así q...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,Cual es el precio de los 4 modelos,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos y rangos de cada modelo (Alcalá, Cádiz, Córdoba y Castilla) puede variar según la etapa y la disponibilidad, así que es alg...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-23,Hola precios,"Hola, gracias por escribir 😊  
+
+Sobre precios, no tengo información específica en el documento del proyecto.  
+
+La información de precios, promociones y disponibilidad puede cambiar según la etapa comercial, así que es ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-23,Departamento Alcalá precios ,"Del Departamento Alcalá en el documento solo tengo la distribución, no aparecen precios ni rangos:
+
+- Sala  
+- Comedor  
+- Cocina  
+- 2 recámaras  
+- 1 baño completo  
+- Área de lavado  
+- 1 cajón de estacionamiento  
+
+N...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-24,Precios,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede variar según la etapa comercial, por lo que te recomiendo validarla direc...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-24,Preico de departamento en chipitlan ,"No cuento con información de precios en los documentos que tengo de Punta Cuerna.  
+
+La información de precios y disponibilidad es dinámica y puede variar según la etapa del proyecto y el inventario. Te recomiendo valida...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-24,Tipo alcalá ,"El departamento tipo Alcalá en Punta Cuerna tiene la siguiente distribución:
+
+- Sala  
+- Comedor  
+- Cocina  
+- 2 recámaras  
+- 1 baño completo  
+- Área de lavado  
+- 1 cajón de estacionamiento  
+
+No cuento con informaci...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-24,Horario de atención,"No cuento con información de horarios de atención en los documentos del proyecto.  
+
+La disponibilidad de atención puede variar, así que te recomiendo contactar directamente al equipo comercial de Punta Cuerna para que t...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-24,Fotos del departamento tienes?,"En los documentos que tengo no vienen fotos de los departamentos, solo las descripciones de los modelos (Alcalá, Cádiz, Córdoba y Castilla).  
+
+No cuento con esa información específica. Te recomiendo contactar directamen...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-24,Ya existen los departamentos o solo es el concepto ?,"En los documentos que tengo solo aparece la información del fraccionamiento, las amenidades y los prototipos (Alcalá, Cádiz, Córdoba y Castilla), pero no dice si los departamentos ya están terminados o si están todavía e...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-05-24,Q precio tienen los departamentos,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa comercial, así que te recomiendo validarlo directamente con un as...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-24,Cuáles son los costos ,"Por ahora no tengo información de costos ni rangos de precios en los documentos del proyecto.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que es algo que el área comercial actualiza ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-24,Cuánto cuesta la casa modelo Castilla?,"No cuento con esa información confirmada en los documentos del proyecto.  
+
+Los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad, así que es muy importante validarlo directamente con e...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-25,precio de las casas,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad se considera dinámica y puede cambiar según la etapa comercial, por lo que es importante vali...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-25,Precios ,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que te recomiendo validarlo directamente con un ase...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-25,Precio ,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costo y disponibilidad puede variar según la etapa comercial, así que te recomiendo validarlo directamente con un asesor del proyecto...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-25,Cuál es el costo y si aceptan crédito Infonavit ,"No cuento con información específica de costos ni de si aceptan crédito Infonavit dentro de los documentos que tengo disponibles.  
+
+Además, esos datos pueden cambiar según la etapa del proyecto y la disponibilidad, así ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-26,Cuál es el costo de una vivienda Castilla?,"No cuento con información de precios para la vivienda Castilla en los documentos que tengo disponibles.  
+
+La inversión puede variar según la etapa comercial y la disponibilidad, así que es muy importante validarlo direc...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-26,Que tipo de creditos aceptaran,"No cuento con información confirmada sobre los tipos de créditos que aceptarán en Punta Cuerna.  
+
+La información de financiamiento y créditos es algo que puede variar según las políticas comerciales y la etapa del proye...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-26,Me gustaría conocer los precioss,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que puede variar según la etapa del proyecto. Te recomiendo val...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-26,YA HAY PREVENTA DE LOS DEPARTAMENTOS ,"No cuento con esa información confirmada en los documentos que tengo.  
+
+La preventa, fechas de lanzamiento y disponibilidad son datos que cambian constantemente.  
+Te recomiendo validarlo directamente con el área comerc...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-26,Precio de casa Córdoba,"No cuento con información de precios para la casa Córdoba en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarl...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-26,Costos y formas de pago,"Sobre costos y formas de pago no tengo información específica en los documentos del proyecto.  
+
+La información de precios, enganches, mensualidades, promociones y esquemas de financiamiento puede variar según la etapa y...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-27,Precios ,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa comercial, así que te recomiendo validarlo directamente con un as...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-27,me podra decir el costo de las casas,"No cuento con información de costos o rangos de precios en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-27,PRECIOS,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precios, promociones y disponibilidad se actualiza constantemente, por lo que puede variar según la etapa comercial. Te recomiendo...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-27,CUALES SON LOS REQUISTOS PARA ADQUIRIR UNA CASA ,"No cuento con información específica en los documentos sobre los **requisitos para adquirir una casa en Punta Cuerna** (por ejemplo: ingresos mínimos, tipo de crédito, enganche, documentos, etc.).  
+
+Esa información pued...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-27,SON ADULTOS DE 19 AÑOS ,"Entonces ya son tres adultos en casa contigo, eso cambia un poco las necesidades y está súper bien que lo estés pensando desde ahora.
+
+En **Casa Castilla** podrían organizarse así:
+
+- **Recámara principal con baño comple...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-05-27,PUEDES APOYARME CON LOS PRECIOS APROXIMADOS,"No cuento con información de **precios aproximados** en los documentos de Punta Cuerna.  
+
+Los precios, promociones y disponibilidad son **información dinámica** y pueden cambiar según la etapa del proyecto, así que **no...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-28,Cuanto cuestan las casas?,"No cuento con esa información confirmada en los documentos del proyecto.  
+
+Los precios son información dinámica y pueden cambiar según la etapa, la disponibilidad y las actualizaciones comerciales. La información puede ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-28,Al día de hoy cuanto cuesta cada modelo,"No cuento con información de precios por modelo en los documentos del proyecto.  
+
+Además, los precios son información dinámica y pueden cambiar día a día según la etapa y la disponibilidad, así que no podría darte monto...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-28,cual es el costo del departamento cadiz,"No cuento con información de precios para el departamento Cádiz en los documentos que tengo disponibles.  
+
+La información de costos puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo val...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-28,Costo,"Los documentos del proyecto no indican costos ni rangos de precio específicos.  
+
+La información de precios es dinámica y puede cambiar según la etapa y la disponibilidad, así que no cuento con esa información confirmada...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-28,precios,"No cuento con información de precios en los documentos que tengo.  
+La información puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con el área comercial del proyecto.
+
+Si qui...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-28,cuánto cuestan las casas,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comercial de Pu...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-28,PRECIOS,"No cuento con información de precios en los documentos que tengo a la mano.  
+
+La información de costos, promociones y disponibilidad se actualiza constantemente, así que puede variar según la etapa del proyecto. Te reco...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-29,Precio?,"No cuento con información de precios en los documentos.  
+
+La información de costos y promociones se actualiza constantemente, así que puede variar según la etapa y la disponibilidad. Te recomiendo validarlo directamente...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-29,En que rango de precio andan estas casas?,"No cuento con información de rangos de precios en los documentos del proyecto.  
+
+Además, los precios son información dinámica y pueden cambiar según etapa, disponibilidad y promociones vigentes.  
+Te recomiendo validarl...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-29,Quienes pueden adquirir una casa en este desarrollo?,"En los documentos del proyecto no viene definido un perfil específico de quiénes pueden adquirir una casa (por ejemplo: solo residentes de cierto país, solo inversionistas, etc.).  
+
+Lo que sí se menciona es que Punta Cu...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-05-30,Precios ,"No cuento con información de precios en los documentos que tengo a la mano.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa del proyecto, así que te recomiendo validarlo directamente...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-30,Precios,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede cambiar según la etapa comercial, así que te recomiendo validarl...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-30,Ya puedo comprar ,"Qué bueno que ya estás listo para comprar.  
+
+Sobre si puedes comprar ahora mismo (disponibilidad, apartados, formas de pago, etc.), no cuento con esa información confirmada en los documentos. La disponibilidad y las con...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-30,Cuánto cuestan las casas,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comercial de Pu...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-31,Costo de la vivienda ,"No cuento con información de costos o rangos de precios en los documentos del proyecto.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con el ár...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-31,Aceptan creditos?,"No cuento con información confirmada sobre créditos o financiamiento en los documentos que tengo a la mano.  
+
+La información sobre formas de pago, créditos y bancos participantes puede variar según la etapa comercial, a...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-31,Puedo ingresar por el puente de la autopista México cuernavaca?,"No cuento con información específica sobre el acceso exacto por el puente de la autopista México–Cuernavaca.  
+
+La ubicación oficial del fraccionamiento es:  
+Calle Barrancas No. 2, Fraccionamiento Punta Cuerna, Delegaci...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-05-31,que costo tiene la caasa castilla,"No cuento con información de precios para la Casa Castilla en los documentos que tengo.  
+
+La información de costos puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo directamen...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-05-31,¿Cuales son los precios de las cuatro tipos de vivienda?,"No cuento con información de precios en los documentos a los que tengo acceso.  
+
+La información de costos es dinámica y puede variar según la etapa del proyecto y la disponibilidad, así que es muy importante validarla d...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,Precio ,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de precios, promociones y disponibilidad puede variar según la etapa del proyecto y las actualizaciones comerciales, así que...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,Información ,"Te cuento lo más importante de Punta Cuerna Residencial:
+
+- **Ubicación:**  
+  Calle Barrancas No. 2, Fracc. Punta Cuerna, Delegación Lázaro Cárdenas del Río, C.P. 62076, Cuernavaca, Morelos.  
+  A ~10 min del centro de ...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-01,Ambas ,"Perfecto, entonces te interesan **departamento y casa**.
+
+Con la información que tengo de Punta Cuerna, estas serían tus opciones:
+
+**Departamentos:**
+- **Alcalá:**  
+  - 2 recámaras  
+  - 1 baño completo  
+  - Sala, com...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-01,2 o 3 recámaras ,"Con 2 o 3 recámaras tienes estas opciones dentro de Punta Cuerna:
+
+**Departamentos (2 recámaras):**
+- **Alcalá**  
+  - 2 recámaras  
+  - 1 baño completo  
+  - Sala, comedor, cocina  
+  - Área de lavado  
+  - 1 cajón de e...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-01,Cádiz y Córdoba ,"Buena elección, son dos prototipos muy prácticos.
+
+### Departamento **Cádiz** (2 recámaras)
+- 2 recámaras (una con baño propio)  
+- 1 baño completo adicional  
+- Sala y comedor  
+- Cocina  
+- Área de lavado  
+- 1 cajón d...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-01,Cotizar ambos ,"Buenísima combinación: Cádiz y Córdoba.
+
+Yo no puedo generar una cotización formal ni acceso al sistema de precios, y en los documentos no vienen listas de precios, enganches ni mensualidades. Esa información es dinámica...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-01,Crédito Infonavit ,"Perfecto, con Infonavit sí vale mucho la pena que te armen bien los números.
+
+Yo no tengo en los documentos datos específicos de montos, puntos o condiciones de Infonavit para Punta Cuerna, y esa información es dinámica ...",descartar,captura_contacto_no_brecha
+Punta Cuerna,2026-06-01,Precios de sus modelos,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que es muy importante validarla directamente con el área comercial. T...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,Aceptan crédito de Infonavit?,"En los documentos que tengo no aparece información sobre tipos de crédito ni convenios con Infonavit u otros organismos.  
+
+No cuento con esa información confirmada y además este tipo de tema puede variar según políticas...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,Costo de los terrenos ,"No cuento con información del costo de los terrenos en los documentos que tengo disponibles.  
+
+La inversión, precios y disponibilidad son datos que cambian con frecuencia, así que pueden variar según la etapa del proyec...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,Me pueden dar costos por favor,"No cuento con información de costos en los documentos que tengo a la mano.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comercia...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,aceptan creditos?,"No cuento con esa información confirmada sobre créditos o financiamiento en los documentos del proyecto.  
+
+La información sobre formas de pago, créditos y financiamiento es dinámica y puede variar según la etapa comerci...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,de acuerdo ,"Perfecto.  
+
+De acuerdo a la información que tengo del proyecto, no se especifican tipos de crédito, financiamiento ni formas de pago para Punta Cuerna.  
+
+No cuento con esa información confirmada y además es algo que pu...",descartar,cierre_social_no_brecha
+Punta Cuerna,2026-06-01,Cual es el precio de la Casa Castilla,"No cuento con información de precios para la Casa Castilla en los documentos que tengo disponibles.  
+
+Además, los precios son datos dinámicos y pueden cambiar según la etapa del proyecto y la disponibilidad, por lo que ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-01,dime los precios,"No cuento con información de precios en los documentos del proyecto que tengo disponibles.  
+
+Además, los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad. La información está sujeta a...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-01,financiamiento,"En los documentos del proyecto no aparece información específica sobre esquemas de financiamiento para Punta Cuerna.  
+
+Además, todo lo relacionado con créditos, enganches, mensualidades y convenios con bancos es informa...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-01,formas de pago,"En los documentos de Punta Cuerna no aparece información específica sobre **formas de pago** (por ejemplo: enganche, número de mensualidades, si hay contado, crédito, etc.).  
+
+No cuento con esa información confirmada y ...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-01,"Si, entiendo que las camas, el comedor, sillas, sillon, television etc no vienen incluidos. Pero quisiera saber si los closets, y el mueble para la co...","No tengo en los documentos una lista de equipamiento tan específica como para confirmar si los closets y el mueble de cocina vienen incluidos en el modelo Alcalá.
+
+Lo único que aparece es la distribución general del depa...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-01,Que cuesta ?,"No cuento con información de precios en los documentos que tengo. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del proyecto.  
+
+Si quier...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,Precio de las propiedades ,"No cuento con información específica de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa comercial, por lo que te recomiendo validarlo directam...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,Hola me gustaria saber el precio de las casas,"Por ahora no tengo en los documentos oficiales el rango de precios de las casas de Punta Cuerna Residencial.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que lo más segur...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,Precios,"No cuento con información específica de precios en los documentos disponibles.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa comercial, así que es muy importante validarla directam...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,cual es son los precios?,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de costos, promociones y disponibilidad puede variar según la etapa del proyecto y las actualizaciones comerciales, así que ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,hay alguna residencia con 4 recámaras?,"En los prototipos que tengo registrados para Punta Cuerna, la única residencia que llega a 4 recámaras es:
+
+- **Casa Castilla**  
+  - Planta alta: 1 recámara con baño completo + **2 recámaras adicionales** (en total 3 re...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-02,cuál es el precio de esta casa?,"No cuento con esa información confirmada en los documentos del proyecto.  
+
+Los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad, así que es muy importante validarlos directamente con ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,precio,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comercial de P...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-02,Qué precios tienen los departamentos ,"No cuento con información de precios en los documentos que tengo disponibles.  
+
+La información de costos y disponibilidad de los departamentos es dinámica y puede cambiar según la etapa del proyecto, por lo que es impor...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-02,Precios,"No cuento con información específica de precios en los documentos que tengo.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, y está sujeta a actualización. Te recomiendo validar...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-03,Costos de la casa y el departamento ,"No cuento con información de costos o rangos de precios en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-03,Los departamentos que precio tendrán a la venta?,"No cuento con información de precios en los documentos del proyecto.  
+
+Además, los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad, así que es algo que siempre se valida directo con ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-03,Si ,"Perfecto.  
+
+La información oficial que tengo de Punta Cuerna NO incluye teléfonos, correos ni WhatsApp de contacto, solo datos del proyecto y su ubicación.  
+
+En este caso, no cuento con esa información específica. Te r...",descartar,captura_contacto_no_brecha
+Punta Cuerna,2026-06-03,Me interesa saber costos de sus viviendas y si aceptan créditos. ,"Te cuento lo que sí está claro en la información oficial del proyecto:
+
+- Sobre **costos**:  
+  No aparecen precios ni rangos de costos en los documentos que tengo.  
+  **No cuento con esa información confirmada.** La in...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-03,"Hola buenos días, me interesa saber el precio ","Hola, buenos días.  
+
+No cuento con información de precios en los documentos que tengo. La información puede variar según disponibilidad y actualización comercial, así que te recomiendo validarlo directamente con un ases...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-03,info,"Te cuento lo esencial de Punta Cuerna Residencial:
+
+- **Ubicación:**  
+  Calle Barrancas No. 2, Fracc. Punta Cuerna, Delegación Lázaro Cárdenas del Río, C.P. 62076, Cuernavaca, Morelos.  
+  A ~10 min del centro de Cuerna...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-03,No emntendi nada,"Claro, vamos paso a paso y muy sencillo.
+
+Punta Cuerna es:
+
+- 🏡 **Un fraccionamiento** (privado) de casas y departamentos.
+- 📍 **Ubicación:** Calle Barrancas No. 2, Fracc. Punta Cuerna, Cuernavaca, Morelos.  
+  A unos ...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-03,si por favor,"Perfecto, Celia, te cuento qué tienes cerca de Punta Cuerna y a qué distancia aproximada estás:
+
+📍 **Centros comerciales (a unos 10–15 min):**  
+- Centro Comercial Averanda  
+- Galerías Cuernavaca  
+- City Market  
+- Wa...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-03,es por el puente sin fin,"Buena pregunta.  
+
+Lo que tengo confirmado en la información oficial es la dirección exacta:  
+**Calle Barrancas No. 2, Fraccionamiento Punta Cuerna, Delegación Lázaro Cárdenas del Río, CP 62076, Cuernavaca, Morelos.**
+
+...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-03,como entrar,"Te explico de forma sencilla cómo llegar y entrar:
+
+1. **Llega a la dirección oficial**  
+   Escribe en Waze o Google Maps:  
+   **“Punta Cuerna Residencial”** o **Calle Barrancas No. 2, Fraccionamiento Punta Cuerna, Del...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-03,Precio porfvaor ,"No cuento con información de precios en los documentos que tengo.  
+
+La información de costos y promociones es dinámica y puede cambiar según la etapa del proyecto y la disponibilidad, por lo que es importante validarla ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-03,Precio cadiz,"No cuento con información de precios específicos del departamento Cádiz en el documento disponible.  
+
+La información de precios, descuentos y disponibilidad es dinámica y puede variar según la etapa comercial, por lo qu...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-03,Los costos ,"Por ahora no tengo publicados en los documentos oficiales los costos ni rangos de precios de Punta Cuerna.  
+
+La información de precios, promociones y disponibilidad es dinámica y puede cambiar según la etapa del proyect...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-03,Departamento ,"Perfecto, te platico de los departamentos que maneja Punta Cuerna Residencial:  
+
+**1. Departamento Alcalá**  
+- Sala  
+- Comedor  
+- Cocina  
+- 2 recámaras  
+- 1 baño completo  
+- Área de lavado  
+- 1 cajón de estaciona...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-03,2 recámaras ,"Buenísimo, para 2 recámaras tienes estas opciones de departamento en Punta Cuerna:  
+
+**Departamento Alcalá**  
+- 2 recámaras  
+- 1 baño completo  
+- Sala  
+- Comedor  
+- Cocina  
+- Área de lavado  
+- 1 cajón de estacion...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-03,Para vivir ,"Para vivir diario, los dos prototipos de 2 recámaras pueden funcionar, pero suelen elegirse así:  
+
+- **Alcalá**: más sencillo, 2 recámaras y 1 baño completo. Suele ser buena opción si buscas algo práctico y compacto.  
+...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-04,Precios,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede variar según la etapa comercial, por lo que te recomiendo validarla direc...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-04,Vas a vender casas con local comercial ,"Por la información que tengo de Punta Cuerna Residencial, los prototipos que se manejan son:
+
+- Departamentos (Alcalá y Cádiz)  
+- Casas habitación (Córdoba y Castilla)
+
+En los documentos no aparece que se ofrezcan **cas...",descartar,cierre_social_no_brecha
+Punta Cuerna,2026-06-04,Costo de tus viviendas ,"En los documentos que tengo de Punta Cuerna Residencial **no aparece ningún listado de precios ni rangos de costo** para los departamentos o casas.
+
+La información comercial como precios, promociones y disponibilidad es ...",descartar,respuesta_negativa_catalogo_directorio
+Punta Cuerna,2026-06-04,El precio de las casa en preventa y dónde se encuentra su punto de venta para poder acudir ,"Claro, te explico.
+
+1) **Precios en preventa**  
+En los documentos que tengo de Punta Cuerna **no aparecen rangos de precios ni listas de preventa**.  
+No cuento con esa información confirmada y la información comercial ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-04,Quisiera información de cómo llegar y que me den información sobre el espectacular que está en el paso express q departamento desde 990 ,"Claro, te explico.
+
+1) **Dirección exacta del desarrollo**  
+Punta Cuerna Residencial está en:  
+**Calle Barrancas No. 2, Fraccionamiento Punta Cuerna, Delegación Lázaro Cárdenas del Río, CP 62076, Cuernavaca, Morelos.**...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-04,Tiene punto de venta en Morelos??,"En la información oficial solo aparece la ubicación del desarrollo en:
+
+Calle Barrancas No. 2, Fracc. Punta Cuerna, Delegación Lázaro Cárdenas del Río, C.P. 62076, Cuernavaca, Morelos.
+
+No se especifica si hay otros punt...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-04,costo de los departamentos,"No cuento con información de costos específica de los departamentos en los documentos disponibles.  
+
+La inversión en Punta Cuerna puede variar según el prototipo (Alcalá o Cádiz), la ubicación dentro del fraccionamiento...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-04,Qué precios tienes?,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede cambiar según la etapa comercial, así que te recomiendo validarlo directa...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-04,Que precio tiene las casas,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede cambiar según la etapa comercial, así que te recomiendo validarlo directa...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-05,Quisiera saber precios de departamentos y casas ,"Por ahora no tengo información de precios en los documentos del proyecto.  
+
+La información de costos, promociones y disponibilidad es dinámica y puede cambiar según la etapa comercial, así que no puedo darte montos espe...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-05,Precios ,"No cuento con información específica de precios en los documentos que tengo disponibles.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo directam...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-05,Si,"Perfecto.  
+
+Sobre el precio específico de la Casa Castilla **no cuento con esa información en los documentos del proyecto**.  
+La información de costos y promociones **puede variar según la etapa y la disponibilidad**, ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-05,Costo departamento ,"No cuento con información de costos o rangos de precios en los documentos que tengo.  
+
+La información de precios puede variar según la etapa del proyecto y la disponibilidad, así que te recomiendo validarlo directamente...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-05,el departamento mas económico cu do cuesta,"No cuento con información de precios en los documentos que tengo.  
+
+Los costos de los departamentos pueden variar según disponibilidad y actualización comercial, así que es información dinámica. Te recomiendo validarlo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-05,Cuál es el precio de la preventa ?,"No cuento con información de precios de preventa en los documentos disponibles.  
+
+La información de precios, promociones y disponibilidad puede variar según la etapa del proyecto y la actualización comercial. Te recomie...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-05,Cuanto cuesta la casa Castilla?,"No cuento con información de precios específicos de la Casa Castilla en los documentos que tengo.  
+
+La información de costos puede variar según disponibilidad y actualización comercial, así que te recomiendo validarlo d...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-05,Me interesa más información ,"Claro, te cuento de forma general y si quieres luego vamos a lo específico.
+
+Punta Cuerna Residencial es un fraccionamiento exclusivo en Cuernavaca, Morelos, a unos 10 minutos del centro de Cuernavaca y aproximadamente 4...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-05,"Casa,","Perfecto, te enfocas en casa 😊 Te resumo las dos opciones que hay en el proyecto:
+
+**1. Casa Córdoba**  
+- **Planta baja:**
+  - Sala  
+  - Comedor  
+  - Cocina  
+  - ½ baño  
+  - Área de lavado  
+  - Jardín posterior  
+...",descartar,respuesta_parcial_util
+Punta Cuerna,2026-06-05,Hola quisiera saber costos de la casa Castilla ,"Hola, gracias por tu interés en la casa Castilla.
+
+En los documentos que tengo solo aparece la distribución del modelo Castilla (sus espacios en planta baja y planta alta), pero **no vienen listados los costos ni rangos ...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-06,Precios,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precios, promociones y disponibilidad puede variar según la etapa comercial, así que te recomiendo validarlo directamente con un a...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-06,Precios ,"No cuento con información de precios en los documentos del proyecto.  
+
+La información de precios puede variar según la etapa y la disponibilidad, así que es muy importante validarla directamente con un asesor comercial....",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-06,Costo de los departamentos y la casa pequeña,"No cuento con información de costos en los documentos que tengo a la mano.  
+
+La inversión en los departamentos (Alcalá y Cádiz) y en la casa pequeña (muy probablemente te refieres al prototipo Córdoba) puede variar segú...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-06,Hay trabajo de asesor imobiliario con ustedes,"Por ahora no tengo información en los documentos sobre vacantes o contratación de asesores inmobiliarios para Punta Cuerna.  
+
+No cuento con esa información confirmada. Te recomiendo contactar directamente al equipo del ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-07,costos,"No cuento con información de costos ni rangos de precios en los documentos del proyecto.  
+
+La información de precios, disponibilidad y promociones puede variar según la etapa comercial, así que te recomiendo validarlo d...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,Precios ?,"No cuento con información de precios en los documentos que tengo.  
+
+La información de precios, promociones y disponibilidad puede variar según la etapa del proyecto y la actualización comercial. Te recomiendo validarlo ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,"Hola, cuáles serán los precios de las casas?","No cuento con esa información confirmada en los documentos del proyecto.  
+
+Los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad, así que es algo que se tiene que validar directo con e...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,Hay algun correo para preguntar costos,"En los documentos que tengo no aparece un correo específico para solicitar costos.
+
+La información comercial (precios, disponibilidad, promociones y formas de pago) es dinámica y puede cambiar según la etapa del proyecto...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-07,Aceptan créditos? ,"No cuento con información confirmada sobre créditos o financiamiento en los documentos que tengo a la mano.  
+
+La información sobre tipos de crédito, enganches y formas de pago puede variar según la etapa comercial, así ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,Como puedo obtener una cotizacion,"Para obtener una cotización actualizada de Punta Cuerna Residencial no tengo datos directos en los documentos.  
+
+La información de precios y disponibilidad es dinámica, así que no cuento con esa información confirmada. ...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-07,Presio ,"No cuento con información de precios en los documentos que tengo a la mano.  
+
+La información de costos, promociones y disponibilidad puede cambiar según la etapa del proyecto, así que te recomiendo validarlo directament...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-07,Precio,"No cuento con información de precios en los documentos que tengo disponibles.  
+La información puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con el área comercial del proye...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,La casa de tres recámaras que precio tiene ,"No cuento con información de precios en los documentos del proyecto.  
+
+Además, los precios son información dinámica y pueden cambiar según la etapa y la disponibilidad.  
+Te recomiendo validarlo directamente con un ases...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,Que créditos van a aceptar?,"No cuento con información en los documentos sobre qué tipos de créditos o financiamientos van a aceptar en Punta Cuerna.  
+
+Además, ese tipo de datos son dinámicos y pueden cambiar según la etapa del proyecto y las polít...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-07,Cual es el costo de la casa castillo?,"No cuento con información del costo de la Casa Castilla en los documentos que tengo.  
+
+Además, los precios son información dinámica y pueden variar según la etapa del proyecto y la disponibilidad, así que es algo que si...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,Qué costo tiene?,"No cuento con información de precios actualizada en los documentos.  
+
+La información de costo puede variar según el tipo de propiedad y la etapa comercial, así que es muy importante validarlo directamente con un asesor ...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-07,Viene con cocina integral¡,"En los documentos solo aparece que todos los prototipos incluyen **cocina**, pero no se especifica si es cocina integral (con mobiliario y equipamiento incluidos) ni el nivel de acabados.
+
+No cuento con esa información c...",descartar,offtopic_no_brecha
+Punta Cuerna,2026-06-08,Cuál es el costo de cada una de las casas,"No cuento con esa información confirmada en los documentos del proyecto.  
+
+Los precios son información dinámica y pueden cambiar según la etapa, disponibilidad y actualizaciones comerciales, así que es importante valida...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-08,Ayúdame a cotizar el prototipo  castillq,"Te ayudo con gusto, pero aquí en los documentos no vienen precios ni tablas de cotización del prototipo Castilla.  
+
+Los costos, enganches, mensualidades y promociones son información dinámica y pueden cambiar según la e...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-08,Tengo un presupuesto de 2 millones de pesos ,"Con 2 millones de pesos estás en un muy buen rango para explorar el prototipo Castilla, pero en los documentos no vienen precios ni esquemas de pago, así que no puedo confirmar si ese monto alcanza para comprarla de cont...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-08,Cuando comienza la preventa?,"No cuento con esa información confirmada en los documentos del proyecto.  
+
+La fecha de preventa puede variar según la etapa y la actualización comercial, así que te recomiendo validarlo directamente con un asesor del pr...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-08,Cual será el precio de las casas?,"En los documentos que tengo no aparece ningún rango de precios para las casas de Punta Cuerna.  
+
+La información de costos es dinámica y puede cambiar según la etapa del proyecto y la disponibilidad, así que no cuento co...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-08,Quienes podrán adquirir una casa?,"En los documentos del proyecto no vienen restricciones específicas sobre “quiénes sí” y “quiénes no” pueden adquirir una casa en Punta Cuerna.  
+
+No cuento con información confirmada sobre requisitos de perfil de comprad...",mantener_brecha,brecha_accionable
+Punta Cuerna,2026-06-08,Presios,"No cuento con información específica de precios en los documentos que tengo.  
+
+La información de costos, descuentos y disponibilidad se actualiza constantemente, así que puede variar según la etapa del proyecto. Te reco...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-08,Presios,"Claro. Te comparto la información principal de Punta Cuerna Residencial:
+
+- **Ubicación:** Calle Barrancas No. 2, Fracc. Punta Cuerna, Delegación Lázaro Cárdenas del Río, C.P. 62076, Cuernavaca, Morelos. A ~10 min del Ce...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-08,Soy asesor inmobiliario independiente y quiero ver la posibilidad de poder promover sus propiedades,"Qué bueno que lo comentas, gracias por considerarnos para tu cartera.  
+
+En los documentos que tengo no viene información específica sobre convenios con asesores externos ni el proceso para darse de alta como aliado come...",revisar_manual,no_match_no_info_actual
+Punta Cuerna,2026-06-09,Me darías precios,"No cuento con información de precios en los documentos del proyecto.  
+La información de costos, promociones y disponibilidad puede variar según la etapa comercial, así que es algo que el área de ventas actualiza constan...",descartar,dato_dinamico_comercial
+Punta Cuerna,2026-06-09,cuales son los precios?,"No cuento con información de precios en los documentos que tengo.  
+
+La información puede variar según la etapa y la disponibilidad, así que te recomiendo validarlo directamente con un asesor comercial del proyecto para ...",descartar,dato_dinamico_comercial
+LST Santa Catalina,2026-05-13,tienen otros desarrollos?,"No tengo información sobre otros desarrollos aparte de Viñedo Santa Catalina y sus servicios (hotel, restaurante, venta de terrenos, actividades y catas). Si deseas información sobre desarrollos adicionales, te recomiend...",descartar,respuesta_parcial_util
+LST Santa Catalina,2026-05-19,Cual es su organigrama de la empresa,"No tengo información sobre el organigrama de la empresa Viñedo Santa Catalina. Si necesitas ese dato específico, te sugiero contactar directamente al equipo comercial o administrativo. ¿Te gustaría que te comparta los da...",mantener_brecha,brecha_accionable
+LST Santa Catalina,2026-05-21,Cuál es el costo de los recorridos,"No tengo información específica sobre el costo de los recorridos como tal dentro de Viñedo Santa Catalina. Sin embargo, sí hay catas de vino que incluyen recorrido y tienen un costo de $590 por persona, con degustación d...",descartar,respuesta_parcial_util
+LST Santa Catalina,2026-05-23,casas,"No tengo información sobre casas en venta o renta dentro de Viñedo Santa Catalina. El proyecto actualmente ofrece hospedaje en hotel, habitaciones de diferentes categorías y venta de terrenos con viñedo y huerto de olivo...",descartar,respuesta_parcial_util
+LST Santa Catalina,2026-05-23,casas en venta,"Por el momento no tengo información confirmada sobre casas en venta en Viñedo Santa Catalina. Lo que sí te puedo decir es que actualmente se ofrece la venta de terrenos con viñedo y huerto de olivos, rodeados de naturale...",descartar,respuesta_parcial_util
+LST Santa Catalina,2026-05-27,Que precios tienen los terrenos?,No tengo información específica sobre los precios de los terrenos en Viñedo Santa Catalina. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor d...,descartar,dato_dinamico_comercial
+LST Santa Catalina,2026-05-28,Una pregunta se puede dar un paseo en velero por el lago? ,"No tengo información confirmada sobre paseos en velero en el lago de Viñedo Santa Catalina. El lago cuenta con un muelle que se utiliza principalmente para cenas especiales y hay senderos para caminar alrededor, pero no ...",descartar,respuesta_parcial_util
+LST Santa Catalina,2026-05-29,cuál es la historia del viñedo santa catalina ,"No tengo información específica sobre la historia del Viñedo Santa Catalina en los documentos disponibles. Si te interesa conocer detalles sobre su origen o evolución, te sugiero contactar directamente al equipo del viñe...",mantener_brecha,brecha_accionable
+LST Santa Catalina,2026-06-05,Quiero hacer un tour por el viñedo san lucas,"No tengo información confirmada sobre tours en Viñedo San Lucas, ya que mi enfoque es Viñedo Santa Catalina. Si buscas información sobre recorridos o visitas en Viñedo Santa Catalina, puedo ayudarte con gusto. Si necesit...",mantener_brecha,brecha_accionable
+LST San Francisco,2026-05-12,"que precio tiene por persona los eventos, considerando un evento de 200 personas","Para eventos, el precio por persona puede variar según:
+
+- Tipo de evento (social, corporativo, boda, etc.)  
+- Horario (desayuno, comida, cena, coctel)  
+- Menú elegido y si es servicio sentado, buffet o coctel  
+- Si i...",descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-14,"puedes darme precio para una habitacion doble para 3 noches (13, 14 y 15 de noviembre)",No tengo información sobre precios específicos por noche para habitaciones. La tarifa puede variar según la temporada y disponibilidad. Te recomiendo validar directamente con el área comercial para obtener una cotización...,descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-16,cual es el precio de los terrenos disponibles?,No tengo información confirmada sobre el precio de los terrenos disponibles en Viñedo San Francisco. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un...,descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-20,"RESUMEME LA DIFERENCIA ENTRE VIÑEDO SAN LUCA, VIÑEDO SANTA CATALINA Y VIÑEDO SAN FRANCISCO","Claro, aquí tienes un resumen sencillo de las diferencias principales entre Viñedo San Luca, Viñedo Santa Catalina y Viñedo San Francisco:
+
+- **Viñedo San Luca**: Es el más enfocado en la experiencia de hotel tipo toscan...",descartar,respuesta_parcial_util
+LST San Francisco,2026-05-21,precio ,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Francisco. Sin embargo, puedo decirte que las experiencias como catas de vino tienen un costo de $850 por persona, las clases de polo cues...",descartar,respuesta_parcial_util
+LST San Francisco,2026-05-21,Precio de la visita al viñedo ,"No tengo información sobre un precio específico para la visita general al viñedo como paseo o recorrido simple. Sin embargo, sí hay experiencias de cata de vinos, que incluyen recorrido por la vinícola, explicación de pr...",descartar,respuesta_parcial_util
+LST San Francisco,2026-05-22,Cuándo es la vendimia ,"No tengo información confirmada sobre la fecha de la vendimia en Viñedo San Francisco. Te recomiendo consultarlo directamente con el área comercial o con un asesor, ya que estos eventos suelen variar cada año y dependen ...",mantener_brecha,brecha_accionable
+LST San Francisco,2026-05-22,Quisiera saber costo por habitación ,"No tengo información específica sobre el costo por habitación, ya que los precios pueden variar según la temporada y disponibilidad. Te recomiendo consultarlo directamente con el área comercial o reservar a través de Ope...",descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-23,que precio tienen las casa en venta,No tengo información confirmada sobre los precios de las casas en venta en Viñedo San Francisco. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un ase...,descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-24,Buenas tardes en sus habitaciones cuentan con cunas?,No tengo información confirmada de que las habitaciones cuenten con cunas o servicio de cuna para bebés. Te recomiendo consultarlo directamente con el área de reservaciones para que puedan apoyarte con este detalle espec...,mantener_brecha,brecha_accionable
+LST San Francisco,2026-05-26,hay barra libre por algun costo? ,"No tengo información sobre barra libre ni costos asociados a ese servicio en Viñedo San Francisco. Si buscas una experiencia específica con barra libre, te recomiendo preguntar directamente al área comercial o al restaur...",descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-26,Costo de habitación para 2 personas,No tengo información específica sobre el costo por noche de las habitaciones para 2 personas. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al área de reservaciones p...,descartar,dato_dinamico_comercial
+LST San Francisco,2026-05-27,Precio habitación ,No tengo información específica sobre el precio por noche de las habitaciones en el hotel de Viñedo San Francisco. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo consultar directamente co...,descartar,dato_dinamico_comercial
+LST San Francisco,2026-06-01,Cuánto cuesta villa ecuestre ,No tengo información confirmada sobre el precio de la villa ecuestre. Te sugiero contactar directamente al equipo de ventas de Viñedo San Francisco para obtener una cotización actualizada y personalizada. ¿Te gustaría qu...,descartar,dato_dinamico_comercial
+LST San Francisco,2026-06-03,Cuáles son los precios por persona ,"No tengo información sobre precios generales ""por persona"" para hospedaje o acceso, ya que el hotel no maneja Day Pass y los precios pueden variar según el tipo de habitación y servicios adicionales. 
+
+Si te interesa una...",descartar,dato_dinamico_comercial
+LST San Francisco,2026-06-05,Qué costo tienen las habitaciones ,No tengo información específica sobre el costo de las habitaciones en Viñedo San Francisco. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al área de reservaciones par...,descartar,dato_dinamico_comercial
+LST - Providencia,2026-05-13,Que tipos de vinos tienen en el vinedo?,"No tengo información específica sobre los tipos de vinos que producen en el viñedo según el documento oficial. Para obtener detalles sobre los vinos disponibles, por favor contacte directamente a nuestro equipo de ventas...",descartar,dato_dinamico_comercial
+Hideaways,2026-05-21,What are the prices?,No tengo información específica sobre los precios en el documento. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del proyecto para obtener ...,descartar,dato_dinamico_comercial
+Hideaways,2026-05-31,START DATE OF CONSTRUCTION,No cuento con información confirmada sobre la fecha de inicio de construcción para Hideaways Los Cabos. Te recomiendo validarlo directamente con el área comercial para obtener el dato exacto.,descartar,dato_dinamico_comercial
+Gran Terraza Coapa,2026-05-14,Cuáles son sus restaurantes ,No tengo información confirmada sobre los restaurantes dentro de Gran Terraza Coapa. Te sugiero consultar directamente en el centro comercial o con alguno de sus asesores para obtener la lista actualizada de restaurantes...,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-14,Pension para autos,No tengo información confirmada sobre la existencia de una pensión para autos (servicio de resguardo de autos o estacionamiento de larga estancia) en Gran Terraza Coapa. El centro comercial suele contar con estacionamien...,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-15,Precio de estacionamiento ,"No tengo información confirmada sobre el precio actual del estacionamiento en Gran Terraza Coapa. Los precios pueden variar y están sujetos a cambios.
+
+Te sugiero validar este dato directamente en el centro comercial o, ...",descartar,dato_dinamico_comercial
+Gran Terraza Coapa,2026-05-16,Restaurantes ,Por ahora no tengo información confirmada sobre los restaurantes dentro de Gran Terraza Coapa. Te recomiendo acercarte directamente al centro comercial o consultar su directorio actualizado para obtener la lista de opcio...,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-17,Tortas,"Por el momento no tengo información confirmada sobre restaurantes o locales de tortas dentro de Gran Terraza Coapa. La oferta gastronómica puede cambiar y actualizarse, por lo que te sugiero consultar directamente con el...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-17,Hay banamex?,"No tengo información confirmada sobre la presencia de una sucursal o cajero Banamex dentro de Gran Terraza Coapa. Te sugiero validar este dato directamente durante tu visita, o si lo prefieres, puedo ponerte en contacto ...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-18,Como s ella más donde hay comida y hay mujeres vestidas de leñadoras,"Por el momento, no tengo información confirmada en Gran Terraza Coapa sobre un restaurante o lugar específico donde las personas estén vestidas de leñadoras. Tampoco tenemos registros de un concepto temático de ese estil...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-18,Dime las empresas de comida,"Por el momento, no tengo información validada sobre las empresas o restaurantes de comida que se encuentran dentro de Gran Terraza Coapa. La información puede actualizarse constantemente, por lo que te recomiendo consult...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-20,Dónde está sushi roll?,No tengo información confirmada sobre la ubicación exacta de Sushi Roll dentro de Gran Terraza Coapa. Te sugiero consultar el directorio físico en el centro comercial o preguntar al personal de información dentro del com...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-21,Tiendas de ropa,"No tengo información disponible sobre tiendas de ropa específicas dentro de Gran Terraza Coapa. Si deseas conocer el listado actualizado de las tiendas de ropa o alguna marca en particular, te recomiendo consultarlo dire...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-22,Ferreteria,"No tengo información confirmada sobre la presencia de una ferretería dentro del centro comercial Gran Terraza Coapa. Si buscas una tienda específica de este giro, te recomiendo consultarlo directamente con la administrac...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-22,Pintura,"No tengo información confirmada sobre tiendas de pintura dentro del centro comercial Gran Terraza Coapa. Si necesitas ubicar una tienda de este tipo en el centro, te sugiero consultarlo directamente con la administración...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-22,Calentadores,"No cuento con información confirmada sobre tiendas que vendan calentadores dentro de Gran Terraza Coapa. Si estás buscando este tipo de productos en el centro comercial, te sugiero consultarlo con la administración o, si...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-22,QUE TIENDAS HAY,No tengo información confirmada sobre las tiendas específicas dentro de Gran Terraza Coapa. La lista de comercios puede variar y actualizarse con frecuencia. Te sugiero consultar el directorio oficial del centro comercia...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-23,En esta plaza hay servicio a clientes de Movistar?,No cuento con información confirmada sobre la presencia de un centro de servicio a clientes de Movistar en Gran Terraza Coapa. Te sugiero acercarte al área de informes dentro de la plaza o consultar el directorio oficial...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-23,Restaurantes,"Actualmente no tengo información confirmada sobre los restaurantes específicos dentro del centro comercial Gran Terraza Coapa. La lista de restaurantes puede variar, así que te sugiero consultarlo directamente en el dire...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-23,Dónde está la tienda nike ,No tengo información confirmada sobre la ubicación exacta de la tienda Nike dentro de Gran Terraza Coapa. Te recomiendo validarlo directamente en el directorio del centro comercial o preguntar en los módulos de informaci...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-24,Hay tiendas celulares?,"No tengo información confirmada sobre tiendas de celulares en Gran Terraza Coapa. Te recomiendo validarlo directamente en el centro comercial o, si lo prefieres, puedo ponerte en contacto con un asesor que tenga la infor...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-24,"Xiaomi,Huawei ","No tengo información confirmada sobre la presencia de tiendas oficiales de Xiaomi o Huawei en Gran Terraza Coapa. Las tiendas y marcas pueden cambiar, así que te sugiero contactar directamente al centro comercial o, si d...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-25,si como se llama el lugar que tiene los go karts,Por el momento no tengo información confirmada sobre un lugar de go karts dentro del centro comercial Gran Terraza Coapa. Es posible que este servicio no esté disponible o que el nombre no esté actualizado en la base de ...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-26,Converse,No cuento con información confirmada de que exista una tienda Converse dentro de Gran Terraza Coapa. La información puede variar según la actualización de los comercios. Si te interesa saber la lista exacta de tiendas o ...,descartar,respuesta_negativa_catalogo_directorio
+Gran Terraza Coapa,2026-05-28,Hay baños universales?,"No tengo información confirmada sobre la existencia de baños universales en Gran Terraza Coapa. Si deseas, puedo ayudarte a contactar directamente a un asesor para que te brinde este dato actualizado. ¿Te gustaría que te...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-28,Cinepolis ,"Actualmente no cuento con información confirmada sobre la presencia o detalles de Cinépolis dentro de Gran Terraza Coapa. Te recomiendo consultarlo directamente con el área comercial del centro para confirmar ubicación, ...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-29,DONDE ESTA EL CINEPOLIS,No cuento con información confirmada sobre la ubicación de Cinépolis dentro de Gran Terraza Coapa. Te recomiendo preguntar directamente en el módulo de información del centro comercial o consultar el directorio oficial e...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-29,En donde se encuentra tra el smart fit,"Smart Fit es uno de los gimnasios dentro de Gran Terraza Coapa, pero actualmente no tengo información disponible sobre qué tienda o local se encuentra atrás del Smart Fit dentro del centro comercial.
+
+Si necesitas detall...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-29,Dónde está depot,"No tengo información confirmada sobre una tienda llamada ""Depot"" dentro de Gran Terraza Coapa. Si buscas alguna tienda específica dentro del centro comercial, por favor dime el nombre completo o detalla el giro para pode...",descartar,captura_contacto_no_brecha
+Gran Terraza Coapa,2026-05-29,Restaurantes ,"Por el momento no tengo información confirmada sobre los restaurantes específicos dentro de Gran Terraza Coapa. La información puede variar y estar sujeta a actualización constante.
+
+Si buscas recomendaciones actuales o ...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-30,radio,"¿Puedes especificar a qué te refieres con radio? Si buscas saber si hay alguna estación de radio, tienda de equipos de radio, o evento relacionado con radio en Gran Terraza Coapa, por favor dame un poco más de detalle pa...",descartar,aclaracion_no_brecha
+Gran Terraza Coapa,2026-05-30,que restaurantes hay?,No tengo información confirmada sobre los restaurantes actuales en Gran Terraza Coapa. La disponibilidad y oferta gastronómica puede variar con el tiempo y algunas marcas pueden cambiar. Para conocer el listado actualiza...,descartar,dato_dinamico_comercial
+Gran Terraza Coapa,2026-05-30,Cine ,"Actualmente no tengo información confirmada sobre la existencia o detalles de un cine en Gran Terraza Coapa. Si buscas funciones, horarios o marcas específicas, te sugiero consultarlo directamente en la cartelera del cen...",descartar,dato_dinamico_comercial
+Gran Terraza Coapa,2026-05-31,Inflable ,"Actualmente no tengo información confirmada sobre un inflable dentro de Gran Terraza Coapa. Es posible que la presencia de inflables dependa de eventos especiales, pero no tengo registro actualizado al respecto.
+
+Si busc...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-31,Estoy buscando la tienda nike factory ,"No tengo información confirmada sobre la existencia de una tienda Nike Factory dentro de Gran Terraza Coapa. Si buscas una sucursal específica de Nike, te sugiero consultarlo directamente en el directorio oficial del cen...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-31,Ubicación de la tienda nike factory ?,"No cuento con información confirmada sobre la ubicación de una tienda Nike Factory dentro de Gran Terraza Coapa. Es posible que no esté disponible en este centro comercial.
+
+Si necesitas la ubicación exacta de una tienda...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-31,Banorte,"No tengo información confirmada sobre la presencia de Banorte dentro de Gran Terraza Coapa. Si estás buscando una sucursal bancaria en específico o algún cajero automático, te recomiendo validar directamente con la admin...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-05-31,Hay libreria,"No tengo información confirmada de que haya una librería dentro de Gran Terraza Coapa. Si buscas una tienda específica o alguna librería en particular, te recomiendo consultarlo directamente en el área de atención al cli...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-31,Tienda ghandi,"No tengo información confirmada de que exista una tienda Gandhi dentro de Gran Terraza Coapa. Si tienes interés en encontrar alguna librería en el centro comercial, te sugiero consultarlo directamente en el área de atenc...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-31,Que restaurantes hay,No cuento con información confirmada sobre los restaurantes específicos dentro de Gran Terraza Coapa en este momento. Te recomiendo visitarnos directamente en el centro comercial o consultar con nuestro equipo en sitio p...,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-05-31,Cinemex,No tengo información confirmada de que haya un Cinemex dentro de Gran Terraza Coapa. Te sugiero validar directamente con el centro comercial o consultar con un asesor si necesitas información más actualizada.,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-06-01,Crocs tienda ,Por el momento no tengo información confirmada sobre la tienda Crocs dentro de Gran Terraza Coapa. La disponibilidad de tiendas puede variar y está sujeta a cambios. Te recomiendo validar directamente con la administraci...,descartar,dato_dinamico_comercial
+Gran Terraza Coapa,2026-06-01,Ropa interior ,Actualmente no tengo información confirmada sobre tiendas específicas de ropa interior dentro de Gran Terraza Coapa. Es posible que la oferta varíe según la disponibilidad y actualización comercial. Si buscas una tienda ...,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-06-02,Qué restaurante hay,"Actualmente no tengo información confirmada sobre los restaurantes disponibles en Gran Terraza Coapa. La oferta gastronómica puede variar, por lo que te recomiendo consultarlo directamente con el área comercial o visitar...",descartar,dato_dinamico_comercial
+Gran Terraza Coapa,2026-06-02,Depilacion,"No tengo información confirmada sobre establecimientos de depilación en Gran Terraza Coapa. Si buscas un servicio específico dentro del centro comercial, te sugiero consultar directamente en el directorio físico del cent...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-06-02,Hay tienda puma,"No tengo información confirmada de que exista una tienda Puma dentro de Gran Terraza Coapa. La oferta de tiendas y marcas puede variar, por lo que te recomiendo confirmarlo directamente con la administración del centro c...",descartar,respuesta_negativa_catalogo_directorio
+Gran Terraza Coapa,2026-06-02,Hay sketchers?,No tengo información confirmada sobre la presencia de una tienda Skechers en Gran Terraza Coapa. Te sugiero acercarte directamente con el área de información del centro comercial o revisar el directorio oficial en su sit...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-06-03,ub6,"No tengo información relacionada con ""ub6"" en Gran Terraza Coapa. Si buscas datos sobre alguna tienda, restaurante o espacio específico dentro del centro comercial, por favor dime un poco más sobre lo que necesitas y con...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-06-03,pull and bear ,"Sí, Pull and Bear es una tienda de moda juvenil y suele estar presente en varios centros comerciales reconocidos, pero no tengo información confirmada sobre la existencia de Pull and Bear dentro del centro comercial Gran...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-06-04,Cual es el restaurante que esta a lado se cinepolis,No tengo información confirmada sobre el restaurante que está exactamente a lado de Cinépolis en Gran Terraza Coapa. La información puede variar según las tiendas y restaurantes activos en el centro comercial. Te sugiero...,descartar,offtopic_no_brecha
+Gran Terraza Coapa,2026-06-05,Porfirios aun esta?,No tengo información confirmada sobre la presencia actual de Porfirio's en Gran Terraza Coapa. La información sobre restaurantes puede variar según la actualización del centro comercial. Te sugiero validarlo directamente...,descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-06-06,hay restaurante Tok's ,"No tengo información confirmada sobre la presencia de un restaurante Tok's en Gran Terraza Coapa. La información puede variar y estar sujeta a actualizaciones, por lo que te sugiero consultarlo directamente en el centro ...",descartar,offtopic_no_brecha
+Gran Terraza Coapa,2026-06-06,Hay game planet en gran terraza Coapa?,"No tengo información confirmada de que Game Planet tenga sucursal en Gran Terraza Coapa. Si deseas, puedo ayudarte a ponerte en contacto con el centro comercial para que un asesor te brinde información más detallada y ac...",descartar,respuesta_negativa_catalogo_directorio
+Gran Terraza Coapa,2026-06-06,En que piso esta+,"No tengo información confirmada sobre la distribución por pisos de Gran Terraza Coapa. Si buscas la ubicación de una tienda, restaurante o espacio en específico dentro del centro comercial, dime cuál y con gusto trato de...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-06-06,En que piso esta el cine,"No tengo información confirmada sobre en qué piso se encuentra el cine dentro de Gran Terraza Coapa. Te sugiero consultar directamente en el centro comercial o en sus directorios al ingresar, ya que ahí te podrán indicar...",descartar,respuesta_parcial_util
+Gran Terraza Coapa,2026-06-07,Restaurante de cortes,"Actualmente no tengo información confirmada sobre un restaurante de cortes en Gran Terraza Coapa. Te sugiero acercarte al área de información del centro comercial para validar si han abierto uno recientemente, ya que la ...",descartar,offtopic_no_brecha
+Gran Terraza Coapa,2026-06-07,mascotas,Por el momento no cuento con información confirmada sobre la política para mascotas en Gran Terraza Coapa. Te sugiero consultarlo directamente con el área administrativa del centro comercial para obtener la información m...,mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-06-07,Hay un Centro Telcel en esta plaza?,"No tengo información confirmada sobre la presencia de un Centro Telcel dentro de Gran Terraza Coapa. Te recomiendo validar este dato directamente con la administración del centro comercial, ya que la disponibilidad de lo...",mantener_brecha,brecha_accionable
+Gran Terraza Coapa,2026-06-08,Tiendas de ropa ,"No tengo información confirmada sobre las tiendas de ropa que hay actualmente en Gran Terraza Coapa. La oferta de comercios puede variar, así que te recomiendo validarlo directamente en el centro comercial o, si lo prefi...",descartar,respuesta_parcial_util
+GGI Palmas Uno,2026-05-29,100 m,"Gracias, con 100 m² tu espacio sería más pequeño que el mínimo estándar por inquilino en Palmas Uno.
+
+En el edificio:
+- Cada piso se puede subdividir en 2, 4 o 6 espacios  
+- Los espacios comienzan a partir de 285 m² por...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-15,Dame precios,"No tengo información confirmada sobre los precios de hospedaje en Viñedo San Lucas. Los costos pueden variar según la temporada, tipo de habitación y disponibilidad. Te recomiendo contactar directamente al área de reserv...",descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-15,Precjos,"No tengo información sobre precios de hospedaje o venta de propiedades en Viñedo San Lucas. Si buscas precios de experiencias, te comparto algunos ejemplos:
+
+- Cata de vinos: $890 por persona (incluye recorrido, degustac...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-15,para conocer los precios de las residencias y el desarrollo ?,"No tengo información específica sobre los precios de las residencias o terrenos en el desarrollo. La información sobre precios y disponibilidad puede variar y está sujeta a actualización constante, por lo que te recomien...",descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-15,Hola cuanto cuesta el brunch del domingo?,No tengo información específica sobre el costo del brunch del domingo en Viñedo San Lucas. Te recomiendo reservar o consultar directamente con el restaurante para conocer el precio actualizado. Puedes hacerlo al teléfono...,descartar,respuesta_parcial_util
+LST San Lucas,2026-05-16,Me podrías dar más inofrmación de en qué consiste el masaje abyangha y el de tejido profundo? y si tiene disponibilidad para el lunes 8 de junio?,"Claro, te explico en qué consisten los masajes que mencionas:
+
+- **Masaje Abyangha**: No tengo información confirmada sobre este masaje en el menú actual del spa de Viñedo San Lucas. Te sugiero preguntar directamente al ...",mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-16,Se puede fumar en la terraza ,"No tengo información específica sobre si está permitido fumar en la terraza. Te sugiero consultarlo directamente con el equipo de reservas al 415 688 2210 o por correo a reservas@sanlucas.com.mx, ya que las políticas pue...",mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-17,para la reserva de catas tengo que pagar el total ?,No tengo información específica sobre si debes pagar el total al reservar una cata. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con el área de reservas...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-17,Cuál es el mejore viñedo cerca de San Miguel de Allende?,"No cuento con información oficial para comparar viñedos ni para afirmar cuál es el “mejor”, ya que eso depende mucho de lo que busques: experiencia enoturística, gastronomía, ambiente, vinos, actividades, etc.
+
+Viñedo Sa...",mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-17,Que bebidas sin alcohol ofrecen?,No tengo información específica sobre cuáles son las bebidas sin alcohol que se ofrecen en la cata sin alcohol de Viñedo San Lucas. Te recomiendo consultarlo directamente con el equipo de reservas al 415 688 2210 o escri...,descartar,respuesta_parcial_util
+LST San Lucas,2026-05-18,Me interesaria saber cualñes son los costos de las habitascioenss,No tengo información específica sobre los costos de las habitaciones en Viñedo San Lucas. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al área de reservaciones al...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-19,Cuánto cuesta la habitación ,No tengo información específica sobre el costo por noche de las habitaciones en Viñedo San Lucas. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al área de reservac...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-20,precios,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas. Sin embargo, puedo compartirte algunos precios de experiencias y servicios:
+
+- Cata de vinos: $890 MXN
+- Cata sin alcohol: $550 MXN...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-21,Información de precio por habitación ,No tengo información específica sobre el precio por habitación en Viñedo San Lucas. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al área de reservaciones al +52 4...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-21,Costo por noche de las diferentes opciones de habitaciones?,No tengo información específica sobre el costo por noche de las habitaciones en Viñedo San Lucas. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al área de reservacion...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-21,precios,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas. Si te interesa conocer precios específicos, te recomiendo contactar directamente al área comercial o de reservaciones al +52 415 68...",descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-22,Precio por noche de la habitación junior terraza,No tengo información específica sobre el precio por noche de la habitación junior terraza. Te sugiero contactar directamente al área de reservaciones al +52 415 688 2210 o escribir a reservas@sanlucas.com.mx para obtener...,mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-23,Qué precio tiene la habitación ,No tengo información específica sobre el precio por noche de las habitaciones en Viñedo San Lucas. Te recomiendo contactar directamente al área de reservaciones al +52 415 688 2210 o escribir a reservas@sanlucas.com.mx p...,mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-23,Aplican algún método de sustentabilidad ,"No tengo información específica sobre métodos de sustentabilidad aplicados en Viñedo San Lucas, como sistemas de reciclaje, energías renovables o certificaciones ecológicas. Si este tema es importante para ti, te recomie...",mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-24,Quiero preventa de su próximo desarrollo,No tengo información confirmada sobre preventa de un próximo desarrollo en Viñedo San Lucas. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con el área co...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-25,Pudieras darme los precios de las habitaciones?,No tengo información específica sobre los precios de las habitaciones del hotel en Viñedo San Lucas. Te recomiendo contactar directamente al área de reservaciones al +52 415 688 2210 o escribir a reservas@sanlucas.com.mx...,descartar,respuesta_parcial_util
+LST San Lucas,2026-05-27,Precio,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas en los documentos disponibles. Si buscas precios de experiencias, te comparto algunos ejemplos:
+
+- Cata de vinos: $890 MXN por perso...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-27,quiero saber el precio de la junio suite con balcon,"No tengo información específica sobre el precio de la Junior Suite con balcón. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del hotel.
+
+Si...",descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-28,cuánto mide el perímetro de Viñedo San Lucas,"No tengo información confirmada sobre el perímetro exacto de Viñedo San Lucas. Si necesitas ese dato específico, te sugiero contactar directamente al equipo comercial o de ventas del proyecto para obtenerlo. ¿Te gustaría...",mantener_brecha,brecha_accionable
+LST San Lucas,2026-05-28,Qué precio tienen ,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas en los documentos oficiales. Si te interesa saber precios de experiencias como catas, el costo es de $890 por persona para la cata t...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-29,Precios,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas. Sin embargo, puedo compartirte algunos precios de experiencias y servicios:
+
+- Catas de vino: desde $650 hasta $890 por persona, se...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-29,Hola quiero infomes sobre un terreno,"Claro, te ayudo con gusto. Sobre terrenos en Viñedo San Lucas, no tengo información específica sobre lotes, precios o disponibilidad en este momento. La información puede variar según la etapa del proyecto y actualizació...",descartar,dato_dinamico_comercial
+LST San Lucas,2026-05-29,Precios ,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas. Sin embargo, puedo compartirte algunos precios de experiencias y servicios:
+
+- Catas de vino: desde $650 hasta $890 por persona (se...",descartar,respuesta_parcial_util
+LST San Lucas,2026-05-29,Y que hay del restaurante ? ,No tengo información específica sobre los precios del restaurante de Viñedo San Lucas. El menú es de cocina mediterránea y puedes consultarlo de manera digital aquí: [Menú digital](https://drive.google.com/drive/folders/...,descartar,offtopic_no_brecha
+LST San Lucas,2026-05-29,Precios ,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas. Sin embargo, puedo compartirte algunos precios de experiencias y servicios:
+
+- Catas de vino: desde $650 hasta $890 por persona, de...",descartar,respuesta_parcial_util
+LST San Lucas,2026-06-01,En el restaurante tiene área para fumar puro?,No tengo información confirmada sobre un área específica para fumar puro dentro del restaurante de Viñedo San Lucas. Te sugiero preguntar directamente al hacer tu reservación para que puedan orientarte sobre espacios dis...,descartar,offtopic_no_brecha
+LST San Lucas,2026-06-03,costos de habitaciones,No tengo información específica sobre los costos de las habitaciones en Viñedo San Lucas. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al área de reservaciones al +5...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-06-03,Precios de restaurantes?,No tengo información específica sobre los precios de los platillos en el restaurante de Viñedo San Lucas. El menú es de cocina mediterránea y puedes consultarlo en línea aquí: [Menú digital](https://drive.google.com/driv...,descartar,respuesta_parcial_util
+LST San Lucas,2026-06-03,cual seria el precio para 5 personas del 12 al 14 de junio?,No tengo información específica sobre tarifas de hospedaje para 5 personas ni precios exactos por noche en las fechas que mencionas (12 al 14 de junio). La ocupación máxima por habitación depende de la categoría: las sui...,mantener_brecha,brecha_accionable
+LST San Lucas,2026-06-03,Cuál es el precio de esta habitación ,No tengo información específica sobre el precio de las habitaciones en Viñedo San Lucas. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al área de reservaciones al +52...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-06-03,Una noche que precio tiene en habitación junio balcon?,No tengo información específica sobre el precio por noche de la habitación junior con balcón. Te recomiendo contactar directamente al área de reservaciones al +52 415 688 2210 o escribir a reservas@sanlucas.com.mx para o...,mantener_brecha,brecha_accionable
+LST San Lucas,2026-06-05,is it possible to park van overnight there?,"I don't have specific information about overnight van parking at Viñedo San Lucas. The property offers parking for hotel guests, but overnight parking for vans or campers is not mentioned in the official details.
+
+I reco...",descartar,respuesta_parcial_util
+LST San Lucas,2026-06-05,precios de estancia 2 personas del ,No tengo información específica sobre los precios de estancia para 2 personas en el hotel de Viñedo San Lucas. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al áre...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-06-05,paquetes romanticos,"No tengo información específica sobre paquetes románticos como tal en Viñedo San Lucas. Sin embargo, el hotel y restaurante ofrecen experiencias ideales para parejas, como cenas con vista al lago, spa con rituales especi...",descartar,respuesta_parcial_util
+LST San Lucas,2026-06-06,que incluye el brunch?,No tengo información específica sobre qué incluye el brunch en Viñedo San Lucas. Te recomiendo contactar directamente al restaurante para conocer el menú y los detalles. Puedes reservar o pedir informes al 415 688 2210 o...,descartar,respuesta_parcial_util
+LST San Lucas,2026-06-06,cuanto cuesta el brunch? precio para loa adultos y niños,No tengo información confirmada sobre el precio del brunch para adultos o niños en Viñedo San Lucas. Te sugiero comunicarte directamente al restaurante para obtener los precios actualizados. Puedes llamar al 415 688 2210...,descartar,respuesta_parcial_util
+LST San Lucas,2026-06-06,Precio habitación ,No tengo información específica sobre el precio por habitación en Viñedo San Lucas. Te recomiendo contactar directamente al área de reservaciones al +52 415 688 2210 o escribir a reservas@sanlucas.com.mx para obtener la ...,mantener_brecha,brecha_accionable
+LST San Lucas,2026-06-06,vi q. tienes una opción de $350,"No tengo información confirmada sobre una cata sin alcohol con precio de $350 en Viñedo San Lucas. El precio oficial que aparece en los documentos es de $550 por persona para la cata sin alcohol.
+
+La información puede va...",mantener_brecha,brecha_accionable
+LST San Lucas,2026-06-06,Quiero conocer los precios  los conceptos de terrenos con casas,No tengo información específica sobre los precios ni los conceptos exactos de terrenos con casas en Viñedo San Lucas. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo di...,descartar,dato_dinamico_comercial
+LST San Lucas,2026-06-07,Precios de habitaciones ,"No tengo información específica sobre los precios de las habitaciones del hotel en Viñedo San Lucas. Para conocer tarifas actualizadas y disponibilidad, te recomiendo contactar directamente al área de reservaciones al +5...",descartar,respuesta_parcial_util
+LST San Lucas,2026-06-07,Quisiera saber los precios de los paquetes de experiencias de cata con hospedaje ,"No tengo información específica sobre paquetes que incluyan cata con hospedaje y sus precios exactos. Sin embargo, te puedo compartir que la experiencia de cata tiene un costo de $890 por persona (incluye recorrido, degu...",descartar,respuesta_parcial_util
+LST San Lucas,2026-06-08,precio,"No tengo información sobre precios de hospedaje o venta de terrenos en Viñedo San Lucas. Sin embargo, te puedo compartir algunos precios de experiencias y servicios:
+
+- Cata de vinos: $890 MXN
+- Cata sin alcohol: $550 MX...",descartar,respuesta_parcial_util
+LST San Lucas,2026-06-08,costo hosedaje por noche,"No tengo información específica sobre el costo por noche del hospedaje en Viñedo San Lucas. Los precios pueden variar según la temporada, tipo de habitación y disponibilidad.
+
+Te recomiendo contactar directamente al área...",descartar,dato_dinamico_comercial
+Ara Dream Diamante,2026-05-17,Precio de los departamentos ,"Actualmente no tengo información confirmada sobre los precios exactos de los departamentos en Dream Diamante, ya que estos pueden variar según disponibilidad y actualización comercial. Te recomiendo validarlo directament...",descartar,dato_dinamico_comercial
+ORIGINA_CRM_Agentflow,2026-05-25,"[SYS_CTX user_id=1 user_doc_id=m8tzmodz5t46d8wuu20o7jvk role=authenticated name=Alta Prueba]
+Disponibilidad","No puedo obtener la disponibilidad en este momento porque la herramienta **listar_tipologias** está respondiendo **HTTP 404 (Not Found)**.
+
+Si me confirmas **qué tipología** te interesa, puedo intentarlo directo por **sl...",mantener_brecha,brecha_accionable
+ORIGINA_CRM_Agentflow,2026-05-25,"[SYS_CTX user_id=1 user_doc_id=m8tzmodz5t46d8wuu20o7jvk role=authenticated name=Alta Prueba]
+¿Qué leads entraron hoy?",Parece que hay un problema de autorización y no puedo acceder a los leads en este momento. Te recomendaría intentar nuevamente más tarde o verificar si hay algún inconveniente con la sesión. Si necesitas realizar otra ac...,descartar,respuesta_parcial_util
+ORIGINA_CRM_Agentflow,2026-05-25,"¿Qué pendientes tengo el día de hoy, o qué puedo hacer el día de hoy?","Para decirte **pendientes de hoy (lunes 25 de mayo de 2026)** necesito jalar tus **leads/cotizaciones** del CRM, pero ahorita las herramientas me están devolviendo **401 (sin credenciales válidas)**, así que no puedo ver...",revisar_manual,no_match_no_info_actual
+Nizuc,2026-05-28,Are you able to reserve cabanas by the beach and how much does that cost?,"Yes, you can reserve beach beds (cabanas) by the beach at Nizuc Resort. Beach beds are complimentary during the low season, while during high season they are available for rent. The exact cost during high season is not s...",revisar_manual,no_match_no_info_actual
+LST La Santisima,2026-05-10,Costo por renta para boda ,"No tengo información específica sobre el costo de renta para boda en La Santísima Trinidad. Todo dependerá del tipo de evento (civil, banquete, solo comida en restaurante, número de personas, horario, etc.).  
+
+Para coti...",descartar,respuesta_parcial_util
+LST La Santisima,2026-05-10,cuanto cuestas las casas,"Por ahora no tengo información específica sobre los precios de las casas del desarrollo.
+
+Los costos pueden variar según el tamaño del terreno, la ubicación dentro del proyecto y si es solo terreno o casa terminada.  
+
+T...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-11,de todo,"Te detallo los precios principales por tipo de servicio:
+
+**1) Catas y tours en la vinícola**  
+- Cata completa (recorrido + cata + maridaje): **$790 MXN por persona**  
+- Solo degustación (cata + maridaje, sin recorrido...",revisar_manual,no_match_no_info_actual
+LST La Santisima,2026-05-11,Cuanto cuestan los terrenos en san Miguel y de que tamaño son?,"En este momento no tengo información específica sobre los terrenos en San Miguel dentro de La Santísima Trinidad (precios ni medidas exactas por lote).
+
+Lo más recomendable es que te contacten directamente para darte las...",descartar,respuesta_parcial_util
+LST La Santisima,2026-05-13,¿Cuánto cuesta un lote?,No cuento con información confirmada sobre el costo de los lotes en La Santísima Trinidad. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor de...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-13,¿Cuánto cuesta un lote?,No tengo información confirmada sobre el precio de los lotes en La Santísima Trinidad. Los precios pueden variar según disponibilidad y actualización comercial. Te sugiero contactar directamente al área de ventas para ob...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-14,Costo de habitación ,No tengo información específica sobre el costo de las habitaciones en La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la ta...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-15,Precios,"No tengo información actualizada sobre los precios de las habitaciones del hotel. La tarifa puede variar según la temporada y disponibilidad.
+
+Te recomiendo reservar directamente a través de este enlace de Open Table:  
+...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-16,Precio habitación doble,No tengo información específica sobre el precio de la habitación doble. Te sugiero contactar directamente al hotel para obtener la tarifa actualizada y disponibilidad. Puedes comunicarte al 473 134 1086 o escribir a hote...,descartar,respuesta_parcial_util
+LST La Santisima,2026-05-16,Costos de hospedaje,No tengo información específica sobre los costos de hospedaje en el hotel de La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtene...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-17,Coato de habitacion,"El hotel de La Santísima Trinidad cuenta con 5 habitaciones en total, divididas en tres categorías: Master Suite, Suite y Suite con balcón. Cada una está equipada con cama king size, baño completo, minibar, TV de pantall...",descartar,respuesta_parcial_util
+LST La Santisima,2026-05-18,¿Me podrías dar información sobre el precio de los cuartos de la suite?,No tengo información específica sobre los precios de las suites o sus habitaciones. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del hotel...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-19,Costo de hotel ,No tengo información específica sobre el costo por noche del hotel en La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la ta...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-19,Cual es el precio por noche ??,No tengo información específica sobre el precio por noche en el hotel de La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-19,Precio por noche en habitación suite máster ,"No tengo información específica sobre el precio por noche en la habitación suite máster. Te sugiero contactar directamente al hotel para obtener la tarifa actualizada, ya que puede variar según temporada y disponibilidad...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-20,PRECIOS DE HABITACIONES MSUITE Y SUITE CON BALCON,No tengo información específica sobre los precios de la Master Suite (MSUITE) ni de la Suite con balcón. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente co...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-21,Costó de habitación ,No tengo información específica sobre el costo de las habitaciones del hotel en La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obt...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-21,"Buen día, cuáles son los precios de sus suites?",No tengo información específica sobre los precios de las suites en La Santísima Trinidad. Los precios pueden variar según temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la tarifa a...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-21,"El número que me diste, tiene WhatsApp?","No tengo información confirmada sobre si el número 473 134 1086 tiene WhatsApp. Te sugiero marcar o enviar un mensaje directo para verificarlo. Si prefieres, también puedes escribir al correo hotel@lasantisimatrinidad.",descartar,captura_contacto_no_brecha
+LST La Santisima,2026-05-21,Precios para eventos,"No tengo información específica sobre precios para eventos privados, ya que La Santísima Trinidad no maneja renta de espacios exclusivos para eventos. Todos los eventos o reuniones se realizan dentro del restaurante, baj...",descartar,respuesta_parcial_util
+LST La Santisima,2026-05-22,Cuál es la filosofía de su empresa ,"No tengo información específica sobre la filosofía de la empresa en los documentos disponibles. Si te interesa conocer más a fondo la visión o valores que guían a La Santísima Trinidad, te sugiero contactar directamente ...",mantener_brecha,brecha_accionable
+LST La Santisima,2026-05-23,Hola cuánto cuesta una noche,No tengo información sobre el precio por noche en el hotel. Te sugiero contactar directamente al hotel al 473 134 1086 o escribir a hotel@lasantisimatrinidad.com para recibir la cotización actualizada. Los precios pueden...,descartar,respuesta_parcial_util
+LST La Santisima,2026-05-23,Precios,"No tengo información sobre precios de hospedaje o habitaciones en La Santísima Trinidad. Sin embargo, puedo decirte que los precios de las experiencias de cata de vinos van desde $390 MXN (solo tour) hasta $790 MXN por p...",mantener_brecha,brecha_accionable
+LST La Santisima,2026-05-26,Quiero saber el precio de las habitaciones para el día miércoles 2 de junio de 2026 ,No tengo información específica sobre los precios de las habitaciones para el miércoles 2 de junio de 2026. Los precios pueden variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente c...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-27,Que precio tiene los viñedos,"No tengo información sobre el precio de los viñedos como propiedad o inversión. Si te refieres a las experiencias de cata y recorridos en la vinícola, los precios van desde $390 MXN (solo tour) hasta $790 MXN por persona...",mantener_brecha,brecha_accionable
+LST La Santisima,2026-05-27,cual es el la razón social de grupo la santisima trinidad?,No tengo información confirmada sobre la razón social de Grupo La Santísima Trinidad en los documentos disponibles. Te sugiero contactar directamente al equipo comercial para obtener ese dato específico. Puedes comunicar...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-28,Precios de hospedaje,"No tengo información específica sobre los precios de hospedaje en el hotel de La Santísima Trinidad. Para consultar tarifas actualizadas y disponibilidad, te recomiendo comunicarte directamente al teléfono 473 134 1086 o...",descartar,captura_contacto_no_brecha
+LST La Santisima,2026-05-29,El restaurante es PET friendly ,"No tengo información confirmada de que el restaurante sea pet friendly. Te sugiero consultarlo directamente con el área comercial para que puedan darte una respuesta actualizada. Si quieres, te puedo compartir los datos ...",descartar,offtopic_no_brecha
+LST La Santisima,2026-05-31,Cuál es el precio de las habitaciones ,No tengo información específica sobre los precios de las habitaciones en La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel al 473 134 1086...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-31,Precios,"No tengo información sobre precios de hospedaje o venta de propiedades en La Santísima Trinidad. Sin embargo, puedo compartirte algunos precios de experiencias y servicios:
+
+- Cata completa (recorrido, cata y maridaje): ...",mantener_brecha,brecha_accionable
+LST La Santisima,2026-05-31,Costo máster suite ,"No tengo información específica sobre el costo de la máster suite. Te sugiero contactar directamente al hotel para obtener la tarifa actualizada, ya que puede variar según temporada y disponibilidad. Puedes comunicarte a...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-01,Precio por metro,No tengo información confirmada sobre el precio por metro cuadrado en La Santísima Trinidad. La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor ...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-01,Precio habitancipm máster suite una noche ,"No tengo información específica sobre el precio por noche de la Master Suite en La Santísima Trinidad. Te recomiendo contactar directamente al hotel para obtener la tarifa actualizada, ya que puede variar según la tempor...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-02,Precio Suite con balcón 2 noches,No tengo información específica sobre el precio de la Suite con balcón para 2 noches. Los precios pueden variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor del hotel...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-02,Tarifa de la suite con balcón ,No tengo información específica sobre la tarifa de la suite con balcón. Te sugiero contactar directamente al hotel para obtener el precio actualizado y la disponibilidad. Puedes comunicarte al 473 134 1086 o escribir a h...,descartar,respuesta_parcial_util
+LST La Santisima,2026-06-02,Precio de las habitaciones ,No tengo información específica sobre los precios de las habitaciones del hotel. La tarifa puede variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la cotización más ac...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-02,hola qué costo tiene el hospedaje ,No tengo información específica sobre el costo del hospedaje en La Santísima Trinidad. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al hotel para obtener una coti...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-02,"buen día, podría indicarme el costo de la master suite por noche?, gracias","No tengo información específica sobre el costo por noche de la Master Suite. Te sugiero contactar directamente al hotel para obtener la tarifa actualizada, ya que puede variar según la temporada y disponibilidad. Puedes ...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-02,precios,"No tengo información sobre precios de hospedaje o habitaciones. Sin embargo, puedo compartirte los precios de algunas experiencias y servicios:
+
+- Cata completa (recorrido, cata y maridaje): $790 MXN por persona
+- Solo d...",mantener_brecha,brecha_accionable
+LST La Santisima,2026-06-03,Cuál es el precio por quedarse hay ,No tengo información específica sobre el precio por noche para hospedarte en el hotel de La Santísima Trinidad. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al ho...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-03,Quisiera saber los precios por noche ,No tengo información específica sobre los precios por noche en el hotel de La Santísima Trinidad. Te recomiendo contactar directamente al hotel para obtener tarifas actualizadas y disponibilidad. Puedes comunicarte al te...,descartar,respuesta_parcial_util
+LST La Santisima,2026-06-03,pueden entrar perros al restaurante?,No tengo información confirmada sobre si se permite la entrada de perros al restaurante. Te sugiero contactar directamente al restaurante para que puedan darte una respuesta precisa. Puedes comunicarte al 473 134 1086 o ...,descartar,offtopic_no_brecha
+LST La Santisima,2026-06-04,Cual es el precio de las habitaciones ,"No tengo información específica sobre los precios de las habitaciones del hotel. Te recomiendo contactar directamente al área de reservaciones para obtener la tarifa actualizada, ya que puede variar según temporada y dis...",descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-06,Precios hotel,"No tengo información confirmada sobre los precios por noche del hotel en La Santísima Trinidad. Los detalles sobre tarifas no aparecen en el documento oficial.
+
+Te sugiero contactar directamente al hotel para cotizacione...",descartar,respuesta_parcial_util
+LST La Santisima,2026-06-06,Cuanto cuesta por noche una suite?,No tengo información específica sobre el costo por noche de una suite en La Santísima Trinidad. Te recomiendo contactar directamente al hotel para conocer tarifas y disponibilidad actualizada. Puedes comunicarte al 473 1...,descartar,respuesta_parcial_util
+LST La Santisima,2026-06-07,Precio del hospedaje?,No tengo información específica sobre el precio del hospedaje en el hotel de La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtene...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-07,Precio de hospedarse,No tengo información específica sobre el precio por noche para hospedarse en el hotel de La Santísima Trinidad. Los precios pueden variar según la temporada y la disponibilidad. Te recomiendo contactar directamente al ho...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-07,"La garantía de 2,500 que solicitan como funciona? ","No tengo información confirmada sobre una garantía de $2,500 ni detalles sobre cómo funciona ese depósito en La Santísima Trinidad. Te sugiero consultarlo directamente con el área comercial o en recepción para que te exp...",mantener_brecha,brecha_accionable
+LST La Santisima,2026-06-07,Cuál es el precio de las habitaciones ,No tengo información específica sobre los precios de las habitaciones del hotel. Te sugiero contactar directamente al hotel para obtener tarifas actualizadas y disponibilidad. Puedes comunicarte al teléfono 473 134 1086 ...,descartar,respuesta_parcial_util
+LST La Santisima,2026-06-07,Quiero comprar vino espumoso Sauvignon blanc,"Puedes comprar vino espumoso en La Santísima Trinidad directamente en sus tiendas, ubicadas en el lobby y en la vinícola. Ahí ofrecen vinos de la casa, incluyendo espumosos (aunque no se especifica si hay Sauvignon blanc...",descartar,respuesta_parcial_util
+LST La Santisima,2026-06-07,Precio de habitaciones para dos personas entre semana ,No tengo información específica sobre los precios de las habitaciones para dos personas entre semana. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel al 473 13...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-08,Costos de habitación ,No tengo información específica sobre los costos de las habitaciones del hotel en La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para o...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-08,"Buenas tardes, cual es el costo de suite con balcón",No tengo información confirmada sobre el costo específico de la suite con balcón. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la tarifa actual...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-06-08,Tienen comida maridaje mañana martes?,"No tengo información específica sobre una comida maridaje programada para mañana martes. Sin embargo, el restaurante de La Santísima Trinidad ofrece experiencias de cata con maridaje de vinos y platillos, disponibles en ...",descartar,respuesta_parcial_util
+LST La Santisima,2026-06-09,Cuales son los precios de hospedaje,No tengo información específica sobre los precios de hospedaje en el hotel de La Santísima Trinidad. Te recomiendo contactar directamente al hotel para conocer tarifas y disponibilidad actualizada. Puedes comunicarte al ...,descartar,respuesta_parcial_util
+LST La Santisima,2026-06-09,Costo de las habitaciones ,No tengo información específica sobre el costo de las habitaciones en La Santísima Trinidad. Los precios pueden variar según la temporada y disponibilidad. Te recomiendo contactar directamente al hotel para obtener la ta...,descartar,dato_dinamico_comercial
+LST La Santisima,2026-05-13,tiene casas?,"No tengo información sobre casas en La Santísima Trinidad, solo sobre el hotel y sus habitaciones. Si buscas opciones residenciales, te sugiero contactar directamente al equipo comercial para que te orienten mejor. ¿Te g...",descartar,respuesta_parcial_util
+WTC,2026-05-11,Cuando será la expo tu casa total 2026,"**World Trade Center Mexico City**
+
+No cuento con información específica sobre las fechas de **Expo Tu Casa Total 2026** en este momento.  
+
+Te recomiendo consultar directamente las fuentes oficiales de la expo o la cart...",mantener_brecha,brecha_accionable
+WTC,2026-05-11,En donde esté Platzi ,"• Soy el asistente virtual del **World Trade Center Ciudad de México**.  
+• Dentro del WTC CDMX hay varias oficinas y empresas; la ubicación específica de Platzi puede cambiar.  
+• No cuento con esa información en este m...",descartar,respuesta_parcial_util
+WTC,2026-05-11,El 16 de mayo hay uno llamado Platzi conf donde será ,"**World Trade Center Mexico City**
+
+Platzi Conf no aparece en la cartelera del **Pepsi Center** para el 16 de mayo; es un evento propio de Platzi que normalmente se realiza en áreas de congresos/expos del complejo.
+
+Lo m...",mantener_brecha,brecha_accionable
+WTC,2026-05-11,¿Cuál es el costo de un local?,En el WTC CDMX hay distintos tipos de locales y el costo puede variar según características como tamaño y ubicación. No cuento con esa información en este momento; te recomiendo consultar directamente las opciones actual...,descartar,dato_dinamico_comercial
+WTC,2026-05-12,En la nación del gato va a haber tarifa especial?,"**Estacionamiento WTC CDMX**
+
+• Para el evento “La Nación del Gato” pueden existir **tarifas especiales o esquemas distintos** al de operación normal del estacionamiento.  
+• Las tarifas en eventos son **dinámicas y pued...",descartar,respuesta_parcial_util
+WTC,2026-05-12,Se pueden realizar visitas al edificio?,"**World Trade Center Mexico City**
+
+No hay un programa general de “visitas guiadas” al edificio de oficinas como si fuera un museo, pero sí puedes visitarlo en estos casos:
+
+• Acceso libre al centro comercial y Plaza de ...",descartar,respuesta_parcial_util
+WTC,2026-05-12,Cuál es el costo del mirador? ,"**World Trade Center Mexico City**
+
+No cuento con información actualizada sobre el costo del Mirador 360° en este momento.  
+
+Te recomiendo:  
+• Consultar directamente con Información General del WTC al 55 9000 6000  
+• ...",mantener_brecha,brecha_accionable
+WTC,2026-05-12,Donde se ubica el salón mexica,"**World Trade Center Mexico City**
+
+No cuento con información interna de un espacio llamado exactamente “Salón Mexica” dentro del WTC CDMX.
+
+Te sugiero:
+- Verificar en tu invitación si dice “Centro de Convenciones WTC”, ...",mantener_brecha,brecha_accionable
+WTC,2026-05-12,necesito el contacto para rentar una estructura para stand,"No cuento con esa información en este momento. Te recomiendo consultar directamente con el área comercial / ventas de WTC CDMX para la renta de estructuras y stands para exposiciones.  
+Si también te interesa revisar esp...",descartar,dato_dinamico_comercial
+WTC,2026-05-13,Cuál es el precio de una oficina de 44 metros en el piso 38 oficina de?,"En el WTC CDMX sí hay oficinas de distintos tamaños y niveles, pero no cuento con información específica de precios, metros exactos por oficina ni disponibilidad por piso. Te recomiendo consultar el listado oficial, dond...",descartar,respuesta_parcial_util
+WTC,2026-05-13,"Quiero saber si todavía existe la licenciada de recursos humanos, la licenciada Erika Velasquez Cervantes ","Soy el asistente virtual del World Trade Center Ciudad de México.
+
+No cuento con información sobre personas específicas (como la licenciada Erika Velázquez Cervantes) ni sobre el personal interno de las empresas que rent...",mantener_brecha,brecha_accionable
+WTC,2026-05-13,Cómo no está registrado ,"Soy el asistente virtual del **World Trade Center Ciudad de México** y solo puedo ayudarte con lo relacionado al WTC CDMX.
+
+Cuando te digo que **no está registrado** significa:
+
+• Que **GRUPO ORO PAEZ, S.A. DE C.V.** no ...",revisar_manual,no_match_no_info_actual
+WTC,2026-05-14,quiero saber como llegar a las oficinas y saber si hay una empresa llamada netec,"**World Trade Center Mexico City**
+
+Sobre tus dos dudas:
+
+1) **Cómo llegar a las oficinas (piso 9 de la torre)**  
+• Entra por la explanada peatonal **Plaza de las Naciones** (frente a la fuente).  
+• Dirígete al **Sky L...",revisar_manual,no_match_no_info_actual
+WTC,2026-05-14,Fechas del evento del outlet de belleza,"**World Trade Center Mexico City**
+
+No cuento con información específica sobre las fechas del “Outlet de Belleza” en este momento. Ese tipo de evento se organiza normalmente en el CIEC (Centro Internacional de Exposicion...",mantener_brecha,brecha_accionable
+WTC,2026-05-14,Quisiera saber sobre el estacionamiento y los camiones que te llevan a la plaza de toros,"**Estacionamiento WTC CDMX**
+
+• **Estacionamiento WTC**  
+  - Abierto 24 horas, 365 días.  
+  - Vehículos permitidos: hasta 2.10 m de altura y máximo 1.5 toneladas (no se permiten camiones, vehículos mayores a 2 ejes o d...",descartar,respuesta_parcial_util
+WTC,2026-05-14,Me puedes conseguir el contacto del condomino de la oficina 04 del piso 42? la empresa se llama México Montecitos S.A de C.V ,"No aparece ningún registro con el nombre “México Montecitos S.A. de C.V.” en el piso 42 ni una oficina 04 en ese nivel (en el 42 solo están OF01, OF05 y OF06).
+
+Te recomiendo:
+• Verificar si el número de oficina es corre...",revisar_manual,no_match_no_info_actual
+WTC,2026-05-14,10,"**World Trade Center Mexico City**
+
+No cuento con información de una “oficina 10” o “piso 10” como número único dentro de la torre; en la torre las oficinas se identifican por número completo (ej. 1001, 1010, 1024, etc.)...",mantener_brecha,brecha_accionable
+WTC,2026-05-15,Boletos sneaker feaver,"Soy el asistente virtual del **World Trade Center Ciudad de México**. Puedo orientarte solo en lo relacionado al WTC, pero no vendo boletos ni confirmo carteleras de terceros.
+
+Sobre **Sneaker Fever** en el WTC CDMX:
+
+• ...",revisar_manual,no_match_no_info_actual
+WTC,2026-05-15,Cuál es el costo de los paquetes de internet?,"**World Trade Center Mexico City**
+
+No cuento con información sobre los costos de los paquetes de internet dentro del WTC CDMX en este momento.
+
+Te recomiendo consultar directamente con:
+- **Administración / Mesa de Ayud...",mantener_brecha,brecha_accionable
+WTC,2026-05-15,"Si paso después de las 9pm, podré recolectar mi paquete en el locker? ","**World Trade Center Mexico City**
+
+No cuento con información sobre horarios de acceso específicos al locker (por ejemplo, después de las 21:00 hrs).
+
+Te sugiero:
+- Revisar en la app de Amazon el detalle de tu envío (ahí...",mantener_brecha,brecha_accionable
+WTC,2026-05-15,Cuentan con guardarropa?,"**World Trade Center Mexico City**
+
+No cuento con información de que exista un servicio general de guardarropa dentro del WTC CDMX como parte de las áreas comunes del complejo.
+
+• En algunos eventos específicos (por ejem...",mantener_brecha,brecha_accionable
+WTC,2026-05-15,Necesito el nombre de una clínica dental en el piso 9 donde saquen radiografía panorámica ,"**Professional Services at WTC CDMX**
+
+En el piso 9 no hay registrada ninguna clínica ni consultorio dental:
+
+• P09, OF28: **María Jesica Razo García** – giro: sin información  
+• P09, OF39: **Grupo Copar Agente de Segur...",descartar,respuesta_parcial_util
+WTC,2026-05-15,Hacen descuento a condóminos algunos establecimientos? Si si cuáles??,"**World Trade Center Mexico City**
+
+No cuento con información sobre descuentos específicos para condóminos en establecimientos dentro del WTC CDMX.
+
+Te recomiendo:
+
+• Consultar directamente con la **Administración del WT...",mantener_brecha,brecha_accionable
+WTC,2026-05-15,Por ejemplo en starbucks,"En el caso específico de **Starbucks WTC**:
+
+• Starbucks maneja sus propias promociones y políticas de descuento.  
+• No cuento con información sobre un descuento general para condóminos en esa sucursal.  
+• Esta informa...",mantener_brecha,brecha_accionable
+WTC,2026-05-16,"Tengo un evento el dia de hoy concierto en Plaza de toros, hay lugar de estacionamiento ","**Estacionamiento WTC CDMX**  
+• El estacionamiento del WTC CDMX opera 24 horas, 365 días del año.  
+• En días de evento en recintos cercanos (como Plaza de Toros) suele haber alta demanda y ocupación muy variable.  
+• N...",descartar,respuesta_parcial_util
+WTC,2026-05-17,"Hay alguna tarifa promocionar de estacionamiento, con transporte a la plaza de toros, para el dia de hoy?","**Estacionamiento WTC CDMX**
+
+• No cuento con información sobre alguna tarifa promocional específica para hoy ni sobre transporte directo a la Plaza de Toros.  
+• Las tarifas vigentes generales son las normales del estac...",descartar,respuesta_parcial_util
+WTC,2026-05-17,Acepta pago con tag ?,"**Estacionamiento WTC CDMX**
+
+• No cuento con información específica sobre si actualmente se acepta pago con TAG (TeleVía, IAVE, etc.).  
+• El pago estándar es en cajeros automáticos dentro del estacionamiento (prepago a...",descartar,respuesta_parcial_util
+WTC,2026-05-17,información sobre valores y disponibilidad de Salones de Exposición para el 2027,"**World Trade Center Mexico City**
+
+No cuento con información específica y actualizada sobre valores (tarifas) ni disponibilidad de los Salones de Exposición para 2027.
+
+Te recomiendo:
+
+• Comunicarte directamente al Cent...",mantener_brecha,brecha_accionable
+WTC,2026-05-17,Existe un descuento o preventa ,"En el **World Trade Center Ciudad de México** los descuentos y preventas dependen 100% del organizador del evento, no del WTC.  
+
+• Puede haber preventa, códigos de descuento o precios especiales, pero los define cada or...",descartar,dato_dinamico_comercial
+WTC,2026-05-20,Cuánto cuesta poner un stand en un salón del wtc,No cuento con información actualizada sobre costos para colocar un stand en los salones del WTC CDMX. Te recomiendo contactar directamente al área comercial o de eventos del WTC para cotizaciones y detalles específicos. ...,descartar,dato_dinamico_comercial
+WTC,2026-05-21,Tienen tarifa especial para el estadio CDD,"**Estacionamiento WTC CDMX**
+
+• No cuento con información de una tarifa especial específica para “estadio CDD” en el estacionamiento del WTC.  
+• Para eventos, convenios o tarifas especiales (como estadios, recintos cerc...",descartar,respuesta_parcial_util
+WTC,2026-05-23,Si voy a una expo cuál es el costo ,"**World Trade Center Mexico City**
+
+El costo para asistir a una expo puede variar según:
+
+• El evento específico (cada expo define sus tarifas de acceso)  
+• Si eres visitante general, estudiante, profesional del sector,...",descartar,dato_dinamico_comercial
+WTC,2026-05-24,Qué exposición hay ahorita ,"**World Trade Center Mexico City**
+
+No cuento con información en tiempo real sobre la cartelera de exposiciones “ahorita”.
+
+• Dentro del WTC, las exposiciones y ferias se realizan principalmente en el CIEC (Centro Intern...",mantener_brecha,brecha_accionable
+WTC,2026-05-24,Cuándo es la Expo Canadá ,"**World Trade Center Mexico City**  
+
+No cuento con información de fechas específicas de la Expo Canadá en este momento.  
+
+Te recomiendo:  
+• Consultar directamente la cartelera de eventos del CIEC WTC:  
+<a href=""https...",mantener_brecha,brecha_accionable
+WTC,2026-05-25,¿Qué días?,"**World Trade Center Mexico City**
+
+Sobre los días de operación del mirador CETRO 360:
+
+- Solo tengo confirmado el **horario de acceso**: 10:30 a 17:15 hrs (último acceso).  
+- No cuento con información específica y actu...",mantener_brecha,brecha_accionable
+WTC,2026-05-26,Me gustaría saber si hay oportunidad de trabajo en la administración del WTC ,"**World Trade Center Mexico City**
+
+• Actualmente no tengo información sobre vacantes específicas en el área de Administración del WTC CDMX.  
+• Para oportunidades laborales o envío de CV te recomiendo contactar directam...",descartar,respuesta_parcial_util
+WTC,2026-05-27,¿Que precio tiene la pensión para motocicletas?,"**Estacionamiento WTC CDMX**
+
+No cuento con información vigente de una pensión mensual específica para motocicletas (solo de pensiones para autos y del uso por estancia para motos).
+
+Te recomiendo consultar directamente ...",descartar,respuesta_parcial_util
+WTC,2026-05-28,Este sitio es seguro? https://estacionamientowtc.com.mx,"**Estacionamiento WTC CDMX**
+
+• No cuento con información sobre la seguridad o autenticidad del sitio web que mencionas.  
+• Te recomiendo verificar directamente con la Administración del Estacionamiento WTC antes de ing...",descartar,respuesta_parcial_util
+WTC,2026-05-31,Costo para expo,"No cuento con esa información en este momento. Te recomiendo consultar directamente con el área comercial o de eventos del WTC CDMX para conocer costos y opciones de espacios para expo.  
+
+<a href=""https://wtcmexico.mx/i...",descartar,dato_dinamico_comercial
+WTC,2026-05-31,Quería saber si hay tiangis hoy en la tarde afuera ,"**World Trade Center Mexico City**
+
+No cuento con información sobre tianguis o mercados ambulantes afuera del WTC CDMX en días específicos.  
+
+Te recomiendo:  
+• Verificar directamente en el entorno inmediato del WTC (Pl...",mantener_brecha,brecha_accionable
+WTC,2026-05-31,La exposición de textiles que día será?,"**World Trade Center Mexico City**
+
+No cuento con información sobre una “exposición de textiles” en específico ni sus fechas.
+
+Te recomiendo:
+• Verificar la cartelera de exposiciones del CIEC aquí:  
+<a href=""https://www...",mantener_brecha,brecha_accionable
+WTC,2026-06-01,"El estacionamiento se puede pagar con tarjeta, app o tag?","**Estacionamiento WTC CDMX**
+
+• El pago normal se realiza en **cajeros automáticos** dentro del estacionamiento (efectivo y tarjetas bancarias, según disponibilidad del cajero).  
+• No cuento con información oficial sobr...",descartar,respuesta_parcial_util
+WTC,2026-06-03,si el boleto es del 29 de mayo aun lo puedo facturar,"**Estacionamiento WTC CDMX**
+
+La vigencia para facturar boletos de estacionamiento es limitada y puede variar por periodo, pero un boleto del 29 de mayo ya es muy antiguo para el sistema de facturación en línea y normalm...",descartar,respuesta_parcial_util
+WTC,2026-06-03,En el evento del 6 de junio de wapizima se permitirá la entrada a niños si ya está pagado su boleto ,"**World Trade Center Mexico City**
+
+No cuento con información específica sobre las políticas de acceso para el evento de Wapizima del 6 de junio (por ejemplo, si permiten niños con boleto pagado o no).
+
+Por ser un evento...",mantener_brecha,brecha_accionable
+WTC,2026-06-04,Cuáles son los precios de las oficinas ,"En el WTC CDMX contamos con oficinas en renta y venta, pero no cuento con información de precios específica ni actualizada. Te recomiendo revisar el listado oficial donde podrás ver costos, metraje y características vige...",mantener_brecha,brecha_accionable
+WTC,2026-06-07,Evento del día de hoy ,"**World Trade Center Mexico City**
+
+Hoy, domingo 7 de junio de 2026, no aparece en la cartelera pública del **Pepsi Center WTC** ningún concierto o show programado específicamente para esta fecha.
+
+• Próximos eventos cer...",mantener_brecha,brecha_accionable

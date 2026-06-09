@@ -1,0 +1,332 @@
+[
+  {
+    "name": "LST La Santisima",
+    "id": "80f70d3a-4e14-49cf-b743-7ca9dd841a70",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury boutique hotel, winery and restaurant experience set within a vineyard estate, offering lodging (5 suites), wine tastings, spa, pool, and gastronomy, rather than traditional residential sales or rentals. It is located on the San Miguel de Allende – Dolores Hidalgo highway, kilometer 81, in the state of Guanajuato, Mexico."
+  },
+  {
+    "name": "WTC",
+    "id": "a2dbda66-1339-43ae-9c67-d97f30c198ac",
+    "type": "AGENTFLOW",
+    "response": "🏢 Soy el asistente virtual del **World Trade Center Ciudad de México** y solo puedo ayudarte con temas relacionados al WTC CDMX.  \nPuedo ayudarte con: 📍 Ubicación y cómo llegar 👔 Servicios profesionales y oficinas 🛍️ Centro comercial 🅿️ Estacionamiento 📋 Reglamentos ¿Tienes alguna pregunta sobre el WTC?"
+  },
+  {
+    "name": "Torre Zero Centro de Neogcios",
+    "id": "25811504-b1df-46be-8543-a6d17a5e347f",
+    "type": "AGENTFLOW",
+    "response": "ERROR 500: {\"statusCode\":500,\"success\":false,\"message\":\"Error: predictionsServices.buildChatflow - Error in Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment varia"
+  },
+  {
+    "name": "Torre Zero Providencia",
+    "id": "9b968405-d68a-42ed-9d4d-1da1bac36fbf",
+    "type": "AGENTFLOW",
+    "response": "Torre Zero Providencia es un edificio corporativo de oficinas en renta, diseñado para uso ejecutivo y empresarial. Aquí se rentan oficinas en distintos metrajes y está ubicado en Av. Ignacio Comonfort #1300 Norte, Col. La Providencia, Metepec, Estado de México, a un costado de Plaza Town Square."
+  },
+  {
+    "name": "Torre Alhena",
+    "id": "0a9363a3-8cfa-4e0c-b5d4-9d228a60cdb2",
+    "type": "AGENTFLOW",
+    "response": "Es un desarrollo residencial en torre con 29 niveles y 224 departamentos de lujo en preventa. Aquí se venden departamentos (incluyendo penthouses) y está ubicado en Cto. Interior Melchor Ocampo 193, colonia Verónica Anzúres, alcaldía Miguel Hidalgo, Ciudad de México."
+  },
+  {
+    "name": "Terralago",
+    "id": "f98edc6a-940e-40d4-88b7-986e8813965a",
+    "type": "AGENTFLOW",
+    "response": "Terralago es un desarrollo residencial de lotes unifamiliares y condominales premium en preventa, no es un proyecto de renta de viviendas u oficinas. Se ubica en la zona más exclusiva de Lomas Verdes, con vistas a la ciudad y a la Presa Madín, en el área metropolitana de la Ciudad de México."
+  },
+  {
+    "name": "Punta Zero",
+    "id": "c1c75382-f36e-4346-a06b-1bc68b3f115a",
+    "type": "AGENTFLOW",
+    "response": "Punta Zero es un centro comercial de más de 26,000 m² de construcción con locales comerciales en planta baja y planta alta, estacionamiento en sótano, elevadores y escaleras eléctricas. Aquí se venden y rentan locales comerciales, y está ubicado en Calimaya, Estado de México, entre los fraccionamientos Bosque de las Fuentes y Valle de las Fuentes, a pocos minutos de Metepec y Toluca."
+  },
+  {
+    "name": "Mozaiko Lindavista",
+    "id": "78eca94c-d9ef-465d-8dcc-6f4585435311",
+    "type": "AGENTFLOW",
+    "response": "Es un desarrollo residencial de departamentos de 2 y 3 recámaras con amenidades como alberca, gimnasio, ludoteca, áreas verdes y pet zone, pensado para vivir o invertir. Aquí se venden departamentos y está ubicado en Cienfuegos 1077, Residencial Zacatenco, Lindavista, Alcaldía Gustavo A. Madero, Ciudad de México, a unos 20 minutos de Paseo de la Reforma."
+  },
+  {
+    "name": "LST San Francisco",
+    "id": "20ff6f90-c014-4b05-8207-6ab08a7da8e0",
+    "type": "AGENTFLOW",
+    "response": "This is a boutique Tuscan-style hotel and vineyard project with a Mediterranean restaurant, spa, sports amenities (paddle/tennis courts, polo field) and organized wine tastings. It offers hotel rooms (junior, suite and master suite), restaurant service, spa treatments and wine experiences within the vineyards, located in the San Miguel de Allende area in Mexico."
+  },
+  {
+    "name": "LST Santa Catalina",
+    "id": "89cfc791-b99a-493d-bc15-fd27ae5df45b",
+    "type": "AGENTFLOW",
+    "response": "This is a boutique hotel and vineyard with restaurant, spa and extensive green areas; in addition, residential lots with their own vineyard and olive grove are sold. It is located in the countryside near San Miguel de Allende, Guanajuato, Mexico (CP 37884)."
+  },
+  {
+    "name": "LST San Lucas",
+    "id": "453117e4-c239-4299-8721-0c9528b4fec2",
+    "type": "AGENTFLOW",
+    "response": "It’s a boutique hotel, vineyard, and winery complex with spa, restaurant, sports areas, and wine‑tasting experiences (not a housing or offices development). It’s located in Viñedo San Lucas, near San Miguel de Allende, in the state of Guanajuato, Mexico."
+  },
+  {
+    "name": "LST Los Senderos",
+    "id": "068df4e5-073c-45f0-996d-34dc4f886ec5",
+    "type": "AGENTFLOW",
+    "response": "This is a wine-country residential development with vineyard lots for sale, plus an on-site winery and the Barrica de Fuego smokehouse-style restaurant. It is located in Viñedos de los Senderos, very close to San Miguel de Allende, Guanajuato, Mexico."
+  },
+  {
+    "name": "LST - Providencia",
+    "id": "72575c98-67c8-4fa6-827a-20d27195d1d8",
+    "type": "AGENTFLOW",
+    "response": "This is a residential country-style project with private lots where you can build a house among vineyards and century-old walnut trees, plus amenities like a boutique hotel and equestrian club. It is located near the center of Parras, Coahuila, a few hours from Monterrey, Mexico."
+  },
+  {
+    "name": "Mahi Residencial",
+    "id": "49f64056-46a3-4c94-bc4b-0e075b988c96",
+    "type": "AGENTFLOW",
+    "response": "Es un desarrollo residencial con uso de suelo habitacional y comercial donde se venden lotes urbanizados para construir casas, departamentos o proyectos mixtos. Está ubicado en San Miguel de Allende, a unos 2.9 km del Centro Histórico, en la zona cercana al club de golf Las Ventanas y al Epic Center."
+  },
+  {
+    "name": "Lst Providencia Coahuila",
+    "id": "f6cdb4f5-b9cd-4a12-a943-6f02633aba13",
+    "type": "AGENTFLOW",
+    "response": "This is a residential countryside community where private lots are sold so you can build your own house among vineyards and walnut trees, complemented by amenities like a boutique hotel, polo field, and equestrian club. It is located near the center of Parras, in the state of Coahuila, a few hours from Monterrey, Mexico."
+  },
+  {
+    "name": "Mavila",
+    "id": "b8ba1115-3649-4dfc-89e3-090126e726bd",
+    "type": "AGENTFLOW",
+    "response": "TIMEOUT"
+  },
+  {
+    "name": "Los Nogales",
+    "id": "dbdf8dd3-a3a5-4dbb-9e7b-9b996cc4f98b",
+    "type": "AGENTFLOW",
+    "response": "Es un desarrollo residencial familiar con casas y lotes urbanizados, que incluye áreas verdes, amenidades y casa club. Aquí se venden residencias de diferentes modelos y terrenos/lotes dentro de un fraccionamiento privado, ubicado en Ex Hacienda Lote FRACC-B, Los Valdez, 25904, en Saltillo, Coahuila, a pocos minutos del Club Campestre de Saltillo."
+  },
+  {
+    "name": "KIO",
+    "id": "2bc49a0b-5459-4dab-b9a6-f4080c43371c",
+    "type": "AGENTFLOW",
+    "response": "This is a technology and data center infrastructure project that provides colocation, cloud services, cybersecurity, and managed IT services for companies. It operates data centers (not housing or retail real estate) in Mexico, Guatemala, Panama, the Dominican Republic, Colombia, and Spain."
+  },
+  {
+    "name": "Hideaways",
+    "id": "e23e1850-dd98-4f48-9fa8-4a8488497a4d",
+    "type": "AGENTFLOW",
+    "response": "It’s a residential condominium project with lofts and 1–4 bedroom apartments for sale, plus shared amenities like pool, gym, and rooftop spaces. It’s located in Los Cabos, Baja California Sur, México, in the San José del Cabo area."
+  },
+  {
+    "name": "GGI Palmas Uno",
+    "id": "41caee1a-6ab0-4edf-b2c9-162cda9dcc83",
+    "type": "AGENTFLOW",
+    "response": "This is a mixed‑use corporate project with luxury offices (for sale and for rent) above a retail/commercial base. It is located on Boulevard Palmas Hills, Avenida Hacienda de las Palmas, in the Interlomas corridor, Estado de México, behind Hospital Ángeles and with excellent connectivity to Bosques de las Lomas and Santa Fe."
+  },
+  {
+    "name": "GGI Miyana Residencial",
+    "id": "1f2946d8-6362-4ba4-9d6b-880f7f147f65",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury mixed-use residential complex with apartments for sale, integrated into a larger development that also includes a shopping center. It is located at Av. Ejército Nacional Mexicano 769, colonia Granada, in the Miguel Hidalgo borough of Mexico City, CDMX."
+  },
+  {
+    "name": "Coronado",
+    "id": "938763d0-4ca0-4681-9b03-5289d2464e64",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury residential project of single-story houses within a private, master-planned golf and beach community; buyers purchase fully designed 4- and 5-bedroom homes on individual lots. It is located inside Quivira Los Cabos, on the Pacific side of Cabo San Lucas, Baja California Sur, Mexico."
+  },
+  {
+    "name": "Brisas Ixtapa",
+    "id": "ea0aed0d-f699-46da-8a2b-1ed0a096682e",
+    "type": "AGENTFLOW",
+    "response": "Es un hotel de playa de gran turismo con 416 habitaciones y suites, orientado a vacaciones, bodas y escapadas de descanso en plan todo incluido o europeo. Aquí se vende hospedaje (habitaciones y suites) y servicios turísticos, y está ubicado en Ixtapa Zihuatanejo, Guerrero, frente al mar en la zona hotelera de Ixtapa."
+  },
+  {
+    "name": "Bosques de Tepepan",
+    "id": "10cbfacc-3b22-4c21-9bfd-4493c3018294",
+    "type": "AGENTFLOW",
+    "response": "This is a sustainable residential complex with 6 towers of 2–3 bedroom apartments for sale, plus some units offered for rent. It is located at Calle El Mirador 18, Col. Fuentes de Tepepan, Tlalpan, in the south of Mexico City."
+  },
+  {
+    "name": "Archandel",
+    "id": "a8ea193e-d6f1-4235-bec2-6a8772a1fd83",
+    "type": "AGENTFLOW",
+    "response": "This is a modern residential project with apartments (1, 2 and 3 bedrooms) in two towers, plus commercial premises on the ground floor. It is located at Av. México Coyoacán 340, colonia General Anaya, very close to Colonia del Valle and Coyoacán in CDMX."
+  },
+  {
+    "name": "Ara Dream Diamante",
+    "id": "85cd093a-8aab-4b70-9172-efae11009402",
+    "type": "AGENTFLOW",
+    "response": "Dream Diamante is a residential beach development that offers 3- and 4-bedroom apartments as well as 3-bedroom houses for sale, with extensive amenities and a private beach club ideal for vacation or permanent living. It is located on Blvd. a Barra Vieja Km 3.5, Col. Alfredo V. Bonfil, in the Diamante area of Acapulco, Mexico, just steps from the beach and minutes from the airport and main shopping centers."
+  },
+  {
+    "name": "Alvar",
+    "id": "1d1bcd7e-bd02-41e0-9095-57b5bbc7b2bc",
+    "type": "AGENTFLOW",
+    "response": "Alvar is a private luxury residential community of spacious ocean- and golf-view condominiums and penthouses (3–5 bedrooms), offered for sale with optional professional rental management. It is located within Quivira Los Cabos, an exclusive master-planned community on the Pacific coast of Cabo San Lucas, Baja California Sur, Mexico."
+  },
+  {
+    "name": "Aerolíneas Ejecutivas ALE",
+    "id": "82ee9777-2d5f-49e9-9998-850eb5063928",
+    "type": "AGENTFLOW",
+    "response": "This is not a real estate project; it is an executive aviation and luxury mobility company offering private jets, helicopters, aircraft management, maintenance, and fractional ownership of aircraft and yachts. Its main corporate offices are in Mexico City (Paseo de la Reforma), with operational bases in Toluca, Monterrey, Guadalajara, León, and Mérida, and yacht destinations such as La Paz, Miami, Bahamas, Cancún, and Ixtapa."
+  },
+  {
+    "name": "WE WORK",
+    "id": "987464b9-dec9-416c-a007-165c91b8848c",
+    "type": "AGENTFLOW",
+    "response": "This is a flexible office and coworking project offering private offices (for small to large teams), full-floor offices, and shared workspaces with amenities. In this specific case, it is located in WeWork Arcos Bosques at Paseo de los Tamarindos 90, Bosques de las Lomas, Cuajimalpa de Morelos, 05120, Mexico City, Mexico."
+  },
+  {
+    "name": "Volterra",
+    "id": "fdb7ec02-e05d-4007-9cc1-e2efbbed2345",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury residential development of 116 condominiums (apartments) with 3 bedrooms and full amenities, offered for sale and ready for immediate delivery. It is located on Calle Vicente Guerrero in Coaxustenco, Metepec, State of Mexico, about 2 minutes from Town Square Metepec and 35 minutes from Santa Fe."
+  },
+  {
+    "name": "Virreyes",
+    "id": "1868dfd5-4647-4dbe-902b-759b18891515",
+    "type": "AGENTFLOW",
+    "response": "This is a residential development of standalone houses for sale, delivered ready to live in with luxury finishes and private gardens. It is located on Boulevard Virreyes S/N, Colonia San Andrés Ocotlán, in Calimaya, Estado de México, about 10 minutes from Metepec and 35 minutes from Santa Fe."
+  },
+  {
+    "name": "Vesta Park",
+    "id": "58d9f2cd-8518-4f83-b65f-b7ec0aceb760",
+    "type": "AGENTFLOW",
+    "response": "This is an industrial logistics and light-manufacturing park offering Class A industrial warehouses for lease (not a housing, office, hotel, or retail/mall project). It is located at Cam. Vecinal 15801, Barcelona Residencial, Col. El Rosario, Tijuana, Baja California, Mexico."
+  },
+  {
+    "name": "SLS - Residences, yacht & sail club",
+    "id": "156a0ea9-c2b4-413e-995f-348a9be512f3",
+    "type": "AGENTFLOW",
+    "response": "Es un desarrollo de residencias vacacionales de lujo en modelo de propiedad fraccional, con operación tipo hotel. Aquí se venden fracciones de departamentos de 3 y 4 recámaras frente al mar, ubicado en la Riviera Yucatán, en el km 34 de la carretera Progreso–Telchac."
+  },
+  {
+    "name": "Ribra - Arcos Bosques",
+    "id": "a95732cc-5c32-4958-95e2-055d1d33c316",
+    "type": "AGENTFLOW",
+    "response": "This is a Class A+ corporate office tower offering flexible office spaces for rent, from small furnished offices to large areas of up to 900 m². It is located in Torre Arcos Bosques “El Pantalón” at Av. de los Tamarindos 400, Bosque de las Lomas, Cuajimalpa, in western Mexico City."
+  },
+  {
+    "name": "Quvira Showrom",
+    "id": "829ec95a-36ff-4c59-b62a-ac4ff2dbf0fd",
+    "type": "AGENTFLOW",
+    "response": "Quivira Los Cabos es una comunidad privada master-planned frente al Océano Pacífico que ofrece principalmente residencias y desarrollos residenciales de lujo dentro de un ecosistema turístico–residencial con resorts, club de golf y club de playa. Está ubicado en Los Cabos, Baja California Sur, México, en un terreno de 750 hectáreas con más de 5 km de playa sobre la costa del Pacífico."
+  },
+  {
+    "name": "Quivira",
+    "id": "ab8abc17-c8c3-4898-b594-872896959b17",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury residential resort community where condominiums, villas, and single-family homes are sold, and where owners can also place their properties into a professionally managed vacation rental program. It is located in Quivira Los Cabos, on the Pacific Ocean side of Cabo San Lucas in Baja California Sur, Mexico."
+  },
+  {
+    "name": "Punta Cuerna",
+    "id": "8614d103-f563-4f0b-907a-c34ba58c8d55",
+    "type": "AGENTFLOW",
+    "response": "It’s a residential countryside development where individual lots are sold so you can build your own home among vineyards and century-old walnut trees, with amenities like a polo field, equestrian club, and a boutique hotel. It’s located near the town center of Parras, in the state of Coahuila, Mexico, a few hours from Monterrey."
+  },
+  {
+    "name": "Prologis - Lerma",
+    "id": "cdc81199-bde0-452c-99de-7c74f8e597fc",
+    "type": "AGENTFLOW",
+    "response": "This is a Class A industrial logistics park (Prologis Park Lerma I) offering large warehouse / manufacturing spaces for lease, with associated office areas for tenants. It is located in a gated 5‑building industrial complex on Carretera Amomulco–El Llanito, San José El Llanito, Lerma, Estado de México, within the Toluca industrial corridor."
+  },
+  {
+    "name": "plataformaNauma",
+    "id": "756dd2f3-7f9a-4684-b3c3-10a096b96e9b",
+    "type": "AGENTFLOW",
+    "response": "This is a residential development of modern apartments (lofts and 1, 2 and 3-bedroom units) for sale, focused on a resort-style lifestyle with extensive amenities. It is located in Interlomas, in Hacienda de las Palmas, Huixquilucan, State of Mexico, at Manzana 021, Hacienda de las Palmas, 52763 Jesús del Monte, Méx."
+  },
+  {
+    "name": "Novotech SSEISO",
+    "id": "8d2fd269-fe3e-4be3-85e6-3bf437dd0143",
+    "type": "AGENTFLOW",
+    "response": "Es un parque logístico-industrial orientado a emprendedores y MIPYMES, donde se comercializan espacios y lotes para logística, almacenamiento y operación industrial ligera. Está ubicado en el Bajío, sobre la Carretera Celaya–Apaseo el Grande Km 262, en Apaseo el Grande, Guanajuato, con conexión estratégica a las carreteras 45 y 57."
+  },
+  {
+    "name": "Novotech Mision Punta Norte",
+    "id": "31d01ff6-a2d2-4035-8e5d-a481c89dff0b",
+    "type": "AGENTFLOW",
+    "response": "Es un desarrollo residencial sostenible donde se venden terrenos y lotes habitacionales desde 200 m² dentro de un master plan con amenidades, infraestructura moderna y enfoque ecológico. Está ubicado sobre la carretera transpeninsular km 21, en La Paz, Baja California Sur, a pocos minutos del Mar de Cortés y del aeropuerto de La Paz."
+  },
+  {
+    "name": "Novotech La Paz",
+    "id": "526a971a-9f0e-40dc-bd90-f50205233071",
+    "type": "AGENTFLOW",
+    "response": "Es un recinto logístico e industrial donde ofrecemos principalmente terrenos y naves industriales para actividades de logística y almacenamiento, desde 500 m², con infraestructura especializada para MIPYMES. Está ubicado en La Paz, Baja California Sur, en una zona estratégica cercana al Aeropuerto Internacional, Puerto Pichilingue y la Carretera Transpeninsular La Paz–Los Cabos."
+  },
+  {
+    "name": "Novotech - Silao",
+    "id": "915db78f-f8d8-4754-a963-f82d9bde87af",
+    "type": "AGENTFLOW",
+    "response": "Es un clúster industrial donde se venden y rentan terrenos y naves industriales desde aproximadamente 500–1,200 m² para logística, almacenamiento y uso industrial. Está ubicado en Novotech, San Isidro El Arenal, Silao de la Victoria, Guanajuato, frente al parque industrial FIPASI y a 1 km de la carretera federal 45."
+  },
+  {
+    "name": "NIZUC",
+    "id": "cd55ce82-5916-4117-aa3a-98ebd5d0c890",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury beachfront hospitality project: **NIZUC Resort & Spa**, offering **hotel accommodations (suites and private villas) for rent** rather than homes/lots for sale. It’s located in **Punta Nizuc in the Mexican Caribbean, near Cancún, Mexico (less than 15 minutes from Cancún International Airport)**."
+  },
+  {
+    "name": "Nauma Lomas",
+    "id": "35f364ba-9e93-45f6-9d9f-f0c160b9c994",
+    "type": "AGENTFLOW",
+    "response": "Nauma Lomas es un desarrollo residencial de departamentos (lofts y unidades de 1, 2 y 3 recámaras) con más de 50 amenidades y estilo de vida tipo resort.  \nEstá ubicado en Hacienda de las Palmas, Interlomas, Huixquilucan, Estado de México (Jesús del Monte, C.P. 52763)."
+  },
+  {
+    "name": "Mita Map",
+    "id": "291b78cb-1192-4daa-95fa-b14316d63489",
+    "type": "AGENTFLOW",
+    "response": "This is a luxury vacation rental and property management project offering high‑end villas, condominiums, and haciendas. It is located within the gated community of Punta Mita, Nayarit, Mexico."
+  },
+  {
+    "name": "Gran Terraza Coapa",
+    "id": "df4d386c-1024-4c49-8743-3002b9e384f0",
+    "type": "AGENTFLOW",
+    "response": "This is a commercial shopping center (mall) with retail stores, restaurants, entertainment venues, and services; what is rented here are commercial spaces and advertising spaces for brands and businesses. It is located at Calzada Acoxpa 610, in the south of Mexico City, near Estadio Azteca and Periférico Sur."
+  },
+  {
+    "name": "koppi",
+    "id": "90b046f2-2b56-4ad1-9fc5-abcd229de895",
+    "type": "AGENTFLOW",
+    "response": "This is not a real estate project; koppi is a SaaS digital sales ecosystem that helps you show and sell spaces using virtual reality, AI, and centralized data. It is a cloud platform, so it’s not a physical development and is used online from anywhere."
+  },
+  {
+    "name": "GGI Agwa Bosques",
+    "id": "c39f8afe-8030-429e-93cf-ff8ff1f6a276",
+    "type": "AGENTFLOW",
+    "response": "Es un proyecto corporativo de oficinas AAA en renta y venta de espacios de oficina de distintos metrajes para empresas, diseñado para el sector empresarial. Está ubicado en la Carretera México–Toluca 1535, en el corredor Bosques, al poniente de la Ciudad de México, muy cerca de Bosques de las Lomas y Santa Fe. ¿Te gustaría que te comparta metrajes disponibles o requisitos para rentar/comprar?"
+  },
+  {
+    "name": "Nativas",
+    "id": "9325bc13-9725-4215-8bfb-455cfa67f768",
+    "type": "AGENTFLOW",
+    "response": "Nativas es un desarrollo habitacional vertical de usos mixtos donde se venden exclusivamente departamentos. Está ubicado en Av. Las Palmas 4444, Col. Los Cedros, en la zona Cumbres de Monterrey, Nuevo León.  \n\n¿Te gustaría conocer más sobre las amenidades o la ubicación?"
+  },
+  {
+    "name": "CRM AI",
+    "id": "f1008f5a-6846-4861-93be-483158041dcf",
+    "type": "AGENTFLOW",
+    "response": "Torre Alhena es un **desarrollo residencial vertical** (torre de **departamentos de lujo**) como primera fase de un master plan de transformación del complejo **Galerías Plaza de las Estrellas**. Aquí se **venden departamentos**, y está ubicado en **Cto. Interior Melchor Ocampo 193, Col. Verónica Anzúres, Miguel Hidalgo, 11300, Ciudad de México (CDMX)**."
+  },
+  {
+    "name": "Nizuc",
+    "id": "dfcd62a3-3638-4215-9c53-43286421d8d3",
+    "type": "CHATFLOW",
+    "response": "Nizuc Resort & Spa is a luxury hotel and resort located in the exclusive Punta Nizuc area of Cancún, Mexico. It offers suites and private villas for short-term stays, along with spa, dining, and event services; it is not a residential or commercial real estate project."
+  },
+  {
+    "name": "Novotech - Santa Maria",
+    "id": "41a2b594-edc1-418d-bf09-cd408dce8105",
+    "type": "CHATFLOW",
+    "response": "Novotech Santa Maria is an industrial park project where industrial lots and warehouses are sold or rented for business and logistics purposes. It is located in Santa Maria, Querétaro, Mexico."
+  },
+  {
+    "name": "Prologis - CIJ4",
+    "id": "504dcd65-605a-4d9e-9e8e-2a05c44f0d6e",
+    "type": "CHATFLOW",
+    "response": "Prologis CIJ4 is an industrial warehouse project located at Avenida Miguel de la Madrid #1136, Centro Industrial Juarez, 32695, Juarez, Chihuahua, Mexico. It offers industrial and logistics spaces for rent, primarily for logistics, distribution, and manufacturing purposes, and does not include residential options like houses or apartments."
+  },
+  {
+    "name": "Pueblo Bonito",
+    "id": "65cdfe43-560e-402b-8ecc-07d18a03994f",
+    "type": "AGENTFLOW",
+    "response": "Pueblo Bonito Vantage es un desarrollo residencial que ofrece en venta condominios y villas de lujo, con opciones de 2, 3 y 4 recámaras. Está ubicado en San Miguel de Allende, integrando el estilo mexicano colonial y hacendario contemporáneo en sus residencias."
+  }
+]

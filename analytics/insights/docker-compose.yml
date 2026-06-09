@@ -1,0 +1,37 @@
+# Run from the repository root:
+#   docker compose -f analytics/insights/docker-compose.yml up --build
+
+services:
+  insights-api:
+    build:
+      context: ../..
+      dockerfile: analytics/insights/Dockerfile
+    ports:
+      - "5070:5070"
+    env_file:
+      - ../.env
+    environment:
+      - ADMIN_REPO_ROOT=/app
+      - PORT=5070
+      # For production, set these in EasyPanel/host env instead of committing them:
+      # - API_SECRET=your-long-random-secret
+      # - ALLOWED_ORIGINS=https://dashboard.koppi.mx,https://admin.koppi.mx
+    volumes:
+      - insights_cache:/app/analytics/insights/.insights_cache
+      - ai_cache:/app/analytics/insights/.ai_enrichment_cache
+      - conv_cache:/app/analytics/insights/.conv_cache
+      - data_cache:/app/analytics/data
+      - admin_state:/app/admin_state
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5070/api/status')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  insights_cache:
+  ai_cache:
+  conv_cache:
+  data_cache:
+  admin_state:

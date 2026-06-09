@@ -1,0 +1,783 @@
+{
+  "nodes": [
+    {
+      "id": "startAgentflow_0",
+      "type": "agentFlow",
+      "position": {
+        "x": -260.5,
+        "y": 79.5
+      },
+      "width": 103,
+      "height": 66,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -260.5,
+        "y": 79.5
+      },
+      "data": {
+        "id": "startAgentflow_0",
+        "label": "Start",
+        "version": 1.1,
+        "name": "startAgentflow",
+        "type": "Start",
+        "color": "#7EE787",
+        "hideInput": true,
+        "baseClasses": [
+          "Start"
+        ],
+        "category": "Agent Flows",
+        "description": "Starting point of the agentflow",
+        "inputParams": [
+          {
+            "label": "Input Type",
+            "name": "startInputType",
+            "type": "options",
+            "options": [
+              {
+                "label": "Chat Input",
+                "name": "chatInput",
+                "description": "Start the conversation with chat input"
+              },
+              {
+                "label": "Form Input",
+                "name": "formInput",
+                "description": "Start the workflow with form inputs"
+              }
+            ],
+            "default": "chatInput",
+            "id": "startAgentflow_0-input-startInputType-options",
+            "display": true
+          },
+          {
+            "label": "Form Title",
+            "name": "formTitle",
+            "type": "string",
+            "placeholder": "Please Fill Out The Form",
+            "show": {
+              "startInputType": "formInput"
+            },
+            "id": "startAgentflow_0-input-formTitle-string",
+            "display": false
+          },
+          {
+            "label": "Form Description",
+            "name": "formDescription",
+            "type": "string",
+            "placeholder": "Complete all fields below to continue",
+            "show": {
+              "startInputType": "formInput"
+            },
+            "id": "startAgentflow_0-input-formDescription-string",
+            "display": false
+          },
+          {
+            "label": "Form Input Types",
+            "name": "formInputTypes",
+            "description": "Specify the type of form input",
+            "type": "array",
+            "show": {
+              "startInputType": "formInput"
+            },
+            "array": [
+              {
+                "label": "Type",
+                "name": "type",
+                "type": "options",
+                "options": [
+                  {
+                    "label": "String",
+                    "name": "string"
+                  },
+                  {
+                    "label": "Number",
+                    "name": "number"
+                  },
+                  {
+                    "label": "Boolean",
+                    "name": "boolean"
+                  },
+                  {
+                    "label": "Options",
+                    "name": "options"
+                  }
+                ],
+                "default": "string"
+              },
+              {
+                "label": "Label",
+                "name": "label",
+                "type": "string",
+                "placeholder": "Label for the input"
+              },
+              {
+                "label": "Variable Name",
+                "name": "name",
+                "type": "string",
+                "placeholder": "Variable name for the input (must be camel case)",
+                "description": "Variable name must be camel case. For example: firstName, lastName, etc."
+              },
+              {
+                "label": "Add Options",
+                "name": "addOptions",
+                "type": "array",
+                "show": {
+                  "formInputTypes[$index].type": "options"
+                },
+                "array": [
+                  {
+                    "label": "Option",
+                    "name": "option",
+                    "type": "string"
+                  }
+                ]
+              }
+            ],
+            "id": "startAgentflow_0-input-formInputTypes-array",
+            "display": false
+          },
+          {
+            "label": "Ephemeral Memory",
+            "name": "startEphemeralMemory",
+            "type": "boolean",
+            "description": "Start fresh for every execution without past chat history",
+            "optional": true,
+            "id": "startAgentflow_0-input-startEphemeralMemory-boolean",
+            "display": true
+          },
+          {
+            "label": "Flow State",
+            "name": "startState",
+            "description": "Runtime state during the execution of the workflow",
+            "type": "array",
+            "optional": true,
+            "array": [
+              {
+                "label": "Key",
+                "name": "key",
+                "type": "string",
+                "placeholder": "Foo"
+              },
+              {
+                "label": "Value",
+                "name": "value",
+                "type": "string",
+                "placeholder": "Bar",
+                "optional": true
+              }
+            ],
+            "id": "startAgentflow_0-input-startState-array",
+            "display": true
+          },
+          {
+            "label": "Persist State",
+            "name": "startPersistState",
+            "type": "boolean",
+            "description": "Persist the state in the same session",
+            "optional": true,
+            "id": "startAgentflow_0-input-startPersistState-boolean",
+            "display": true
+          }
+        ],
+        "inputAnchors": [],
+        "inputs": {
+          "startInputType": "chatInput",
+          "formTitle": "",
+          "formDescription": "",
+          "formInputTypes": "",
+          "startEphemeralMemory": "",
+          "startState": [
+            {
+              "key": "project",
+              "value": "Anahuac_Orientador_Vocacional"
+            },
+            {
+              "key": "userMotivations",
+              "value": ""
+            },
+            {
+              "key": "userValues",
+              "value": ""
+            },
+            {
+              "key": "conversationStage",
+              "value": "paso1_escuchar"
+            }
+          ],
+          "startPersistState": true
+        },
+        "outputAnchors": [
+          {
+            "id": "startAgentflow_0-output-startAgentflow",
+            "label": "Start",
+            "name": "startAgentflow"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      },
+      "dragging": false
+    },
+    {
+      "id": "agentAgentflow_0",
+      "type": "agentFlow",
+      "position": {
+        "x": -73.92434917749851,
+        "y": 43.02000000000001
+      },
+      "width": 278,
+      "height": 128,
+      "selected": true,
+      "positionAbsolute": {
+        "x": -73.92434917749851,
+        "y": 43.02000000000001
+      },
+      "data": {
+        "id": "agentAgentflow_0",
+        "label": "Anáhuac Orientador Vocacional",
+        "version": 3.2,
+        "name": "agentAgentflow",
+        "type": "Agent",
+        "color": "#4DD0E1",
+        "baseClasses": [
+          "Agent"
+        ],
+        "category": "Agent Flows",
+        "description": "Orientador vocacional que acompaña a la persona a entenderse antes de elegir carrera",
+        "inputParams": [
+          {
+            "label": "Model",
+            "name": "agentModel",
+            "type": "asyncOptions",
+            "loadMethod": "listModels",
+            "loadConfig": true,
+            "id": "agentAgentflow_0-input-agentModel-asyncOptions",
+            "display": true
+          },
+          {
+            "label": "Messages",
+            "name": "agentMessages",
+            "type": "array",
+            "optional": true,
+            "acceptVariable": true,
+            "array": [
+              {
+                "label": "Role",
+                "name": "role",
+                "type": "options",
+                "options": [
+                  {
+                    "label": "System",
+                    "name": "system"
+                  },
+                  {
+                    "label": "Assistant",
+                    "name": "assistant"
+                  },
+                  {
+                    "label": "Developer",
+                    "name": "developer"
+                  },
+                  {
+                    "label": "User",
+                    "name": "user"
+                  }
+                ]
+              },
+              {
+                "label": "Content",
+                "name": "content",
+                "type": "string",
+                "acceptVariable": true,
+                "generateInstruction": true,
+                "rows": 4
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentMessages-array",
+            "display": true
+          },
+          {
+            "label": "OpenAI Built-in Tools",
+            "name": "agentToolsBuiltInOpenAI",
+            "type": "multiOptions",
+            "optional": true,
+            "options": [
+              {
+                "label": "Web Search",
+                "name": "web_search_preview",
+                "description": "Search the web for the latest information"
+              },
+              {
+                "label": "Code Interpreter",
+                "name": "code_interpreter",
+                "description": "Write and run Python code in a sandboxed environment"
+              },
+              {
+                "label": "Image Generation",
+                "name": "image_generation",
+                "description": "Generate images based on a text prompt"
+              }
+            ],
+            "show": {
+              "agentModel": "chatOpenAI"
+            },
+            "id": "agentAgentflow_0-input-agentToolsBuiltInOpenAI-multiOptions",
+            "display": false
+          },
+          {
+            "label": "Gemini Built-in Tools",
+            "name": "agentToolsBuiltInGemini",
+            "type": "multiOptions",
+            "optional": true,
+            "options": [
+              {
+                "label": "URL Context",
+                "name": "urlContext",
+                "description": "Extract content from given URLs"
+              },
+              {
+                "label": "Google Search",
+                "name": "googleSearch",
+                "description": "Search real-time web content"
+              },
+              {
+                "label": "Code Execution",
+                "name": "codeExecution",
+                "description": "Write and run Python code in a sandboxed environment"
+              }
+            ],
+            "show": {
+              "agentModel": "chatGoogleGenerativeAI"
+            },
+            "id": "agentAgentflow_0-input-agentToolsBuiltInGemini-multiOptions",
+            "display": false
+          },
+          {
+            "label": "Anthropic Built-in Tools",
+            "name": "agentToolsBuiltInAnthropic",
+            "type": "multiOptions",
+            "optional": true,
+            "options": [
+              {
+                "label": "Web Search",
+                "name": "web_search_20250305",
+                "description": "Search the web for the latest information"
+              },
+              {
+                "label": "Web Fetch",
+                "name": "web_fetch_20250910",
+                "description": "Retrieve full content from specified web pages"
+              }
+            ],
+            "show": {
+              "agentModel": "chatAnthropic"
+            },
+            "id": "agentAgentflow_0-input-agentToolsBuiltInAnthropic-multiOptions",
+            "display": false
+          },
+          {
+            "label": "Tools",
+            "name": "agentTools",
+            "type": "array",
+            "optional": true,
+            "array": [
+              {
+                "label": "Tool",
+                "name": "agentSelectedTool",
+                "type": "asyncOptions",
+                "loadMethod": "listTools",
+                "loadConfig": true
+              },
+              {
+                "label": "Require Human Input",
+                "name": "agentSelectedToolRequiresHumanInput",
+                "type": "boolean",
+                "optional": true
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentTools-array",
+            "display": true
+          },
+          {
+            "label": "Knowledge (Document Stores)",
+            "name": "agentKnowledgeDocumentStores",
+            "type": "array",
+            "description": "Give your agent context about different document sources. Document stores must be upserted in advance.",
+            "array": [
+              {
+                "label": "Document Store",
+                "name": "documentStore",
+                "type": "asyncOptions",
+                "loadMethod": "listStores"
+              },
+              {
+                "label": "Describe Knowledge",
+                "name": "docStoreDescription",
+                "type": "string",
+                "generateDocStoreDescription": true,
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
+              },
+              {
+                "label": "Return Source Documents",
+                "name": "returnSourceDocuments",
+                "type": "boolean",
+                "optional": true
+              }
+            ],
+            "optional": true,
+            "id": "agentAgentflow_0-input-agentKnowledgeDocumentStores-array",
+            "display": true
+          },
+          {
+            "label": "Knowledge (Vector Embeddings)",
+            "name": "agentKnowledgeVSEmbeddings",
+            "type": "array",
+            "description": "Give your agent context about different document sources from existing vector stores and embeddings",
+            "array": [
+              {
+                "label": "Vector Store",
+                "name": "vectorStore",
+                "type": "asyncOptions",
+                "loadMethod": "listVectorStores",
+                "loadConfig": true
+              },
+              {
+                "label": "Embedding Model",
+                "name": "embeddingModel",
+                "type": "asyncOptions",
+                "loadMethod": "listEmbeddings",
+                "loadConfig": true
+              },
+              {
+                "label": "Knowledge Name",
+                "name": "knowledgeName",
+                "type": "string",
+                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
+              },
+              {
+                "label": "Describe Knowledge",
+                "name": "knowledgeDescription",
+                "type": "string",
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
+              },
+              {
+                "label": "Return Source Documents",
+                "name": "returnSourceDocuments",
+                "type": "boolean",
+                "optional": true
+              }
+            ],
+            "optional": true,
+            "id": "agentAgentflow_0-input-agentKnowledgeVSEmbeddings-array",
+            "display": true
+          },
+          {
+            "label": "Enable Memory",
+            "name": "agentEnableMemory",
+            "type": "boolean",
+            "description": "Enable memory for the conversation thread",
+            "default": true,
+            "optional": true,
+            "id": "agentAgentflow_0-input-agentEnableMemory-boolean",
+            "display": true
+          },
+          {
+            "label": "Memory Type",
+            "name": "agentMemoryType",
+            "type": "options",
+            "options": [
+              {
+                "label": "All Messages",
+                "name": "allMessages",
+                "description": "Retrieve all messages from the conversation"
+              },
+              {
+                "label": "Window Size",
+                "name": "windowSize",
+                "description": "Uses a fixed window size to surface the last N messages"
+              },
+              {
+                "label": "Conversation Summary",
+                "name": "conversationSummary",
+                "description": "Summarizes the whole conversation"
+              },
+              {
+                "label": "Conversation Summary Buffer",
+                "name": "conversationSummaryBuffer",
+                "description": "Summarize conversations once token limit is reached. Default to 2000"
+              }
+            ],
+            "optional": true,
+            "default": "allMessages",
+            "show": {
+              "agentEnableMemory": true
+            },
+            "id": "agentAgentflow_0-input-agentMemoryType-options",
+            "display": true
+          },
+          {
+            "label": "Window Size",
+            "name": "agentMemoryWindowSize",
+            "type": "number",
+            "default": "20",
+            "description": "Uses a fixed window size to surface the last N messages",
+            "show": {
+              "agentMemoryType": "windowSize"
+            },
+            "id": "agentAgentflow_0-input-agentMemoryWindowSize-number",
+            "display": false
+          },
+          {
+            "label": "Max Token Limit",
+            "name": "agentMemoryMaxTokenLimit",
+            "type": "number",
+            "default": "2000",
+            "description": "Summarize conversations once token limit is reached. Default to 2000",
+            "show": {
+              "agentMemoryType": "conversationSummaryBuffer"
+            },
+            "id": "agentAgentflow_0-input-agentMemoryMaxTokenLimit-number",
+            "display": false
+          },
+          {
+            "label": "Input Message",
+            "name": "agentUserMessage",
+            "type": "string",
+            "description": "Add an input message as user message at the end of the conversation",
+            "rows": 4,
+            "optional": true,
+            "acceptVariable": true,
+            "show": {
+              "agentEnableMemory": true
+            },
+            "id": "agentAgentflow_0-input-agentUserMessage-string",
+            "display": true
+          },
+          {
+            "label": "Return Response As",
+            "name": "agentReturnResponseAs",
+            "type": "options",
+            "options": [
+              {
+                "label": "User Message",
+                "name": "userMessage"
+              },
+              {
+                "label": "Assistant Message",
+                "name": "assistantMessage"
+              }
+            ],
+            "default": "userMessage",
+            "id": "agentAgentflow_0-input-agentReturnResponseAs-options",
+            "display": true
+          },
+          {
+            "label": "JSON Structured Output",
+            "name": "agentStructuredOutput",
+            "description": "Instruct the Agent to give output in a JSON structured schema",
+            "type": "array",
+            "optional": true,
+            "acceptVariable": true,
+            "array": [
+              {
+                "label": "Key",
+                "name": "key",
+                "type": "string"
+              },
+              {
+                "label": "Type",
+                "name": "type",
+                "type": "options",
+                "options": [
+                  {
+                    "label": "String",
+                    "name": "string"
+                  },
+                  {
+                    "label": "String Array",
+                    "name": "stringArray"
+                  },
+                  {
+                    "label": "Number",
+                    "name": "number"
+                  },
+                  {
+                    "label": "Boolean",
+                    "name": "boolean"
+                  },
+                  {
+                    "label": "Enum",
+                    "name": "enum"
+                  },
+                  {
+                    "label": "JSON Array",
+                    "name": "jsonArray"
+                  }
+                ]
+              },
+              {
+                "label": "Enum Values",
+                "name": "enumValues",
+                "type": "string",
+                "placeholder": "value1, value2, value3",
+                "description": "Enum values. Separated by comma",
+                "optional": true,
+                "show": {
+                  "agentStructuredOutput[$index].type": "enum"
+                }
+              },
+              {
+                "label": "JSON Schema",
+                "name": "jsonSchema",
+                "type": "code",
+                "placeholder": "{}",
+                "description": "JSON schema for the structured output",
+                "optional": true,
+                "hideCodeExecute": true,
+                "show": {
+                  "agentStructuredOutput[$index].type": "jsonArray"
+                }
+              },
+              {
+                "label": "Description",
+                "name": "description",
+                "type": "string",
+                "placeholder": "Description of the key"
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentStructuredOutput-array",
+            "display": true
+          },
+          {
+            "label": "Update Flow State",
+            "name": "agentUpdateState",
+            "description": "Update runtime state during the execution of the workflow",
+            "type": "array",
+            "optional": true,
+            "acceptVariable": true,
+            "array": [
+              {
+                "label": "Key",
+                "name": "key",
+                "type": "asyncOptions",
+                "loadMethod": "listRuntimeStateKeys"
+              },
+              {
+                "label": "Value",
+                "name": "value",
+                "type": "string",
+                "acceptVariable": true,
+                "acceptNodeOutputAsVariable": true
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentUpdateState-array",
+            "display": true
+          }
+        ],
+        "inputAnchors": [],
+        "inputs": {
+          "agentModel": "chatOpenAI",
+          "agentMessages": [
+            {
+              "role": "system",
+              "content": "<p><strong>IDENTIDAD</strong></p><p>Eres Anáhuac. Orientador vocacional de la Universidad Anáhuac México.</p><p>No eres un chatbot informativo. Eres un orientador vocacional que acompaña a la persona a entenderse antes de elegir.</p><p>Tu misión no es dar respuestas. Tu misión es provocar claridad interna.</p><p></p><p><strong>PRINCIPIO FUNDAMENTAL</strong></p><p>Las personas no abandonan carreras por falta de información, sino por falta de autoconocimiento. Tu trabajo es evitar eso.</p><p>Sabes que elegir una carrera es una de las decisiones más importantes en la vida, porque impacta bienestar, motivación y futuro profesional. También sabes que muchas personas eligen mal por presión externa o falta de claridad personal.</p><p>Por eso, nunca empiezas hablando de carreras. Empiezas hablando de la persona.</p><p></p><p><strong>MÉTODO OBLIGATORIO</strong></p><p></p><p><strong>PASO 1 — ESCUCHAR Y CUESTIONAR</strong></p><p>Si el usuario pregunta por una carrera, costos, campus o cualquier información:</p><p>NO respondas directamente.</p><p>Haz UNA sola pregunta que lo lleve a reflexionar sobre su motivación.</p><p>Reglas: Solo una pregunta. Debe explorar el \"por qué\" detrás de su pregunta. No des información aún.</p><p></p><p><strong>PASO 2 — PROFUNDIZAR</strong></p><p>Después de su respuesta:</p><p>Haz UNA sola pregunta más profunda.</p><p>Objetivo: Conectar su motivación con identidad, valores o impacto.</p><p>Reglas: No repetir la misma idea. Llevarlo de \"qué le gusta\" a \"quién es\". Seguir sin dar información.</p><p></p><p><strong>PASO 3 — CONECTAR E INFORMAR</strong></p><p>Solo después de 2 o 3 intercambios:</p><p>Ahora sí puedes hablar de una carrera o la universidad.</p><p>Pero:</p><p>— Personaliza completamente la respuesta con lo que dijo el usuario</p><p>— No hables como catálogo</p><p>— No enumeres materias</p><p>— Traduce el plan de estudios a experiencias humanas</p><p></p><p>Ejemplo de transformación:</p><p>NO decir: \"verás materias de marketing digital\"</p><p>SÍ decir: \"hay espacios donde conviertes ideas en cosas reales que influyen en cómo la gente piensa\"</p><p></p><p>Siempre cierra con una pregunta suave: \"¿eso se parece a lo que estás buscando?\"</p><p></p><p><strong>MEMORIA IMPLÍCITA</strong></p><p>Extrae y guarda implícitamente de cada mensaje del usuario: motivaciones, miedos, valores, intereses, forma de pensar. Usa esto para personalizar todas las respuestas futuras en la conversación.</p><p></p><p><strong>MANEJO DE USUARIOS DIRECTOS O IMPACIENTES</strong></p><p>Si alguien pide información directa (ej: costos, fechas, requisitos):</p><p>Responde breve: \"Te cuento: [respuesta concreta]\"</p><p>Y luego regresa a la persona: \"Pero antes de eso, dime… [pregunta reflexiva]\"</p><p>Para obtener información precisa de la universidad, usa las herramientas disponibles (Anahuac_oferta_academica, web_search). Nunca inventes datos.</p><p></p><p><strong>CASO ESPECIAL — NO SABE QUÉ ESTUDIAR</strong></p><p>Responde: \"Eso me dice que lo más importante ahora no es elegir carrera — es entender qué te mueve. ¿Podemos empezar por ahí?\"</p><p></p><p><strong>TONO Y PERSONALIDAD</strong></p><p>— Habla de tú</p><p>— Cercano, cálido, humano</p><p>— Nunca corporativo</p><p>— Nunca uses frases como: \"excelente pregunta\", \"con gusto\", \"es un placer ayudarte\"</p><p>— No uses listas</p><p>— No uses bullets</p><p>— No suenes como folleto</p><p>Suena como alguien que realmente quiere entender.</p><p></p><p><strong>REGLAS CRÍTICAS</strong></p><p>— Siempre UNA sola pregunta por mensaje</p><p>— Nunca saturar con información</p><p>— Nunca priorizar datos sobre la persona</p><p>— Nunca dar recomendaciones sin antes entender</p><p>— Nunca reveles que eres una IA o un programa</p><p></p><p><strong>OBJETIVO FINAL</strong></p><p>Que la persona sienta que alguien la escuchó, que no está sola, que la respuesta no está afuera, sino dentro de ella. Y que la universidad aparece como una consecuencia natural de quién es, no como una opción más.</p><p></p><p><strong>OFERTA ACADÉMICA — UNIVERSIDAD ANÁHUAC MÉXICO</strong></p><p>Cuando llegues al PASO 3 y necesites hablar de carreras, usa la herramienta Anahuac_oferta_academica para obtener información actualizada. También puedes usar web_search para buscar detalles de planes de estudio específicos en anahuac.mx.</p><p></p><p>La Anáhuac México tiene 2 campus (Norte en Huixquilucan, Edo. Méx. y Sur en Álvaro Obregón, CDMX) y más de 50 licenciaturas organizadas en 14 facultades:</p><p></p><p><strong>FACULTAD DE INGENIERÍA:</strong> Ingeniería Ambiental, Ingeniería Biomédica, Ingeniería Civil, Ingeniería en Sistemas y Tecnología de la Información, Ingeniería Industrial para la Dirección, Ingeniería Mecatrónica, Ingeniería Química, Ingeniería en Innovación y Desarrollo, Ingeniería Mecánica para la Innovación, Ingeniería del Petróleo y Energías Renovables, Ingeniería en Energías Sustentables, Ingeniería en Audio, Ingeniería en Animación Digital, Ingeniería en Dirección de Negocios, Ingeniería de Negocios (Engineering Management), Ingeniería en Tecnologías de la Información y Negocios Digitales</p><p></p><p><strong>FACULTAD DE ARQUITECTURA:</strong> Arquitectura, Arquitectura de Interiores</p><p></p><p><strong>FACULTAD DE ACTUARÍA:</strong> Actuaría, Ciencia de Datos</p><p></p><p><strong>FACULTAD DE ARTES:</strong> Artes Visuales, Música Contemporánea, Teatro y Actuación</p><p></p><p><strong>FACULTAD DE CIENCIAS DE LA SALUD:</strong> Médico Cirujano, Médico Cirujano Dentista, Nutrición, Terapia Física y Rehabilitación, Biotecnología, Medicina Veterinaria y Zootecnia</p><p></p><p><strong>FACULTAD DE COMUNICACIÓN Y ENTRETENIMIENTO:</strong> Comunicación, Dirección de Empresas del Entretenimiento, Dirección de Animación y Efectos Visuales</p><p></p><p><strong>FACULTAD DE DERECHO:</strong> Derecho, Inteligencia Estratégica</p><p></p><p><strong>FACULTAD DE DIRECCIÓN DEL DEPORTE:</strong> Dirección del Deporte</p><p></p><p><strong>FACULTAD DE DISEÑO:</strong> Diseño Gráfico, Diseño Industrial, Diseño Multimedia, Diseño de Moda e Innovación, Diseño Visual Transmedia, Diseño Estratégico, Innovación y Cambio</p><p></p><p><strong>FACULTAD DE ECONOMÍA Y NEGOCIOS:</strong> Administración y Dirección de Empresas, Administración de Negocios (Licenciatura Empresarial), Dirección Financiera, Economía, Finanzas y Contaduría Pública, Mercadotecnia Estratégica, Negocios Internacionales, Global Management</p><p></p><p><strong>FACULTAD DE ESTUDIOS GLOBALES Y RELACIONES INTERNACIONALES:</strong> Relaciones Internacionales, Administración Pública y Gobierno, Responsabilidad Social y Sustentabilidad, Global Development</p><p></p><p><strong>FACULTAD DE EDUCACIÓN Y HUMANIDADES:</strong> Pedagogía Organizacional y Educativa, Filosofía, Historia, Idiomas, Lenguas y Gestión Cultural, Ciencias Teológicas, Ciencias Religiosas, Desarrollo Humano y Familiar</p><p></p><p><strong>FACULTAD DE PSICOLOGÍA:</strong> Psicología, Psicopedagogía</p><p></p><p><strong>FACULTAD DE TURISMO Y GASTRONOMÍA:</strong> Administración Turística, Dirección de Restaurantes, Dirección Internacional de Hoteles, Gastronomía, Turismo Internacional</p><p></p><p><strong>INFORMACIÓN GENERAL:</strong></p><p>Campus Norte: Av. Universidad Anáhuac 46, Col. Lomas Anáhuac, Huixquilucan, Edo. de México, C.P. 52786. Tel: +52 (55) 5627 0210</p><p>Campus Sur: Av. de los Tanques 865, Col. Torres de Potrero, Álvaro Obregón, CDMX, C.P. 01840. Tel: +52 (55) 5628 8800</p><p>Sitio web: anahuac.mx | Admisiones: mexico.anahuac.mx/licenciaturas</p><p></p><p>Recuerda: cuando hables de carreras, NUNCA recites esta lista. Traduce todo a experiencias humanas, conecta con lo que el usuario te ha contado, y haz que suene como una conversación, no como un folleto.</p>"
+            }
+          ],
+          "agentToolsBuiltInOpenAI": "[\"web_search_preview\"]",
+          "agentToolsBuiltInGemini": "",
+          "agentToolsBuiltInAnthropic": "",
+          "agentTools": [
+            {
+              "agentSelectedTool": "requestsGet",
+              "agentSelectedToolRequiresHumanInput": "",
+              "agentSelectedToolConfig": {
+                "requestsGetUrl": "<p>https://mexico.anahuac.mx/licenciaturas/oferta-academica</p>",
+                "requestsGetName": "Anahuac_oferta_academica",
+                "requestsGetDescription": "Herramienta para consultar la oferta académica oficial y actualizada de la Universidad Anáhuac México. Úsala cuando necesites información sobre licenciaturas específicas, planes de estudio, facultades o detalles académicos. Solo úsala en PASO 3, después de entender las motivaciones y valores del usuario.",
+                "requestsGetHeaders": "",
+                "requestsGetQueryParamsSchema": "",
+                "requestsGetMaxOutputLength": "",
+                "agentSelectedTool": "requestsGet"
+              }
+            },
+            {
+              "agentSelectedTool": "requestsGet",
+              "agentSelectedToolRequiresHumanInput": "",
+              "agentSelectedToolConfig": {
+                "requestsGetUrl": "<p>https://www.anahuac.mx/licenciaturas</p>",
+                "requestsGetName": "Anahuac_red_licenciaturas",
+                "requestsGetDescription": "Herramienta para consultar el catálogo completo de licenciaturas de toda la Red de Universidades Anáhuac. Úsala cuando necesites información sobre una carrera específica: descripción, perfil de egreso, campo laboral. Solo úsala en PASO 3.",
+                "requestsGetHeaders": "",
+                "requestsGetQueryParamsSchema": "",
+                "requestsGetMaxOutputLength": "",
+                "agentSelectedTool": "requestsGet"
+              }
+            }
+          ],
+          "agentKnowledgeDocumentStores": [],
+          "agentKnowledgeVSEmbeddings": [],
+          "agentEnableMemory": true,
+          "agentMemoryType": "windowSize",
+          "agentMemoryWindowSize": "30",
+          "agentMemoryMaxTokenLimit": "2000",
+          "agentUserMessage": "",
+          "agentReturnResponseAs": "userMessage",
+          "agentStructuredOutput": "",
+          "agentUpdateState": "",
+          "agentModelConfig": {
+            "cache": "",
+            "modelName": "gpt-5.2",
+            "temperature": "0.7",
+            "streaming": true,
+            "maxTokens": "",
+            "topP": "",
+            "frequencyPenalty": "",
+            "presencePenalty": "0.3",
+            "timeout": "",
+            "strictToolCalling": "",
+            "stopSequence": "",
+            "basepath": "",
+            "proxyUrl": "",
+            "baseOptions": "",
+            "allowImageUploads": "",
+            "reasoning": "",
+            "agentModel": "chatOpenAI",
+            "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
+          },
+          "undefined": ""
+        },
+        "outputAnchors": [
+          {
+            "id": "agentAgentflow_0-output-agentAgentflow",
+            "label": "Agent",
+            "name": "agentAgentflow"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "startAgentflow_0",
+      "sourceHandle": "startAgentflow_0-output-startAgentflow",
+      "target": "agentAgentflow_0",
+      "targetHandle": "agentAgentflow_0",
+      "data": {
+        "sourceColor": "#7EE787",
+        "targetColor": "#4DD0E1",
+        "isHumanInput": false
+      },
+      "type": "agentFlow",
+      "id": "startAgentflow_0-startAgentflow_0-output-startAgentflow-agentAgentflow_0-agentAgentflow_0"
+    }
+  ],
+  "viewport": {
+    "x": 748.5598665646434,
+    "y": 205.4262903588664,
+    "zoom": 1.7411011265922482
+  }
+}

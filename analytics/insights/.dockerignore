@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+.insights_cache*
+.ai_enrichment_cache
+.conv_cache
+data/.ai_results
+frontend/node_modules
+frontend/dist
+*.md
+.git
+.env
+*.bak
+static/
+eda_wtc.ipynb
+report.html

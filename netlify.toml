@@ -1,0 +1,17 @@
+[build]
+  base = "analytics/frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# Redirige /api/* al backend remoto en EasyPanel
+[[redirects]]
+  from = "/api/*"
+  to = "https://strapis-chatbots-insights.jvcsfe.easypanel.host/api/:splat"
+  status = 200
+  force = true
+
+# SPA fallback - todas las rutas al index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

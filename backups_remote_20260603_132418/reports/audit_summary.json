@@ -1,0 +1,2982 @@
+[
+  {
+    "id": "fdc8d4ea-5abe-44f7-bcef-56027ec591f1",
+    "name": "Club de Golf",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-06-03T19:11:05.451Z",
+    "registered_name": "Club de Golf",
+    "local_json_file": "projects/Club de Golf Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "info_get",
+        "rules_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Villa Fairway Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": true,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [],
+    "raw_file": "backups_remote_20260603_132418/raw/Club_de_Golf__fdc8d4ea-5abe-44f7-bcef-56027ec591f1.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Club_de_Golf__fdc8d4ea-5abe-44f7-bcef-56027ec591f1.json"
+  },
+  {
+    "id": "709f8ea9-8cb8-48f0-9a64-00166c50dfb9",
+    "name": "Wingate",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-06-03T18:51:45.856Z",
+    "registered_name": "Wingate",
+    "local_json_file": "projects/Wingate Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "Wingate_data_retriever",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "The Wingate School Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": true,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": true
+      },
+      "prompt_profile": "minimal-anti-inference"
+    },
+    "issues": [
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Wingate__709f8ea9-8cb8-48f0-9a64-00166c50dfb9.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Wingate__709f8ea9-8cb8-48f0-9a64-00166c50dfb9.json"
+  },
+  {
+    "id": "4470ba7a-a20f-405e-8afd-c82417b26c0b",
+    "name": "Punta Cuerna",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-27T15:04:10.730Z",
+    "registered_name": "Punta Cuerna",
+    "local_json_file": "projects/Punta Cuerna Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "rules_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Punta Cuerna Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [],
+    "raw_file": "backups_remote_20260603_132418/raw/Punta_Cuerna__4470ba7a-a20f-405e-8afd-c82417b26c0b.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Punta_Cuerna__4470ba7a-a20f-405e-8afd-c82417b26c0b.json"
+  },
+  {
+    "id": "8f0dc3e8-e638-437f-8ae7-4f7b6ba56be9",
+    "name": "ORIGINA_CRM_Agentflow",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-25T23:19:10.477Z",
+    "registered_name": null,
+    "local_json_file": null,
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 5,
+        "other": 0
+      },
+      "edge_count": 6,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "ORIGINA_consultar_leads",
+        "ORIGINA_crear_lead",
+        "ORIGINA_actualizar_lead",
+        "ORIGINA_registrar_interaccion",
+        "ORIGINA_listar_tipologias",
+        "ORIGINA_consultar_unidades_tipo",
+        "ORIGINA_info_planes_pago",
+        "ORIGINA_consultar_leads_cot",
+        "ORIGINA_guardar_cotizacion",
+        "ORIGINA_consultar_cotizaciones",
+        "ORIGINA_dashboard_stats",
+        "ORIGINA_info_leads_rep",
+        "ORIGINA_info_cotizaciones_rep",
+        "ORIGINA_guardar_reporte",
+        "info_get"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Agente general",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "Not registered in projects.json",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/ORIGINA_CRM_Agentflow__8f0dc3e8-e638-437f-8ae7-4f7b6ba56be9.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/ORIGINA_CRM_Agentflow__8f0dc3e8-e638-437f-8ae7-4f7b6ba56be9.json"
+  },
+  {
+    "id": "c4e6b0d8-30ab-4466-bfc8-c3d8bf5231ea",
+    "name": "ALHENA_CRM_Agentflow",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-25T17:29:31.653Z",
+    "registered_name": null,
+    "local_json_file": null,
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 5,
+        "other": 0
+      },
+      "edge_count": 6,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "ALHENA_consultar_leads",
+        "ALHENA_crear_lead",
+        "ALHENA_actualizar_lead",
+        "ALHENA_registrar_interaccion",
+        "ALHENA_listar_tipologias",
+        "ALHENA_consultar_unidades_tipo",
+        "ALHENA_info_planes_pago",
+        "ALHENA_consultar_leads_cot",
+        "ALHENA_guardar_cotizacion",
+        "ALHENA_consultar_cotizaciones",
+        "ALHENA_dashboard_stats",
+        "ALHENA_info_leads_rep",
+        "ALHENA_info_cotizaciones_rep",
+        "ALHENA_guardar_reporte",
+        "info_get"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Agente general",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "Not registered in projects.json",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/ALHENA_CRM_Agentflow__c4e6b0d8-30ab-4466-bfc8-c3d8bf5231ea.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/ALHENA_CRM_Agentflow__c4e6b0d8-30ab-4466-bfc8-c3d8bf5231ea.json"
+  },
+  {
+    "id": "756dd2f3-7f9a-4684-b3c3-10a096b96e9b",
+    "name": "plataformaNauma",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-14T18:57:56.470Z",
+    "registered_name": "plataformaNauma",
+    "local_json_file": "projects/plataformaNauma Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 4,
+        "other": 0
+      },
+      "edge_count": 5,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool",
+        "get_disponibilidad"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Plataforma (Nauma Lomas) Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/plataformaNauma__756dd2f3-7f9a-4684-b3c3-10a096b96e9b.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/plataformaNauma__756dd2f3-7f9a-4684-b3c3-10a096b96e9b.json"
+  },
+  {
+    "id": "9325bc13-9725-4215-8bfb-455cfa67f768",
+    "name": "Nativas",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-14T14:59:56.762Z",
+    "registered_name": "Nativas",
+    "local_json_file": "projects/Nativas Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "rules_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Nativas Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [],
+    "raw_file": "backups_remote_20260603_132418/raw/Nativas__9325bc13-9725-4215-8bfb-455cfa67f768.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Nativas__9325bc13-9725-4215-8bfb-455cfa67f768.json"
+  },
+  {
+    "id": "c39f8afe-8030-429e-93cf-ff8ff1f6a276",
+    "name": "GGI Agwa Bosques",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:32:12.924Z",
+    "registered_name": "GGI Agwa Bosques",
+    "local_json_file": "projects/GGI Agwa Bosques Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "GGI Agwa Bosques Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/GGI_Agwa_Bosques__c39f8afe-8030-429e-93cf-ff8ff1f6a276.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/GGI_Agwa_Bosques__c39f8afe-8030-429e-93cf-ff8ff1f6a276.json"
+  },
+  {
+    "id": "90b046f2-2b56-4ad1-9fc5-abcd229de895",
+    "name": "koppi",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:28:09.791Z",
+    "registered_name": "koppi",
+    "local_json_file": "projects/koppi Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1",
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "koppi Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/koppi__90b046f2-2b56-4ad1-9fc5-abcd229de895.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/koppi__90b046f2-2b56-4ad1-9fc5-abcd229de895.json"
+  },
+  {
+    "id": "987464b9-dec9-416c-a007-165c91b8848c",
+    "name": "WE WORK",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:28:06.714Z",
+    "registered_name": "WE WORK",
+    "local_json_file": "projects/WE WORK Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "WE WORK Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/WE_WORK__987464b9-dec9-416c-a007-165c91b8848c.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/WE_WORK__987464b9-dec9-416c-a007-165c91b8848c.json"
+  },
+  {
+    "id": "fdb7ec02-e05d-4007-9cc1-e2efbbed2345",
+    "name": "Volterra",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:28:04.160Z",
+    "registered_name": "Volterra",
+    "local_json_file": "projects/Volterra Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Volterra Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Volterra__fdb7ec02-e05d-4007-9cc1-e2efbbed2345.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Volterra__fdb7ec02-e05d-4007-9cc1-e2efbbed2345.json"
+  },
+  {
+    "id": "1868dfd5-4647-4dbe-902b-759b18891515",
+    "name": "Virreyes",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:28:01.500Z",
+    "registered_name": "Virreyes",
+    "local_json_file": "projects/Virreyes Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Virreyes Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Virreyes__1868dfd5-4647-4dbe-902b-759b18891515.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Virreyes__1868dfd5-4647-4dbe-902b-759b18891515.json"
+  },
+  {
+    "id": "58d9f2cd-8518-4f83-b65f-b7ec0aceb760",
+    "name": "Vesta Park",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:27:59.237Z",
+    "registered_name": "Vesta Park",
+    "local_json_file": "projects/Vesta Park Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Vesta Park  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Vesta_Park__58d9f2cd-8518-4f83-b65f-b7ec0aceb760.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Vesta_Park__58d9f2cd-8518-4f83-b65f-b7ec0aceb760.json"
+  },
+  {
+    "id": "9b968405-d68a-42ed-9d4d-1da1bac36fbf",
+    "name": "Torre Zero Providencia",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:26:20.202Z",
+    "registered_name": "Torre Zero Providencia",
+    "local_json_file": "projects/Torre Zero Providencia Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Torre Zero Providencia Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Torre_Zero_Providencia__9b968405-d68a-42ed-9d4d-1da1bac36fbf.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Torre_Zero_Providencia__9b968405-d68a-42ed-9d4d-1da1bac36fbf.json"
+  },
+  {
+    "id": "25811504-b1df-46be-8543-a6d17a5e347f",
+    "name": "Torre Zero Centro de Neogcios",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:26:17.119Z",
+    "registered_name": "Torre Zero Centro de Neogcios",
+    "local_json_file": "projects/Torre Zero Centro de Neogcios Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Torre Zero Centro de Negocios Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Torre_Zero_Centro_de_Neogcios__25811504-b1df-46be-8543-a6d17a5e347f.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Torre_Zero_Centro_de_Neogcios__25811504-b1df-46be-8543-a6d17a5e347f.json"
+  },
+  {
+    "id": "0a9363a3-8cfa-4e0c-b5d4-9d228a60cdb2",
+    "name": "Torre Alhena",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:26:14.511Z",
+    "registered_name": "Torre Alhena",
+    "local_json_file": "projects/Torre Alhena Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Torre Alhena Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Torre_Alhena__0a9363a3-8cfa-4e0c-b5d4-9d228a60cdb2.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Torre_Alhena__0a9363a3-8cfa-4e0c-b5d4-9d228a60cdb2.json"
+  },
+  {
+    "id": "df4d386c-1024-4c49-8743-3002b9e384f0",
+    "name": "Gran Terraza Coapa",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:26:04.031Z",
+    "registered_name": "Gran Terraza Coapa",
+    "local_json_file": "projects/Gran Terraza Coapa Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Gran Terraza Coapa Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Gran_Terraza_Coapa__df4d386c-1024-4c49-8743-3002b9e384f0.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Gran_Terraza_Coapa__df4d386c-1024-4c49-8743-3002b9e384f0.json"
+  },
+  {
+    "id": "e8bd16da-abaa-4f1a-b278-82f7a02e969e",
+    "name": "TU - Apodaca Park 1",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:26:01.071Z",
+    "registered_name": "TU - Apodaca Park 1",
+    "local_json_file": "projects/TU - Apodaca Park 1 Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "TU Park Apodaca I - Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/TU_Apodaca_Park_1__e8bd16da-abaa-4f1a-b278-82f7a02e969e.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/TU_Apodaca_Park_1__e8bd16da-abaa-4f1a-b278-82f7a02e969e.json"
+  },
+  {
+    "id": "c1c75382-f36e-4346-a06b-1bc68b3f115a",
+    "name": "Punta Zero",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:25:58.738Z",
+    "registered_name": "Punta Zero",
+    "local_json_file": "projects/Punta Zero Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Punta Zero Centro Comercial Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Punta_Zero__c1c75382-f36e-4346-a06b-1bc68b3f115a.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Punta_Zero__c1c75382-f36e-4346-a06b-1bc68b3f115a.json"
+  },
+  {
+    "id": "cdc81199-bde0-452c-99de-7c74f8e597fc",
+    "name": "Prologis - Lerma",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:21:16.440Z",
+    "registered_name": "Prologis - Lerma",
+    "local_json_file": "projects/Prologis - Lerma Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Prologis Lerma Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Prologis_Lerma__cdc81199-bde0-452c-99de-7c74f8e597fc.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Prologis_Lerma__cdc81199-bde0-452c-99de-7c74f8e597fc.json"
+  },
+  {
+    "id": "35f364ba-9e93-45f6-9d9f-f0c160b9c994",
+    "name": "Nauma Lomas",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:21:11.940Z",
+    "registered_name": "Nauma Lomas",
+    "local_json_file": "projects/Nauma Lomas Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Nauma Lomas Residencial Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Nauma_Lomas__35f364ba-9e93-45f6-9d9f-f0c160b9c994.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Nauma_Lomas__35f364ba-9e93-45f6-9d9f-f0c160b9c994.json"
+  },
+  {
+    "id": "78eca94c-d9ef-465d-8dcc-6f4585435311",
+    "name": "Mozaiko Lindavista",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:21:05.677Z",
+    "registered_name": "Mozaiko Lindavista",
+    "local_json_file": "projects/Mozaiko Lindavista Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Mozaiko Lindavista Residencial Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Mozaiko_Lindavista__78eca94c-d9ef-465d-8dcc-6f4585435311.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Mozaiko_Lindavista__78eca94c-d9ef-465d-8dcc-6f4585435311.json"
+  },
+  {
+    "id": "291b78cb-1192-4daa-95fa-b14316d63489",
+    "name": "Mita Map",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:14:58.072Z",
+    "registered_name": "Mita Map",
+    "local_json_file": "projects/Mita Map Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Mita Map Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Mita_Map__291b78cb-1192-4daa-95fa-b14316d63489.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Mita_Map__291b78cb-1192-4daa-95fa-b14316d63489.json"
+  },
+  {
+    "id": "49f64056-46a3-4c94-bc4b-0e075b988c96",
+    "name": "Mahi Residencial",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:14:53.471Z",
+    "registered_name": "Mahi Residencial",
+    "local_json_file": "projects/Mahi Residencial Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Mahi Residencial Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Mahi_Residencial__49f64056-46a3-4c94-bc4b-0e075b988c96.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Mahi_Residencial__49f64056-46a3-4c94-bc4b-0e075b988c96.json"
+  },
+  {
+    "id": "dbdf8dd3-a3a5-4dbb-9e7b-9b996cc4f98b",
+    "name": "Los Nogales",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:14:50.036Z",
+    "registered_name": "Los Nogales",
+    "local_json_file": "projects/Los Nogales Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Los Nogales Residencial Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Los_Nogales__dbdf8dd3-a3a5-4dbb-9e7b-9b996cc4f98b.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Los_Nogales__dbdf8dd3-a3a5-4dbb-9e7b-9b996cc4f98b.json"
+  },
+  {
+    "id": "2bc49a0b-5459-4dab-b9a6-f4080c43371c",
+    "name": "KIO",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:14:46.954Z",
+    "registered_name": "KIO",
+    "local_json_file": "projects/KIO Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "KIO  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/KIO__2bc49a0b-5459-4dab-b9a6-f4080c43371c.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/KIO__2bc49a0b-5459-4dab-b9a6-f4080c43371c.json"
+  },
+  {
+    "id": "41caee1a-6ab0-4edf-b2c9-162cda9dcc83",
+    "name": "GGI Palmas Uno",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:11:56.073Z",
+    "registered_name": "GGI Palmas Uno",
+    "local_json_file": "projects/GGI Palmas Uno Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "GGI Palmas Uno Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/GGI_Palmas_Uno__41caee1a-6ab0-4edf-b2c9-162cda9dcc83.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/GGI_Palmas_Uno__41caee1a-6ab0-4edf-b2c9-162cda9dcc83.json"
+  },
+  {
+    "id": "1f2946d8-6362-4ba4-9d6b-880f7f147f65",
+    "name": "GGI Miyana Residencial",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:11:49.768Z",
+    "registered_name": "GGI Miyana Residencial",
+    "local_json_file": "projects/GGI Miyana Residencial Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "GGI Miyana Residencial Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/GGI_Miyana_Residencial__1f2946d8-6362-4ba4-9d6b-880f7f147f65.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/GGI_Miyana_Residencial__1f2946d8-6362-4ba4-9d6b-880f7f147f65.json"
+  },
+  {
+    "id": "10cbfacc-3b22-4c21-9bfd-4493c3018294",
+    "name": "Bosques de Tepepan",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:11:42.852Z",
+    "registered_name": "Bosques de Tepepan",
+    "local_json_file": "projects/Bosques de Tepepan Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Bosques de Tepepan  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Bosques_de_Tepepan__10cbfacc-3b22-4c21-9bfd-4493c3018294.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Bosques_de_Tepepan__10cbfacc-3b22-4c21-9bfd-4493c3018294.json"
+  },
+  {
+    "id": "a8ea193e-d6f1-4235-bec2-6a8772a1fd83",
+    "name": "Archandel",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:11:36.050Z",
+    "registered_name": "Archandel",
+    "local_json_file": "projects/Archandel Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Archandel Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Archandel__a8ea193e-d6f1-4235-bec2-6a8772a1fd83.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Archandel__a8ea193e-d6f1-4235-bec2-6a8772a1fd83.json"
+  },
+  {
+    "id": "85cd093a-8aab-4b70-9172-efae11009402",
+    "name": "Ara Dream Diamante",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:11:27.758Z",
+    "registered_name": "Ara Dream Diamante",
+    "local_json_file": "projects/Ara Dream Diamante Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Dream Diamante Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Ara_Dream_Diamante__85cd093a-8aab-4b70-9172-efae11009402.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Ara_Dream_Diamante__85cd093a-8aab-4b70-9172-efae11009402.json"
+  },
+  {
+    "id": "ab8abc17-c8c3-4898-b594-872896959b17",
+    "name": "Quivira",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:04:37.179Z",
+    "registered_name": "Quivira",
+    "local_json_file": "projects/Quivira Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Quivira Los Cabos Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Quivira__ab8abc17-c8c3-4898-b594-872896959b17.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Quivira__ab8abc17-c8c3-4898-b594-872896959b17.json"
+  },
+  {
+    "id": "e23e1850-dd98-4f48-9fa8-4a8488497a4d",
+    "name": "Hideaways",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:04:30.783Z",
+    "registered_name": "Hideaways",
+    "local_json_file": "projects/Hideaways Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Hideaways Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Hideaways__e23e1850-dd98-4f48-9fa8-4a8488497a4d.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Hideaways__e23e1850-dd98-4f48-9fa8-4a8488497a4d.json"
+  },
+  {
+    "id": "938763d0-4ca0-4681-9b03-5289d2464e64",
+    "name": "Coronado",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:04:24.669Z",
+    "registered_name": "Coronado",
+    "local_json_file": "projects/Coronado Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Coronado Los Cabos Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Coronado__938763d0-4ca0-4681-9b03-5289d2464e64.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Coronado__938763d0-4ca0-4681-9b03-5289d2464e64.json"
+  },
+  {
+    "id": "1d1bcd7e-bd02-41e0-9095-57b5bbc7b2bc",
+    "name": "Alvar",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:04:18.326Z",
+    "registered_name": "Alvar",
+    "local_json_file": "projects/Alvar Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Alvar Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Alvar__1d1bcd7e-bd02-41e0-9095-57b5bbc7b2bc.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Alvar__1d1bcd7e-bd02-41e0-9095-57b5bbc7b2bc.json"
+  },
+  {
+    "id": "b8ba1115-3649-4dfc-89e3-090126e726bd",
+    "name": "Mavila",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:04:12.018Z",
+    "registered_name": "Mavila",
+    "local_json_file": "projects/Mavila Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1",
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Mavila Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Mavila__b8ba1115-3649-4dfc-89e3-090126e726bd.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Mavila__b8ba1115-3649-4dfc-89e3-090126e726bd.json"
+  },
+  {
+    "id": "80f70d3a-4e14-49cf-b743-7ca9dd841a70",
+    "name": "LST La Santisima",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T22:01:18.205Z",
+    "registered_name": "LST La Santisima",
+    "local_json_file": "projects/LST La Santisima Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 4,
+        "other": 0
+      },
+      "edge_count": 5,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "La Santisima Trinida  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/LST_La_Santisima__80f70d3a-4e14-49cf-b743-7ca9dd841a70.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/LST_La_Santisima__80f70d3a-4e14-49cf-b743-7ca9dd841a70.json"
+  },
+  {
+    "id": "f6cdb4f5-b9cd-4a12-a943-6f02633aba13",
+    "name": "Lst Providencia Coahuila",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T21:58:53.380Z",
+    "registered_name": "Lst Providencia Coahuila",
+    "local_json_file": "projects/Lst Providencia Coahuila Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Viñedo Providencia  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Lst_Providencia_Coahuila__f6cdb4f5-b9cd-4a12-a943-6f02633aba13.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Lst_Providencia_Coahuila__f6cdb4f5-b9cd-4a12-a943-6f02633aba13.json"
+  },
+  {
+    "id": "89cfc791-b99a-493d-bc15-fd27ae5df45b",
+    "name": "LST Santa Catalina",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T21:58:49.164Z",
+    "registered_name": "LST Santa Catalina",
+    "local_json_file": "projects/LST Santa Catalina Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 4,
+        "other": 0
+      },
+      "edge_count": 5,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Viñedo Santa Catalina  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/LST_Santa_Catalina__89cfc791-b99a-493d-bc15-fd27ae5df45b.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/LST_Santa_Catalina__89cfc791-b99a-493d-bc15-fd27ae5df45b.json"
+  },
+  {
+    "id": "453117e4-c239-4299-8721-0c9528b4fec2",
+    "name": "LST San Lucas",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T21:58:43.033Z",
+    "registered_name": "LST San Lucas",
+    "local_json_file": "projects/LST San Lucas Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 4,
+        "other": 0
+      },
+      "edge_count": 5,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Viñedo San Lucas  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/LST_San_Lucas__453117e4-c239-4299-8721-0c9528b4fec2.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/LST_San_Lucas__453117e4-c239-4299-8721-0c9528b4fec2.json"
+  },
+  {
+    "id": "20ff6f90-c014-4b05-8207-6ab08a7da8e0",
+    "name": "LST San Francisco",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T21:58:37.230Z",
+    "registered_name": "LST San Francisco",
+    "local_json_file": "projects/LST San Francisco Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 4,
+        "other": 0
+      },
+      "edge_count": 5,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Viñedo San Francisco  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/LST_San_Francisco__20ff6f90-c014-4b05-8207-6ab08a7da8e0.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/LST_San_Francisco__20ff6f90-c014-4b05-8207-6ab08a7da8e0.json"
+  },
+  {
+    "id": "068df4e5-073c-45f0-996d-34dc4f886ec5",
+    "name": "LST Los Senderos",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T21:58:34.613Z",
+    "registered_name": "LST Los Senderos",
+    "local_json_file": "projects/LST Los Senderos Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 4,
+        "other": 0
+      },
+      "edge_count": 5,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Barrica de fuego  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/LST_Los_Senderos__068df4e5-073c-45f0-996d-34dc4f886ec5.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/LST_Los_Senderos__068df4e5-073c-45f0-996d-34dc4f886ec5.json"
+  },
+  {
+    "id": "72575c98-67c8-4fa6-827a-20d27195d1d8",
+    "name": "LST - Providencia",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T21:58:25.075Z",
+    "registered_name": "LST - Providencia",
+    "local_json_file": "projects/LST - Providencia Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1",
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Viñedo Providencia  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/LST_Providencia__72575c98-67c8-4fa6-827a-20d27195d1d8.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/LST_Providencia__72575c98-67c8-4fa6-827a-20d27195d1d8.json"
+  },
+  {
+    "id": "82ee9777-2d5f-49e9-9998-850eb5063928",
+    "name": "Aerolíneas Ejecutivas ALE",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T20:03:33.947Z",
+    "registered_name": "Aerolíneas Ejecutivas ALE",
+    "local_json_file": "projects/Aerolíneas Ejecutivas ALE Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "customTool"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Aerolíneas Ejecutivas ALE Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": true,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "partial-guardrails"
+    },
+    "issues": [
+      "Missing core Q&A blocks: informacion_dinamica, manejo_incertidumbre, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Aerolineas_Ejecutivas_ALE__82ee9777-2d5f-49e9-9998-850eb5063928.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Aerolineas_Ejecutivas_ALE__82ee9777-2d5f-49e9-9998-850eb5063928.json"
+  },
+  {
+    "id": "74813737-0ed3-4e82-a1ce-9ed90d879632",
+    "name": "Reserva Castilla",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-13T17:01:39.014Z",
+    "registered_name": "Reserva Castilla",
+    "local_json_file": "projects/Reserva Castilla Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get",
+        "rules_get",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Reserva Castilla Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": true,
+        "tono_y_estilo": true,
+        "rules_get": true,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "modern-guardrailed"
+    },
+    "issues": [
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Reserva_Castilla__74813737-0ed3-4e82-a1ce-9ed90d879632.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Reserva_Castilla__74813737-0ed3-4e82-a1ce-9ed90d879632.json"
+  },
+  {
+    "id": "8f27f59a-91df-47c8-a5e5-a03bafccbfff",
+    "name": "Xerena",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-11T22:12:28.168Z",
+    "registered_name": "Xerena",
+    "local_json_file": "projects/Xerena Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 3,
+        "other": 0
+      },
+      "edge_count": 4,
+      "models": [
+        "gpt-5.1",
+        "gpt-4.1"
+      ],
+      "custom_tools": [
+        "Xerena_data_retriever",
+        "customTool"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Xerena Cabo Tezal Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": true,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": true,
+        "prohibicion_promesas": true,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "partial-guardrails"
+    },
+    "issues": [
+      "Missing core Q&A blocks: sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Xerena__8f27f59a-91df-47c8-a5e5-a03bafccbfff.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Xerena__8f27f59a-91df-47c8-a5e5-a03bafccbfff.json"
+  },
+  {
+    "id": "a2dbda66-1339-43ae-9c67-d97f30c198ac",
+    "name": "WTC",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-05-06T21:00:46.543Z",
+    "registered_name": "WTC",
+    "local_json_file": "projects/WTC Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 8,
+        "other": 0
+      },
+      "edge_count": 9,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "Informacion_General_WTC",
+        "rules_get",
+        "pepsi_events",
+        "Directorio_Oficinas",
+        "Directorio_Centro_Comercial",
+        "Informacion_Reglamento_Accesos_WTC",
+        "Informacion_Manual_Adecuaciones_WTC",
+        "Informacion_Reglamento_Estacionamiento_WTC"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "🏢 Agent Info General WTC (Multilingual)",
+      "qna_blocks": {
+        "informacion_dinamica": true,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": true,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "partial-guardrails"
+    },
+    "issues": [
+      "Missing core Q&A blocks: informacion_terceros, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/WTC__a2dbda66-1339-43ae-9c67-d97f30c198ac.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/WTC__a2dbda66-1339-43ae-9c67-d97f30c198ac.json"
+  },
+  {
+    "id": "f98edc6a-940e-40d4-88b7-986e8813965a",
+    "name": "Terralago",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-29T18:51:20.231Z",
+    "registered_name": "Terralago",
+    "local_json_file": "projects/Terralago Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get"
+      ],
+      "builtin_tools": [],
+      "qna_label": "Terralago Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Terralago__f98edc6a-940e-40d4-88b7-986e8813965a.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Terralago__f98edc6a-940e-40d4-88b7-986e8813965a.json"
+  },
+  {
+    "id": "f1008f5a-6846-4861-93be-483158041dcf",
+    "name": "CRM AI",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-20T18:33:36.960Z",
+    "registered_name": "CRM AI",
+    "local_json_file": null,
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 1,
+        "agent": 5,
+        "other": 0
+      },
+      "edge_count": 6,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "consultar_leads_CRM",
+        "crear_lead",
+        "actualizar_lead",
+        "registrar_interaccion",
+        "info_disponibilidad",
+        "info_unidades_cotizar",
+        "info_planes_pago",
+        "consultar_leads_cot_CRM",
+        "guardar_cotizacion",
+        "consultar_cotizaciones_CRM",
+        "dashboard_stats_CRM",
+        "info_leads_rep_CRM",
+        "info_cotizaciones_rep_CRM",
+        "info_unidades_reportes",
+        "guardar_reporte",
+        "info_get"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Agente general",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/CRM_AI__f1008f5a-6846-4861-93be-483158041dcf.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/CRM_AI__f1008f5a-6846-4861-93be-483158041dcf.json"
+  },
+  {
+    "id": "ea0aed0d-f699-46da-8a2b-1ed0a096682e",
+    "name": "Brisas Ixtapa",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-17T20:20:35.202Z",
+    "registered_name": "Brisas Ixtapa",
+    "local_json_file": "projects/Brisas Ixtapa Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Brisas Ixtapa  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Brisas_Ixtapa__ea0aed0d-f699-46da-8a2b-1ed0a096682e.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Brisas_Ixtapa__ea0aed0d-f699-46da-8a2b-1ed0a096682e.json"
+  },
+  {
+    "id": "31d01ff6-a2d2-4035-8e5d-a481c89dff0b",
+    "name": "Novotech Mision Punta Norte",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:32:07.201Z",
+    "registered_name": "Novotech Mision Punta Norte",
+    "local_json_file": "projects/Novotech Mision Punta Norte Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "MPN_data_retriever",
+        "disponibilidad_loreto",
+        "disponibilidad_del_pilar",
+        "disponibilidad_california",
+        "disponibilidad_san_ignacio",
+        "disponibilidad_todos_santos"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Misión Punta Norte Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Novotech_Mision_Punta_Norte__31d01ff6-a2d2-4035-8e5d-a481c89dff0b.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Novotech_Mision_Punta_Norte__31d01ff6-a2d2-4035-8e5d-a481c89dff0b.json"
+  },
+  {
+    "id": "dfcd62a3-3638-4215-9c53-43286421d8d3",
+    "name": "Nizuc",
+    "type": "CHATFLOW",
+    "updatedDate": "2026-04-16T01:29:37.068Z",
+    "registered_name": "NIZUC",
+    "local_json_file": "projects/NIZUC Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 0,
+        "condition": 0,
+        "agent": 0,
+        "other": 8
+      },
+      "edge_count": 8,
+      "models": [],
+      "custom_tools": [],
+      "builtin_tools": [],
+      "qna_label": "",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Nizuc__dfcd62a3-3638-4215-9c53-43286421d8d3.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Nizuc__dfcd62a3-3638-4215-9c53-43286421d8d3.json"
+  },
+  {
+    "id": "526a971a-9f0e-40dc-bd90-f50205233071",
+    "name": "Novotech La Paz",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:35.355Z",
+    "registered_name": "Novotech La Paz",
+    "local_json_file": "projects/Novotech La Paz Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "Novotech_La_Paz_data_retriever",
+        "disponibilidad_lotes_checker"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Novotech La Paz Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Novotech_La_Paz__526a971a-9f0e-40dc-bd90-f50205233071.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Novotech_La_Paz__526a971a-9f0e-40dc-bd90-f50205233071.json"
+  },
+  {
+    "id": "4c84d4c6-2df9-4d60-ac7e-6c9a78608f1c",
+    "name": "Anahuac Emocional",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:29.991Z",
+    "registered_name": "Anahuac Orientador Vocacional",
+    "local_json_file": "projects/Anahuac Orientador Vocacional Agents.json",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "Anahuac_oferta_academica",
+        "Anahuac_red_licenciaturas"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Anáhuac Orientador Vocacional",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Anahuac_Emocional__4c84d4c6-2df9-4d60-ac7e-6c9a78608f1c.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Anahuac_Emocional__4c84d4c6-2df9-4d60-ac7e-6c9a78608f1c.json"
+  },
+  {
+    "id": "9e92eac6-5cc3-4630-95da-5798820d919c",
+    "name": "Anahuac",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:29.375Z",
+    "registered_name": null,
+    "local_json_file": null,
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "Anahuac_oferta_academica",
+        "Anahuac_red_licenciaturas"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Anáhuac Orientador Vocacional",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "Not registered in projects.json",
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Anahuac__9e92eac6-5cc3-4630-95da-5798820d919c.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Anahuac__9e92eac6-5cc3-4630-95da-5798820d919c.json"
+  },
+  {
+    "id": "8d2fd269-fe3e-4be3-85e6-3bf437dd0143",
+    "name": "Novotech SSEISO",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:10.735Z",
+    "registered_name": "Novotech SSEISO",
+    "local_json_file": "projects/Novotech SSEISO Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "Novotech_SSEISO_data_retriever",
+        "disponibilidad_lotes_checker"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Novotech SSEISO Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Novotech_SSEISO__8d2fd269-fe3e-4be3-85e6-3bf437dd0143.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Novotech_SSEISO__8d2fd269-fe3e-4be3-85e6-3bf437dd0143.json"
+  },
+  {
+    "id": "915db78f-f8d8-4754-a963-f82d9bde87af",
+    "name": "Novotech - Silao",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:10.237Z",
+    "registered_name": "Novotech - Silao",
+    "local_json_file": "projects/Novotech - Silao Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "Novotech_Silao_data_retriever",
+        "disponibilidad_lotes_checker"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Novotech Silao Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Novotech_Silao__915db78f-f8d8-4754-a963-f82d9bde87af.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Novotech_Silao__915db78f-f8d8-4754-a963-f82d9bde87af.json"
+  },
+  {
+    "id": "cd55ce82-5916-4117-aa3a-98ebd5d0c890",
+    "name": "NIZUC",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:09.709Z",
+    "registered_name": "NIZUC",
+    "local_json_file": "projects/NIZUC Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.2"
+      ],
+      "custom_tools": [
+        "info_get"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Nizuc  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/NIZUC__cd55ce82-5916-4117-aa3a-98ebd5d0c890.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/NIZUC__cd55ce82-5916-4117-aa3a-98ebd5d0c890.json"
+  },
+  {
+    "id": "829ec95a-36ff-4c59-b62a-ac4ff2dbf0fd",
+    "name": "Quvira Showrom",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:09.222Z",
+    "registered_name": "Quvira Showroom",
+    "local_json_file": "projects/Quvira Showrom Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "Quivira_data_retriever",
+        "Quivira_info",
+        "coronado_get",
+        "mavila_info",
+        "informacion_general"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Quivira Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Quvira_Showrom__829ec95a-36ff-4c59-b62a-ac4ff2dbf0fd.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Quvira_Showrom__829ec95a-36ff-4c59-b62a-ac4ff2dbf0fd.json"
+  },
+  {
+    "id": "a95732cc-5c32-4958-95e2-055d1d33c316",
+    "name": "Ribra - Arcos Bosques",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:08.776Z",
+    "registered_name": "Ribra - Arcos Bosques",
+    "local_json_file": "projects/Ribra - Arcos Bosques Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get"
+      ],
+      "builtin_tools": [
+        "web_search_preview"
+      ],
+      "qna_label": "Ribra - Arcos Bosques  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Ribra_Arcos_Bosques__a95732cc-5c32-4958-95e2-055d1d33c316.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Ribra_Arcos_Bosques__a95732cc-5c32-4958-95e2-055d1d33c316.json"
+  },
+  {
+    "id": "156a0ea9-c2b4-413e-995f-348a9be512f3",
+    "name": "SLS - Residences, yacht & sail club",
+    "type": "AGENTFLOW",
+    "updatedDate": "2026-04-16T01:29:08.272Z",
+    "registered_name": "SLS - Residences",
+    "local_json_file": "projects/SLS - Residences, yacht & sail club Agents.json.bak",
+    "analysis": {
+      "node_counts": {
+        "start": 1,
+        "condition": 0,
+        "agent": 1,
+        "other": 0
+      },
+      "edge_count": 1,
+      "models": [
+        "gpt-5.1"
+      ],
+      "custom_tools": [
+        "info_get"
+      ],
+      "builtin_tools": [],
+      "qna_label": "SLS - Residences, yacht & sail club  Multilingual Q&A",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": true,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/SLS_Residences_yacht_sail_club__156a0ea9-c2b4-413e-995f-348a9be512f3.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/SLS_Residences_yacht_sail_club__156a0ea9-c2b4-413e-995f-348a9be512f3.json"
+  },
+  {
+    "id": "41a2b594-edc1-418d-bf09-cd408dce8105",
+    "name": "Novotech - Santa Maria",
+    "type": "CHATFLOW",
+    "updatedDate": "2026-04-16T01:29:00.135Z",
+    "registered_name": null,
+    "local_json_file": null,
+    "analysis": {
+      "node_counts": {
+        "start": 0,
+        "condition": 0,
+        "agent": 0,
+        "other": 12
+      },
+      "edge_count": 11,
+      "models": [],
+      "custom_tools": [],
+      "builtin_tools": [],
+      "qna_label": "",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "Not registered in projects.json",
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Novotech_Santa_Maria__41a2b594-edc1-418d-bf09-cd408dce8105.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Novotech_Santa_Maria__41a2b594-edc1-418d-bf09-cd408dce8105.json"
+  },
+  {
+    "id": "504dcd65-605a-4d9e-9e8e-2a05c44f0d6e",
+    "name": "Prologis - CIJ4",
+    "type": "CHATFLOW",
+    "updatedDate": "2026-04-16T01:28:59.516Z",
+    "registered_name": null,
+    "local_json_file": null,
+    "analysis": {
+      "node_counts": {
+        "start": 0,
+        "condition": 0,
+        "agent": 0,
+        "other": 10
+      },
+      "edge_count": 9,
+      "models": [],
+      "custom_tools": [],
+      "builtin_tools": [],
+      "qna_label": "",
+      "qna_blocks": {
+        "informacion_dinamica": false,
+        "informacion_terceros": false,
+        "manejo_incertidumbre": false,
+        "anti_inferencia": false,
+        "prohibicion_promesas": false,
+        "sugerir_contacto_humano": false,
+        "tono_y_estilo": false,
+        "rules_get": false,
+        "forbidden_document_phrase_rule": false,
+        "minimal_anti_inference_only": false
+      },
+      "prompt_profile": "legacy-or-custom"
+    },
+    "issues": [
+      "Not registered in projects.json",
+      "No condition agent found",
+      "Fewer than 3 agent nodes",
+      "Missing core Q&A blocks: informacion_dinamica, informacion_terceros, manejo_incertidumbre, anti_inferencia, prohibicion_promesas, sugerir_contacto_humano, tono_y_estilo",
+      "No rules_get tool configured",
+      "No web_search_preview built-in"
+    ],
+    "raw_file": "backups_remote_20260603_132418/raw/Prologis_CIJ4__504dcd65-605a-4d9e-9e8e-2a05c44f0d6e.json",
+    "flow_file": "backups_remote_20260603_132418/flowdata/Prologis_CIJ4__504dcd65-605a-4d9e-9e8e-2a05c44f0d6e.json"
+  }
+]

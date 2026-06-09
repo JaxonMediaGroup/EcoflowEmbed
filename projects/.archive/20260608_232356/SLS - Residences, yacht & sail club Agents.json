@@ -1,0 +1,1000 @@
+{
+  "nodes": [
+    {
+      "id": "startAgentflow_0",
+      "type": "agentFlow",
+      "position": {
+        "x": -260.5,
+        "y": 79.5
+      },
+      "width": 103,
+      "height": 66,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -260.5,
+        "y": 79.5
+      },
+      "data": {
+        "id": "startAgentflow_0",
+        "label": "Start",
+        "version": 1.1,
+        "name": "startAgentflow",
+        "type": "Start",
+        "color": "#7EE787",
+        "hideInput": true,
+        "baseClasses": [
+          "Start"
+        ],
+        "category": "Agent Flows",
+        "description": "Starting point of the agentflow",
+        "inputParams": [
+          {
+            "label": "Input Type",
+            "name": "startInputType",
+            "type": "options",
+            "options": [
+              {
+                "label": "Chat Input",
+                "name": "chatInput",
+                "description": "Start the conversation with chat input"
+              },
+              {
+                "label": "Form Input",
+                "name": "formInput",
+                "description": "Start the workflow with form inputs"
+              }
+            ],
+            "default": "chatInput",
+            "id": "startAgentflow_0-input-startInputType-options",
+            "display": true
+          },
+          {
+            "label": "Form Title",
+            "name": "formTitle",
+            "type": "string",
+            "placeholder": "Please Fill Out The Form",
+            "show": {
+              "startInputType": "formInput"
+            },
+            "id": "startAgentflow_0-input-formTitle-string",
+            "display": false
+          },
+          {
+            "label": "Form Description",
+            "name": "formDescription",
+            "type": "string",
+            "placeholder": "Complete all fields below to continue",
+            "show": {
+              "startInputType": "formInput"
+            },
+            "id": "startAgentflow_0-input-formDescription-string",
+            "display": false
+          },
+          {
+            "label": "Form Input Types",
+            "name": "formInputTypes",
+            "description": "Specify the type of form input",
+            "type": "array",
+            "show": {
+              "startInputType": "formInput"
+            },
+            "array": [
+              {
+                "label": "Type",
+                "name": "type",
+                "type": "options",
+                "options": [
+                  {
+                    "label": "String",
+                    "name": "string"
+                  },
+                  {
+                    "label": "Number",
+                    "name": "number"
+                  },
+                  {
+                    "label": "Boolean",
+                    "name": "boolean"
+                  },
+                  {
+                    "label": "Options",
+                    "name": "options"
+                  }
+                ],
+                "default": "string"
+              },
+              {
+                "label": "Label",
+                "name": "label",
+                "type": "string",
+                "placeholder": "Label for the input"
+              },
+              {
+                "label": "Variable Name",
+                "name": "name",
+                "type": "string",
+                "placeholder": "Variable name for the input (must be camel case)",
+                "description": "Variable name must be camel case. For example: firstName, lastName, etc."
+              },
+              {
+                "label": "Add Options",
+                "name": "addOptions",
+                "type": "array",
+                "show": {
+                  "formInputTypes[$index].type": "options"
+                },
+                "array": [
+                  {
+                    "label": "Option",
+                    "name": "option",
+                    "type": "string"
+                  }
+                ]
+              }
+            ],
+            "id": "startAgentflow_0-input-formInputTypes-array",
+            "display": false
+          },
+          {
+            "label": "Ephemeral Memory",
+            "name": "startEphemeralMemory",
+            "type": "boolean",
+            "description": "Start fresh for every execution without past chat history",
+            "optional": true,
+            "id": "startAgentflow_0-input-startEphemeralMemory-boolean",
+            "display": true
+          },
+          {
+            "label": "Flow State",
+            "name": "startState",
+            "description": "Runtime state during the execution of the workflow",
+            "type": "array",
+            "optional": true,
+            "array": [
+              {
+                "label": "Key",
+                "name": "key",
+                "type": "string",
+                "placeholder": "Foo"
+              },
+              {
+                "label": "Value",
+                "name": "value",
+                "type": "string",
+                "placeholder": "Bar",
+                "optional": true
+              }
+            ],
+            "id": "startAgentflow_0-input-startState-array",
+            "display": true
+          },
+          {
+            "label": "Persist State",
+            "name": "startPersistState",
+            "type": "boolean",
+            "description": "Persist the state in the same session",
+            "optional": true,
+            "id": "startAgentflow_0-input-startPersistState-boolean",
+            "display": true
+          }
+        ],
+        "inputAnchors": [],
+        "inputs": {
+          "startInputType": "chatInput",
+          "formTitle": "",
+          "formDescription": "",
+          "formInputTypes": "",
+          "startEphemeralMemory": "",
+          "startState": [],
+          "startPersistState": ""
+        },
+        "outputAnchors": [
+          {
+            "id": "startAgentflow_0-output-startAgentflow",
+            "label": "Start",
+            "name": "startAgentflow"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      },
+      "dragging": false
+    },
+    {
+      "id": "agentAgentflow_0",
+      "type": "agentFlow",
+      "position": {
+        "x": 370,
+        "y": -10
+      },
+      "width": 410,
+      "height": 100,
+      "selected": true,
+      "positionAbsolute": {
+        "x": 370,
+        "y": -10
+      },
+      "data": {
+        "id": "agentAgentflow_0",
+        "label": "SLS - Residences, yacht & sail club  Multilingual Q&A",
+        "version": 3.2,
+        "name": "agentAgentflow",
+        "type": "Agent",
+        "color": "#4DD0E1",
+        "baseClasses": [
+          "Agent"
+        ],
+        "category": "Agent Flows",
+        "description": "Dynamically choose and utilize tools during runtime, enabling multi-step reasoning",
+        "inputParams": [
+          {
+            "label": "Model",
+            "name": "agentModel",
+            "type": "asyncOptions",
+            "loadMethod": "listModels",
+            "loadConfig": true,
+            "id": "agentAgentflow_0-input-agentModel-asyncOptions",
+            "display": true
+          },
+          {
+            "label": "Messages",
+            "name": "agentMessages",
+            "type": "array",
+            "optional": true,
+            "acceptVariable": true,
+            "array": [
+              {
+                "label": "Role",
+                "name": "role",
+                "type": "options",
+                "options": [
+                  {
+                    "label": "System",
+                    "name": "system"
+                  },
+                  {
+                    "label": "Assistant",
+                    "name": "assistant"
+                  },
+                  {
+                    "label": "Developer",
+                    "name": "developer"
+                  },
+                  {
+                    "label": "User",
+                    "name": "user"
+                  }
+                ]
+              },
+              {
+                "label": "Content",
+                "name": "content",
+                "type": "string",
+                "acceptVariable": true,
+                "generateInstruction": true,
+                "rows": 4
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentMessages-array",
+            "display": true
+          },
+          {
+            "label": "OpenAI Built-in Tools",
+            "name": "agentToolsBuiltInOpenAI",
+            "type": "multiOptions",
+            "optional": true,
+            "options": [
+              {
+                "label": "Web Search",
+                "name": "web_search_preview",
+                "description": "Search the web for the latest information"
+              },
+              {
+                "label": "Code Interpreter",
+                "name": "code_interpreter",
+                "description": "Write and run Python code in a sandboxed environment"
+              },
+              {
+                "label": "Image Generation",
+                "name": "image_generation",
+                "description": "Generate images based on a text prompt"
+              }
+            ],
+            "show": {
+              "agentModel": "chatOpenAI"
+            },
+            "id": "agentAgentflow_0-input-agentToolsBuiltInOpenAI-multiOptions",
+            "display": true
+          },
+          {
+            "label": "Gemini Built-in Tools",
+            "name": "agentToolsBuiltInGemini",
+            "type": "multiOptions",
+            "optional": true,
+            "options": [
+              {
+                "label": "URL Context",
+                "name": "urlContext",
+                "description": "Extract content from given URLs"
+              },
+              {
+                "label": "Google Search",
+                "name": "googleSearch",
+                "description": "Search real-time web content"
+              },
+              {
+                "label": "Code Execution",
+                "name": "codeExecution",
+                "description": "Write and run Python code in a sandboxed environment"
+              }
+            ],
+            "show": {
+              "agentModel": "chatGoogleGenerativeAI"
+            },
+            "id": "agentAgentflow_0-input-agentToolsBuiltInGemini-multiOptions",
+            "display": false
+          },
+          {
+            "label": "Anthropic Built-in Tools",
+            "name": "agentToolsBuiltInAnthropic",
+            "type": "multiOptions",
+            "optional": true,
+            "options": [
+              {
+                "label": "Web Search",
+                "name": "web_search_20250305",
+                "description": "Search the web for the latest information"
+              },
+              {
+                "label": "Web Fetch",
+                "name": "web_fetch_20250910",
+                "description": "Retrieve full content from specified web pages"
+              }
+            ],
+            "show": {
+              "agentModel": "chatAnthropic"
+            },
+            "id": "agentAgentflow_0-input-agentToolsBuiltInAnthropic-multiOptions",
+            "display": false
+          },
+          {
+            "label": "Tools",
+            "name": "agentTools",
+            "type": "array",
+            "optional": true,
+            "array": [
+              {
+                "label": "Tool",
+                "name": "agentSelectedTool",
+                "type": "asyncOptions",
+                "loadMethod": "listTools",
+                "loadConfig": true
+              },
+              {
+                "label": "Require Human Input",
+                "name": "agentSelectedToolRequiresHumanInput",
+                "type": "boolean",
+                "optional": true
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentTools-array",
+            "display": true
+          },
+          {
+            "label": "Knowledge (Document Stores)",
+            "name": "agentKnowledgeDocumentStores",
+            "type": "array",
+            "description": "Give your agent context about different document sources. Document stores must be upserted in advance.",
+            "array": [
+              {
+                "label": "Document Store",
+                "name": "documentStore",
+                "type": "asyncOptions",
+                "loadMethod": "listStores"
+              },
+              {
+                "label": "Describe Knowledge",
+                "name": "docStoreDescription",
+                "type": "string",
+                "generateDocStoreDescription": true,
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
+              },
+              {
+                "label": "Return Source Documents",
+                "name": "returnSourceDocuments",
+                "type": "boolean",
+                "optional": true
+              }
+            ],
+            "optional": true,
+            "id": "agentAgentflow_0-input-agentKnowledgeDocumentStores-array",
+            "display": true
+          },
+          {
+            "label": "Knowledge (Vector Embeddings)",
+            "name": "agentKnowledgeVSEmbeddings",
+            "type": "array",
+            "description": "Give your agent context about different document sources from existing vector stores and embeddings",
+            "array": [
+              {
+                "label": "Vector Store",
+                "name": "vectorStore",
+                "type": "asyncOptions",
+                "loadMethod": "listVectorStores",
+                "loadConfig": true
+              },
+              {
+                "label": "Embedding Model",
+                "name": "embeddingModel",
+                "type": "asyncOptions",
+                "loadMethod": "listEmbeddings",
+                "loadConfig": true
+              },
+              {
+                "label": "Knowledge Name",
+                "name": "knowledgeName",
+                "type": "string",
+                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
+              },
+              {
+                "label": "Describe Knowledge",
+                "name": "knowledgeDescription",
+                "type": "string",
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
+              },
+              {
+                "label": "Return Source Documents",
+                "name": "returnSourceDocuments",
+                "type": "boolean",
+                "optional": true
+              }
+            ],
+            "optional": true,
+            "id": "agentAgentflow_0-input-agentKnowledgeVSEmbeddings-array",
+            "display": true
+          },
+          {
+            "label": "Enable Memory",
+            "name": "agentEnableMemory",
+            "type": "boolean",
+            "description": "Enable memory for the conversation thread",
+            "default": true,
+            "optional": true,
+            "id": "agentAgentflow_0-input-agentEnableMemory-boolean",
+            "display": true
+          },
+          {
+            "label": "Memory Type",
+            "name": "agentMemoryType",
+            "type": "options",
+            "options": [
+              {
+                "label": "All Messages",
+                "name": "allMessages",
+                "description": "Retrieve all messages from the conversation"
+              },
+              {
+                "label": "Window Size",
+                "name": "windowSize",
+                "description": "Uses a fixed window size to surface the last N messages"
+              },
+              {
+                "label": "Conversation Summary",
+                "name": "conversationSummary",
+                "description": "Summarizes the whole conversation"
+              },
+              {
+                "label": "Conversation Summary Buffer",
+                "name": "conversationSummaryBuffer",
+                "description": "Summarize conversations once token limit is reached. Default to 2000"
+              }
+            ],
+            "optional": true,
+            "default": "allMessages",
+            "show": {
+              "agentEnableMemory": true
+            },
+            "id": "agentAgentflow_0-input-agentMemoryType-options",
+            "display": true
+          },
+          {
+            "label": "Window Size",
+            "name": "agentMemoryWindowSize",
+            "type": "number",
+            "default": "20",
+            "description": "Uses a fixed window size to surface the last N messages",
+            "show": {
+              "agentMemoryType": "windowSize"
+            },
+            "id": "agentAgentflow_0-input-agentMemoryWindowSize-number",
+            "display": true
+          },
+          {
+            "label": "Max Token Limit",
+            "name": "agentMemoryMaxTokenLimit",
+            "type": "number",
+            "default": "2000",
+            "description": "Summarize conversations once token limit is reached. Default to 2000",
+            "show": {
+              "agentMemoryType": "conversationSummaryBuffer"
+            },
+            "id": "agentAgentflow_0-input-agentMemoryMaxTokenLimit-number",
+            "display": false
+          },
+          {
+            "label": "Input Message",
+            "name": "agentUserMessage",
+            "type": "string",
+            "description": "Add an input message as user message at the end of the conversation",
+            "rows": 4,
+            "optional": true,
+            "acceptVariable": true,
+            "show": {
+              "agentEnableMemory": true
+            },
+            "id": "agentAgentflow_0-input-agentUserMessage-string",
+            "display": true
+          },
+          {
+            "label": "Return Response As",
+            "name": "agentReturnResponseAs",
+            "type": "options",
+            "options": [
+              {
+                "label": "User Message",
+                "name": "userMessage"
+              },
+              {
+                "label": "Assistant Message",
+                "name": "assistantMessage"
+              }
+            ],
+            "default": "userMessage",
+            "id": "agentAgentflow_0-input-agentReturnResponseAs-options",
+            "display": true
+          },
+          {
+            "label": "JSON Structured Output",
+            "name": "agentStructuredOutput",
+            "description": "Instruct the Agent to give output in a JSON structured schema",
+            "type": "array",
+            "optional": true,
+            "acceptVariable": true,
+            "array": [
+              {
+                "label": "Key",
+                "name": "key",
+                "type": "string"
+              },
+              {
+                "label": "Type",
+                "name": "type",
+                "type": "options",
+                "options": [
+                  {
+                    "label": "String",
+                    "name": "string"
+                  },
+                  {
+                    "label": "String Array",
+                    "name": "stringArray"
+                  },
+                  {
+                    "label": "Number",
+                    "name": "number"
+                  },
+                  {
+                    "label": "Boolean",
+                    "name": "boolean"
+                  },
+                  {
+                    "label": "Enum",
+                    "name": "enum"
+                  },
+                  {
+                    "label": "JSON Array",
+                    "name": "jsonArray"
+                  }
+                ]
+              },
+              {
+                "label": "Enum Values",
+                "name": "enumValues",
+                "type": "string",
+                "placeholder": "value1, value2, value3",
+                "description": "Enum values. Separated by comma",
+                "optional": true,
+                "show": {
+                  "agentStructuredOutput[$index].type": "enum"
+                }
+              },
+              {
+                "label": "JSON Schema",
+                "name": "jsonSchema",
+                "type": "code",
+                "placeholder": "{\n    \"answer\": {\n        \"type\": \"string\",\n        \"description\": \"Value of the answer\"\n    },\n    \"reason\": {\n        \"type\": \"string\",\n        \"description\": \"Reason for the answer\"\n    },\n    \"optional\": {\n        \"type\": \"boolean\"\n    },\n    \"count\": {\n        \"type\": \"number\"\n    },\n    \"children\": {\n        \"type\": \"array\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"value\": {\n                    \"type\": \"string\",\n                    \"description\": \"Value of the children's answer\"\n                }\n            }\n        }\n    }\n}",
+                "description": "JSON schema for the structured output",
+                "optional": true,
+                "hideCodeExecute": true,
+                "show": {
+                  "agentStructuredOutput[$index].type": "jsonArray"
+                }
+              },
+              {
+                "label": "Description",
+                "name": "description",
+                "type": "string",
+                "placeholder": "Description of the key"
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentStructuredOutput-array",
+            "display": true
+          },
+          {
+            "label": "Update Flow State",
+            "name": "agentUpdateState",
+            "description": "Update runtime state during the execution of the workflow",
+            "type": "array",
+            "optional": true,
+            "acceptVariable": true,
+            "array": [
+              {
+                "label": "Key",
+                "name": "key",
+                "type": "asyncOptions",
+                "loadMethod": "listRuntimeStateKeys"
+              },
+              {
+                "label": "Value",
+                "name": "value",
+                "type": "string",
+                "acceptVariable": true,
+                "acceptNodeOutputAsVariable": true
+              }
+            ],
+            "id": "agentAgentflow_0-input-agentUpdateState-array",
+            "display": true
+          }
+        ],
+        "inputAnchors": [],
+        "inputs": {
+          "agentModel": "chatOpenAI",
+          "agentMessages": [
+            {
+              "role": "system",
+              "content": "<p><strong>You are a multilingual real estate advisor for SLS - Residences, yacht & sail club. Your PRIMARY information source is the info_get tool.</strong></p><p><strong>🌍 STRICT LANGUAGE RULE:</strong></p><ul><li>Detect the language of the user's LAST message.</li><li>Respond ENTIRELY in that EXACT language. No mixing.</li><li>If the user switches language mid-conversation, switch IMMEDIATELY.</li><li>If the user writes in Chinese, respond in Chinese. In Arabic, respond in Arabic. In Portuguese, respond in Portuguese. ANY language.</li><li>NEVER mix languages in the same response (e.g., no Spanish words in an English response).</li><li>This rule overrides everything else. Even if your instructions are in English/Spanish, your RESPONSE must match the USER's language.</li></ul><p><strong>✂️ CRITICAL RESPONSE LENGTH RULE:</strong></p><ul><li><p><strong>Be CONCISE and BRIEF.</strong> Respond in 2-4 sentences maximum unless the user explicitly asks for more detail.</p></li><li><p><strong>For greetings</strong> (hola, hi, hello, etc.): Reply with a SHORT friendly welcome (1-2 sentences max). Example: \"¡Hola! Soy tu asesor de SLS Residences, Yacht &amp; Sail Club. ¿En qué puedo ayudarte?\" Do NOT list amenities, features, or descriptions unless asked.</p></li><li><p><strong>Only elaborate</strong> when the user asks a specific question that requires a detailed answer.</p></li><li><p><strong>Use bullet points</strong> only when listing 3+ items the user specifically requested.</p></li><li><p><strong>NEVER give unsolicited long descriptions</strong> of the project.</p></li></ul><p><strong>🌐 CRITICAL DYNAMIC LANGUAGE RULE:</strong></p><ul><li><p><strong>ANALYZE EACH MESSAGE INDEPENDENTLY</strong> - Detect the language of the CURRENT message, NOT previous messages</p></li><li><p><strong>ALWAYS respond in the language of the LATEST user message</strong></p></li><li><p><strong>IGNORE conversation history language</strong> - If user switches from Spanish to English, respond in English</p></li><li><p><strong>Language switching examples:</strong></p><ul><li><p>User: \"¿Cuánto cuesta?\" → Respond in Spanish</p></li><li><p>User: \"What are the amenities?\" → Respond in English (even if previous was Spanish)</p></li><li><p>User: \"Quels sont les prix?\" → Respond in French</p></li><li><p>User: \"Tell me more\" → Respond in English</p></li></ul></li></ul><p><strong>MANDATORY PROCESS:</strong></p><ol><li><p><strong>Step 1:</strong> Detect language of the CURRENT user message</p></li><li><p><strong>Step 2:</strong> Use info_get tool to obtain official SLS - Residences, yacht &amp; sail club information</p></li><li><p><strong>Step 3:</strong> Respond ENTIRELY in the detected language of the current message, keeping the answer SHORT and DIRECT</p></li></ol><p><strong>SPECIFIC INSTRUCTIONS:</strong></p><ul><li><p><strong>For price/size ranges</strong>: Only use \"from X\" or \"up to X\" if it appears textually in the document</p></li><li><p><strong>If information not found</strong>: \"For that specific information, I'll connect you with sales\" (in the current message's language)</p></li><li><p><strong>NEVER invent information</strong> - If no tool has the data, acknowledge it in the user's current language</p></li></ul><p><strong>PRIORITY ORDER:</strong></p><p>1. info_get (official document) - USE FIRST</p><p>2. If nothing found: redirect to sales (in user's current language)</p><p><strong>⛔ STRICTLY FORBIDDEN PHRASES (ALL LANGUAGES):</strong></p><ul><li><p>NEVER use phrases like: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".</p></li><li><p>NEVER reveal you are consulting a document, file, or external data source.</p></li><li><p>Instead, respond naturally as if you have personal expert knowledge of the project. Example: Instead of \"Según el documento, el precio es...\" say \"El precio es...\"</p></li></ul>"
+            },
+            {
+              "role": "system",
+              "content": "REGLA OPERATIVA CRÍTICA — ANTI-ALUCINACIÓN para SLS - Residences, yacht & sail club:\n\n1. **FUENTE ÚNICA:** Tu ÚNICA fuente de información verificada son las herramientas oficiales configuradas para SLS - Residences, yacht & sail club (info_get y similares). NUNCA uses conocimiento general, entrenamiento previo, patrones de industria, proyectos comparables ni razonamiento indirecto para afirmar datos sobre SLS - Residences, yacht & sail club.\n\n2. **CUANDO LA HERRAMIENTA FALLA O NO TIENE EL DATO:** Responde de forma breve y honesta:\n   ES: \"Información pendiente: ________. Te recomiendo validarlo directamente con un asesor comercial de SLS - Residences, yacht & sail club.\"\n   EN: \"Information pending: ________. I recommend validating directly with a SLS - Residences, yacht & sail club sales advisor.\"\n\n3. **ANTI-INFERENCIA — PROHIBIDO INFERIR:** NUNCA completes datos con:\n   - Conocimiento general del modelo\n   - Patrones típicos del sector\n   - Proyectos comparables\n   - Prácticas de mercado\n   - Datos parciales o razonamiento indirecto\n   \n   SOLO afirma información verificada explícitamente en las fuentes oficiales de SLS - Residences, yacht & sail club. Si la fuente oficial no lo tiene, dilo — NO llenes el vacío con deducciones plausibles.\n\n4. **INFORMACIÓN DINÁMICA — NUNCA CONFIRMAR COMO HECHO:**\n   - Precios, disponibilidad, inventario, promociones, descuentos\n   - Condiciones de pago, financiamiento, tasas\n   - Fechas de entrega, etapas de lanzamiento\n   - Amenidades pendientes de confirmar\n   - Datos de contacto (teléfonos, correos) que no estén en la fuente\n   \n   Siempre redirige: \"Esta información puede variar. Te recomiendo validarla directamente con un asesor comercial.\"\n\n5. **PROHIBICIONES EXPLÍCITAS — NUNCA prometas ni afirmes:**\n   - Plusvalía o rendimientos financieros\n   - Fechas de entrega no confirmadas\n   - Amenidades no cerradas\n   - Precios no validados por la fuente oficial\n   - Disponibilidad sin inventario actualizado\n   - Condiciones hipotecarias no confirmadas\n   - Promociones o descuentos no vigentes\n\n6. **FRASES PROHIBIDAS EN TU RESPUESTA:**\n   - NUNCA digas: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"the document states\", \"based on the provided document\", \"according to the document\"\n   - NUNCA reveles que estás consultando un documento, archivo o fuente de datos\n   - Responde naturalmente como un asesor experto que conoce el proyecto\n\n7. **IDIOMA:** Detecta el idioma del ÚLTIMO mensaje del usuario y responde ENTERAMENTE en ese idioma. Si cambia de idioma entre mensajes, cambia tú también inmediatamente.\n\n8. **ALCANCE — TEMAS QUE SÍ MANEJAS:** the project: lots, residences, amenities, location, pricing, financing, presale, contact, and visit scheduling. Para cualquier otro tema, redirige amablemente al tema del proyecto o al área correspondiente.\n\n9. **ESTILO:** Tono amable, profesional, breve. Sin exageraciones comerciales. Sin promesas. Sin lenguaje ambiguo. Enfócate en resolver dudas reales con datos verificados.\n\n10. **ESCALAMIENTO:** Si el usuario pide cotización detallada, disponibilidad exacta, negociación o seguimiento comercial, sugiere amablemente el contacto con un asesor comercial."
+            }
+          ],
+          "agentTools": [
+            {
+              "agentSelectedTool": "requestsGet",
+              "agentSelectedToolConfig": {
+                "requestsGetUrl": "<p>https://docs.google.com/document/d/1Asaj-P3l0VshG2UNH-OsqFlj-jkJH8cwvLCyYDs2utY/export?format=txt</p>",
+                "requestsGetName": "info_get",
+                "requestsGetDescription": "PRIMARY TOOL: Always use this FIRST to get official SLS - Residences, yacht & sail club  information from the Google document. This is your primary information source.",
+                "requestsGetHeaders": "",
+                "requestsGetQueryParamsSchema": "",
+                "requestsGetMaxOutputLength": "",
+                "agentSelectedTool": "requestsGet"
+              }
+            }
+          ],
+          "agentKnowledgeDocumentStores": [],
+          "agentKnowledgeVSEmbeddings": [],
+          "agentEnableMemory": true,
+          "agentMemoryType": "windowSize",
+          "agentMemoryWindowSize": "20",
+          "agentUserMessage": "",
+          "agentReturnResponseAs": "userMessage",
+          "agentStructuredOutput": "",
+          "agentUpdateState": "",
+          "agentModelConfig": {
+            "credential": "",
+            "modelName": "gpt-5.1",
+            "temperature": "0.1",
+            "streaming": true,
+            "maxTokens": "",
+            "topP": "",
+            "frequencyPenalty": "",
+            "presencePenalty": "",
+            "timeout": "",
+            "strictToolCalling": "",
+            "stopSequence": "",
+            "basepath": "",
+            "proxyUrl": "",
+            "baseOptions": "",
+            "allowImageUploads": "",
+            "reasoning": "",
+            "agentModel": "chatOpenAI",
+            "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
+          }
+        },
+        "outputAnchors": [
+          {
+            "id": "agentAgentflow_0-output-agentAgentflow",
+            "label": "Agent",
+            "name": "agentAgentflow"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      },
+      "dragging": false
+    },
+    {
+      "id": "conditionAgentAgentflow_0",
+      "type": "agentFlow",
+      "position": {
+        "x": 100,
+        "y": 81.5
+      },
+      "width": 202,
+      "height": 75,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 100,
+        "y": 81.5
+      },
+      "dragging": false,
+      "data": {
+        "id": "conditionAgentAgentflow_0",
+        "label": "Multilingual Condition Agent",
+        "version": 2,
+        "name": "conditionAgentAgentflow",
+        "type": "ConditionAgent",
+        "color": "#ff8fab",
+        "baseClasses": [
+          "ConditionAgent"
+        ],
+        "category": "Agent Flows",
+        "description": "Route user messages to the SLS - Residences, yacht & sail club Q&A agent or to the off-topic guard.",
+        "inputParams": [
+          {
+            "label": "Model",
+            "name": "conditionAgentModel",
+            "type": "asyncOptions",
+            "loadMethod": "listModels",
+            "loadConfig": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentModel-asyncOptions",
+            "display": true
+          },
+          {
+            "label": "Instructions",
+            "name": "conditionAgentInstructions",
+            "type": "string",
+            "rows": 4,
+            "optional": true,
+            "acceptVariable": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentInstructions-string",
+            "display": true
+          },
+          {
+            "label": "Input",
+            "name": "conditionAgentInput",
+            "type": "string",
+            "rows": 4,
+            "optional": true,
+            "acceptVariable": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentInput-string",
+            "display": true
+          },
+          {
+            "label": "Conditions",
+            "name": "conditionAgentScenarios",
+            "type": "array",
+            "optional": true,
+            "array": [
+              {
+                "label": "Condition",
+                "name": "scenario",
+                "type": "string",
+                "rows": 2,
+                "placeholder": "Scenario for this output"
+              }
+            ],
+            "id": "conditionAgentAgentflow_0-input-conditionAgentScenarios-array",
+            "display": true
+          },
+          {
+            "label": "Override System Prompt",
+            "name": "conditionAgentOverrideSystemPrompt",
+            "type": "string",
+            "rows": 4,
+            "optional": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentOverrideSystemPrompt-string",
+            "display": true
+          }
+        ],
+        "inputAnchors": [],
+        "inputs": {
+          "conditionAgentModel": "chatOpenAI",
+          "conditionAgentInstructions": "<p>You are a multilingual intent classifier for <strong>SLS - Residences, yacht & sail club</strong>. Your job is to understand what the user needs and route them to the correct agent.</p>\n\n<p><strong>Categories:</strong></p>\n<ol start=\"0\">\n<li><strong>In-scope</strong> - Any question that CAN be related to SLS - Residences, yacht & sail club: features, products, services, processes, contact info, visiting, financing, history, certifications, location, nearby services, or lifestyle topics that the project agent can connect back to the project. Works in any language.</li>\n<li><strong>Off-topic</strong> - ONLY when the question is IMPOSSIBLE to relate to SLS - Residences, yacht & sail club: homework, programming code, math equations, step-by-step recipes, text translations, historical biographies, creative poetry, sports scores, politics, AI help, health advice, weather.</li>\n</ol>\n\n<p><strong>Classification examples:</strong></p>\n<ul>\n<li>\"What is SLS - Residences, yacht & sail club?\" &rarr; 0</li>\n<li>\"How can I contact SLS - Residences, yacht & sail club?\" &rarr; 0</li>\n<li>\"Tell me about pricing/financing\" &rarr; 0</li>\n<li>\"I want to schedule a visit\" &rarr; 0</li>\n</ul>\n\n<p><strong>SMART ROUTING:</strong></p>\n<p>The user is ALREADY talking to the SLS - Residences, yacht & sail club assistant. If the user mentions a personal interest or lifestyle, the project agent can connect it back to SLS - Residences, yacht & sail club. Give it the chance to do so.</p>\n\n<p><strong>These ARE in-scope (&rarr; 0):</strong></p>\n<ul>\n<li>Any question about SLS - Residences, yacht & sail club features, services, or contact</li>\n<li>Lifestyle questions that can be tied to the project (security, location, investment, family life, sustainability)</li>\n<li>Investment, financing, or presale questions</li>\n</ul>\n\n<p><strong>These ARE off-topic (&rarr; 1):</strong></p>\n<ul>\n<li>\"Solve 2x+3=7\" &rarr; 1</li>\n<li>\"Write me Python code\" &rarr; 1</li>\n<li>\"Give me a chocolate cake recipe\" &rarr; 1</li>\n<li>\"Help me with my history homework\" &rarr; 1</li>\n<li>\"Tell me Einstein's biography\" &rarr; 1</li>\n<li>\"Write me a love poem\" &rarr; 1</li>\n<li>\"Translate this to Japanese\" &rarr; 1</li>\n<li>\"What's the square root of 144?\" &rarr; 1</li>\n</ul>\n\n<p><strong>GOLDEN RULE:</strong> When in doubt, ALWAYS route to category 0. The SLS - Residences, yacht & sail club agent knows how to connect lifestyle topics to the project. Only route to 1 if it is clearly ACADEMIC, TECHNICAL, or a knowledge request that has nothing to do with SLS - Residences, yacht & sail club.</p>\n\n<p><strong>LANGUAGE NOTE:</strong> Classify by intent, NOT by language. If the user writes in English, French, Chinese, Arabic, or any language, classify the same way. The downstream agents handle multilingual responses.</p>",
+          "conditionAgentInput": "<p><span class=\"variable\" data-type=\"mention\" data-id=\"question\" data-label=\"question\">{{ question }}</span> </p>",
+          "conditionAgentScenarios": [
+            {
+              "scenario": "General question about SLS - Residences, yacht & sail club (features, services, location, pricing, contact, financing, presale, admissions, etc.) - in any language"
+            },
+            {
+              "scenario": "User asks something COMPLETELY UNRELATED to SLS - Residences, yacht & sail club (homework, coding, math, recipes, general trivia, jokes, translations, weather, sports, politics, AI, health advice, or ANY topic not about this project) - in any language"
+            }
+          ],
+          "conditionAgentOverrideSystemPrompt": "",
+          "conditionAgentModelConfig": {
+            "cache": "",
+            "modelName": "gpt-5.1",
+            "temperature": "0",
+            "streaming": true,
+            "maxTokens": "",
+            "topP": "",
+            "frequencyPenalty": "",
+            "presencePenalty": "",
+            "timeout": "",
+            "strictToolCalling": "",
+            "stopSequence": "",
+            "basepath": "",
+            "proxyUrl": "",
+            "baseOptions": "",
+            "allowImageUploads": "",
+            "reasoning": "",
+            "conditionAgentModel": "chatOpenAI"
+          }
+        },
+        "outputAnchors": [
+          {
+            "id": "conditionAgentAgentflow_0-output-0",
+            "label": "0",
+            "name": "0"
+          },
+          {
+            "id": "conditionAgentAgentflow_0-output-1",
+            "label": "1",
+            "name": "1"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      }
+    },
+    {
+      "id": "agentAgentflow_1",
+      "type": "agentFlow",
+      "position": {
+        "x": 370,
+        "y": 180
+      },
+      "width": 167,
+      "height": 100,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 370,
+        "y": 180
+      },
+      "dragging": false,
+      "data": {
+        "id": "agentAgentflow_1",
+        "label": "Off-Topic Guard (Multilingual) - SLS - Residences, yacht & sail club",
+        "version": 3.2,
+        "name": "agentAgentflow",
+        "type": "Agent",
+        "color": "#FF6B6B",
+        "baseClasses": [
+          "Agent"
+        ],
+        "category": "Agent Flows",
+        "description": "Blocks off-topic questions and redirects users to SLS - Residences, yacht & sail club topics.",
+        "inputParams": [],
+        "inputAnchors": [],
+        "inputs": {
+          "agentModel": "chatOpenAI",
+          "agentMessages": [
+            {
+              "role": "system",
+              "content": "<p>Eres el GUARDIA DE ALCANCE del chatbot de <strong>SLS - Residences, yacht & sail club</strong>.</p>\n\n<p><strong>STRICT LANGUAGE RULE:</strong> Detect the user's language and respond ENTIRELY in that language. If they write in Chinese, respond in Chinese. In French, respond in French. NEVER mix languages. If the user switches language, switch immediately.</p>\n\n<p>TU ÚNICO TRABAJO: Rechazar amablemente preguntas fuera de tema y redirigir al usuario a temas de SLS - Residences, yacht & sail club.</p>\n\n<p>REGLAS DE RESPUESTA:</p>\n\n<p>1. Si el usuario envía un SALUDO (Hola, Hi, Hello, Buenos días, etc.), responde:</p>\n<p>'¡Hola! Soy el asistente virtual de <strong>SLS - Residences, yacht & sail club</strong>. ¿En qué puedo ayudarte?</p>\n<p>Puedo ayudarte con:<br>\n<ul>\n<li>Ubicación y acceso al desarrollo</li><li>Residencias de lujo y tipologías</li><li>Yacht & sail club y amenidades premium</li><li>Precios, financiamiento y preventa</li><li>Proceso de compra y contrato</li><li>Información de contacto y visitas</li>\n</ul></p>\n\n<p>2. Para CUALQUIER pregunta fuera de tema, responde:</p>\n<p>'Soy el asistente virtual de <strong>SLS - Residences, yacht & sail club</strong> y solo puedo ayudarte con temas relacionados al desarrollo.</p>\n<p>Puedo ayudarte con:<br>\n<ul>\n<li>Ubicación y acceso al desarrollo</li><li>Residencias de lujo y tipologías</li><li>Yacht & sail club y amenidades premium</li><li>Precios, financiamiento y preventa</li><li>Proceso de compra y contrato</li><li>Información de contacto y visitas</li>\n</ul></p>\n<p>Para información personalizada, contacta a un asesor comercial de SLS Residences.</p>\n<p>¿Tienes alguna pregunta sobre SLS - Residences, yacht & sail club?'</p>\n\n<p>3. ADAPTA el idioma al del usuario:</p>\n<ul>\n<li>English &mdash; use these topics:\n<ul>\n<li>Location and access to the development</li><li>Luxury residences and typologies</li><li>Yacht & sail club and premium amenities</li><li>Pricing, financing and presale</li><li>Purchase and contract process</li><li>Contact info and visit scheduling</li>\n</li>\n</ul>\n</li>\n<li>French, Portuguese, etc. &mdash; translate the topics to the user's language</li>\n<li>Always match the user's language</li>\n</ul>\n\n<p>ESTRICTAMENTE PROHIBIDO:</p>\n<ul>\n<li>NUNCA respondas preguntas fuera de tema, ni siquiera parcialmente</li>\n<li>NUNCA digas 'No sé pero...' y luego respondas</li>\n<li>NUNCA uses búsqueda web ni herramientas externas</li>\n<li>NUNCA proporciones conocimiento general</li>\n<li>Mantén las respuestas CORTAS y siempre redirige a temas de SLS - Residences, yacht & sail club</li>\n</ul>"
+            }
+          ],
+          "agentToolsBuiltInOpenAI": "",
+          "agentToolsBuiltInGemini": "",
+          "agentToolsBuiltInAnthropic": "",
+          "agentTools": [],
+          "agentKnowledgeDocumentStores": [],
+          "agentKnowledgeVSEmbeddings": [],
+          "agentEnableMemory": true,
+          "agentMemoryType": "windowSize",
+          "agentMemoryWindowSize": "20",
+          "agentMemoryMaxTokenLimit": "2000",
+          "agentUserMessage": "",
+          "agentReturnResponseAs": "userMessage",
+          "agentStructuredOutput": "",
+          "agentUpdateState": "",
+          "agentModelConfig": {
+            "cache": "",
+            "modelName": "gpt-5.1",
+            "temperature": "0",
+            "streaming": true,
+            "maxTokens": "",
+            "topP": "",
+            "frequencyPenalty": "",
+            "presencePenalty": "",
+            "timeout": "",
+            "strictToolCalling": "",
+            "stopSequence": "",
+            "basepath": "",
+            "proxyUrl": "",
+            "baseOptions": "",
+            "allowImageUploads": "",
+            "reasoning": "",
+            "agentModel": "chatOpenAI"
+          }
+        },
+        "outputAnchors": [
+          {
+            "id": "agentAgentflow_1-output-agentAgentflow",
+            "label": "Agent",
+            "name": "agentAgentflow"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "startAgentflow_0",
+      "sourceHandle": "startAgentflow_0-output-startAgentflow",
+      "target": "conditionAgentAgentflow_0",
+      "targetHandle": "conditionAgentAgentflow_0",
+      "data": {
+        "sourceColor": "#7EE787",
+        "targetColor": "#ff8fab",
+        "isHumanInput": false
+      },
+      "type": "agentFlow",
+      "id": "startAgentflow_0-startAgentflow_0-output-startAgentflow-conditionAgentAgentflow_0-conditionAgentAgentflow_0"
+    },
+    {
+      "source": "conditionAgentAgentflow_0",
+      "sourceHandle": "conditionAgentAgentflow_0-output-0",
+      "target": "agentAgentflow_0",
+      "targetHandle": "agentAgentflow_0",
+      "data": {
+        "sourceColor": "#ff8fab",
+        "targetColor": "#4DD0E1",
+        "edgeLabel": "0",
+        "isHumanInput": false
+      },
+      "type": "agentFlow",
+      "id": "conditionAgentAgentflow_0-conditionAgentAgentflow_0-output-0-agentAgentflow_0-agentAgentflow_0"
+    },
+    {
+      "source": "conditionAgentAgentflow_0",
+      "sourceHandle": "conditionAgentAgentflow_0-output-1",
+      "target": "agentAgentflow_1",
+      "targetHandle": "agentAgentflow_1",
+      "data": {
+        "sourceColor": "#ff8fab",
+        "targetColor": "#FF6B6B",
+        "edgeLabel": "1",
+        "isHumanInput": false,
+        "edgeStyle": "default"
+      },
+      "type": "agentFlow",
+      "id": "reactflow__edge-conditionAgentAgentflow_0-conditionAgentAgentflow_0-output-1-agentAgentflow_1-agentAgentflow_1",
+      "style": {
+        "stroke": "#FF6B6B",
+        "strokeWidth": 2
+      }
+    }
+  ],
+  "viewport": {
+    "x": 738.3505154639175,
+    "y": 193.95876288659787,
+    "zoom": 2
+  }
+}

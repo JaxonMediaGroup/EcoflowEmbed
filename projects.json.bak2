@@ -1,0 +1,355 @@
+{
+  "flowise_url": "https://ecoflow.koppi.mx",
+  "api_key_env": "FLOWISE_API_KEY",
+  "openai_credential_id": "10ca0bac-6033-4f4f-aff2-d5c35aef4580",
+  "projects": {
+    "Reserva Castilla": {
+      "chatflow_id": "74813737-0ed3-4e82-a1ce-9ed90d879632",
+      "json_file": "projects/Reserva Castilla Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "WTC": {
+      "chatflow_id": "a2dbda66-1339-43ae-9c67-d97f30c198ac",
+      "json_file": "projects/WTC Agents.json",
+      "type": "AGENTFLOW",
+      "category": "commercial"
+    },
+    "Anahuac Orientador Vocacional": {
+      "chatflow_id": "4c84d4c6-2df9-4d60-ac7e-6c9a78608f1c",
+      "json_file": "projects/Anahuac Orientador Vocacional Agents.json",
+      "type": "AGENTFLOW",
+      "category": "education"
+    },
+    "LST La Santisima": {
+      "chatflow_id": "80f70d3a-4e14-49cf-b743-7ca9dd841a70",
+      "json_file": "projects/LST La Santisima Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Torre Zero Centro de Neogcios": {
+      "chatflow_id": "25811504-b1df-46be-8543-a6d17a5e347f",
+      "json_file": "projects/Torre Zero Centro de Neogcios Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Torre Zero Providencia": {
+      "chatflow_id": "9b968405-d68a-42ed-9d4d-1da1bac36fbf",
+      "json_file": "projects/Torre Zero Providencia Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Torre Alhena": {
+      "chatflow_id": "0a9363a3-8cfa-4e0c-b5d4-9d228a60cdb2",
+      "json_file": "projects/Torre Alhena Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Terralago": {
+      "chatflow_id": "f98edc6a-940e-40d4-88b7-986e8813965a",
+      "json_file": "projects/Terralago Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Punta Zero": {
+      "chatflow_id": "c1c75382-f36e-4346-a06b-1bc68b3f115a",
+      "json_file": "projects/Punta Zero Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Mozaiko Lindavista": {
+      "chatflow_id": "78eca94c-d9ef-465d-8dcc-6f4585435311",
+      "json_file": "projects/Mozaiko Lindavista Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "LST San Francisco": {
+      "chatflow_id": "20ff6f90-c014-4b05-8207-6ab08a7da8e0",
+      "json_file": "projects/LST San Francisco Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "LST Santa Catalina": {
+      "chatflow_id": "89cfc791-b99a-493d-bc15-fd27ae5df45b",
+      "json_file": "projects/LST Santa Catalina Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "LST San Lucas": {
+      "chatflow_id": "453117e4-c239-4299-8721-0c9528b4fec2",
+      "json_file": "projects/LST San Lucas Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "LST Los Senderos": {
+      "chatflow_id": "068df4e5-073c-45f0-996d-34dc4f886ec5",
+      "json_file": "projects/LST Los Senderos Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "LST - Providencia": {
+      "chatflow_id": "72575c98-67c8-4fa6-827a-20d27195d1d8",
+      "json_file": "projects/LST - Providencia Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Mahi Residencial": {
+      "chatflow_id": "49f64056-46a3-4c94-bc4b-0e075b988c96",
+      "json_file": "projects/Mahi Residencial Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Lst Providencia Coahuila": {
+      "chatflow_id": "f6cdb4f5-b9cd-4a12-a943-6f02633aba13",
+      "json_file": "projects/Lst Providencia Coahuila Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Mavila": {
+      "chatflow_id": "b8ba1115-3649-4dfc-89e3-090126e726bd",
+      "json_file": "projects/Mavila Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Los Nogales": {
+      "chatflow_id": "dbdf8dd3-a3a5-4dbb-9e7b-9b996cc4f98b",
+      "json_file": "projects/Los Nogales Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "KIO": {
+      "chatflow_id": "2bc49a0b-5459-4dab-b9a6-f4080c43371c",
+      "json_file": "projects/KIO Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "Hideaways": {
+      "chatflow_id": "e23e1850-dd98-4f48-9fa8-4a8488497a4d",
+      "json_file": "projects/Hideaways Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "GGI Palmas Uno": {
+      "chatflow_id": "41caee1a-6ab0-4edf-b2c9-162cda9dcc83",
+      "json_file": "projects/GGI Palmas Uno Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "GGI Miyana Residencial": {
+      "chatflow_id": "1f2946d8-6362-4ba4-9d6b-880f7f147f65",
+      "json_file": "projects/GGI Miyana Residencial Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Coronado": {
+      "chatflow_id": "938763d0-4ca0-4681-9b03-5289d2464e64",
+      "json_file": "projects/Coronado Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Brisas Ixtapa": {
+      "chatflow_id": "ea0aed0d-f699-46da-8a2b-1ed0a096682e",
+      "json_file": "projects/Brisas Ixtapa Agents.json",
+      "type": "AGENTFLOW",
+      "category": "hospitality"
+    },
+    "Bosques de Tepepan": {
+      "chatflow_id": "10cbfacc-3b22-4c21-9bfd-4493c3018294",
+      "json_file": "projects/Bosques de Tepepan Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Archandel": {
+      "chatflow_id": "a8ea193e-d6f1-4235-bec2-6a8772a1fd83",
+      "json_file": "projects/Archandel Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Ara Dream Diamante": {
+      "chatflow_id": "85cd093a-8aab-4b70-9172-efae11009402",
+      "json_file": "projects/Ara Dream Diamante Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Alvar": {
+      "chatflow_id": "1d1bcd7e-bd02-41e0-9095-57b5bbc7b2bc",
+      "json_file": "projects/Alvar Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Aerolíneas Ejecutivas ALE": {
+      "chatflow_id": "82ee9777-2d5f-49e9-9998-850eb5063928",
+      "json_file": "projects/Aerolíneas Ejecutivas ALE Agents.json",
+      "type": "AGENTFLOW",
+      "category": "aviation"
+    },
+    "WE WORK": {
+      "chatflow_id": "987464b9-dec9-416c-a007-165c91b8848c",
+      "json_file": "projects/WE WORK Agents.json",
+      "type": "AGENTFLOW",
+      "category": "coworking"
+    },
+    "Volterra": {
+      "chatflow_id": "fdb7ec02-e05d-4007-9cc1-e2efbbed2345",
+      "json_file": "projects/Volterra Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Virreyes": {
+      "chatflow_id": "1868dfd5-4647-4dbe-902b-759b18891515",
+      "json_file": "projects/Virreyes Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Vesta Park": {
+      "chatflow_id": "58d9f2cd-8518-4f83-b65f-b7ec0aceb760",
+      "json_file": "projects/Vesta Park Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "SLS - Residences": {
+      "chatflow_id": "156a0ea9-c2b4-413e-995f-348a9be512f3",
+      "json_file": "projects/SLS - Residences, yacht & sail club Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Ribra - Arcos Bosques": {
+      "chatflow_id": "a95732cc-5c32-4958-95e2-055d1d33c316",
+      "json_file": "projects/Ribra - Arcos Bosques Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Quvira Showroom": {
+      "chatflow_id": "829ec95a-36ff-4c59-b62a-ac4ff2dbf0fd",
+      "json_file": "projects/Quvira Showrom Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Quivira": {
+      "chatflow_id": "ab8abc17-c8c3-4898-b594-872896959b17",
+      "json_file": "projects/Quivira Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Punta Cuerna": {
+      "chatflow_id": "4470ba7a-a20f-405e-8afd-c82417b26c0b",
+      "json_file": "projects/Punta Cuerna Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Prologis - Lerma": {
+      "chatflow_id": "cdc81199-bde0-452c-99de-7c74f8e597fc",
+      "json_file": "projects/Prologis - Lerma Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "plataformaNauma": {
+      "chatflow_id": "756dd2f3-7f9a-4684-b3c3-10a096b96e9b",
+      "json_file": "projects/plataformaNauma Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Novotech SSEISO": {
+      "chatflow_id": "8d2fd269-fe3e-4be3-85e6-3bf437dd0143",
+      "json_file": "projects/Novotech SSEISO Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "Novotech Mision Punta Norte": {
+      "chatflow_id": "31d01ff6-a2d2-4035-8e5d-a481c89dff0b",
+      "json_file": "projects/Novotech Mision Punta Norte Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "Novotech La Paz": {
+      "chatflow_id": "526a971a-9f0e-40dc-bd90-f50205233071",
+      "json_file": "projects/Novotech La Paz Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "Novotech - Silao": {
+      "chatflow_id": "915db78f-f8d8-4754-a963-f82d9bde87af",
+      "json_file": "projects/Novotech - Silao Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "NIZUC": {
+      "chatflow_id": "cd55ce82-5916-4117-aa3a-98ebd5d0c890",
+      "json_file": "projects/NIZUC Agents.json",
+      "type": "AGENTFLOW",
+      "category": "hospitality"
+    },
+    "Nauma Lomas": {
+      "chatflow_id": "35f364ba-9e93-45f6-9d9f-f0c160b9c994",
+      "json_file": "projects/Nauma Lomas Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Mita Map": {
+      "chatflow_id": "291b78cb-1192-4daa-95fa-b14316d63489",
+      "json_file": "projects/Mita Map Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Gran Terraza Coapa": {
+      "chatflow_id": "df4d386c-1024-4c49-8743-3002b9e384f0",
+      "json_file": "projects/Gran Terraza Coapa Agents.json",
+      "type": "AGENTFLOW",
+      "category": "commercial"
+    },
+    "koppi": {
+      "chatflow_id": "90b046f2-2b56-4ad1-9fc5-abcd229de895",
+      "json_file": "projects/koppi Agents.json",
+      "type": "AGENTFLOW",
+      "category": "tech"
+    },
+    "GGI Agwa Bosques": {
+      "chatflow_id": "c39f8afe-8030-429e-93cf-ff8ff1f6a276",
+      "json_file": "projects/GGI Agwa Bosques Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Nativas": {
+      "chatflow_id": "9325bc13-9725-4215-8bfb-455cfa67f768",
+      "json_file": "projects/Nativas Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "CRM AI": {
+      "chatflow_id": "f1008f5a-6846-4861-93be-483158041dcf",
+      "json_file": "projects/CRM AI Agents.json",
+      "type": "AGENTFLOW",
+      "category": "crm"
+    },
+    "Pueblo Bonito": {
+      "chatflow_id": "65cdfe43-560e-402b-8ecc-07d18a03994f",
+      "json_file": null,
+      "type": "AGENTFLOW",
+      "category": "hospitality"
+    },
+    "TU - Apodaca Park 1": {
+      "chatflow_id": "e8bd16da-abaa-4f1a-b278-82f7a02e969e",
+      "json_file": "projects/TU - Apodaca Park 1 Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
+    },
+    "Xerena": {
+      "chatflow_id": "8f27f59a-91df-47c8-a5e5-a03bafccbfff",
+      "json_file": "projects/Xerena Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "Wingate": {
+      "chatflow_id": "709f8ea9-8cb8-48f0-9a64-00166c50dfb9",
+      "json_file": "projects/Wingate Agents.json",
+      "type": "AGENTFLOW",
+      "category": "education"
+    },
+    "Club de Golf": {
+      "chatflow_id": "fdc8d4ea-5abe-44f7-bcef-56027ec591f1",
+      "json_file": "projects/Club de Golf Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    }
+  }
+}

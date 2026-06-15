@@ -189,12 +189,6 @@
       "type": "AGENTFLOW",
       "category": "coworking"
     },
-    "WE WORK Nuevo": {
-      "chatflow_id": "",
-      "json_file": "projects/WE WORK Nuevo Agents.json",
-      "type": "AGENTFLOW",
-      "category": "coworking"
-    },
     "Volterra": {
       "chatflow_id": "fdb7ec02-e05d-4007-9cc1-e2efbbed2345",
       "json_file": "projects/Volterra Agents.json",
@@ -326,12 +320,6 @@
       "json_file": "projects/CRM AI Agents.json",
       "type": "AGENTFLOW",
       "category": "crm"
-    },
-    "Pueblo Bonito": {
-      "chatflow_id": "65cdfe43-560e-402b-8ecc-07d18a03994f",
-      "json_file": null,
-      "type": "AGENTFLOW",
-      "category": "hospitality"
     },
     "TU - Apodaca Park 1": {
       "chatflow_id": "e8bd16da-abaa-4f1a-b278-82f7a02e969e",

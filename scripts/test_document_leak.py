@@ -17,7 +17,7 @@ HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/js
 PROJECTS_JSON = Path(__file__).parent.parent / "projects.json"
 
 # Generic question that forces the bot to look up info from its document
-TEST_QUESTION = "¿Cuál es el precio y qué incluye?"
+TEST_QUESTION = "¿Qué documentos necesito para firmar contrato y cuánto tarda el proceso de escrituración?"
 
 # Phrases that indicate the bot is exposing its document source
 LEAK_PHRASES = [
@@ -85,6 +85,31 @@ LEAK_PHRASES = [
     "la herramienta",
     "info_get",
     "la fuente oficial",
+    # Indirect source exposure — "in the info I have"
+    "en la información que tengo",
+    "en la información oficial que tengo",
+    "en la información disponible",
+    "en la información que manejo",
+    "en la información a la mano",
+    "no está disponible en la información",
+    "no aparece en la información",
+    "no viene en la información",
+    "no está indicado en la información",
+    "no está especificado en la información",
+    "no se especifica en la información",
+    "no se indica en la información",
+    "no se menciona en la información",
+    "no consta en la información",
+    "la información que tengo aquí",
+    "la información oficial que tengo",
+    "la información que tengo disponible",
+    "la información que manejo aquí",
+    "información disponible aquí",
+    "información que tengo a la mano",
+    "según los datos que tengo",
+    "en los datos que tengo",
+    "no aparece en los datos",
+    "no está en los datos que tengo",
 ]
 
 TIMEOUT = 45

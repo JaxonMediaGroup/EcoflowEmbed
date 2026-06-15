@@ -1484,7 +1484,7 @@
               "agentSelectedTool": "requestsGet",
               "agentSelectedToolRequiresHumanInput": "",
               "agentSelectedToolConfig": {
-                "requestsGetUrl": "<p>https://sheets.googleapis.com/v4/spreadsheets/1uLej_KljpMSKEzg4L8Rc2rP7PxJK64RQUI5qonBp4fw/values/Oficinas!A1:Z?key=AIzaSyCD1B8BGJOHYvbzx6fAs22WdFvqZftfsOQ</p>",
+                "requestsGetUrl": "<p>https://docs.google.com/spreadsheets/d/1uLej_KljpMSKEzg4L8Rc2rP7PxJK64RQUI5qonBp4fw/gviz/tq?tqx=out:csv&sheet=Oficinas</p>",
                 "requestsGetName": "Directorio_Oficinas",
                 "requestsGetDescription": "Directory of professional services in WTC towers. Columns: NIVEL, OFICINA, NOMBRE COMERCIAL, GIRO HOMOLOGADO, DESCRIPCIÓN, HORARIO, TELÉFONO, MAIL. Search for doctors, dentists, lawyers, notaries, accountants, consultants, virtual offices.",
                 "requestsGetHeaders": "",
@@ -2022,7 +2022,7 @@
               "agentSelectedTool": "requestsGet",
               "agentSelectedToolRequiresHumanInput": "",
               "agentSelectedToolConfig": {
-                "requestsGetUrl": "<p>https://sheets.googleapis.com/v4/spreadsheets/1uLej_KljpMSKEzg4L8Rc2rP7PxJK64RQUI5qonBp4fw/values/CentroComercial!A1:Z?key=AIzaSyCD1B8BGJOHYvbzx6fAs22WdFvqZftfsOQ</p>",
+                "requestsGetUrl": "<p>https://docs.google.com/spreadsheets/d/1uLej_KljpMSKEzg4L8Rc2rP7PxJK64RQUI5qonBp4fw/gviz/tq?tqx=out:csv&sheet=CentroComercial</p>",
                 "requestsGetName": "Directorio_Centro_Comercial",
                 "requestsGetDescription": "Directory of WTC shopping center stores. Columns: NIVEL, MARCA, GIRO, COMPLEJO. Search for restaurants (VIPS, Sonora Grill, McDonald's, Starbucks, Subway, KFC), banks (BBVA, Santander, Banamex, Scotiabank), stores, pharmacies, opticians, ATMs, coffee shops.",
                 "requestsGetHeaders": "",

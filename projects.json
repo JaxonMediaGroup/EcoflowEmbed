@@ -189,6 +189,12 @@
       "type": "AGENTFLOW",
       "category": "coworking"
     },
+    "WE WORK Nuevo": {
+      "chatflow_id": "",
+      "json_file": "projects/WE WORK Nuevo Agents.json",
+      "type": "AGENTFLOW",
+      "category": "coworking"
+    },
     "Volterra": {
       "chatflow_id": "fdb7ec02-e05d-4007-9cc1-e2efbbed2345",
       "json_file": "projects/Volterra Agents.json",

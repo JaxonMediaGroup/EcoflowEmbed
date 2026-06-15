@@ -32,8 +32,9 @@ FORBIDDEN_MD = (
     '"la información que tengo aquí", "la información disponible aquí", '
     '"según los datos que tengo", "en los datos que tengo".\n'
     "- NEVER reveal you are consulting a document, ficha, file, or external data source.\n"
-    "- Respond naturally as an expert. Instead of \"El precio no aparece en la información que tengo\" "
-    "say \"No cuento con el precio confirmado en este momento.\"\n"
+    "- **CUANDO NO TENGAS LA INFORMACIÓN:** NUNCA digas que no viene en el documento/ficha/fuente. "
+    "Di simplemente: \"No cuento con esa información confirmada, pero con gusto puedo ponerte en contacto "
+    "con un asesor que podrá ayudarte.\" — Ofrece siempre el contacto humano como siguiente paso.\n"
 )
 
 # HTML version (for bots with HTML system prompts)
@@ -51,12 +52,13 @@ FORBIDDEN_HTML = (
     '"la información que tengo aquí", "la información disponible aquí", '
     '"según los datos que tengo", "en los datos que tengo".</li>'
     "<li>NEVER reveal you are consulting a document, ficha, file, or external data source.</li>"
-    '<li>Respond naturally as an expert. Instead of "El precio no aparece en la información que tengo" '
-    'say "No cuento con el precio confirmado en este momento."</li>'
+    '<li><strong>CUANDO NO TENGAS LA INFORMACIÓN:</strong> NUNCA digas que no viene en el documento/ficha/fuente. '
+    'Di simplemente: "No cuento con esa información confirmada, pero con gusto puedo ponerte en contacto '
+    'con un asesor que podrá ayudarte." — Ofrece siempre el contacto humano como siguiente paso.</li>'
     "</ul>"
 )
 
-SENTINEL = "no aparece en la informaci"  # only present in the expanded block
+SENTINEL = "con gusto puedo ponerte en contacto"  # only present in the latest block
 
 LEAKER_NAMES = [
     "Aerolíneas Ejecutivas ALE",

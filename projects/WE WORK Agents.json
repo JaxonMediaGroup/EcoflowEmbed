@@ -697,7 +697,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+              "modelName": "gpt-5.4",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -710,7 +710,7 @@
             "basepath": "",
             "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": "",
+              "allowImageUploads": true,
             "reasoning": "",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
@@ -914,7 +914,7 @@
           "conditionAgentOverrideSystemPrompt": "",
           "conditionAgentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+              "modelName": "gpt-5.4",
             "temperature": 0.9,
             "streaming": true,
             "maxTokens": "",
@@ -927,7 +927,7 @@
             "basepath": "",
             "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": "",
+              "allowImageUploads": true,
             "reasoning": "",
             "conditionAgentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
@@ -1470,7 +1470,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+              "modelName": "gpt-5.4",
             "temperature": 0,
             "streaming": true,
             "maxTokens": "100",
@@ -1483,7 +1483,7 @@
             "basepath": "",
             "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": "",
+              "allowImageUploads": true,
             "reasoning": "",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
@@ -1984,7 +1984,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+              "modelName": "gpt-5.4",
             "temperature": 0,
             "streaming": true,
             "maxTokens": "100",
@@ -1997,7 +1997,7 @@
             "basepath": "",
             "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": "",
+              "allowImageUploads": true,
             "reasoning": "",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"

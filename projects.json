@@ -344,6 +344,12 @@
       "json_file": "projects/Club de Golf Agents.json",
       "type": "AGENTFLOW",
       "category": "real-estate"
+    },
+    "Origina Santa Fe": {
+      "chatflow_id": "53f47c3e-40ef-4c0e-9667-90fc78494f5a",
+      "json_file": "projects/Origina Santa Fe Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
     }
   }
 }

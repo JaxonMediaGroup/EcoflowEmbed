@@ -1,0 +1,10 @@
+{
+  "id": "987464b9-dec9-416c-a007-165c91b8848c",
+  "name": "WE WORK",
+  "speechToText": "{\"openAIWhisper\":{\"credentialId\":\"10ca0bac-6033-4f4f-aff2-d5c35aef4580\",\"language\":\"en\",\"status\":true},\"assemblyAiTranscribe\":{\"status\":false},\"localAISTT\":{\"status\":false},\"azureCognitive\":{\"status\":false},\"groqWhisper\":{\"status\":false}}",
+  "textToSpeech": "{\"openai\":{\"credentialId\":\"10ca0bac-6033-4f4f-aff2-d5c35aef4580\",\"autoPlay\":true,\"status\":true,\"voice\":\"coral\"},\"elevenlabs\":{\"status\":false}}",
+  "type": "AGENTFLOW",
+  "createdDate": "2025-11-20T03:00:27.000Z",
+  "updatedDate": "2026-06-24T19:15:05.712Z",
+  "workspaceId": "abd2ca52-2712-41e1-8861-1096ca45b540"
+}

@@ -6,7 +6,8 @@ automatiza todo el flujo.
 
 > **TL;DR** — Cuando te pidan crear un agente nuevo, ejecuta `agent_factory.py create`.
 > Cuando te pidan actualizar uno, ejecuta `agent_factory.py update` (el script detecta
-> qué módulos ya tiene y pregunta antes de agregar). **El modelo default es `gpt-5.4`.**
+> qué módulos ya tiene y pregunta antes de agregar). **La configuración default de
+> producción es el híbrido Terra+low** (ver §7).
 
 ---
 
@@ -73,7 +74,7 @@ Estas secciones son **parte del template base** y NO se negocian con el cliente:
 | **Nombre del proyecto** | sí | — |
 | **ID del Google Doc** | sí | — |
 | **Categoría** | sí | `real-estate` |
-| **Modelo OpenAI** | sí | `gpt-5.4` |
+| **Modelo OpenAI** | sí | `hybrid` (Terra+low, ver §7) |
 
 Categorías válidas: `real-estate`, `commercial`, `industrial`, `hospitality`,
 `education`, `coworking`, `tech`, `aviation`, `crm`.
@@ -110,10 +111,15 @@ Clona la herramienta `info_get` apuntando a un segundo Google Doc. Útil cuando 
 tiene ficha técnica + catálogo por separado.
 
 ### 3.4 Cambio de modelo
-`--model gpt-5.4`
+`--model hybrid` (default de producción)
 
-Sobreescribe el modelo en los 4 nodos. Default `gpt-5.4`. Válidos: `gpt-5.4`, `gpt-5.2`,
-`gpt-5.1`, `gpt-4.1`.
+Configuración por defecto desde jul 2026. Aplica el **híbrido Terra+low** (ver §7):
+Q&A + Router + Off-Topic → `gpt-5.6-terra` + `reasoning: low`; Lead Agent → `gpt-5.4`.
+
+Otros valores válidos (un modelo uniforme en los 4 nodos): `gpt-5.4`, `gpt-5.2`,
+`gpt-5.1`, `gpt-4.1`, `gpt-5.6-terra`, `gpt-5.6-sol`, `gpt-5.6-luna`. Ojo: cualquier
+modelo 5.6 con `reasoning` rompe el Lead Agent (customTool no soporta reasoning), por
+eso el híbrido deja el Lead Agent en `gpt-5.4`.
 
 ---
 
@@ -189,3 +195,53 @@ python scripts/agent_factory.py update "Nombre Proyecto" --funnel --dry-run
 - **Validaciones del script** (ambos modos): topología 5 nodos/4 edges, sin IDs duplicados,
   edges válidos, sin trazas del template (nombre `Volterra` ni su doc ID), doc ID objetivo
   presente, nodos canónicos presentes.
+
+---
+
+## 7. Configuración estándar de producción (híbrido Terra+low)
+
+> **Vigente desde jul 2026.** Validada con benchmark en los chatflows de WeWork (General y
+> Santa Fe). Todo agente nuevo debe salir con esta configuración salvo razón explícita.
+
+### 7.1 Asignación de modelos por nodo
+
+| Nodo | Modelo | `reasoning` | Razón |
+|---|---|---|---|
+| Q&A (`agentAgentflow_0`) | `gpt-5.6-terra` | `low` | Respuestas rápidas con razonamiento |
+| Intent Router (`conditionAgentAgentflow_0`) | `gpt-5.6-terra` | `low` | Clasificación ágil |
+| Off-Topic Guard (`agentAgentflow_2`) | `gpt-5.6-terra` | `low` | Respuestas cortas y rápidas |
+| **Lead Agent** (`agentAgentflow_1`) | `gpt-5.4` | `""` (sin reasoning) | **`customTool` no soporta `reasoning` en modelos 5.6** |
+
+### 7.2 Resto de la configuración (todos los nodos)
+
+- `agentModel`: `chatOpenAI` (con `FLOWISE_CREDENTIAL_ID` de `projects.json`)
+- `allowImageUploads`: `true`
+- `streaming`: `true`
+- `speechToText`: OpenAI Whisper (status `true`, mismo credential)
+- `textToSpeech`: OpenAI (status `true`, voz `coral`, autoPlay)
+
+### 7.3 ⚠️ Bug conocido — Terra + reasoning + customTool
+
+> **`gpt-5.6-terra` + `reasoning: low` + `customTool` = error 400 de la API de OpenAI:**
+> *"Function tools with reasoning_effort are not supported for gpt-5.6-terra"*.
+
+Por eso el **Lead Agent queda en `gpt-5.4`** (sin `reasoning`). Si OpenAI lo soporta en el
+futuro, se podrá mover también a Terra. Mientras tanto, NUNCA pongas `reasoning: low` en un
+nodo que use `customTool`.
+
+### 7.4 Por qué Terra+low y no Sol o Luna
+
+- **Sol** ($5/$30): más lento y caro; el razonamiento extra no se justifica en un chatbot.
+- **Luna** ($1): muy rápido pero pensado para *long-context vault*, pierde calidad al
+  encadenar herramientas (`info_get` → botón HTML).
+- **Terra** ($2.50/$15): *optimized for agents* — justo el sweet spot de velocidad +
+  razonamiento para encadenar `info_get`, multi-idioma y generación de HTML.
+
+Benchmark (14 preguntas × 2 chatflows, jul 2026): Terra fue **~1.3s más rápido en promedio**
+que 5.4 (6.5s vs 7.8s) y ~30% más conciso, con la misma calidad de información.
+
+### 7.5 Aplicar el híbrido a un agente existente
+
+```bash
+python scripts/agent_factory.py update "Nombre Proyecto" --model hybrid
+```

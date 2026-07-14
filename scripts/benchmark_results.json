@@ -1,0 +1,417 @@
+[
+  {
+    "group": "Santa Fe",
+    "case_id": "sf1",
+    "question": "Hola, ¿qué tipos de espacios ofrecen?",
+    "prod": {
+      "ok": true,
+      "text": "¡Claro! En **WeWork Avenida Santa Fe 505** manejamos varios formatos, según cómo trabaje tu equipo:\n\n**1. Oficinas privadas**  \nPara equipos de **1 a 100+ personas**. Son oficinas cerradas, amuebladas y listas para operar, con acceso a amenidades compartidas o privadas.\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=20&sot=susie_oficina_loop&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver oficinas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=9\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Oficina 4 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=10\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Oficina 6 personas →</a>\n\n**2. Escritorio dedicado**  \nTu propio escritorio dentro de una oficina compartida. Ideal si quieres un lugar fijo sin tomar una oficina completa.\n\n**3. Coworking flexible / All Access**  \nPerfecto si prefieres trabajar en áreas compartidas, lounges y cabinas telefónicas, con acceso flexible según el plan.\n\n**4. Pase por el día (Day Pass / On Demand)**  \nSi solo necesitas venir un día, puedes reservar un espacio de coworking por uso diario.\n\n**5. Salas de juntas**  \nPara reuniones, entrevistas, presentaciones o sesiones de equipo. Hay opciones para distintos tamaños.\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=17&sot=susie_amenidad&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver salas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=4\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 2 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=5\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 6 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=6\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 8 personas →</a>\n\n**6. Espacios para eventos**  \nSi buscas un lugar para una reunión más grande, networking, workshop o evento corporativo, también hay opción.\n\nSi me dices **cuántas personas son** y **si buscan algo fijo o flexible**, te digo cuál te conviene más aquí en Santa Fe 505.",
+      "elapsed": 11.2,
+      "eval": {
+        "len": 3297,
+        "has_button": true,
+        "keywords_hit": 2,
+        "keywords_total": 2,
+        "keywords_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "¡Hola! En **WeWork Avenida Santa Fe 505** tenemos opciones muy flexibles según cómo trabaje tu equipo:\n\n- **Oficinas privadas**: amuebladas, con acceso 24/7, para equipos de **1 a 100+ personas**. También hay opciones de **planta completa** para equipos de 50+.\n- **Escritorio dedicado**: tu lugar fijo dentro de una oficina compartida.\n- **Coworking / hot desk**: acceso flexible a lounges, áreas compartidas y cabinas telefónicas.\n- **Day Pass / On Demand**: para trabajar por día, ya sea en coworking o en una oficina privada reservable.\n- **Salas de juntas**: para entrevistas, videollamadas, presentaciones, capacitaciones o reuniones de equipo; se reservan por hora o por día.\n- **Espacios para eventos**: opciones interiores y al aire libre para encuentros de comunidad, eventos corporativos o celebraciones.\n\nAdemás, el edificio cuenta con áreas comunes, cocinas equipadas, cabinas telefónicas, café y té, barista, espacio al aire libre, sala para padres y estacionamiento con costo adicional.\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=20&sot=susie_oficina_loop&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver oficinas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=17&sot=susie_amenidad&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver salas →</a>\n\nSi me dices cuántas personas son y si necesitan algo fijo o flexible, te ayudo a ubicar la opción que mejor les quede.",
+      "elapsed": 9.7,
+      "eval": {
+        "len": 1794,
+        "has_button": true,
+        "keywords_hit": 2,
+        "keywords_total": 2,
+        "keywords_ok": true
+      }
+    }
+  },
+  {
+    "group": "Santa Fe",
+    "case_id": "sf2",
+    "question": "Busco una oficina para 4 personas",
+    "prod": {
+      "ok": true,
+      "text": "¡Sí! En Santa Fe 505 hay opción de **oficina privada para 4 personas**: amueblada, lista para usar y con acceso a amenidades compartidas como salas de reuniones, cabinas telefónicas, áreas comunes, café y té, recepción y manejo de correo y paquetería.\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=9\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Oficina 4 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=20&sot=susie_oficina_loop&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver todas las oficinas →</a>\n\nSi te sirve como referencia, las oficinas privadas arrancan **desde MX$3,080 por persona al mes + impuestos**, pero la tarifa real puede cambiar según **ubicación dentro del piso, tamaño exacto de la oficina y disponibilidad**.\n\nSi quieres, también te puedo ayudar a comparar si te conviene más una **oficina para 4** o subir a una **de 6** pensando en crecimiento del equipo.",
+      "elapsed": 9.3,
+      "eval": {
+        "len": 1283,
+        "has_button": true,
+        "keywords_hit": 1,
+        "keywords_total": 2,
+        "keywords_ok": false,
+        "button_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "¡Claro! Una **oficina privada para 4 personas** en WeWork Avenida Santa Fe 505 les da un espacio cerrado, amueblado y listo para trabajar, con acceso 24/7, internet de alta velocidad, recepción de visitas, manejo de correo y paquetería, cabinas telefónicas, salas de reuniones compartidas y café y té ilimitados.\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=9\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Oficina 4 personas →</a>\n\nLa disponibilidad y la tarifa exacta pueden variar según la planta y el momento. ¿Quieres que te conecte con alguien del equipo aquí en Santa Fe 505 para revisar opciones y agendar una visita?",
+      "elapsed": 5.9,
+      "eval": {
+        "len": 811,
+        "has_button": true,
+        "keywords_hit": 1,
+        "keywords_total": 2,
+        "keywords_ok": false,
+        "button_ok": true
+      }
+    }
+  },
+  {
+    "group": "Santa Fe",
+    "case_id": "sf3",
+    "question": "Muéstrame todas las opciones de salas de juntas",
+    "prod": {
+      "ok": true,
+      "text": "¡Claro! En **WeWork Avenida Santa Fe 505** tienes estas opciones de **salas de juntas**:\n\n- **Sala de juntas para 2 personas**  \n  Ideal para entrevistas, videollamadas, 1:1 y sesiones de planeación.\n\n- **Sala colaborativa para 6 personas**  \n  Muy buena para reuniones de equipo, sesiones creativas y trabajo más dinámico.\n\n- **Sala de juntas para 8 personas**  \n  Pensada para presentaciones, capacitaciones y reuniones ejecutivas.\n\nAdemás, si quieres ver la categoría general de salas, también te la dejo aquí:\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=17&sot=susie_amenidad&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver todas las salas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=4\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 2 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=5\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 6 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=6\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 8 personas →</a>\n\nSi quieres, también te las puedo ordenar por **capacidad**, **tipo de reunión** o **equipamiento** para que elijas más rápido.",
+      "elapsed": 8.3,
+      "eval": {
+        "len": 1885,
+        "has_button": true,
+        "keywords_hit": 4,
+        "keywords_total": 4,
+        "keywords_ok": true,
+        "button_ok": true,
+        "multi_buttons": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "¡Claro! En **WeWork Avenida Santa Fe 505** tienes estas opciones de salas para reunirte, presentar o trabajar en equipo:\n\n- **Sala para 2 personas:** ideal para entrevistas, videollamadas, sesiones uno a uno o planeación privada. Incluye pizarrón blanco.\n- **Sala colaborativa para 6 personas:** formato más cómodo y dinámico, perfecto para lluvias de ideas, sesiones creativas y juntas de equipo.\n- **Sala de juntas para 8 personas:** equipada con proyector, micrófono, bocinas y pizarrón; muy buena para presentaciones, capacitaciones y reuniones ejecutivas.\n\nLas salas se pueden reservar por hora o por día, y las tarifas parten de **MX$80 por asiento/hora + impuestos**; el precio final y la disponibilidad pueden variar.\n\n<a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=4\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 2 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=5\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala colaborativa 6 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=6\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Sala 8 personas →</a><a href=\"https://jxnglobal.com/pruebas/wework_latam/?skip-loading&media=17&sot=susie_amenidad&sct=regresa_lobby\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\">Ver todas las salas →</a>\n\nSi necesitas confirmar una fecha, horario o cotización puntual, ¿quieres que te conecte con alguien del equipo aquí en Santa Fe 505?",
+      "elapsed": 12.1,
+      "eval": {
+        "len": 2116,
+        "has_button": true,
+        "keywords_hit": 4,
+        "keywords_total": 4,
+        "keywords_ok": true,
+        "button_ok": true,
+        "multi_buttons": true
+      }
+    }
+  },
+  {
+    "group": "Santa Fe",
+    "case_id": "sf4",
+    "question": "¿Cuánto cuesta la membresía más básica?",
+    "prod": {
+      "ok": true,
+      "text": "La membresía más básica es **WeWork All Access Básico** y va **desde MX$3,459 al mes** en plan de **12 meses**, **más impuestos y cargos**.\n\nIncluye:\n- 1 reserva de espacio de coworking por día\n- 2 créditos al mes para salas de reuniones u oficinas privadas\n- acceso a 100+ ubicaciones\n\nSi quieres, también te puedo explicar **qué cambia entre All Access Básico, Plus y Day Pass** para ver cuál te conviene más.",
+      "elapsed": 7.4,
+      "eval": {
+        "len": 411,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 1,
+        "keywords_ok": false
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "La membresía más básica es **WeWork All Access Básico**, desde **MX$3,459 al mes**, más impuestos y cargos aplicables, con plan de 12 meses.\n\nIncluye acceso a espacios de coworking en más de 100 ubicaciones, una reserva de espacio por día y **2 créditos mensuales** para salas de reuniones u oficinas privadas. La tarifa puede variar, así que para confirmar el monto vigente te recomiendo validarlo con el equipo de Santa Fe 505.",
+      "elapsed": 6.9,
+      "eval": {
+        "len": 429,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 1,
+        "keywords_ok": false
+      }
+    }
+  },
+  {
+    "group": "Santa Fe",
+    "case_id": "sf5",
+    "question": "¿Son pet friendly?",
+    "prod": {
+      "ok": true,
+      "text": "Sí, **sí aceptan mascotas** en Santa Fe 505, **principalmente perros**, pero con reglas claras:\n\n- En áreas comunes deben ir **siempre con correa**\n- Si estás en **oficina privada**, pueden permanecer ahí\n- Si una mascota hace mucho ruido, causa molestias o es destructiva, pueden pedir que la retiren\n- Normalmente te van a pedir **registrar previamente la documentación** de tu mascota con el equipo de la sede\n\nSi quieres, también te puedo contar **cómo funciona para coworking vs oficina privada**, porque ahí suele haber matices.",
+      "elapsed": 8.5,
+      "eval": {
+        "len": 534,
+        "has_button": false,
+        "keywords_hit": 2,
+        "keywords_total": 3,
+        "keywords_ok": false
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "Sí, **WeWork Santa Fe 505 es pet friendly**, principalmente para perros. 🐶\n\nSolo hay que seguir algunas reglas de convivencia: en áreas comunes deben ir **con correa**; dentro de una oficina privada deben permanecer controlados; y es necesario **registrar previamente la documentación de tu mascota** con el equipo de Comunidad. Si causa molestias, ruido o daños, podrían pedirte retirarla del edificio.\n\nAntes de traerla, te recomiendo validarlo con el equipo de Santa Fe 505 para coordinar el registro.",
+      "elapsed": 11.6,
+      "eval": {
+        "len": 504,
+        "has_button": false,
+        "keywords_hit": 3,
+        "keywords_total": 3,
+        "keywords_ok": true
+      }
+    }
+  },
+  {
+    "group": "Santa Fe",
+    "case_id": "sf6",
+    "question": "How do I get to Santa Fe 505 by public transport?",
+    "prod": {
+      "ok": true,
+      "text": "The easiest public transport options to **WeWork Santa Fe 505** are:\n\n**1. RTP Ecobús**\n- **Route 34A:** from **Metro Balderas** to Santa Fe\n- **Route 34B:** from **Metro Miguel Ángel de Quevedo** to Santa Fe  \nBoth run into the Santa Fe corridor and stop along **Av. Santa Fe**, very close to the building.\n\n**2. Interurban train “El Insurgente”**\n- Get off at **Santa Fe station**.\n- From there, take a short local bus/RTP ride down **Av. Santa Fe** or a very quick Uber/Didi to **Avenida Santa Fe 505**.\n\n**3. Regular buses from key Metro stations**\nYou can also connect from:\n- **Metro Tacubaya**\n- **Metro Observatorio**\n- **Metro Mixcoac**\n- **Metro Zapata**\n\nThose routes typically head toward **Centro Santa Fe**, which is very close to the building.\n\n**4. Executive shared vans**\nIf you want something more comfortable, **Urbvan/Swvl** and **Jetty** usually have routes serving Santa Fe, with drop-off points near **Samara Shops** or along **Av. Santa Fe**.\n\nIf you want, I can also suggest the **best route depending on where you’re coming from** in CDMX.",
+      "elapsed": 8.7,
+      "eval": {
+        "len": 1065,
+        "has_button": false,
+        "keywords_hit": 3,
+        "keywords_total": 4,
+        "keywords_ok": false
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "WeWork Santa Fe 505 is at **Avenida Santa Fe 505, Contadero, Cuajimalpa**—very close to Centro Santa Fe.\n\nHere are the easiest public-transport options:\n\n- **From Metro Balderas:** take **RTP Ecobús 34A (Balderas–Santa Fe)**. It has stops along Avenida Santa Fe near the building.\n- **From the south / Coyoacán:** take **RTP Ecobús 34B (Metro Miguel Ángel de Quevedo–Santa Fe)**. It uses the Supervía and drops you into the Avenida Santa Fe circuit.\n- **From Toluca or Lerma:** ride **El Insurgente** to **Santa Fe station**. From there, take a local bus/RTP along Avenida Santa Fe—roughly a 5–10 minute ride—or a very short rideshare trip to No. 505.\n- **From Metro Tacubaya or Observatorio:** buses toward **Centro Comercial Santa Fe** are a practical option; from there, the building is just a short walk away.\n- **From Mixcoac or Zapata:** look for buses heading to Santa Fe via **Centenario** or **Puentes de los Poetas**.\n\nFor the most comfortable commute, **Urbvan/Swvl** and **Jetty** have app-based shared van routes into Santa Fe, with drop-offs around Avenida Santa Fe and Samara Shops.",
+      "elapsed": 7.5,
+      "eval": {
+        "len": 1097,
+        "has_button": false,
+        "keywords_hit": 3,
+        "keywords_total": 4,
+        "keywords_ok": false
+      }
+    }
+  },
+  {
+    "group": "Santa Fe",
+    "case_id": "sf7",
+    "question": "Write me a Python function to sort a list",
+    "prod": {
+      "ok": true,
+      "text": "🏙️ Soy Susie, del equipo de WeWork Santa Fe 505, y solo puedo ayudarte con temas de esta sede.\n\nPuedo ayudarte con:\n📍 Ubicación y cómo llegar a Av. Santa Fe 505 | 🏢 Oficinas privadas (1–100+ personas) | 🪑 Dedicated / hot desks | 🤝 Salas de juntas y day pass | 🌐 All Access y On Demand | 🏢 Enterprise | ☕ Amenidades del",
+      "elapsed": 2.7,
+      "eval": {
+        "len": 318,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "offtopic_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "🏙️ Soy Susie, del equipo de WeWork Santa Fe 505, y solo puedo ayudarte con temas de esta sede. Puedo ayudarte con: 📍 Ubicación y cómo llegar a Av. Santa Fe 505 | 🏢 Oficinas privadas (1–100+ personas) | 🪑 Dedicated / hot desks | 🤝 Salas de juntas y day pass | 🌐 All Access y On Demand | 🏢 Enterprise | ☕ Amenidades del",
+      "elapsed": 3.1,
+      "eval": {
+        "len": 317,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "offtopic_ok": true
+      }
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn1",
+    "question": "¿Dónde tienen oficinas?",
+    "prod": {
+      "ok": true,
+      "text": "Sí — en **Ciudad de México** tenemos 13 sedes de WeWork:\n\n- **Reforma Latino** — Av. Paseo de la Reforma 296, Col. Juárez, Cuauhtémoc, C.P. 06600  \n- **Reforma 26** — Paseo de la Reforma 26, Col. Juárez, Cuauhtémoc, C.P. 06600  \n- **Varsovia** — Varsovia 36, Col. Juárez, Cuauhtémoc  \n- **Lago Alberto** — Lago Alberto 375, Col. Granada, Miguel Hidalgo  \n- **Miguel de Cervantes Saavedra** — Miguel de Cervantes Saavedra 169, Col. Granada, Miguel Hidalgo  \n- **Montes Urales** — Montes Urales 424, Lomas de Chapultepec, Miguel Hidalgo  \n- **Insurgentes Sur 601** — Av. Insurgentes Sur 601, Col. Nápoles, Benito Juárez  \n- **Insurgentes Sur 1079** — Av. Insurgentes Sur 1079, Col. Noche Buena, Benito Juárez  \n- **Mitikah** — Real Mayorazgo 130, Xoco, Benito Juárez  \n- **Artz Pedregal** — Periférico Sur 3720, Jardines del Pedregal, Álvaro Obregón  \n- **Avenida Santa Fe** — Av. Santa Fe 505, Cruz Manca, Cuajimalpa  \n- **Park Plaza** — Javier Barros Sierra 540, Santa Fe, Álvaro Obregón  \n- **Prolongación Paseo de la Reforma** — Prolongación Paseo de la Reforma 1015, Santa Fe, Cuajimalpa  \n\nSi quieres, también te puedo decir **qué sedes te convienen más según la zona que buscas**: Reforma, Polanco, Insurgentes, Santa Fe o Sur de la ciudad.",
+      "elapsed": 8.4,
+      "eval": {
+        "len": 1245,
+        "has_button": false,
+        "keywords_hit": 3,
+        "keywords_total": 3,
+        "keywords_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "¡Sí! En **Ciudad de México** tenemos 13 ubicaciones:\n\n- **Reforma Latino** — Av. Paseo de la Reforma 296, Col. Juárez  \n- **Reforma 26** — Paseo de la Reforma 26, Col. Juárez  \n- **Varsovia** — Varsovia 36, Col. Juárez  \n- **Lago Alberto** — Lago Alberto 375, Col. Granada  \n- **Miguel de Cervantes Saavedra** — Miguel de Cervantes Saavedra 169, Col. Granada  \n- **Montes Urales** — Montes Urales 424, Lomas de Chapultepec  \n- **Insurgentes Sur 601** — Av. Insurgentes Sur 601, Col. Nápoles  \n- **Insurgentes Sur 1079** — Av. Insurgentes Sur 1079, Col. Noche Buena  \n- **Mitikah** — Real Mayorazgo 130, Xoco  \n- **Artz Pedregal** — Periférico Sur 3720, Jardines del Pedregal  \n- **Avenida Santa Fe** — Av. Santa Fe 505, Cruz Manca  \n- **Park Plaza** — Javier Barros Sierra 540, Santa Fe  \n- **Prolongación Paseo de la Reforma** — Prolongación Paseo de la Reforma 1015, Santa Fe  \n\nSi me dices qué zona te queda mejor —Reforma, Polanco/Granada, Insurgentes, Coyoacán, Pedregal o Santa Fe— te ayudo a ubicar la sede más cómoda para ti.",
+      "elapsed": 6.8,
+      "eval": {
+        "len": 1033,
+        "has_button": false,
+        "keywords_hit": 3,
+        "keywords_total": 3,
+        "keywords_ok": true
+      }
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn2",
+    "question": "Tienen WeWork en Monterrey?",
+    "prod": {
+      "ok": true,
+      "text": "Sí, WeWork **sí tiene presencia en Monterrey** a nivel general como parte de su red global.  \n\nEso sí: **no cuento con la lista confirmada de sedes, direcciones ni disponibilidad actual en Monterrey en este momento**. Como esa parte puede cambiar por ciudad y por momento, te recomiendo validarlo directamente con el equipo de WeWork en esa plaza.\n\nSi te sirve, sí te puedo orientar con lo que normalmente ofrece WeWork en cualquier ciudad:\n- **oficinas privadas**\n- **coworking**\n- **hot desks**\n- **dedicated desks**\n- **salas de juntas**\n- **Day Pass**\n- **All Access**\n- **On Demand**\n- soluciones **Enterprise** para equipos grandes\n\nSi quieres, también te puedo ayudar a elegir **qué tipo de espacio te conviene en Monterrey** según si vas solo, con equipo pequeño o con un equipo más grande.",
+      "elapsed": 8.9,
+      "eval": {
+        "len": 798,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "redirect_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "Sí, WeWork cuenta con presencia global y ofrece oficinas privadas, coworking, escritorios flexibles, salas de juntas y membresías como All Access y On Demand.\n\nPara **Monterrey**, la disponibilidad de sedes y espacios puede variar por región. Te recomiendo validarlo directamente con el equipo local para confirmar ubicaciones, tarifas y disponibilidad en tiempo real. ¿Buscas una oficina para equipo, un escritorio flexible o una sala de juntas?",
+      "elapsed": 5.2,
+      "eval": {
+        "len": 446,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "redirect_ok": true
+      }
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn3",
+    "question": "¿Cuál es la diferencia entre All Access y On Demand?",
+    "prod": {
+      "ok": true,
+      "text": "La diferencia clave es esta:\n\n- **All Access** es una **membresía mensual** para usar **múltiples ubicaciones participantes** de WeWork.\n- **On Demand** es **pago por uso**, sin contratar una membresía mensual.\n\nUn poco más claro:\n\n### All Access\nTe funciona mejor si vas a usar WeWork de forma frecuente.\nIncluye:\n- acceso a varias ubicaciones participantes\n- **1 reserva de espacio de trabajo al día**\n- sistema de **créditos mensuales**\n- uso más continuo y flexible para quienes trabajan desde distintas sedes\n\n### On Demand\nTe encaja más si lo necesitas de forma ocasional.\nPermite reservar desde la app:\n- **Day Pass**\n- **salas de juntas**\n\nY se maneja así:\n- **pagas cada reserva por separado**\n- no usa créditos mensuales\n- no requiere una oficina ni plan permanente\n\n### En resumen rápido\n- **All Access = membresía mensual**\n- **On Demand = reservas puntuales cuando lo necesites**\n\nSi quieres, también te puedo explicar **cuál te conviene más según si eres freelance, equipo híbrido o empresa**.",
+      "elapsed": 8.0,
+      "eval": {
+        "len": 1007,
+        "has_button": false,
+        "keywords_hit": 2,
+        "keywords_total": 2,
+        "keywords_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "La diferencia clave es **membresía mensual vs. pago por uso**:\n\n- **All Access:** es una membresía mensual para trabajar en múltiples ubicaciones participantes de WeWork. Incluye **una reserva de espacio de trabajo al día**; si necesitas otra el mismo día, se usa un crédito. Es buena opción si trabajas desde coworking con frecuencia o te mueves entre sedes.\n\n- **On Demand:** es más flexible y sin membresía mensual. Desde la app reservas y pagas **por día** un escritorio o **por hora** una sala de juntas/oficina. Va perfecto si solo necesitas espacio de vez en cuando.\n\nTambién cambia la cancelación: en **All Access**, hay que solicitarla al menos **5 días antes de que termine el mes calendario**; en **On Demand**, puedes recibir reembolso completo si cancelas con al menos **24 horas** de anticipación.",
+      "elapsed": 5.0,
+      "eval": {
+        "len": 811,
+        "has_button": false,
+        "keywords_hit": 2,
+        "keywords_total": 2,
+        "keywords_ok": true
+      }
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn4",
+    "question": "Quiero reservar una sala de juntas para mañana",
+    "prod": {
+      "ok": true,
+      "text": "¡Sí! Puedes reservar una **sala de juntas por hora para mañana**.  \n\nLa forma más práctica es hacerlo por **WeWork On Demand desde la app**, donde se pueden reservar **salas de juntas** sin necesidad de contratar una oficina permanente. Si ya eres miembro, también puede aplicar según tu plan.  \n\nOjo con esto:\n- **La disponibilidad puede variar** según la sede y el horario.\n- **Los invitados están permitidos** cuando tienes una sala reservada, y deben permanecer contigo durante el tiempo de la reserva.\n- Si necesitas cancelar, en **On Demand** suele aplicar **reembolso completo si cancelas al menos 24 horas antes**. Si la reserva es para el mismo día, normalmente hay una ventana corta para cancelar.\n\nSi aún no tienes una sede en mente, en **CDMX** puedes revisar opciones como:\n- Reforma Latino  \n- Reforma 26  \n- Varsovia  \n- Lago Alberto  \n- Mitikah  \n- Artz Pedregal  \n- Avenida Santa Fe  \n- Park Plaza  \n\nSi quieres, te ayudo a elegir la sede según la zona que te quede mejor. O si prefieres, **te conecto con alguien del equipo para agendarla**.",
+      "elapsed": 7.5,
+      "eval": {
+        "len": 1059,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "lead_ok": false
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "¡Claro! Para reservar una sala de juntas para mañana necesito: **sede**, **horario**, **duración** y **número de asistentes**.\n\nPuedes hacerlo desde la app de **WeWork On Demand**; las salas se reservan por hora. La disponibilidad y tarifa cambian según la sede y el momento. Si prefieres, dime esos datos y te conecto con el equipo de la ubicación para ayudarte a agendar.",
+      "elapsed": 7.1,
+      "eval": {
+        "len": 373,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "lead_ok": false
+      }
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn5",
+    "question": "Quiero mi nombre completo es Juan Pérez, mi email es juan@test.com y mi teléfono 5551234567",
+    "prod": {
+      "ok": true,
+      "text": "Gracias, Juan. ¿Podrías volver a enviarme tu nombre completo, email y teléfono en un solo mensaje para compartirlo con el equipo?",
+      "elapsed": 4.7,
+      "eval": {
+        "len": 129,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "lead_ok": true
+      }
+    },
+    "test": {
+      "ok": false,
+      "text": "HTTP 500: {\"statusCode\":500,\"success\":false,\"message\":\"Error: predictionsServices.buildChatflow - Error in Agent node: 400 Function tools with reasoning_effort are not supported for gpt-5.6-terra in /v1/chat/co",
+      "elapsed": 1.7,
+      "eval": null
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn6",
+    "question": "¿Puedo usar la dirección de WeWork como domicilio fiscal?",
+    "prod": {
+      "ok": true,
+      "text": "Sí, **solo si contrataste explícitamente el add-on de Correo y Paquetería**.\n\nSi no lo tienes, **no está permitido usar la dirección de WeWork como domicilio legal o fiscal**. Y si registras esa dirección sin autorización, puede haber una **penalización equivalente al 150% de tu membresía mensual** y te pueden pedir **dar de baja ese registro de inmediato**.\n\nSi quieres, te ayudo a revisar qué tipo de espacio o membresía te convendría para eso. Y si ya tienes una sede en mente en CDMX, también te puedo orientar con el siguiente paso.",
+      "elapsed": 5.7,
+      "eval": {
+        "len": 539,
+        "has_button": false,
+        "keywords_hit": 2,
+        "keywords_total": 2,
+        "keywords_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "No, **no puedes usar la dirección de WeWork como domicilio fiscal o legal** salvo que contrates explícitamente el complemento de **Correo y Paquetería**.\n\nRegistrar una dirección sin esa autorización puede generar una penalización equivalente al **150% de tu cuota mensual** y requerir la baja inmediata del registro.  \n\nSi buscas ese complemento para una sede en CDMX, te conecto con alguien del equipo para confirmar si aplica a la ubicación que te interesa.",
+      "elapsed": 6.9,
+      "eval": {
+        "len": 460,
+        "has_button": false,
+        "keywords_hit": 2,
+        "keywords_total": 2,
+        "keywords_ok": true
+      }
+    }
+  },
+  {
+    "group": "General",
+    "case_id": "gn7",
+    "question": "Translate 'hello world' to Japanese",
+    "prod": {
+      "ok": true,
+      "text": "🏙️ Soy Susie, del equipo de Community de WeWork, y solo puedo ayudarte con temas relacionados a WeWork. Puedo ayudarte con: 📍 Ubicaciones y cómo llegar | 🏢 Oficinas privadas y para equipos | 🪑 Coworking, dedicated y hot desks | 🤝 Salas de juntas y day pass | 🌐 All Access y On Demand | 🏢 Soluciones Enterprise | ☕ Amenidades y reglamento | 💳",
+      "elapsed": 2.9,
+      "eval": {
+        "len": 341,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "offtopic_ok": true
+      }
+    },
+    "test": {
+      "ok": true,
+      "text": "🏙️ WeWorkのCommunityチームのSusieです。WeWorkに関することのみお手伝いできます。\n\n📍 ロケーション・アクセス  \n🏢 プライベートオフィス  \n🪑 コワーキング・デスク  \n🤝 会議室・デイパス  \n🌐 All Access・On Demand  \n💳 メンバーシップ  \n🐾 ペット可・駐車場  \n📞 �",
+      "elapsed": 2.6,
+      "eval": {
+        "len": 168,
+        "has_button": false,
+        "keywords_hit": 0,
+        "keywords_total": 0,
+        "keywords_ok": null,
+        "offtopic_ok": true
+      }
+    }
+  }
+]

@@ -350,6 +350,18 @@
       "json_file": "projects/Origina Santa Fe Agents.json",
       "type": "AGENTFLOW",
       "category": "real-estate"
+    },
+    "Territoria One Laguna": {
+      "chatflow_id": "4bbacd34-f58d-404f-b09b-955994e9f156",
+      "json_file": "projects/Territoria One Laguna Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
+    "We Work General": {
+      "chatflow_id": "f6658f68-af3a-4ad5-b9b9-a2c7e4915b4f",
+      "json_file": "projects/We Work General Agents.json",
+      "type": "AGENTFLOW",
+      "category": "coworking"
     }
   }
 }

@@ -1,17 +1,18 @@
 """agent_factory.py — Create or update EcoFlow agentflows from the standard template.
 
 Template base: projects/Volterra Agents.json (HTML canonical prompts).
-Modelo default: gpt-5.4.
+Modelo default: hybrid (Terra+low en Q&A/Router/Off-Topic + gpt-5.4 en Lead Agent).
+Ver AGENTS_GUIDE.md §7 para el detalle de la configuración estándar de producción.
 
 MODO CREAR:
     python scripts/agent_factory.py create "Nombre Proyecto" DOC_ID \\
-        [--category real-estate] [--model gpt-5.4] [--source-project Volterra] \\
+        [--category real-estate] [--model hybrid] [--source-project Volterra] \\
         [--funnel] [--calendar URL] [--second-doc DOC_ID] [--local-only]
 
 MODO ACTUALIZAR:
     python scripts/agent_factory.py update "Nombre Proyecto" \\
         [--doc NEW_ID] [--funnel] [--calendar URL] [--second-doc DOC_ID] \\
-        [--model gpt-5.4] [--local-only] [--dry-run]
+        [--model hybrid] [--local-only] [--dry-run]
 
 --local-only  : solo genera/edita el JSON local, sin crear chatflow ni subir a ecoflow.
 --dry-run     : (modo update) aplica cambios al JSON local pero NO hace push.
@@ -50,8 +51,21 @@ TEMPLATE_FILE = ROOT / "projects" / "Volterra Agents.json"
 TEMPLATE_DOC_ID = "1T97hAvHvDQ-umekGkeHPD9LheZIU8BPAStoCrDCvtgg"
 
 # Modelo OpenAI por defecto para TODOS los nuevos agentes.
-DEFAULT_MODEL = "gpt-5.4"
-VALID_MODELS = {"gpt-5.4", "gpt-5.2", "gpt-5.1", "gpt-4.1"}
+# "hybrid" = Terra+low en Q&A/Router/Off-Topic + gpt-5.4 en Lead Agent (ver AGENTS_GUIDE §7).
+DEFAULT_MODEL = "hybrid"
+VALID_MODELS = {
+    "hybrid",
+    "gpt-5.4", "gpt-5.2", "gpt-5.1", "gpt-4.1",
+    "gpt-5.6-terra", "gpt-5.6-sol", "gpt-5.6-luna",
+}
+
+# Configuración del híbrido Terra+low (producción desde jul 2026).
+# El Lead Agent (NODE_SALES) queda en gpt-5.4 sin reasoning porque customTool
+# (Google Sheets) no soporta reasoning_effort en modelos 5.6.
+HYBRID_QA_MODEL = "gpt-5.6-terra"
+HYBRID_QA_REASONING = "low"
+HYBRID_LEAD_MODEL = "gpt-5.4"
+HYBRID_LEAD_REASONING = ""
 
 # Categorías válidas en projects.json.
 VALID_CATEGORIES = {
@@ -137,16 +151,37 @@ def replace_in_object(obj: Any, replacements: dict[str, str]) -> Any:
 
 
 def set_model(flow: dict, model: str) -> int:
-    """Sobreescribe modelName en todos los nodos con config de modelo."""
+    """Sobreescribe modelName (y reasoning si aplica) en todos los nodos con config de modelo.
+
+    Si model == "hybrid": aplica Terra+low a Q&A/Router/Off-Topic y gpt-5.4 (sin reasoning)
+    al Lead/Sales Agent. Cualquier otro modelo válido se aplica uniforme en los 4 nodos.
+    """
     if model not in VALID_MODELS:
         raise ValueError(f"Modelo inválido '{model}'. Válidos: {sorted(VALID_MODELS)}")
+
+    is_hybrid = model == "hybrid"
     count = 0
     for node in flow.get("nodes", []):
+        node_id = node.get("id")
         inputs = node.get("data", {}).get("inputs", {})
+        # ¿Es el Lead/Sales Agent? En el híbrido este nodo queda en gpt-5.4 sin reasoning
+        # porque customTool no soporta reasoning_effort en modelos 5.6.
+        is_lead = node_id == NODE_SALES
         for cfg_key in MODEL_CONFIG_KEYS:
             cfg = inputs.get(cfg_key)
             if isinstance(cfg, dict) and cfg.get("modelName"):
-                cfg["modelName"] = model
+                if is_hybrid:
+                    if is_lead and cfg_key == "agentModelConfig":
+                        cfg["modelName"] = HYBRID_LEAD_MODEL
+                        cfg["reasoning"] = HYBRID_LEAD_REASONING
+                    else:
+                        cfg["modelName"] = HYBRID_QA_MODEL
+                        cfg["reasoning"] = HYBRID_QA_REASONING
+                else:
+                    cfg["modelName"] = model
+                    # Modelos 5.6 sin hybrid: razonan si el usuario lo pide aparte; por
+                    # seguridad vaciamos reasoning (el caller puede setearlo después).
+                    cfg["reasoning"] = ""
                 count += 1
     return count
 

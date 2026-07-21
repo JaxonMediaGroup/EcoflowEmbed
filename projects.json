@@ -362,6 +362,12 @@
       "json_file": "projects/We Work General Agents.json",
       "type": "AGENTFLOW",
       "category": "coworking"
+    },
+    "LST Santa Jacinta": {
+      "chatflow_id": "4c7949e2-53a8-414f-a74b-e26bfb50ece7",
+      "json_file": "projects/LST Santa Jacinta Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
     }
   }
 }

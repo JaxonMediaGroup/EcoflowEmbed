@@ -113,8 +113,8 @@
                 "label": "Variable Name",
                 "name": "name",
                 "type": "string",
-                "placeholder": "Variable name for the input (must be camel case)",
-                "description": "Variable name must be camel case. For example: firstName, lastName, etc."
+                "placeholder": "Variable name (must be camel case)",
+                "description": "Variable name must be camel case."
               },
               {
                 "label": "Add Options",
@@ -201,22 +201,267 @@
       "dragging": false
     },
     {
+      "id": "conditionAgentAgentflow_0",
+      "type": "agentFlow",
+      "position": {
+        "x": -125.42525773195871,
+        "y": 72.52061855670104
+      },
+      "width": 256,
+      "height": 100,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -125.42525773195871,
+        "y": 72.52061855670104
+      },
+      "data": {
+        "id": "conditionAgentAgentflow_0",
+        "label": "Santa Jacinta Router",
+        "version": 2,
+        "name": "conditionAgentAgentflow",
+        "type": "ConditionAgent",
+        "color": "#ff8fab",
+        "baseClasses": [
+          "ConditionAgent"
+        ],
+        "category": "Agent Flows",
+        "description": "Utilize an agent to split flows based on dynamic conditions",
+        "inputParams": [
+          {
+            "label": "Model",
+            "name": "conditionAgentModel",
+            "type": "asyncOptions",
+            "loadMethod": "listModels",
+            "loadConfig": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentModel-asyncOptions",
+            "display": true
+          },
+          {
+            "label": "Instructions",
+            "name": "conditionAgentInstructions",
+            "type": "string",
+            "description": "A general instructions of what the condition agent should do",
+            "rows": 4,
+            "acceptVariable": true,
+            "placeholder": "Determine if the user is interested in learning about AI",
+            "id": "conditionAgentAgentflow_0-input-conditionAgentInstructions-string",
+            "display": true
+          },
+          {
+            "label": "Input",
+            "name": "conditionAgentInput",
+            "type": "string",
+            "description": "Input to be used for the condition agent",
+            "rows": 4,
+            "acceptVariable": true,
+            "default": "<p><span class=\"variable\" data-type=\"mention\" data-id=\"question\" data-label=\"question\">{{ question }}</span> </p>",
+            "id": "conditionAgentAgentflow_0-input-conditionAgentInput-string",
+            "display": true
+          },
+          {
+            "label": "Scenarios",
+            "name": "conditionAgentScenarios",
+            "description": "Define the scenarios that will be used as the conditions to split the flow",
+            "type": "array",
+            "array": [
+              {
+                "label": "Scenario",
+                "name": "scenario",
+                "type": "string"
+              }
+            ],
+            "minItems": 1,
+            "default": [
+              {
+                "scenario": ""
+              },
+              {
+                "scenario": ""
+              }
+            ],
+            "id": "conditionAgentAgentflow_0-input-conditionAgentScenarios-array",
+            "display": true
+          },
+          {
+            "label": "Enable Memory",
+            "name": "conditionAgentEnableMemory",
+            "type": "boolean",
+            "description": "Enable memory for the conversation thread",
+            "default": true,
+            "optional": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentEnableMemory-boolean",
+            "display": true
+          },
+          {
+            "label": "Memory Type",
+            "name": "conditionAgentMemoryType",
+            "type": "options",
+            "options": [
+              {
+                "label": "All Messages",
+                "name": "allMessages",
+                "description": "Retrieve all messages from the conversation"
+              },
+              {
+                "label": "Window Size",
+                "name": "windowSize",
+                "description": "Uses a fixed window size to surface the last N messages"
+              },
+              {
+                "label": "Summary",
+                "name": "summary",
+                "description": "Summarizes the whole conversation"
+              },
+              {
+                "label": "Conversation Summary Buffer",
+                "name": "conversationSummaryBuffer",
+                "description": "Summarizes conversations once token limit is reached"
+              }
+            ],
+            "optional": true,
+            "default": "allMessages",
+            "show": {
+              "conditionAgentEnableMemory": true
+            },
+            "id": "conditionAgentAgentflow_0-input-conditionAgentMemoryType-options",
+            "display": true
+          },
+          {
+            "label": "Window Size",
+            "name": "conditionAgentMemoryWindowSize",
+            "type": "number",
+            "default": "20",
+            "description": "Uses a fixed window size to surface the last N messages",
+            "show": {
+              "conditionAgentMemoryType": "windowSize"
+            },
+            "id": "conditionAgentAgentflow_0-input-conditionAgentMemoryWindowSize-number",
+            "display": false
+          },
+          {
+            "label": "Max Token Limit",
+            "name": "conditionAgentMemoryMaxTokenLimit",
+            "type": "number",
+            "default": "2000",
+            "description": "Summarize conversations once token limit is reached. Default to 2000",
+            "show": {
+              "conditionAgentMemoryType": "conversationSummaryBuffer"
+            },
+            "id": "conditionAgentAgentflow_0-input-conditionAgentMemoryMaxTokenLimit-number",
+            "display": false
+          },
+          {
+            "label": "Override System Prompt",
+            "name": "conditionAgentOverrideSystemPrompt",
+            "type": "boolean",
+            "description": "Override initial system prompt for Condition Agent",
+            "optional": true,
+            "id": "conditionAgentAgentflow_0-input-conditionAgentOverrideSystemPrompt-boolean",
+            "display": true
+          },
+          {
+            "label": "Condition Agent System Prompt",
+            "name": "conditionAgentSystemPrompt",
+            "type": "string",
+            "rows": 4,
+            "optional": true,
+            "acceptVariable": true,
+            "default": "<p>You are part of a multi-agent system designed to make agent coordination and execution easy. Your task is to analyze the given input and select one matching scenario from a provided set of scenarios.</p>",
+            "description": "Expert use only. Modifying this can significantly alter agent behavior. Leave default if unsure",
+            "show": {
+              "conditionAgentOverrideSystemPrompt": true
+            },
+            "id": "conditionAgentAgentflow_0-input-conditionAgentSystemPrompt-string",
+            "display": false
+          }
+        ],
+        "inputAnchors": [],
+        "inputs": {
+          "conditionAgentModel": "chatOpenAI",
+          "conditionAgentInstructions": "You are a multilingual intent classifier for Santa Jacinta, a premium countryside\nresidential development next to Club de Golf Los Encinos in Estado de Mexico.\n\nRoute the user's message into exactly one category:\n0. General inquiry about Santa Jacinta: location, lot sizes, prices, availability,\n   amenities, equestrian club, natural resources, maintenance, security, lifestyle,\n   showroom, investment, or any need that can reasonably relate to the project.\n1. Contact or appointment: the user shares personal contact information or asks for\n   an advisor, quote, current price, availability, showroom visit, call, or WhatsApp.\n2. Off-topic: only requests impossible to relate to Santa Jacinta, such as homework,\n   coding, math, recipes, trivia, politics, or unrelated translations.\n\nWhen in doubt, choose category 0. Never route a plausible project question to off-topic.",
+          "conditionAgentInput": "{{question}}",
+          "conditionAgentScenarios": [
+            {
+              "scenario": "General question about Santa Jacinta"
+            },
+            {
+              "scenario": "Advisor contact, quote, availability, showroom visit, or personal data"
+            },
+            {
+              "scenario": "Request impossible to relate to Santa Jacinta"
+            }
+          ],
+          "conditionAgentEnableMemory": true,
+          "conditionAgentMemoryType": "allMessages",
+          "conditionAgentMemoryWindowSize": "20",
+          "conditionAgentMemoryMaxTokenLimit": "2000",
+          "conditionAgentOverrideSystemPrompt": "",
+          "conditionAgentSystemPrompt": "Classify the user's message into exactly one category. When in doubt, choose the project-related category instead of off-topic.",
+          "conditionAgentModelConfig": {
+            "cache": "",
+            "modelName": "gpt-5.2",
+            "temperature": "0",
+            "streaming": true,
+            "maxTokens": "",
+            "topP": "",
+            "frequencyPenalty": "",
+            "presencePenalty": "",
+            "timeout": "",
+            "strictToolCalling": "",
+            "stopSequence": "",
+            "basepath": "",
+            "proxyUrl": "",
+            "baseOptions": "",
+            "allowImageUploads": "",
+            "reasoning": "",
+            "conditionAgentModel": "chatOpenAI",
+            "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
+          }
+        },
+        "outputAnchors": [
+          {
+            "id": "conditionAgentAgentflow_0-output-0",
+            "label": 0,
+            "name": 0,
+            "description": "Condition 0"
+          },
+          {
+            "id": "conditionAgentAgentflow_0-output-1",
+            "label": 1,
+            "name": 1,
+            "description": "Condition 1"
+          },
+          {
+            "id": "conditionAgentAgentflow_0-output-2",
+            "label": 2,
+            "name": 2,
+            "description": "Condition 2"
+          }
+        ],
+        "outputs": {
+          "conditionAgentAgentflow": ""
+        },
+        "selected": false
+      },
+      "dragging": false
+    },
+    {
       "id": "agentAgentflow_0",
       "type": "agentFlow",
       "position": {
-        "x": 148.6494845360825,
-        "y": -11.979381443298948
+        "x": 210.2684874025366,
+        "y": -1.8917790284472886
       },
-      "width": 235,
-      "height": 128,
+      "width": 305,
+      "height": 100,
       "selected": false,
       "positionAbsolute": {
-        "x": 148.6494845360825,
-        "y": -11.979381443298948
+        "x": 210.2684874025366,
+        "y": -1.8917790284472886
       },
       "data": {
         "id": "agentAgentflow_0",
-        "label": "We Work General Multilingual Q&A",
+        "label": "Santa Jacinta Multilingual Q&A",
         "version": 3.2,
         "name": "agentAgentflow",
         "type": "Agent",
@@ -393,16 +638,15 @@
                 "loadMethod": "listStores"
               },
               {
-                "label": "Describe Knowledge",
+                "label": "Description",
                 "name": "docStoreDescription",
                 "type": "string",
-                "generateDocStoreDescription": true,
-                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
-                "rows": 4
+                "rows": 4,
+                "placeholder": "Describe what the document store contains and when to use it"
               },
               {
                 "label": "Return Source Documents",
-                "name": "returnSourceDocuments",
+                "name": "docStoreReturnSourceDocuments",
                 "type": "boolean",
                 "optional": true
               }
@@ -418,36 +662,37 @@
             "description": "Give your agent context about different document sources from existing vector stores and embeddings",
             "array": [
               {
-                "label": "Vector Store",
-                "name": "vectorStore",
+                "label": "VS Retriever",
+                "name": "vsEmbedding",
                 "type": "asyncOptions",
-                "loadMethod": "listVectorStores",
+                "loadMethod": "listVSEmbeddings",
                 "loadConfig": true
               },
               {
                 "label": "Embedding Model",
-                "name": "embeddingModel",
+                "name": "vsEmbeddingModel",
                 "type": "asyncOptions",
                 "loadMethod": "listEmbeddings",
                 "loadConfig": true
               },
               {
-                "label": "Knowledge Name",
-                "name": "knowledgeName",
+                "label": "Knowledge Base Name",
+                "name": "vsEmbeddingName",
                 "type": "string",
-                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
+                "placeholder": "A short name for the knowledge base"
               },
               {
-                "label": "Describe Knowledge",
-                "name": "knowledgeDescription",
+                "label": "Description",
+                "name": "vsEmbeddingDescription",
                 "type": "string",
-                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
-                "rows": 4
+                "rows": 4,
+                "placeholder": "Describe what the vector store contains and when to use it"
               },
               {
-                "label": "Return Source Documents",
-                "name": "returnSourceDocuments",
-                "type": "boolean",
+                "label": "Top K",
+                "name": "vsTopK",
+                "type": "number",
+                "default": 4,
                 "optional": true
               }
             ],
@@ -481,14 +726,14 @@
                 "description": "Uses a fixed window size to surface the last N messages"
               },
               {
-                "label": "Conversation Summary",
-                "name": "conversationSummary",
+                "label": "Summary",
+                "name": "summary",
                 "description": "Summarizes the whole conversation"
               },
               {
                 "label": "Conversation Summary Buffer",
                 "name": "conversationSummaryBuffer",
-                "description": "Summarize conversations once token limit is reached. Default to 2000"
+                "description": "Summarizes conversations once token limit is reached"
               }
             ],
             "optional": true,
@@ -547,8 +792,8 @@
                 "name": "userMessage"
               },
               {
-                "label": "Assistant Message",
-                "name": "assistantMessage"
+                "label": "State",
+                "name": "state"
               }
             ],
             "default": "userMessage",
@@ -578,10 +823,6 @@
                     "name": "string"
                   },
                   {
-                    "label": "String Array",
-                    "name": "stringArray"
-                  },
-                  {
                     "label": "Number",
                     "name": "number"
                   },
@@ -594,8 +835,12 @@
                     "name": "enum"
                   },
                   {
-                    "label": "JSON Array",
-                    "name": "jsonArray"
+                    "label": "Number Array",
+                    "name": "numberArray"
+                  },
+                  {
+                    "label": "String Array",
+                    "name": "stringArray"
                   }
                 ]
               },
@@ -603,30 +848,16 @@
                 "label": "Enum Values",
                 "name": "enumValues",
                 "type": "string",
-                "placeholder": "value1, value2, value3",
-                "description": "Enum values. Separated by comma",
                 "optional": true,
                 "show": {
                   "agentStructuredOutput[$index].type": "enum"
                 }
               },
               {
-                "label": "JSON Schema",
-                "name": "jsonSchema",
-                "type": "code",
-                "placeholder": "{\n    \"answer\": {\n        \"type\": \"string\",\n        \"description\": \"Value of the answer\"\n    },\n    \"reason\": {\n        \"type\": \"string\",\n        \"description\": \"Reason for the answer\"\n    },\n    \"optional\": {\n        \"type\": \"boolean\"\n    },\n    \"count\": {\n        \"type\": \"number\"\n    },\n    \"children\": {\n        \"type\": \"array\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"value\": {\n                    \"type\": \"string\",\n                    \"description\": \"Value of the children's answer\"\n                }\n            }\n        }\n    }\n}",
-                "description": "JSON schema for the structured output",
-                "optional": true,
-                "hideCodeExecute": true,
-                "show": {
-                  "agentStructuredOutput[$index].type": "jsonArray"
-                }
-              },
-              {
                 "label": "Description",
                 "name": "description",
                 "type": "string",
-                "placeholder": "Description of the key"
+                "optional": true
               }
             ],
             "id": "agentAgentflow_0-input-agentStructuredOutput-array",
@@ -644,14 +875,15 @@
                 "label": "Key",
                 "name": "key",
                 "type": "asyncOptions",
-                "loadMethod": "listRuntimeStateKeys"
+                "loadMethod": "listRuntimeStateKeys",
+                "freeSolo": true
               },
               {
                 "label": "Value",
                 "name": "value",
                 "type": "string",
                 "acceptVariable": true,
-                "acceptNodeOutputAsVariable": true
+                "description": "Field value"
               }
             ],
             "id": "agentAgentflow_0-input-agentUpdateState-array",
@@ -664,10 +896,10 @@
           "agentMessages": [
             {
               "role": "system",
-              "content": "<p><strong>🎭 QUIÉN ERES:</strong></p>\n<p>Te llamas <strong>Susie Romero</strong> y eres el rostro digital del equipo de <strong>Community Development de WeWork</strong>. Eres la Community Manager que recibe a cada persona interesada en formar parte de la comunidad WeWork: freelancers, startups, pymes, equipos híbridos y corporativos. Conoces a fondo las ubicaciones, los planes de membresía, las oficinas privadas, las salas de juntas y la vida de comunidad de cada sede.</p>\n<p><strong>Tu PRIMARY information source es la herramienta info_get.</strong></p>\n<p><strong>🌍 REGLA CRÍTICA DE IDIOMA:</strong> Responde SIEMPRE en el MISMO idioma en el que el usuario hizo su pregunta. Detecta el idioma y respétalo exactamente.</p>\n<p><strong>✨ TU PERSONALIDAD — SUSIE ROMERO:</strong></p>\n<ul>\n<li>Eres <strong>cálida, cercana y entusiasta</strong>, como una anfitriona que de verdad disfruta conectar personas. El \"community\" no es un eslogan para ti, es tu trabajo real.</li>\n<li>Hablas con <strong>naturalidad y energía</strong>, no como un manual ni como un chatbot. Eres la persona que en una sede te recibe con un café y te presenta al vecino de escritorio que necesita justo lo que tú haces.</li>\n<li>Te apasiona <strong>conectar miembros</strong>: si alguien menciona su giro o necesidad, conectas con lo que WeWork ofrece para ese perfil (\"como freelance, te encajaría un Hot Desk o All Access...\").</li>\n<li>Eres <strong>honesta y directa</strong>: si algo varía por sede (precios, disponibilidad, estacionamiento, pet friendly), lo dices sin rodeos y ofreces validar con el equipo de la sede.</li>\n<li>Tono: <strong>amigable, seguro, profesional pero cero robótico</strong>. Cercano como un buen anfitrión, no presionante.</li>\n</ul>\n<p><strong>📋 PROCESO OBLIGATORIO:</strong></p>\n<ol>\n<li><strong>USA info_get PRIMERO</strong> para obtener la información oficial de WeWork.</li>\n<li><strong>DETECTA EL IDIOMA</strong> del usuario y responde en ese idioma exacto.</li>\n<li><strong>NUNCA inventes</strong>. Si info_get no tiene el dato, dilo claramente y conecta con el equipo.</li>\n</ol>\n<p><strong>🎯 INSTRUCCIONES ESPECÍFICAS (CONTEXTO COWORKING):</strong></p>\n<ul>\n<li><strong>WeWork es coworking / oficinas flexibles</strong>: NO vendes departamentos ni bienes raíces. Tus temas son <strong>membresías, oficinas privadas, escritorios (dedicated / hot desk), salas de juntas, day pass, All Access, On Demand, Enterprise, amenidades de cada sede, reglamento y comunidad</strong>.</li>\n<li><strong>📍 UBICACIÓN POR DEFECTO — CIUDAD DE MÉXICO:</strong> Tu contexto principal es <strong>WeWork Ciudad de México</strong>. El documento lista 13 sedes en CDMX (Reforma Latino, Reforma 26, Varsovia, Lago Alberto, Miguel de Cervantes Saavedra, Montes Urales, Insurgentes Sur 601, Insurgentes Sur 1079, Mitikah, Artz Pedregal, Avenida Santa Fe, Park Plaza y Prolongación Paseo de la Reforma). <strong>Cuando el usuario NO especifique ciudad, asume CDMX</strong> y responde con esas sedes y servicios locales.</li>\n<li><strong>🌎 SI EL USUARIO MENCIONA OTRA CIUDAD/PAÍS</strong> (Monterrey, Guadalajara, NY, Madrid, etc.): responde con la <strong>información global de WeWork</strong> que sí aplica en cualquier lugar (qué es WeWork, tipos de espacios, membresías All Access/On Demand, Enterprise, reglamento general). <strong>NUNCA inventes direcciones, sedes específicas, precios locales ni disponibilidad</strong> de ciudades que no estén en el documento. Si te preguntan por una sede concreta fuera de CDMX, di: \"Para esa ciudad te recomiendo validar directamente con el equipo de WeWork, ya que la disponibilidad y sedes varían por región.\"</li>\n<li><strong>🔄 DETECCIÓN DE UBICACIÓN</strong>: si el usuario es ambiguo (\"¿tienen oficinas?\", \"¿dónde están?\"), responde primero con CDMX. Solo amplía a nivel global si el usuario deja claro que busca fuera de CDMX (ej: \"en otro país\", \"en Monterrey\", \"internacional\").</li>\n<li><strong>Para precios / rangos</strong>: solo usa \"desde X\" o \"hasta X\" si aparece textualmente en el documento.</li>\n<li><strong>Si la información no se encuentra</strong>: \"Para esa información específica, te conecto con alguien del equipo de la sede\" (en el idioma del usuario).</li>\n<li><strong>Información que varía por sede</strong> (precios exactos, disponibilidad real, estacionamiento, pet friendly, acceso 24/7): NUNCA la confirmes como hecho. Redirige al equipo de la sede correspondiente.</li>\n</ul>\n<p><strong>🔘 BOTONES DE LINKS — OBLIGATORIO:</strong></p>\n<p>El documento (info_get) contiene secciones con esta estructura:</p>\n<pre style=\"background:#f4f4f4;padding:10px;border-radius:6px;white-space:pre-wrap;overflow-x:auto\">Información &lt;tipo de espacio&gt;:\nLink: &lt;URL completa extraída del documento&gt;\nTítulo: \"&lt;descripción del espacio&gt;\"\n\nInformación &lt;otro espacio&gt;:\nLink: &lt;URL completa extraída del documento&gt;\nTítulo: \"...\"</pre>\n<p><strong>Cuando el usuario pregunte por un espacio, oficina o sala:</strong></p>\n<ol>\n<li>Ejecuta <code>info_get</code> y busca las secciones relevantes.</li>\n<li>Por cada sección relevante, extrae su <strong>Link</strong> y su <strong>Título</strong>.</li>\n<li>Envuelve CADA link en un botón HTML con este formato EXACTO:</li>\n</ol>\n<pre style=\"background:#f4f4f4;padding:10px;border-radius:6px;white-space:pre-wrap;overflow-x:auto\">&lt;a href=\"URL_DEL_DOCUMENTO\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\"&gt;ETIQUETA_CORTA →&lt;/a&gt;</pre>\n<p><strong>Reglas:</strong></p>\n<ul>\n<li><strong>SOLO usa URLs que aparezcan literalmente en el documento bajo \"Link:\"</strong>. NUNCA inventes, modifies ni completes URLs.</li>\n<li>Si el documento no trae link para lo que pregunta el usuario, NO muestres botón — responde con texto y ofrece contacto.</li>\n<li>Puedes mostrar <strong>1 botón</strong> (pregunta específica) o <strong>varios botones juntos</strong> (comparación o \"muéstrame todo\").</li>\n<li>La etiqueta del botón debe ser corta y clara, derivada del Título del documento. Ejemplos: \"Oficina 4 personas\", \"Sala 8 personas\", \"Ver todas las oficinas\", \"Ver todas las salas\", \"WeWork Avenida Santa Fe\".</li>\n<li>NUNCA muestres la URL cruda como texto plano — siempre como botón HTML.</li>\n<li>Ejemplo de respuesta con 2 botones (URLs reales extraídas del documento):</li>\n</ul>\n<pre style=\"background:#f4f4f4;padding:10px;border-radius:6px;white-space:pre-wrap;overflow-x:auto\">&lt;a href=\"URL_EXTRAÍDA_DEL_DOC_1\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\"&gt;Etiqueta corta 1 →&lt;/a&gt;&lt;a href=\"URL_EXTRAÍDA_DEL_DOC_2\" style=\"display:inline-block;padding:11px 20px;background:#000;color:#fff;border-radius:6px;font-weight:600;font-size:14px;margin:5px 4px;text-decoration:none;font-family:Inter,Helvetica,Arial,sans-serif\"&gt;Etiqueta corta 2 →&lt;/a&gt;</pre>\n<p><strong>Recuerda:</strong> las URLs se actualizan directo en el documento. Tu trabajo es leerlas de ahí, no memorizarlas.</p>\n<p><strong>🚫 ANTI-INFERENCIA:</strong></p>\n<ul>\n<li>No inventes información que no esté en el documento.</li>\n<li>No supongas precios, disponibilidad, promociones ni condiciones de contrato.</li>\n<li>Si info_get no tiene el dato, dilo claramente y ofrece el contacto del equipo.</li>\n</ul>\n<p><strong>⚠️ INFORMACIÓN DE TERCEROS:</strong></p>\n<ul>\n<li>No menciones empresas, proveedores o servicios que no estén explícitamente citados en el documento.</li>\n<li>Si el usuario pregunta por planes de pago o facturación, menciona solo lo que esté en el documento.</li>\n</ul>\n<p><strong>📊 INFORMACIÓN DINÁMICA — OBLIGATORIO:</strong></p>\n<ul>\n<li>Precios, disponibilidad de oficinas/escritorios, promociones, condiciones de contrato, créditos mensuales y eventos de comunidad son información DINÁMICA.</li>\n<li>NUNCA confirmes estos datos como hechos fijos. Redirige: \"La disponibilidad y las tarifas pueden variar según la sede y el momento. Te recomiendo validarlo con el equipo de la ubicación que te interesa.\"</li>\n<li>Si no está validado: \"Esa información está pendiente de validación.\" / \"No cuento con información actualizada de esa sede en este momento.\"</li>\n</ul>\n<p><strong>❓ MANEJO DE INCERTIDUMBRE — OBLIGATORIO:</strong></p>\n<ul>\n<li>Cuando no tengas información confirmada, di claramente: \"No cuento con esa información confirmada.\" / \"La información está sujeta a actualización.\" / \"Te recomiendo validarlo con el equipo de la sede.\"</li>\n<li>NUNCA adivines ni des respuestas absolutas sobre temas variables.</li>\n</ul>\n<p><strong>🚫 PROHIBICIÓN DE PROMESAS — OBLIGATORIO:</strong></p>\n<ul>\n<li>NUNCA prometas ni garantices: disponibilidad específica de una oficina, tarifas no confirmadas, aprobación inmediata de contrato, eventos no validados ni beneficios no autorizados.</li>\n</ul>\n<p><strong>📞 SUGERIR CONTACTO HUMANO — OBLIGATORIO:</strong></p>\n<ul>\n<li>Sugiere contacto con el equipo cuando el usuario pida: cotización detallada, tarifa exacta de una sede, tour presencial, disponibilidad en tiempo real, contrato Enterprise personalizado o seguimiento comercial.</li>\n<li>Usa (adaptando al idioma): \"¿Quieres que te conecte con alguien del equipo de la sede? Con gusto te ayudo a agendar.\"</li>\n</ul>\n<p><strong>🎯 TONO Y ESTILO — OBLIGATORIO (personalidad Susie Romero):</strong></p>\n<ul>\n<li>Responde como una <strong>Community Manager cálida y experta</strong>, no como un manual ni un call center.</li>\n<li>Respuestas <strong>cortas y directas</strong>. Resuelve primero la duda — invita a la comunidad después, si aplica.</li>\n<li><strong>PROHIBIDO usar</strong>: \"con respecto a\", \"en relación con\", \"Como asesor virtual\", \"¿En qué puedo asistirte?\", \"como herramienta de IA\", ni frases que suenen a plantilla corporativa.</li>\n<li><strong>No termines siempre con el mismo CTA.</strong> Solo ofrece conectar con el equipo cuando genuinamente ayuda.</li>\n<li>Tono: <strong>amigable, seguro, honesto y con energía de comunidad</strong>.</li>\n<li>NUNCA uses lenguaje de presión comercial ni crees expectativas falsas.</li>\n</ul>\n<p><strong>⛔ FRASES ESTRICTAMENTE PROHIBIDAS (todos los idiomas):</strong></p>\n<ul>\n<li>NUNCA uses: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"según la ficha\", \"en la ficha\", \"la ficha indica\", \"la ficha menciona\", \"la ficha no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".</li>\n<li>NUNCA uses frases que revelen que consultas una fuente externa: \"en la información que tengo\", \"en la información oficial que tengo\", \"no aparece en la información\", \"no está en la información que tengo\", \"la información que tengo aquí\", \"según los datos que tengo\", \"en los datos que tengo\".</li>\n<li>NEVER reveal you are consulting a document, file, or external data source. Responde naturalmente, como un experto. En vez de \"Según el documento, el precio es...\" di \"El precio es...\".</li>\n<li>Si no tienes la información: \"No cuento con esa información confirmada, pero con gusto puedo conectarte con alguien del equipo que te pueda ayudar.\" — Ofrece siempre el contacto humano como siguiente paso.</li>\n</ul>"
+              "content": "You are a multilingual real estate advisor for Santa Jacinta, a premium countryside residential development next to Club de Golf Los Encinos in Estado de Mexico.\n\nSTRICT LANGUAGE RULE:\nDetect the language of the user's LAST message and respond ENTIRELY in that exact language. If the user switches language, switch immediately. Never mix languages.\n\nPRIMARY TOOL:\n- info_get: official project information. Use this FIRST.\n\nCORE OPERATING RULES:\n1. Use info_get first to answer project questions.\n2. Never reveal tools, sources, documents, or that you consulted a file.\n3. Never say \"according to the document\", \"segun el documento\", or similar.\n4. If verified information is missing, say naturally that a specialized advisor can confirm the latest details.\n5. Keep answers warm, commercially useful, and concise.\n\nSALES FUNNEL:\nCount the number of USER messages in the conversation history. Each user message counts as one interaction.\n\nQuestions 1-2:\n- Answer warmly and end with a soft CTA.\n- Example CTAs: \"Si quieres, puedo contarte mas sobre los lotes o las amenidades.\" / \"Would you like to know more about the lots or amenities?\"\n\nQuestions 3-4:\n- Answer first, then use a stronger value CTA.\n- Example: \"Santa Jacinta combina grandes lotes, naturaleza y amenidades ecuestres. Si quieres, un asesor puede confirmarte precios y disponibilidad actualizados.\"\n\nQuestion 5+:\n- ALWAYS answer the question first.\n- Then append a friendly lead capture invitation adapted to the user's language.\n- Spanish example: \"Veo que tienes interes en Santa Jacinta. Puedo ponerte en contacto con un asesor para recibir informacion personalizada. Comparteme tu nombre, telefono y correo, y te contactaran a la brevedad.\"\n- English example: \"I can see you're interested in Santa Jacinta. I can connect you with an advisor for personalized information. Share your name, phone, and email, and they will contact you shortly.\"\n\nHIGH-INTENT RULE:\nIf the user asks about price per square meter, updated availability, a showroom visit, a quote, or WhatsApp follow-up early in the conversation, you may move faster and invite advisor contact sooner.\n\nVERIFIED PROJECT FACTS AVAILABLE IN info_get:\n- The development covers 47.77 hectares\n- There are 120 lots\n- Lot sizes range from 1,200 to 3,600 square meters\n- The showroom is in Edificio Euro Ten, Juan Salvador Agraz 61, floor 1, Las Tinajas, Santa Fe, CDMX\n- Price per square meter must be confirmed by a sales advisor\n- The development is next to Club de Golf Los Encinos in Estado de Mexico\n- It includes flood irrigation and rainwater collection management systems\n- Its wells have capacity of up to 650,000 cubic meters\n- Cider batches are produced with apples grown inside the development\n- Monthly maintenance is approximately MXN 25,000 and should be treated as subject to update\n- Equestrian amenities include 150 stables, grass, sand and covered arenas, and paddock\n- Other amenities include a cafeteria and a 4,000-square-meter clubhouse\n- The clubhouse includes an indoor pool, gym, art room, children's playroom, paddle and tennis courts, and business center\n- Security includes drones and a waiting area for drivers and security escorts\n\nINFORMACION DINAMICA — MANDATORY:\n- Prices, availability, inventory, promotions, discounts, payment terms, financing, delivery dates, pending amenities, and commercial policies are dynamic information.\n- Never confirm these as fixed facts without current verification.\n- If the information is not fully verified, say naturally that it may change and that a specialized advisor can confirm the latest details.\n\nINFORMACION DE TERCEROS — MANDATORY:\n- For third-party information such as banks, mortgage rates, credit approvals, external services, or external promotions, provide general orientation only.\n- Never confirm rates, approved credit, schedules, service conditions, or outside promotions as facts.\n- Redirect the user to the relevant institution when the detail depends on a third party.\n\nMANEJO DE INCERTIDUMBRE — MANDATORY:\n- When you do not have confirmed information, say it clearly and naturally.\n- Use patterns such as: \"No cuento con esa informacion confirmada.\", \"La informacion esta sujeta a actualizacion.\", \"Te recomiendo validarlo directamente con el area comercial.\", or \"Puede variar dependiendo de la etapa del proyecto.\"\n- Never guess, generalize, or give absolute answers on variable topics.\n\nANTI-INFERENCIA — MANDATORY:\n- Never infer or complete information using context clues, industry patterns, comparable projects, market practices, partial data, or indirect reasoning.\n- Only state information explicitly verified through info_get or valid rules returned by info_get.\n- Never invent exact model names, dimensions, promotions, monthly payments, inventory, delivery promises, or financing approvals.\n- If the official source does not include the answer, say so naturally and invite follow-up with a specialized advisor instead of filling the gap.\n\nPROHIBICION DE PROMESAS — MANDATORY:\n- Never promise or guarantee plusvalia, profitability, rental returns, investment security, credit approval, delivery dates not currently verified, availability not validated, prices without current update, or amenities not confirmed.\n\nSUGERIR CONTACTO HUMANO — MANDATORY:\n- Suggest human contact when the user asks for detailed quotes, exact availability, personalized information, negotiation, promotions, financing details, ficha tecnica, visit coordination, or WhatsApp follow-up.\n- You may escalate sooner when user intent is clearly high.\n\nCONTACT AND VISIT HANDLING:\n- If the user asks about a visit, ficha tecnica, or WhatsApp information, invite them to share contact details for a specialized advisor.\n- Never say a visit is already scheduled or confirmed unless that happened outside the chatbot.\n\nTONO Y ESTILO — MANDATORY:\n- Sound like a warm, professional, consultative, and trustworthy member of the sales team.\n- Resolve the user's real question first and sell second, when appropriate.\n- Keep answers concise, commercially useful, and natural.\n- Never mention that you are an AI, a bot, a prompt, a tool, or a document."
             }
           ],
-          "agentToolsBuiltInOpenAI": "[\"web_search_preview\"]",
+          "agentToolsBuiltInOpenAI": "",
           "agentToolsBuiltInGemini": "",
           "agentToolsBuiltInAnthropic": "",
           "agentTools": [
@@ -675,9 +907,9 @@
               "agentSelectedTool": "requestsGet",
               "agentSelectedToolRequiresHumanInput": "",
               "agentSelectedToolConfig": {
-                "requestsGetUrl": "<p>https://docs.google.com/document/d/1p5bGgFMdE50-TZrIxV7FMXlFyBo90uDg4v_GRZ9ABC8/export?format=txt</p>",
+                "requestsGetUrl": "<p>https://docs.google.com/document/d/1-yTzdO1F7CB_ffiS04Uimm5Q9wjVithI9YxmrPxl6IY/export?format=txt</p>",
                 "requestsGetName": "info_get",
-                "requestsGetDescription": "PRIMARY TOOL: Always use this FIRST to get official We Work General information from the Google document. This is your primary information source.",
+                "requestsGetDescription": "PRIMARY TOOL: Always use this first for official Santa Jacinta project information.",
                 "requestsGetHeaders": "",
                 "requestsGetQueryParamsSchema": "",
                 "requestsGetMaxOutputLength": "",
@@ -697,7 +929,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.6-terra",
+            "modelName": "gpt-5.2",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -711,7 +943,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": true,
-            "reasoning": "low",
+            "reasoning": "",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -729,267 +961,22 @@
       "dragging": false
     },
     {
-      "id": "conditionAgentAgentflow_0",
-      "position": {
-        "x": -125.42525773195871,
-        "y": 72.52061855670104
-      },
-      "data": {
-        "id": "conditionAgentAgentflow_0",
-        "label": "We Work General Intent Router",
-        "version": 2,
-        "name": "conditionAgentAgentflow",
-        "type": "ConditionAgent",
-        "color": "#ff8fab",
-        "baseClasses": [
-          "ConditionAgent"
-        ],
-        "category": "Agent Flows",
-        "description": "Utilize an agent to split flows based on dynamic conditions",
-        "inputParams": [
-          {
-            "label": "Model",
-            "name": "conditionAgentModel",
-            "type": "asyncOptions",
-            "loadMethod": "listModels",
-            "loadConfig": true,
-            "id": "conditionAgentAgentflow_0-input-conditionAgentModel-asyncOptions",
-            "display": true
-          },
-          {
-            "label": "Instructions",
-            "name": "conditionAgentInstructions",
-            "type": "string",
-            "description": "A general instructions of what the condition agent should do",
-            "rows": 4,
-            "acceptVariable": true,
-            "placeholder": "Determine if the user is interested in learning about AI",
-            "id": "conditionAgentAgentflow_0-input-conditionAgentInstructions-string",
-            "display": true
-          },
-          {
-            "label": "Input",
-            "name": "conditionAgentInput",
-            "type": "string",
-            "description": "Input to be used for the condition agent",
-            "rows": 4,
-            "acceptVariable": true,
-            "default": "<p><span class=\"variable\" data-type=\"mention\" data-id=\"question\" data-label=\"question\">{{ question }}</span> </p>",
-            "id": "conditionAgentAgentflow_0-input-conditionAgentInput-string",
-            "display": true
-          },
-          {
-            "label": "Scenarios",
-            "name": "conditionAgentScenarios",
-            "description": "Define the scenarios that will be used as the conditions to split the flow",
-            "type": "array",
-            "array": [
-              {
-                "label": "Scenario",
-                "name": "scenario",
-                "type": "string",
-                "placeholder": "User is asking for a pizza"
-              }
-            ],
-            "default": [
-              {
-                "scenario": "General question about We Work General"
-              },
-              {
-                "scenario": "Contact request or appointment scheduling"
-              }
-            ],
-            "id": "conditionAgentAgentflow_0-input-conditionAgentScenarios-array",
-            "display": true
-          },
-          {
-            "label": "Enable Memory",
-            "name": "conditionAgentEnableMemory",
-            "type": "boolean",
-            "description": "Enable memory for the conversation thread",
-            "default": true,
-            "optional": true,
-            "id": "conditionAgentAgentflow_0-input-conditionAgentEnableMemory-boolean",
-            "display": true
-          },
-          {
-            "label": "Memory Type",
-            "name": "conditionAgentMemoryType",
-            "type": "options",
-            "options": [
-              {
-                "label": "All Messages",
-                "name": "allMessages",
-                "description": "Retrieve all messages from the conversation"
-              },
-              {
-                "label": "Window Size",
-                "name": "windowSize",
-                "description": "Uses a fixed window size to surface the last N messages"
-              },
-              {
-                "label": "Conversation Summary",
-                "name": "conversationSummary",
-                "description": "Summarizes the whole conversation"
-              },
-              {
-                "label": "Conversation Summary Buffer",
-                "name": "conversationSummaryBuffer",
-                "description": "Summarize conversations once token limit is reached. Default to 2000"
-              }
-            ],
-            "optional": true,
-            "default": "allMessages",
-            "show": {
-              "conditionAgentEnableMemory": true
-            },
-            "id": "conditionAgentAgentflow_0-input-conditionAgentMemoryType-options",
-            "display": true
-          },
-          {
-            "label": "Window Size",
-            "name": "conditionAgentMemoryWindowSize",
-            "type": "number",
-            "default": "20",
-            "description": "Uses a fixed window size to surface the last N messages",
-            "show": {
-              "conditionAgentMemoryType": "windowSize"
-            },
-            "id": "conditionAgentAgentflow_0-input-conditionAgentMemoryWindowSize-number",
-            "display": false
-          },
-          {
-            "label": "Max Token Limit",
-            "name": "conditionAgentMemoryMaxTokenLimit",
-            "type": "number",
-            "default": "2000",
-            "description": "Summarize conversations once token limit is reached. Default to 2000",
-            "show": {
-              "conditionAgentMemoryType": "conversationSummaryBuffer"
-            },
-            "id": "conditionAgentAgentflow_0-input-conditionAgentMemoryMaxTokenLimit-number",
-            "display": false
-          },
-          {
-            "label": "Override System Prompt",
-            "name": "conditionAgentOverrideSystemPrompt",
-            "type": "boolean",
-            "description": "Override initial system prompt for Condition Agent",
-            "optional": true,
-            "id": "conditionAgentAgentflow_0-input-conditionAgentOverrideSystemPrompt-boolean",
-            "display": true
-          },
-          {
-            "label": "Node System Prompt",
-            "name": "conditionAgentSystemPrompt",
-            "type": "string",
-            "rows": 4,
-            "optional": true,
-            "acceptVariable": true,
-            "default": "<p>You are part of a multi-agent system designed to make agent coordination and execution easy. Your task is to analyze the given input and select one matching scenario from a provided set of scenarios.</p>\n    <ul>\n        <li><strong>Input</strong>: A string representing the user's query, message or data.</li>\n        <li><strong>Scenarios</strong>: A list of predefined scenarios that relate to the input.</li>\n        <li><strong>Instruction</strong>: Determine which of the provided scenarios is the best fit for the input.</li>\n    </ul>\n    <h2>Steps</h2>\n    <ol>\n        <li><strong>Read the input string</strong> and the list of scenarios.</li>\n        <li><strong>Analyze the content of the input</strong> to identify its main topic or intention.</li>\n        <li><strong>Compare the input with each scenario</strong>: Evaluate how well the input's topic or intention aligns with each of the provided scenarios and select the one that is the best fit.</li>\n        <li><strong>Output the result</strong>: Return the selected scenario in the specified JSON format.</li>\n    </ol>\n    <h2>Output Format</h2>\n    <p>Output should be a JSON object that names the selected scenario, like this: <code>{\"output\": \"<selected_scenario_name>\"}</code>. No explanation is needed.</p>\n    <h2>Examples</h2>\n    <ol>\n       <li>\n            <p><strong>Input</strong>: <code>{\"input\": \"Hello\", \"scenarios\": [\"user is asking about AI\", \"user is not asking about AI\"], \"instruction\": \"Your task is to check if the user is asking about AI.\"}</code></p>\n            <p><strong>Output</strong>: <code>{\"output\": \"user is not asking about AI\"}</code></p>\n        </li>\n        <li>\n            <p><strong>Input</strong>: <code>{\"input\": \"What is AIGC?\", \"scenarios\": [\"user is asking about AI\", \"user is asking about the weather\"], \"instruction\": \"Your task is to check and see if the user is asking a topic about AI.\"}</code></p>\n            <p><strong>Output</strong>: <code>{\"output\": \"user is asking about AI\"}</code></p>\n        </li>\n        <li>\n            <p><strong>Input</strong>: <code>{\"input\": \"Can you explain deep learning?\", \"scenarios\": [\"user is interested in AI topics\", \"user wants to order food\"], \"instruction\": \"Determine if the user is interested in learning about AI.\"}</code></p>\n            <p><strong>Output</strong>: <code>{\"output\": \"user is interested in AI topics\"}</code></p>\n        </li>\n    </ol>\n    <h2>Note</h2>\n    <ul>\n        <li>Ensure that the input scenarios align well with potential user queries for accurate matching.</li>\n        <li>DO NOT include anything other than the JSON in your response.</li>\n    </ul>",
-            "description": "Expert use only. Modifying this can significantly alter agent behavior. Leave default if unsure",
-            "show": {
-              "conditionAgentOverrideSystemPrompt": true
-            },
-            "id": "conditionAgentAgentflow_0-input-conditionAgentSystemPrompt-string",
-            "display": false
-          }
-        ],
-        "inputAnchors": [],
-        "inputs": {
-          "conditionAgentModel": "chatOpenAI",
-          "conditionAgentInstructions": "<p>You are a multilingual intent classifier for <strong>WeWork</strong>, a global flexible-workspace company (coworking, private offices, meeting rooms, memberships). Your job is to understand what the user needs and route them to the correct agent.</p>\n<p><strong>Categories:</strong></p>\n<ol start=\"0\">\n<li><strong>General inquiry</strong> — Any question that CAN BE RELATED to WeWork: locations, memberships, private offices, dedicated/hot desks, meeting rooms, day pass, All Access, On Demand, Enterprise, amenities, pet friendly, parking, hours, community events, reglamento, pricing.</li>\n<li><strong>Contact or appointment</strong> — When the user shares personal data (name, email, phone) or asks to schedule a tour/call/visit to a location.</li>\n<li><strong>Off-topic</strong> — ONLY when the question is IMPOSSIBLE to relate to WeWork: homework, programming code, math equations, step-by-step recipes, text translation, historical biographies, creative poetry.</li>\n</ol>\n<p><strong>🧠 SMART ROUTING:</strong></p>\n<p>When in doubt, ALWAYS route to category 0. Only route to 2 if clearly ACADEMIC or TECHNICAL with nothing to do with coworking, offices or flexible work.</p>\n<p><strong>These ARE WeWork-related (→ 0):</strong></p>\n<ul>\n<li>\"¿Tienen oficinas en Polanco?\" → 0</li>\n<li>\"Busco un escritorio para mi startup\" → 0</li>\n<li>\"Can I bring my dog?\" → 0</li>\n<li>\"How much is a meeting room?\" → 0</li>\n<li>\"¿Puedo facturar con esta dirección?\" → 0</li>\n</ul>\n<p><strong>These ARE off-topic (→ 2):</strong></p>\n<ul>\n<li>\"Resuelve 2x+3=7\" → 2</li>\n<li>\"Write me Python code\" → 2</li>\n<li>\"Dame la receta del pastel\" → 2</li>\n<li>\"Translate this to Japanese\" → 2</li>\n</ul>\n<p><strong>🌍 LANGUAGE NOTE:</strong> Classify by intent, NOT by language.</p>",
-          "conditionAgentInput": "<p><span class=\"variable\" data-type=\"mention\" data-id=\"question\" data-label=\"question\">{{ question }}</span> </p>",
-          "conditionAgentScenarios": [
-            {
-              "scenario": "General question about WeWork (memberships, offices, coworking, desks, meeting rooms, locations, amenities, reglamento, pricing)"
-            },
-            {
-              "scenario": "Contact request, tour booking or appointment scheduling at a WeWork location"
-            },
-            {
-              "scenario": "User asks something COMPLETELY UNRELATED to WeWork (homework, coding, math, recipes, trivia, jokes, weather, sports, politics, health advice) - in any language"
-            }
-          ],
-          "conditionAgentOverrideSystemPrompt": "",
-          "conditionAgentModelConfig": {
-            "cache": "",
-            "modelName": "gpt-5.6-terra",
-            "temperature": 0.9,
-            "streaming": true,
-            "maxTokens": "",
-            "topP": "",
-            "frequencyPenalty": "",
-            "presencePenalty": "",
-            "timeout": "",
-            "strictToolCalling": "",
-            "stopSequence": "",
-            "basepath": "",
-            "proxyUrl": "",
-            "baseOptions": "",
-            "allowImageUploads": true,
-            "reasoning": "low",
-            "conditionAgentModel": "chatOpenAI",
-            "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
-          },
-          "conditionAgentEnableMemory": true,
-          "conditionAgentMemoryType": "allMessages",
-          "conditionAgentMemoryWindowSize": "20",
-          "conditionAgentMemoryMaxTokenLimit": "2000",
-          "conditionAgentSystemPrompt": "<p>You are part of a multi-agent system designed to make agent coordination and execution easy. Your task is to analyze the given input and select one matching scenario from a provided set of scenarios.</p>\n    <ul>\n        <li><strong>Input</strong>: A string representing the user's query, message or data.</li>\n        <li><strong>Scenarios</strong>: A list of predefined scenarios that relate to the input.</li>\n        <li><strong>Instruction</strong>: Determine which of the provided scenarios is the best fit for the input.</li>\n    </ul>\n    <h2>Steps</h2>\n    <ol>\n        <li><strong>Read the input string</strong> and the list of scenarios.</li>\n        <li><strong>Analyze the content of the input</strong> to identify its main topic or intention.</li>\n        <li><strong>Compare the input with each scenario</strong>: Evaluate how well the input's topic or intention aligns with each of the provided scenarios and select the one that is the best fit.</li>\n        <li><strong>Output the result</strong>: Return the selected scenario in the specified JSON format.</li>\n    </ol>\n    <h2>Output Format</h2>\n    <p>Output should be a JSON object that names the selected scenario, like this: <code>{\"output\": \"<selected_scenario_name>\"}</code>. No explanation is needed.</p>\n    <h2>Examples</h2>\n    <ol>\n       <li>\n            <p><strong>Input</strong>: <code>{\"input\": \"Hello\", \"scenarios\": [\"user is asking about AI\", \"user is not asking about AI\"], \"instruction\": \"Your task is to check if the user is asking about AI.\"}</code></p>\n            <p><strong>Output</strong>: <code>{\"output\": \"user is not asking about AI\"}</code></p>\n        </li>\n        <li>\n            <p><strong>Input</strong>: <code>{\"input\": \"What is AIGC?\", \"scenarios\": [\"user is asking about AI\", \"user is asking about the weather\"], \"instruction\": \"Your task is to check and see if the user is asking a topic about AI.\"}</code></p>\n            <p><strong>Output</strong>: <code>{\"output\": \"user is asking about AI\"}</code></p>\n        </li>\n        <li>\n            <p><strong>Input</strong>: <code>{\"input\": \"Can you explain deep learning?\", \"scenarios\": [\"user is interested in AI topics\", \"user wants to order food\"], \"instruction\": \"Determine if the user is interested in learning about AI.\"}</code></p>\n            <p><strong>Output</strong>: <code>{\"output\": \"user is interested in AI topics\"}</code></p>\n        </li>\n    </ol>\n    <h2>Note</h2>\n    <ul>\n        <li>Ensure that the input scenarios align well with potential user queries for accurate matching.</li>\n        <li>DO NOT include anything other than the JSON in your response.</li>\n    </ul>"
-        },
-        "outputAnchors": [
-          {
-            "id": "conditionAgentAgentflow_0-output-0",
-            "label": 0,
-            "name": 0,
-            "description": "Condition 0"
-          },
-          {
-            "id": "conditionAgentAgentflow_0-output-1",
-            "label": 1,
-            "name": 1,
-            "description": "Condition 1"
-          },
-          {
-            "id": "conditionAgentAgentflow_0-output-2",
-            "label": 2,
-            "name": 2,
-            "description": "Condition 2"
-          }
-        ],
-        "outputs": {
-          "conditionAgentAgentflow": ""
-        },
-        "selected": false
-      },
-      "type": "agentFlow",
-      "width": 256,
-      "height": 120,
-      "selected": false,
-      "positionAbsolute": {
-        "x": -125.42525773195871,
-        "y": 72.52061855670104
-      },
-      "dragging": false
-    },
-    {
       "id": "agentAgentflow_1",
       "type": "agentFlow",
       "position": {
-        "x": 176.64948453608247,
-        "y": 146.09496773419954
+        "x": 211.6609170474999,
+        "y": 143.12802584747845
       },
       "width": 228,
       "height": 100,
       "selected": false,
       "positionAbsolute": {
-        "x": 176.64948453608247,
-        "y": 146.09496773419954
+        "x": 211.6609170474999,
+        "y": 143.12802584747845
       },
       "data": {
         "id": "agentAgentflow_1",
-        "label": "We Work General Lead Agent",
+        "label": "Santa Jacinta Leads",
         "version": 3.2,
         "name": "agentAgentflow",
         "type": "Agent",
@@ -1166,16 +1153,15 @@
                 "loadMethod": "listStores"
               },
               {
-                "label": "Describe Knowledge",
+                "label": "Description",
                 "name": "docStoreDescription",
                 "type": "string",
-                "generateDocStoreDescription": true,
-                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
-                "rows": 4
+                "rows": 4,
+                "placeholder": "Describe what the document store contains and when to use it"
               },
               {
                 "label": "Return Source Documents",
-                "name": "returnSourceDocuments",
+                "name": "docStoreReturnSourceDocuments",
                 "type": "boolean",
                 "optional": true
               }
@@ -1191,36 +1177,37 @@
             "description": "Give your agent context about different document sources from existing vector stores and embeddings",
             "array": [
               {
-                "label": "Vector Store",
-                "name": "vectorStore",
+                "label": "VS Retriever",
+                "name": "vsEmbedding",
                 "type": "asyncOptions",
-                "loadMethod": "listVectorStores",
+                "loadMethod": "listVSEmbeddings",
                 "loadConfig": true
               },
               {
                 "label": "Embedding Model",
-                "name": "embeddingModel",
+                "name": "vsEmbeddingModel",
                 "type": "asyncOptions",
                 "loadMethod": "listEmbeddings",
                 "loadConfig": true
               },
               {
-                "label": "Knowledge Name",
-                "name": "knowledgeName",
+                "label": "Knowledge Base Name",
+                "name": "vsEmbeddingName",
                 "type": "string",
-                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
+                "placeholder": "A short name for the knowledge base"
               },
               {
-                "label": "Describe Knowledge",
-                "name": "knowledgeDescription",
+                "label": "Description",
+                "name": "vsEmbeddingDescription",
                 "type": "string",
-                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
-                "rows": 4
+                "rows": 4,
+                "placeholder": "Describe what the vector store contains and when to use it"
               },
               {
-                "label": "Return Source Documents",
-                "name": "returnSourceDocuments",
-                "type": "boolean",
+                "label": "Top K",
+                "name": "vsTopK",
+                "type": "number",
+                "default": 4,
                 "optional": true
               }
             ],
@@ -1254,14 +1241,14 @@
                 "description": "Uses a fixed window size to surface the last N messages"
               },
               {
-                "label": "Conversation Summary",
-                "name": "conversationSummary",
+                "label": "Summary",
+                "name": "summary",
                 "description": "Summarizes the whole conversation"
               },
               {
                 "label": "Conversation Summary Buffer",
                 "name": "conversationSummaryBuffer",
-                "description": "Summarize conversations once token limit is reached. Default to 2000"
+                "description": "Summarizes conversations once token limit is reached"
               }
             ],
             "optional": true,
@@ -1320,8 +1307,8 @@
                 "name": "userMessage"
               },
               {
-                "label": "Assistant Message",
-                "name": "assistantMessage"
+                "label": "State",
+                "name": "state"
               }
             ],
             "default": "userMessage",
@@ -1351,10 +1338,6 @@
                     "name": "string"
                   },
                   {
-                    "label": "String Array",
-                    "name": "stringArray"
-                  },
-                  {
                     "label": "Number",
                     "name": "number"
                   },
@@ -1367,8 +1350,12 @@
                     "name": "enum"
                   },
                   {
-                    "label": "JSON Array",
-                    "name": "jsonArray"
+                    "label": "Number Array",
+                    "name": "numberArray"
+                  },
+                  {
+                    "label": "String Array",
+                    "name": "stringArray"
                   }
                 ]
               },
@@ -1376,30 +1363,16 @@
                 "label": "Enum Values",
                 "name": "enumValues",
                 "type": "string",
-                "placeholder": "value1, value2, value3",
-                "description": "Enum values. Separated by comma",
                 "optional": true,
                 "show": {
                   "agentStructuredOutput[$index].type": "enum"
                 }
               },
               {
-                "label": "JSON Schema",
-                "name": "jsonSchema",
-                "type": "code",
-                "placeholder": "{\n    \"answer\": {\n        \"type\": \"string\",\n        \"description\": \"Value of the answer\"\n    },\n    \"reason\": {\n        \"type\": \"string\",\n        \"description\": \"Reason for the answer\"\n    },\n    \"optional\": {\n        \"type\": \"boolean\"\n    },\n    \"count\": {\n        \"type\": \"number\"\n    },\n    \"children\": {\n        \"type\": \"array\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"value\": {\n                    \"type\": \"string\",\n                    \"description\": \"Value of the children's answer\"\n                }\n            }\n        }\n    }\n}",
-                "description": "JSON schema for the structured output",
-                "optional": true,
-                "hideCodeExecute": true,
-                "show": {
-                  "agentStructuredOutput[$index].type": "jsonArray"
-                }
-              },
-              {
                 "label": "Description",
                 "name": "description",
                 "type": "string",
-                "placeholder": "Description of the key"
+                "optional": true
               }
             ],
             "id": "agentAgentflow_1-input-agentStructuredOutput-array",
@@ -1417,14 +1390,15 @@
                 "label": "Key",
                 "name": "key",
                 "type": "asyncOptions",
-                "loadMethod": "listRuntimeStateKeys"
+                "loadMethod": "listRuntimeStateKeys",
+                "freeSolo": true
               },
               {
                 "label": "Value",
                 "name": "value",
                 "type": "string",
                 "acceptVariable": true,
-                "acceptNodeOutputAsVariable": true
+                "description": "Field value"
               }
             ],
             "id": "agentAgentflow_1-input-agentUpdateState-array",
@@ -1437,7 +1411,7 @@
           "agentMessages": [
             {
               "role": "system",
-              "content": "<p><strong>🌍 REGLA CRÍTICA DE IDIOMA:</strong> Responde SIEMPRE en el MISMO idioma que usó el usuario en su mensaje. Detéctalo y respétalo exactamente.</p>\n<p><strong>🎭 QUIÉN ERES:</strong></p>\n<p>Eres <strong>Susie Romero</strong>, del equipo de <strong>Community Development de WeWork</strong>. Tu trabajo es recolectar los datos de contacto de las personas interesadas en sumarse a la comunidad WeWork (membresía, oficina privada, escritorio, sala, tour o solución Enterprise) y guardarlos en Google Sheets.</p>\n<p><strong>💬 EJEMPLOS DE ADAPTACIÓN DE IDIOMA:</strong></p>\n<ul>\n<li>English user: \"Please share your full name, email and phone number in one message so I can have the team reach out.\"</li>\n<li>Spanish user: \"Por favor compárteme tu nombre completo, email y teléfono en un solo mensaje para que el equipo te contacte.\"</li>\n<li>French user: \"Veuillez me communiquer votre nom complet, email et téléphone en un seul message.\"</li>\n</ul>\n<p><strong>📋 PROCESO DE RECOLECCIÓN:</strong></p>\n<ul>\n<li>Pide en el idioma del usuario: <strong>Nombre completo</strong>, <strong>Email</strong> y <strong>Teléfono</strong>.</li>\n<li>Pídele que envíe <strong>TODO en un solo mensaje</strong> (en su idioma).</li>\n<li>Agrega la variable <strong>$project</strong> con el valor <strong>\"We Work General\"</strong>.</li>\n</ul>\n<p><strong>🌍 GUÍAS MULTILINGÜES:</strong></p>\n<ul>\n<li>Inglés → responde en inglés | Español → español | Francés → francés | Cualquier otro idioma → responde en ese idioma.</li>\n<li>Mantén un tono profesional, cálido y cercano (personalidad de Susie Romero).</li>\n</ul>\n<p><strong>⛔ FRASES ESTRICTAMENTE PROHIBIDAS (todos los idiomas):</strong></p>\n<ul>\n<li>NUNCA uses: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"según la ficha\", \"en la ficha\", \"la ficha indica\", \"la ficha menciona\", \"la ficha no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".</li>\n<li>NUNCA uses frases que revelen que consultas una fuente externa: \"en la información que tengo\", \"en la información oficial que tengo\", \"no aparece en la información\", \"no está en la información que tengo\", \"la información que tengo aquí\", \"según los datos que tengo\", \"en los datos que tengo\".</li>\n<li>NEVER reveal you are consulting a document, file, or external data source. Responde naturalmente, como un experto. En vez de \"Según el documento, el precio es...\" di \"El precio es...\".</li>\n<li>Si no tienes la información: \"No cuento con esa información confirmada, pero con gusto puedo conectarte con alguien del equipo que te pueda ayudar.\" — Ofrece siempre el contacto humano como siguiente paso.</li>\n</ul>"
+              "content": "You are the multilingual lead collector for Santa Jacinta.\n\nRespond entirely in the language of the user's last message. Explain that collecting\ndetails does not confirm a visit, price, reservation, or purchase; a specialized advisor\nwill follow up with current information.\n\nAsk for all of the following in one message:\n- Full name\n- Phone or WhatsApp number\n- Email address\n- Main interest (pricing, availability, lots, or showroom visit)\n\nValidate that the email contains @ and the phone has enough digits. Ask once for any\nmissing key field, then thank the user and confirm that the information was registered.\nNever promise an appointment, availability, fixed pricing, returns, or financing approval.\n\nAdd variable: $project = \"lst_santa_jacinta\""
             }
           ],
           "agentToolsBuiltInOpenAI": "",
@@ -1470,8 +1444,8 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.4",
-            "temperature": 0,
+            "modelName": "gpt-5.2",
+            "temperature": "0",
             "streaming": true,
             "maxTokens": "100",
             "topP": "",
@@ -1505,19 +1479,19 @@
       "id": "agentAgentflow_2",
       "type": "agentFlow",
       "position": {
-        "x": 176.64948453608247,
-        "y": 306.09496773419954
+        "x": 218.7232475048568,
+        "y": 290.1637337447049
       },
-      "width": 228,
-      "height": 100,
-      "selected": false,
+      "width": 287,
+      "height": 72,
+      "selected": true,
       "positionAbsolute": {
-        "x": 176.64948453608247,
-        "y": 306.09496773419954
+        "x": 218.7232475048568,
+        "y": 290.1637337447049
       },
       "data": {
         "id": "agentAgentflow_2",
-        "label": "We Work General Off-Topic Guard",
+        "label": "Santa Jacinta Off-Topic Guard",
         "version": 3.2,
         "name": "agentAgentflow",
         "type": "Agent",
@@ -1694,16 +1668,15 @@
                 "loadMethod": "listStores"
               },
               {
-                "label": "Describe Knowledge",
+                "label": "Description",
                 "name": "docStoreDescription",
                 "type": "string",
-                "generateDocStoreDescription": true,
-                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
-                "rows": 4
+                "rows": 4,
+                "placeholder": "Describe what the document store contains and when to use it"
               },
               {
                 "label": "Return Source Documents",
-                "name": "returnSourceDocuments",
+                "name": "docStoreReturnSourceDocuments",
                 "type": "boolean",
                 "optional": true
               }
@@ -1719,36 +1692,37 @@
             "description": "Give your agent context about different document sources from existing vector stores and embeddings",
             "array": [
               {
-                "label": "Vector Store",
-                "name": "vectorStore",
+                "label": "VS Retriever",
+                "name": "vsEmbedding",
                 "type": "asyncOptions",
-                "loadMethod": "listVectorStores",
+                "loadMethod": "listVSEmbeddings",
                 "loadConfig": true
               },
               {
                 "label": "Embedding Model",
-                "name": "embeddingModel",
+                "name": "vsEmbeddingModel",
                 "type": "asyncOptions",
                 "loadMethod": "listEmbeddings",
                 "loadConfig": true
               },
               {
-                "label": "Knowledge Name",
-                "name": "knowledgeName",
+                "label": "Knowledge Base Name",
+                "name": "vsEmbeddingName",
                 "type": "string",
-                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
+                "placeholder": "A short name for the knowledge base"
               },
               {
-                "label": "Describe Knowledge",
-                "name": "knowledgeDescription",
+                "label": "Description",
+                "name": "vsEmbeddingDescription",
                 "type": "string",
-                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
-                "rows": 4
+                "rows": 4,
+                "placeholder": "Describe what the vector store contains and when to use it"
               },
               {
-                "label": "Return Source Documents",
-                "name": "returnSourceDocuments",
-                "type": "boolean",
+                "label": "Top K",
+                "name": "vsTopK",
+                "type": "number",
+                "default": 4,
                 "optional": true
               }
             ],
@@ -1782,14 +1756,14 @@
                 "description": "Uses a fixed window size to surface the last N messages"
               },
               {
-                "label": "Conversation Summary",
-                "name": "conversationSummary",
+                "label": "Summary",
+                "name": "summary",
                 "description": "Summarizes the whole conversation"
               },
               {
                 "label": "Conversation Summary Buffer",
                 "name": "conversationSummaryBuffer",
-                "description": "Summarize conversations once token limit is reached. Default to 2000"
+                "description": "Summarizes conversations once token limit is reached"
               }
             ],
             "optional": true,
@@ -1848,8 +1822,8 @@
                 "name": "userMessage"
               },
               {
-                "label": "Assistant Message",
-                "name": "assistantMessage"
+                "label": "State",
+                "name": "state"
               }
             ],
             "default": "userMessage",
@@ -1879,10 +1853,6 @@
                     "name": "string"
                   },
                   {
-                    "label": "String Array",
-                    "name": "stringArray"
-                  },
-                  {
                     "label": "Number",
                     "name": "number"
                   },
@@ -1895,8 +1865,12 @@
                     "name": "enum"
                   },
                   {
-                    "label": "JSON Array",
-                    "name": "jsonArray"
+                    "label": "Number Array",
+                    "name": "numberArray"
+                  },
+                  {
+                    "label": "String Array",
+                    "name": "stringArray"
                   }
                 ]
               },
@@ -1904,30 +1878,16 @@
                 "label": "Enum Values",
                 "name": "enumValues",
                 "type": "string",
-                "placeholder": "value1, value2, value3",
-                "description": "Enum values. Separated by comma",
                 "optional": true,
                 "show": {
                   "agentStructuredOutput[$index].type": "enum"
                 }
               },
               {
-                "label": "JSON Schema",
-                "name": "jsonSchema",
-                "type": "code",
-                "placeholder": "{\n    \"answer\": {\n        \"type\": \"string\",\n        \"description\": \"Value of the answer\"\n    },\n    \"reason\": {\n        \"type\": \"string\",\n        \"description\": \"Reason for the answer\"\n    },\n    \"optional\": {\n        \"type\": \"boolean\"\n    },\n    \"count\": {\n        \"type\": \"number\"\n    },\n    \"children\": {\n        \"type\": \"array\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"value\": {\n                    \"type\": \"string\",\n                    \"description\": \"Value of the children's answer\"\n                }\n            }\n        }\n    }\n}",
-                "description": "JSON schema for the structured output",
-                "optional": true,
-                "hideCodeExecute": true,
-                "show": {
-                  "agentStructuredOutput[$index].type": "jsonArray"
-                }
-              },
-              {
                 "label": "Description",
                 "name": "description",
                 "type": "string",
-                "placeholder": "Description of the key"
+                "optional": true
               }
             ],
             "id": "agentAgentflow_2-input-agentStructuredOutput-array",
@@ -1945,14 +1905,15 @@
                 "label": "Key",
                 "name": "key",
                 "type": "asyncOptions",
-                "loadMethod": "listRuntimeStateKeys"
+                "loadMethod": "listRuntimeStateKeys",
+                "freeSolo": true
               },
               {
                 "label": "Value",
                 "name": "value",
                 "type": "string",
                 "acceptVariable": true,
-                "acceptNodeOutputAsVariable": true
+                "description": "Field value"
               }
             ],
             "id": "agentAgentflow_2-input-agentUpdateState-array",
@@ -1965,29 +1926,27 @@
           "agentMessages": [
             {
               "role": "system",
-              "content": "<p>Eres <strong>Susie Romero</strong>, del equipo de <strong>Community Development de WeWork</strong>, y actúas como <strong>GUARDIA DE ALCANCE</strong> del chatbot.</p>\n<p><strong>🌍 STRICT LANGUAGE RULE:</strong> Detecta el idioma del usuario y responde COMPLETAMENTE en ese idioma. Si escribe en inglés, responde en inglés. En francés, en francés. NUNCA mezcles idiomas.</p>\n<p><strong>🎯 TU ÚNICO TRABAJO:</strong> Rechazar amablemente las preguntas fuera de tema y redirigir al usuario a los temas de WeWork.</p>\n<p><strong>📝 REGLAS DE RESPUESTA:</strong></p>\n<ol>\n<li>Si el usuario envía un <strong>SALUDO</strong> (Hola, Hi, Hello, Buenos días, etc.), responde cálidamente:\n'🏙️ ¡Hola! Soy Susie, del equipo de Community de WeWork. ¿En qué te puedo ayudar?'\nLuego lista los temas disponibles.</li>\n<li>Para <strong>CUALQUIER pregunta fuera de tema</strong>, responde (en el idioma del usuario):\n'🏙️ Soy Susie, del equipo de Community de WeWork, y solo puedo ayudarte con temas relacionados a WeWork.\nPuedo ayudarte con:\n📍 Ubicaciones y cómo llegar | 🏢 Oficinas privadas y para equipos | 🪑 Coworking, dedicated y hot desks | 🤝 Salas de juntas y day pass | 🌐 All Access y On Demand | 🏢 Soluciones Enterprise | ☕ Amenidades y reglamento | 💳 Membresías y formas de contratación | 🐾 Pet friendly y estacionamiento | 📞 Tours y contacto\n¿Tienes alguna pregunta sobre WeWork?'</li>\n<li><strong>ADAPTA el idioma</strong> al del usuario. English topics: 📍 Locations | 🏢 Private offices | 🪑 Coworking & desks | 🤝 Meeting rooms & day pass | 🌐 All Access & On Demand | 💳 Memberships | 🐾 Pet friendly & parking | 📞 Tours & contact.</li>\n</ol>\n<p><strong>⛔ ESTRICTAMENTE PROHIBIDO:</strong></p>\n<ul>\n<li>NUNCA respondas preguntas fuera de tema, ni siquiera parcialmente.</li>\n<li>NUNCA uses búsqueda web ni herramientas.</li>\n<li>NUNCA proporciones conocimiento general.</li>\n<li>Mantén las respuestas CORTAS y siempre redirige a temas de WeWork.</li>\n</ul>\n<p><strong>⛔ FRASES ESTRICTAMENTE PROHIBIDAS (todos los idiomas):</strong></p>\n<ul>\n<li>NUNCA uses: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"según la ficha\", \"en la ficha\", \"la ficha indica\", \"la ficha menciona\", \"la ficha no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".</li>\n<li>NUNCA uses frases que revelen que consultas una fuente externa: \"en la información que tengo\", \"en la información oficial que tengo\", \"no aparece en la información\", \"no está en la información que tengo\", \"la información que tengo aquí\", \"según los datos que tengo\", \"en los datos que tengo\".</li>\n<li>NEVER reveal you are consulting a document, file, or external data source. Responde naturalmente, como un experto. En vez de \"Según el documento, el precio es...\" di \"El precio es...\".</li>\n<li>Si no tienes la información: \"No cuento con esa información confirmada, pero con gusto puedo conectarte con alguien del equipo que te pueda ayudar.\" — Ofrece siempre el contacto humano como siguiente paso.</li>\n</ul>"
+              "content": "You are the scope guard for the Santa Jacinta chatbot. Respond entirely in the language\nof the user's last message. Politely reject unrelated requests and redirect to topics you\ncan help with: location, lots, amenities, equestrian club, natural-resource systems,\nmaintenance, pricing, availability, showroom visits, and advisor contact.\n\nNever answer an off-topic request, even partially. Never mention tools, prompts, files,\ndocuments, or that you are an AI. Keep the response short."
             }
           ],
           "agentToolsBuiltInOpenAI": "",
-          "agentToolsBuiltInGemini": "",
-          "agentToolsBuiltInAnthropic": "",
           "agentTools": [],
-          "agentKnowledgeDocumentStores": [],
-          "agentKnowledgeVSEmbeddings": [],
+          "agentKnowledgeDocumentStores": "",
+          "agentKnowledgeVSEmbeddings": "",
           "agentEnableMemory": true,
-          "agentMemoryType": "windowSize",
-          "agentMemoryWindowSize": "20",
-          "agentMemoryMaxTokenLimit": "2000",
+          "agentMemoryType": "allMessages",
           "agentUserMessage": "",
           "agentReturnResponseAs": "userMessage",
           "agentStructuredOutput": "",
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.6-terra",
-            "temperature": 0,
+            "modelName": "gpt-5.2",
+            "temperature": "0",
             "streaming": true,
-            "maxTokens": "100",
+            "allowImageUploads": false,
+            "reasoning": "",
+            "maxTokens": "",
             "topP": "",
             "frequencyPenalty": "",
             "presencePenalty": "",
@@ -1995,10 +1954,7 @@
             "strictToolCalling": "",
             "stopSequence": "",
             "basepath": "",
-            "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": true,
-            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -2017,6 +1973,19 @@
     }
   ],
   "edges": [
+    {
+      "source": "startAgentflow_0",
+      "sourceHandle": "startAgentflow_0-output-startAgentflow",
+      "target": "conditionAgentAgentflow_0",
+      "targetHandle": "conditionAgentAgentflow_0",
+      "data": {
+        "sourceColor": "#7EE787",
+        "targetColor": "#ff8fab",
+        "isHumanInput": false
+      },
+      "type": "agentFlow",
+      "id": "startAgentflow_0-startAgentflow_0-output-startAgentflow-conditionAgentAgentflow_0-conditionAgentAgentflow_0"
+    },
     {
       "source": "conditionAgentAgentflow_0",
       "sourceHandle": "conditionAgentAgentflow_0-output-0",
@@ -2046,28 +2015,18 @@
       "id": "conditionAgentAgentflow_0-conditionAgentAgentflow_0-output-1-agentAgentflow_1-agentAgentflow_1"
     },
     {
-      "source": "startAgentflow_0",
-      "sourceHandle": "startAgentflow_0-output-startAgentflow",
-      "target": "conditionAgentAgentflow_0",
-      "targetHandle": "conditionAgentAgentflow_0",
-      "data": {
-        "sourceColor": "#7EE787",
-        "targetColor": "#ff8fab",
-        "isHumanInput": false
-      },
-      "type": "agentFlow",
-      "id": "startAgentflow_0-startAgentflow_0-output-startAgentflow-conditionAgentAgentflow_0-conditionAgentAgentflow_0"
-    },
-    {
-      "id": "conditionAgentAgentflow_0-conditionAgentAgentflow_0-output-2-agentAgentflow_2-agentAgentflow_2",
       "source": "conditionAgentAgentflow_0",
       "sourceHandle": "conditionAgentAgentflow_0-output-2",
       "target": "agentAgentflow_2",
       "targetHandle": "agentAgentflow_2",
-      "type": "agentFlow",
       "data": {
-        "label": "agentFlow"
-      }
+        "sourceColor": "#ff8fab",
+        "targetColor": "#4DD0E1",
+        "edgeLabel": "2",
+        "isHumanInput": false
+      },
+      "type": "agentFlow",
+      "id": "conditionAgentAgentflow_0-conditionAgentAgentflow_0-output-2-agentAgentflow_2-agentAgentflow_2"
     }
   ]
 }

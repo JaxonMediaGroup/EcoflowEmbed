@@ -1,7 +1,8 @@
+import os
 import requests, json
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
 # 1. List all credentials

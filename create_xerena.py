@@ -7,13 +7,14 @@ Usage:
 
 After running, the new chatflow_id is saved automatically to projects.json.
 """
+import os
 import requests
 import json
 import sys
 import os
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 CREDENTIAL_ID = "e8fe03f6-9865-4abf-a662-ebdfe5561c5a"
 PROJECT_NAME = "Xerena"
 JSON_FILE = "projects/Xerena Agents.json"

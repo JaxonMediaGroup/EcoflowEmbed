@@ -4,6 +4,7 @@ Fix Off-Topic Guard routing for all 38 agents:
 2. Rewrite off-topic instructions with clear examples
 3. Push to Flowise
 """
+import os
 import json
 import requests
 import time
@@ -12,7 +13,7 @@ import os
 import re
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 # Skip these (no off-topic guard added)

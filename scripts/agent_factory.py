@@ -489,7 +489,7 @@ def _api_key(config: dict) -> str:
     if api_key:
         return api_key
     # Fallback histórico de push.py.
-    return "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+    return os.environ["FLOWISE_API_KEY"]
 
 
 def _headers(api_key: str) -> dict:

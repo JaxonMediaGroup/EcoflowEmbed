@@ -1,8 +1,9 @@
 """Check if all Q&A agents have the 'no document mention' rule."""
+import os
 import requests, json
 
 URL = "https://ecoflow.koppi.mx"
-KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+KEY = os.environ["FLOWISE_API_KEY"]
 H = {"Authorization": f"Bearer {KEY}"}
 
 SKIP_IDS = {

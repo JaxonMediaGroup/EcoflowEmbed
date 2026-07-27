@@ -1,0 +1,17 @@
+[Unit]
+Description=Block direct public access to Easypanel port 3000
+Requires=docker.service
+After=docker.service network-online.target
+PartOf=docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c '/usr/sbin/iptables -C DOCKER-USER -i eth0 -p tcp -m conntrack --ctorigdstport 3000 -j DROP 2>/dev/null || /usr/sbin/iptables -I DOCKER-USER 1 -i eth0 -p tcp -m conntrack --ctorigdstport 3000 -j DROP'
+ExecStart=/bin/sh -c '/usr/sbin/ip6tables -C DOCKER-USER -i eth0 -p tcp -m conntrack --ctorigdstport 3000 -j DROP 2>/dev/null || /usr/sbin/ip6tables -I DOCKER-USER 1 -i eth0 -p tcp -m conntrack --ctorigdstport 3000 -j DROP'
+ExecStop=/bin/sh -c '/usr/sbin/iptables -D DOCKER-USER -i eth0 -p tcp -m conntrack --ctorigdstport 3000 -j DROP 2>/dev/null || true'
+ExecStop=/bin/sh -c '/usr/sbin/ip6tables -D DOCKER-USER -i eth0 -p tcp -m conntrack --ctorigdstport 3000 -j DROP 2>/dev/null || true'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

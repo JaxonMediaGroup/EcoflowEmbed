@@ -1,7 +1,8 @@
+import os
 import requests, json
 
 URL = "https://ecoflow.koppi.mx"
-H = {"Authorization": "Bearer Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"}
+H = {"Authorization": f"Bearer {os.environ['FLOWISE_API_KEY']}"}
 
 # Check Hideaways current state
 r = requests.get(f"{URL}/api/v1/chatflows/e23e1850-dd98-4f48-9fa8-4a8488497a4d", headers=H, timeout=30)

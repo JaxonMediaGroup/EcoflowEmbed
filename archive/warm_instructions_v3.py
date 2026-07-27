@@ -4,6 +4,7 @@ Warm & Personalized Condition Agent Instructions v3
 - Smart routing examples relevant to each project type
 - Off-topic only for truly impossible-to-relate questions
 """
+import os
 import json
 import requests
 import time
@@ -11,7 +12,7 @@ import sys
 import re
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 SKIP_IDS = {

@@ -3,10 +3,11 @@ Get a WORKING chatflow from the server and compare its agent node structure
 with WTC's agentAgentflow_7 to find the JSON parse error cause.
 Also check if credentials exist in other chatflows' nodes.
 """
+import os
 import requests, json
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 
 headers = {"Authorization": f"Bearer {API_KEY}"}
 

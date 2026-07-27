@@ -9,6 +9,7 @@ Usage:
 
 from __future__ import annotations
 
+import os
 import json
 import os
 import sys
@@ -16,7 +17,7 @@ import sys
 import requests
 
 
-DEFAULT_API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+DEFAULT_API_KEY = os.environ["FLOWISE_API_KEY"]
 DEFAULT_FLOWISE_URL = "https://ecoflow.koppi.mx"
 PROJECT_NAME = "Club de Golf"
 JSON_FILE = "projects/Club de Golf Agents.json"

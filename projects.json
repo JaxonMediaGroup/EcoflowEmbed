@@ -368,6 +368,18 @@
       "json_file": "projects/LST Santa Jacinta Agents.json",
       "type": "AGENTFLOW",
       "category": "real-estate"
+    },
+    "We Work Santa Fe Directorio": {
+      "chatflow_id": "01bc0318-1056-4f54-be91-92b1cb71fe40",
+      "json_file": "projects/We Work Santa Fe Directorio Agents.json",
+      "type": "AGENTFLOW",
+      "category": "coworking"
+    },
+    "Real Alcalá Sur": {
+      "chatflow_id": "8e51eda7-26a9-43c6-b284-71f02baf5c71",
+      "json_file": "projects/Real Alcalá Sur Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
     }
   }
 }

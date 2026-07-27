@@ -14,3 +14,12 @@ analytics/data/.ai_cache/
 analytics/data/.ai_results/
 __pycache__/
 *.pyc
+
+# Sensitive infrastructure/security files - do not commit
+.ssh_known_hosts_ecoflow
+VPS_ECOFLOW_AUDIT_*.md
+*.pem
+*.key
+id_rsa
+id_ed25519
+known_hosts*

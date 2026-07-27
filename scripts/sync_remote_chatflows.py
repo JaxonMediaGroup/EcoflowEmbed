@@ -6,6 +6,7 @@ Usage:
 
 from __future__ import annotations
 
+import os
 import json
 import os
 import re
@@ -18,7 +19,7 @@ import requests
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONFIG_FILE = REPO_ROOT / "projects.json"
-API_KEY_FALLBACK = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY_FALLBACK = os.environ["FLOWISE_API_KEY"]
 
 CORE_BLOCKS = [
     ("INFORMACION DINAMICA", "informacion_dinamica"),

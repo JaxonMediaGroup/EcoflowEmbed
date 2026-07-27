@@ -10,11 +10,12 @@ Copia el flowData del chatflow origen (que está en gpt-5.4), cambia modelo
 a gpt-5.6-sol + reasoning 'low', y lo sube como chatflow NUEVO (POST).
 Preserva speechToText/textToText del origen.
 """
+import os
 import json, io, os, sys, copy
 import requests
 
 CONFIG = json.load(io.open("projects.json", encoding="utf-8"))
-API_KEY = os.environ.get("FLOWISE_API_KEY", "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8")
+API_KEY = os.environ.get("FLOWISE_API_KEY", os.environ["FLOWISE_API_KEY"])
 URL = CONFIG.get("flowise_url", "https://ecoflow.koppi.mx")
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Accept": "application/json", "Content-Type": "application/json"}
 

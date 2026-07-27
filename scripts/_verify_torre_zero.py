@@ -1,11 +1,12 @@
 """Quick verification of Torre Zero fixes."""
+import os
 import json
 import requests
 import time
 from pathlib import Path
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 cfg = json.loads(Path("projects.json").read_text(encoding="utf-8"))

@@ -3,6 +3,7 @@ Fix Torre Zero Centro de Negocios and Torre Zero Providencia:
 1. Add forbidden-document-phrases rule to the Q&A agent system prompt
 2. Push both to the Flowise server
 """
+import os
 import json
 import sys
 import requests
@@ -12,7 +13,7 @@ ROOT = Path(__file__).parent.parent
 PROJECTS_JSON = ROOT / "projects.json"
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 CREDENTIAL_ID = "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 

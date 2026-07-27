@@ -2,13 +2,14 @@
 Query each Flowise chatbot with a discovery question to understand
 what type of project each one is. Uses the prediction API.
 """
+import os
 import json
 import requests
 import time
 import os
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 # Discovery question - short and direct

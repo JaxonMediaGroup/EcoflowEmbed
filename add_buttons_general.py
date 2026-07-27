@@ -5,13 +5,14 @@ Copia la sección de botones HTML del Santa Fe al General.
 Inserta el bloque justo antes de '🚫 ANTI-INFERENCIA' en el Q&A.
 Las URLs se leen del doc (dinámico), no se hardcodean.
 """
+import os
 import json, io, os, sys
 import requests
 
 PATH = r"projects/We Work General Agents.json"
 CONFIG = json.load(io.open("projects.json", encoding="utf-8"))
 CHATFLOW_ID = CONFIG["projects"]["We Work General"]["chatflow_id"]
-API_KEY = os.environ.get("FLOWISE_API_KEY", "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8")
+API_KEY = os.environ.get("FLOWISE_API_KEY", os.environ["FLOWISE_API_KEY"])
 URL = CONFIG.get("flowise_url", "https://ecoflow.koppi.mx")
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 

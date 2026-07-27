@@ -6,6 +6,7 @@ For each bot:
   3. Save locally
   4. Push to server
 """
+import os
 import json
 import sys
 import requests
@@ -15,7 +16,7 @@ ROOT = Path(__file__).parent.parent
 PROJECTS_JSON = ROOT / "projects.json"
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 # Markdown version (for bots with plain/markdown system prompts)

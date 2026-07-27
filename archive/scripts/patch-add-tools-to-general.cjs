@@ -12,7 +12,7 @@
 const https = require('https');
 
 const FLOWISE_HOST = 'ecoflow.koppi.mx';
-const FLOWISE_API_KEY = 'Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8';
+const FLOWISE_API_KEY = process.env.FLOWISE_API_KEY;
 const CHATFLOW_ID = 'c4e6b0d8-30ab-4466-bfc8-c3d8bf5231ea';
 
 // Tools to add to Agente general (agentAgentflow_5)

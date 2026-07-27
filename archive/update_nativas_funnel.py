@@ -2,10 +2,11 @@
 Nativas: Add sales funnel CTA logic + 5-question lead capture + calendar link placeholder.
 Modifies Q&A Agent and Sales Agent prompts.
 """
+import os
 import requests, json
 
 URL = "https://ecoflow.koppi.mx"
-KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+KEY = os.environ["FLOWISE_API_KEY"]
 H = {"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"}
 NATIVAS_ID = "9325bc13-9725-4215-8bfb-455cfa67f768"
 

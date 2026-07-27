@@ -8,9 +8,10 @@ Envía las mismas preguntas a ambos chatflows, mide:
 - Calidad: contiene botón HTML, longitud, menciona info clave
 Guarda resultados en scripts/benchmark_results.json
 """
+import os
 import requests, json, time, os, sys
 
-API_KEY = os.environ.get("FLOWISE_API_KEY", "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8")
+API_KEY = os.environ.get("FLOWISE_API_KEY", os.environ["FLOWISE_API_KEY"])
 URL = "https://ecoflow.koppi.mx"
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 OUT = "scripts/benchmark_results.json"

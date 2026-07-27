@@ -1,7 +1,8 @@
+import os
 import requests, json
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 CHATFLOW_ID = "a2dbda66-1339-43ae-9c67-d97f30c198ac"
 
 headers = {"Authorization": f"Bearer {API_KEY}"}

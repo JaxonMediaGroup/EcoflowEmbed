@@ -1,11 +1,12 @@
 """
 Explore all Flowise API endpoints on ecoflow.koppi.mx
 """
+import os
 import requests
 import json
 
 URL = "https://ecoflow.koppi.mx"
-KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+KEY = os.environ["FLOWISE_API_KEY"]
 H = {"Authorization": f"Bearer {KEY}"}
 
 # 1. List all chatflows

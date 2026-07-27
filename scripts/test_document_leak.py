@@ -5,13 +5,14 @@ is consulting a document/ficha instead of responding naturally.
 Sends a simple price/info question to each bot and checks if the response
 contains forbidden phrases like "según el documento", "la ficha", etc.
 """
+import os
 import json
 import time
 import requests
 from pathlib import Path
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 PROJECTS_JSON = Path(__file__).parent.parent / "projects.json"

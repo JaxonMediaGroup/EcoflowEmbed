@@ -87,10 +87,11 @@ def push(project_name, dry_run=False):
         print(f"JSON file not found: {json_path}")
         sys.exit(1)
 
-    api_key = os.environ.get("FLOWISE_API_KEY", config.get("api_key_env", ""))
-    # Fallback: try reading from push_wtc.py style hardcoded (for backwards compat)
-    if not api_key or api_key == "FLOWISE_API_KEY":
-        api_key = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+    api_key_env = str(config.get("api_key_env", "FLOWISE_API_KEY")).strip()
+    api_key = os.environ.get(api_key_env, "").strip()
+    if not api_key:
+        print(f"Set {api_key_env} before pushing a project.")
+        sys.exit(1)
 
     flowise_url = config.get("flowise_url", "https://ecoflow.koppi.mx")
     credential_id = config.get("openai_credential_id", "e8fe03f6-9865-4abf-a662-ebdfe5561c5a")

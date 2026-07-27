@@ -3,6 +3,7 @@ Remove duplicate entries in agentMessages arrays for all chatbots.
 Some bots have the same system message appearing twice in the array
 (likely from a Flowise bug or prior double-injection).
 """
+import os
 import json
 import requests
 from pathlib import Path
@@ -11,7 +12,7 @@ ROOT = Path(__file__).parent.parent
 PROJECTS_JSON = ROOT / "projects.json"
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 

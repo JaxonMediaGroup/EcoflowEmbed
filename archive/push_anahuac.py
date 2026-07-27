@@ -2,12 +2,13 @@
 Upload Anáhuac Orientador Vocacional agent JSON to Flowise via API.
 Pushes the local file with the MAPA DE EXPERIENCIAS HUMANAS to the live chatflow.
 """
+import os
 import requests
 import json
 import sys
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 CHATFLOW_ID = "4c84d4c6-2df9-4d60-ac7e-6c9a78608f1c"
 JSON_FILE = "Anahuac Orientador Vocacional Agents.json"
 

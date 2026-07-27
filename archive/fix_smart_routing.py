@@ -4,6 +4,7 @@ Fix Off-Topic routing v2: Make it SMARTER, not just stricter.
 - Add smart routing examples showing how borderline questions ARE project-related
 - Keep blocking homework, code, recipes, etc.
 """
+import os
 import json
 import requests
 import time
@@ -11,7 +12,7 @@ import sys
 import re
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 SKIP_IDS = {

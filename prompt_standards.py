@@ -35,6 +35,7 @@ def build_real_estate_qa_prompt(
     info_tool_name: str = "info_get",
     rules_tool_name: str | None = "rules_get",
     advisor_label: str = "specialized advisor",
+    response_language: str | None = None,
     high_intent_topics: list[str] | None = None,
     human_contact_topics: list[str] | None = None,
     contact_request_topics: list[str] | None = None,
@@ -79,14 +80,25 @@ def build_real_estate_qa_prompt(
         """
     ).strip()
 
-    sections = [
-        advisor_identity.strip(),
+    language_rule = (
         dedent(
+            f"""
+            STRICT LANGUAGE RULE:
+            Respond ENTIRELY in {response_language}. Do not switch languages, even if the user writes in another language.
+            """
+        ).strip()
+        if response_language
+        else dedent(
             """
             STRICT LANGUAGE RULE:
             Detect the language of the user's LAST message and respond ENTIRELY in that exact language. If the user switches language, switch immediately. Never mix languages.
             """
-        ).strip(),
+        ).strip()
+    )
+
+    sections = [
+        advisor_identity.strip(),
+        language_rule,
         primary_tools_block,
         dedent(
             f"""

@@ -1,0 +1,10 @@
+/etc/easypanel/projects/strapi/flowise/data/logs/server-requests.log.jsonl {
+    daily
+    rotate 14
+    compress
+    delaycompress
+    missingok
+    notifempty
+    copytruncate
+    su root root
+}

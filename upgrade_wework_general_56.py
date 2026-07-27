@@ -4,6 +4,7 @@ Upgrade We Work General a gpt-5.6-sol + reasoning low en los 4 nodos.
 Preserva temperature, streaming, allowImageUploads, FLOWISE_CREDENTIAL_ID.
 Hace GET previo del chatflow para preservar STT/TTS/chatbotConfig en el PUT.
 """
+import os
 import json, io, os, sys
 import requests
 
@@ -11,7 +12,7 @@ PATH = r"projects/We Work General Agents.json"
 CONFIG = json.load(io.open("projects.json", encoding="utf-8"))
 P = CONFIG["projects"]["We Work General"]
 CHATFLOW_ID = P["chatflow_id"]
-API_KEY = os.environ.get("FLOWISE_API_KEY", "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8")
+API_KEY = os.environ.get("FLOWISE_API_KEY", os.environ["FLOWISE_API_KEY"])
 URL = CONFIG.get("flowise_url", "https://ecoflow.koppi.mx")
 CRED = CONFIG.get("openai_credential_id", "e8fe03f6-9865-4abf-a662-ebdfe5561c5a")
 

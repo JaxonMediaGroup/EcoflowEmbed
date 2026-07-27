@@ -3,10 +3,11 @@ v4: English condition agent instructions + bulletproof multilingual across ALL a
 - Condition agent → English (better GPT compliance)
 - Q&A / Sales / Off-Topic Guard → reinforce strict language matching
 """
+import os
 import requests, json, time, sys, re
 
 URL = "https://ecoflow.koppi.mx"
-KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+KEY = os.environ["FLOWISE_API_KEY"]
 H = {"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"}
 
 SKIP_IDS = {

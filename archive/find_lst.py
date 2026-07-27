@@ -1,6 +1,7 @@
+import os
 import requests, json
 
-headers = {'Authorization': 'Bearer Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8'}
+headers = {'Authorization': f'Bearer {os.environ["FLOWISE_API_KEY"]}'}
 r = requests.get('https://ecoflow.koppi.mx/api/v1/chatflows', headers=headers)
 flows = r.json()
 

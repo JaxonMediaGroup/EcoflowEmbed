@@ -7,12 +7,13 @@ Add Off-Topic Guard agent to LST La Santisima (and push to Flowise).
 - Updates condition agent instructions to include off-topic category
 - Pushes to Flowise via API
 """
+import os
 import json
 import requests
 import copy
 
 FLOWISE_URL = "https://ecoflow.koppi.mx"
-API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+API_KEY = os.environ["FLOWISE_API_KEY"]
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 LST_CHATFLOW_ID = "80f70d3a-4e14-49cf-b743-7ca9dd841a70"

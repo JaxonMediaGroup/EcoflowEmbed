@@ -2,10 +2,11 @@
 Deep structural analysis: Compare all agents against GGI Agwa Bosques structure.
 Check for routing conflicts, missing nodes, and structural issues.
 """
+import os
 import requests, json, sys
 
 URL = "https://ecoflow.koppi.mx"
-KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+KEY = os.environ["FLOWISE_API_KEY"]
 H = {"Authorization": f"Bearer {KEY}"}
 
 SKIP_IDS = {

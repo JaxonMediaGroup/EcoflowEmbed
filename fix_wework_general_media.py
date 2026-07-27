@@ -7,6 +7,7 @@ Habilita imágenes + Speech-to-Text + Text-to-Speech en We Work General.
 
 Usa el mismo credential_id que ya usa el chatflow hermano "WE WORK".
 """
+import os
 import json, io, os, sys
 import requests
 
@@ -14,7 +15,7 @@ PATH = r"projects/We Work General Agents.json"
 CONFIG = json.load(io.open("projects.json", encoding="utf-8"))
 P = CONFIG["projects"]["We Work General"]
 CHATFLOW_ID = P["chatflow_id"]
-API_KEY = os.environ.get("FLOWISE_API_KEY", "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8")
+API_KEY = os.environ.get("FLOWISE_API_KEY", os.environ["FLOWISE_API_KEY"])
 URL = CONFIG.get("flowise_url", "https://ecoflow.koppi.mx")
 CRED = "10ca0bac-6033-4f4f-aff2-d5c35aef4580"   # mismo credential que usa el Q&A actual
 

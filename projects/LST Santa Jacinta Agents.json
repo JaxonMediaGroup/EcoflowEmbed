@@ -399,7 +399,7 @@
           "conditionAgentSystemPrompt": "Classify the user's message into exactly one category. When in doubt, choose the project-related category instead of off-topic.",
           "conditionAgentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.5",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "",
@@ -929,7 +929,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.5",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -1444,7 +1444,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.5",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "100",
@@ -1941,7 +1941,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.5",
             "temperature": "0",
             "streaming": true,
             "allowImageUploads": false,

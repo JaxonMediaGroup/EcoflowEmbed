@@ -11,6 +11,7 @@ Cambios:
 - allowImageUploads True (ya venía True del server, se asegura)
 - Preserva speechToText / textToSpeech / category / type del server
 """
+import os
 import json, io, os, sys
 import requests
 
@@ -18,7 +19,7 @@ PATH = r"projects/WE WORK Agents.json"
 META = json.load(io.open("projects/WE WORK Agents.json.meta", encoding="utf-8"))
 CONFIG = json.load(io.open("projects.json", encoding="utf-8"))
 CHATFLOW_ID = "987464b9-dec9-416c-a007-165c91b8848c"
-API_KEY = os.environ.get("FLOWISE_API_KEY", "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8")
+API_KEY = os.environ.get("FLOWISE_API_KEY", os.environ["FLOWISE_API_KEY"])
 URL = CONFIG.get("flowise_url", "https://ecoflow.koppi.mx")
 CRED = "10ca0bac-6033-4f4f-aff2-d5c35aef4580"   # credential del flow actual
 
@@ -66,6 +67,35 @@ BUTTONS_BLOCK = f"""
 </ul>
 <pre style="background:#f4f4f4;padding:10px;border-radius:6px;white-space:pre-wrap;overflow-x:auto">{btn('https://wework.koppi.mx/of-4personas','Oficina 4 personas')}{btn('https://wework.koppi.mx/of-19personas','Oficina 19 personas')}</pre>
 """.strip()
+
+
+def load_current_links_block():
+    """Reutiliza la regla dinámica versionada en el JSON principal."""
+    with io.open(PATH, encoding="utf-8") as current_file:
+        current_flow = json.load(current_file)
+    start_markers = (
+        "<p><strong>🔗 LINKS Y MEDIOS — CLASIFICACIÓN OBLIGATORIA:</strong></p>",
+        "<p><strong>🔘 BOTONES DE LINKS — OBLIGATORIO:</strong></p>",
+        "<p><strong>🔘 CATÁLOGO DE BOTONES — OBLIGATORIO:</strong></p>",
+    )
+    end_marker = "<p><strong>🚫 ANTI-INFERENCIA:</strong></p>"
+    for node in current_flow.get("nodes", []):
+        data = node.get("data", {})
+        if "Q&A" not in data.get("label", ""):
+            continue
+        messages = data.get("inputs", {}).get("agentMessages", [])
+        if not messages:
+            continue
+        content = messages[0].get("content", "")
+        start = next((content.find(marker) for marker in start_markers if marker in content), -1)
+        end = content.find(end_marker)
+        if start >= 0 and end > start:
+            return content[start:end].strip()
+    raise RuntimeError("No se encontró el bloque de links y medios en el JSON principal")
+
+
+# Evita que una reconstrucción futura reintroduzca el catálogo hardcodeado.
+BUTTONS_BLOCK = load_current_links_block()
 
 # Bloque de compliance (frases prohibidas, anti-inferencia) reutilizable.
 COMPLIANCE_BLOCK = """

@@ -16,7 +16,7 @@ import sys
 import requests
 
 
-DEFAULT_API_KEY = "Qik9wf7ELh1P6KIUC904BG3Po8ZzBfrprfcqUjwjOT8"
+DEFAULT_API_KEY = os.environ.get("FLOWISE_API_KEY", "").strip()
 DEFAULT_FLOWISE_URL = "https://ecoflow.koppi.mx"
 PROJECT_NAME = "Wingate"
 JSON_FILE = "projects/Wingate Agents.json"
@@ -33,12 +33,11 @@ def load_config() -> dict:
 
 
 def resolve_api_key(config: dict) -> str:
-    env_name = config.get("api_key_env")
-    if env_name:
-        api_key = os.environ.get(env_name, "").strip()
-        if api_key:
-            return api_key
-    return DEFAULT_API_KEY
+    env_name = str(config.get("api_key_env", "FLOWISE_API_KEY")).strip()
+    api_key = os.environ.get(env_name, "").strip()
+    if api_key:
+        return api_key
+    raise ValueError(f"{env_name} must be set in the environment")
 
 
 def resolve_credential_id(config: dict) -> str:

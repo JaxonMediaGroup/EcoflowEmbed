@@ -439,6 +439,14 @@ def validate_flow(flow: dict, project_name: str, doc_id: str | None = None) -> N
     # solo la aparición aislada en labels/prompts buscando el patrón con espacios.
     if "Volterra " in blob or "Volterra." in blob or "Volterra," in blob or ">Volterra<" in blob:
         raise ValueError("Quedan referencias al nombre del template (Volterra)")
+    # "volterra" en minúsculas escapa a los patrones anteriores; el caso típico es el
+    # valor $project del sales agent sin reemplazar, que desatribuye los leads en la
+    # hoja central. Solo el propio Volterra puede contenerlo.
+    if project_name.lower() != "volterra" and "volterra" in blob.lower():
+        raise ValueError(
+            'Quedan referencias al template en minúsculas ("volterra"), '
+            "p.ej. el valor $project del sales agent"
+        )
 
     if doc_id and doc_id not in blob:
         raise ValueError("El doc ID objetivo no quedó aplicado")

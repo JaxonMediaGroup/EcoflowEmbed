@@ -193,8 +193,9 @@ python scripts/agent_factory.py update "Nombre Proyecto" --funnel --dry-run
 - **`push.py`** tiene un `credential_id` default desfasado en su código (`e8fe03f6-...`);
   este script no lo usa — lee siempre de `projects.json`. No se modifica `push.py`.
 - **Validaciones del script** (ambos modos): topología 5 nodos/4 edges, sin IDs duplicados,
-  edges válidos, sin trazas del template (nombre `Volterra` ni su doc ID), doc ID objetivo
-  presente, nodos canónicos presentes.
+  edges válidos, sin trazas del template (nombre `Volterra` ni su doc ID; `volterra` en
+  minúsculas también, p.ej. un valor `$project` sin reemplazar que desatribuye leads en la
+  hoja central), doc ID objetivo presente, nodos canónicos presentes.
 
 ---
 

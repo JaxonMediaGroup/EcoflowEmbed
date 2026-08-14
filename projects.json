@@ -380,6 +380,12 @@
       "json_file": "projects/Real Alcalá Sur Agents.json",
       "type": "AGENTFLOW",
       "category": "real-estate"
+    },
+    "Vesta Park Santa Bárbara": {
+      "chatflow_id": "8ad19e6e-2dda-4fca-9d0f-190eef56b0cb",
+      "json_file": "projects/Vesta Park Santa Bárbara Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
     }
   }
 }

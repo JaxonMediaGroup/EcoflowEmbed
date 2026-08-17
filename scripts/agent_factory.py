@@ -287,6 +287,8 @@ def build_flow(
         TEMPLATE_PROJECT: project_name,
         # el sales agent usa el valor $project en minúsculas ("volterra")
         f'el valor "volterra"': f'el valor "{project_slug(project_name)}"',
+        # variante en inglés del template ("with the value \"volterra\"")
+        f'the value "volterra"': f'the value "{project_slug(project_name)}"',
     }
     template_url = _doc_url(TEMPLATE_DOC_ID)
     target_url = _doc_url(doc_id)

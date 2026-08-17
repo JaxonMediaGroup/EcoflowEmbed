@@ -386,6 +386,12 @@
       "json_file": "projects/Vesta Park Santa Bárbara Agents.json",
       "type": "AGENTFLOW",
       "category": "industrial"
+    },
+    "Vesta Monterrey": {
+      "chatflow_id": "0b51c468-546a-443d-9b71-b10987762ddc",
+      "json_file": "projects/Vesta Monterrey Agents.json",
+      "type": "AGENTFLOW",
+      "category": "industrial"
     }
   }
 }

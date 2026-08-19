@@ -771,7 +771,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -785,7 +785,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           },
@@ -818,5 +818,10 @@
       "type": "agentFlow",
       "id": "startAgentflow_0-startAgentflow_0-output-startAgentflow-agentAgentflow_0-agentAgentflow_0"
     }
-  ]
+  ],
+  "viewport": {
+    "x": 844.1786434539948,
+    "y": 185.76529308883508,
+    "zoom": 2
+  }
 }

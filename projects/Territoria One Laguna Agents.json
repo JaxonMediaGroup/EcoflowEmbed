@@ -4,15 +4,15 @@
       "id": "startAgentflow_0",
       "type": "agentFlow",
       "position": {
-        "x": -260.5,
-        "y": 79.5
+        "x": -297.31833014659844,
+        "y": 106.59273350410072
       },
       "width": 103,
       "height": 66,
-      "selected": false,
+      "selected": true,
       "positionAbsolute": {
-        "x": -260.5,
-        "y": 79.5
+        "x": -297.31833014659844,
+        "y": 106.59273350410072
       },
       "data": {
         "id": "startAgentflow_0",
@@ -207,7 +207,7 @@
         "x": 148.6494845360825,
         "y": -11.979381443298948
       },
-      "width": 235,
+      "width": 324,
       "height": 128,
       "selected": false,
       "positionAbsolute": {
@@ -697,7 +697,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.4",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -711,7 +711,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -731,8 +731,8 @@
     {
       "id": "conditionAgentAgentflow_0",
       "position": {
-        "x": -125.42525773195871,
-        "y": 72.52061855670104
+        "x": -156.68610408284417,
+        "y": 81.55152972473462
       },
       "data": {
         "id": "conditionAgentAgentflow_0",
@@ -914,7 +914,7 @@
           "conditionAgentOverrideSystemPrompt": "",
           "conditionAgentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.4",
+            "modelName": "gpt-5.6-terra",
             "temperature": 0.9,
             "streaming": true,
             "maxTokens": "",
@@ -928,7 +928,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "conditionAgentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           },
@@ -964,12 +964,12 @@
         "selected": false
       },
       "type": "agentFlow",
-      "width": 256,
-      "height": 120,
+      "width": 300,
+      "height": 100,
       "selected": false,
       "positionAbsolute": {
-        "x": -125.42525773195871,
-        "y": 72.52061855670104
+        "x": -156.68610408284417,
+        "y": 81.55152972473462
       },
       "dragging": false
     },
@@ -980,7 +980,7 @@
         "x": 176.64948453608247,
         "y": 146.09496773419954
       },
-      "width": 228,
+      "width": 291,
       "height": 100,
       "selected": false,
       "positionAbsolute": {
@@ -1508,8 +1508,8 @@
         "x": 176.64948453608247,
         "y": 306.09496773419954
       },
-      "width": 228,
-      "height": 100,
+      "width": 320,
+      "height": 72,
       "selected": false,
       "positionAbsolute": {
         "x": 176.64948453608247,
@@ -1984,7 +1984,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.4",
+            "modelName": "gpt-5.6-terra",
             "temperature": 0,
             "streaming": true,
             "maxTokens": "100",
@@ -1998,7 +1998,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -2069,5 +2069,10 @@
         "label": "agentFlow"
       }
     }
-  ]
+  ],
+  "viewport": {
+    "x": 660.2483815806866,
+    "y": 47.335233153593435,
+    "zoom": 1.4395003735631544
+  }
 }

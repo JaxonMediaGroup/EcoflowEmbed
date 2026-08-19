@@ -696,7 +696,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "credential": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -710,7 +710,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           },
@@ -828,7 +828,7 @@
           "conditionAgentOverrideSystemPrompt": "",
           "conditionAgentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "",
@@ -842,7 +842,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "conditionAgentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -916,7 +916,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "",
@@ -930,7 +930,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -994,5 +994,10 @@
         "strokeWidth": 2
       }
     }
-  ]
+  ],
+  "viewport": {
+    "x": 820.3505154639175,
+    "y": 165.95876288659787,
+    "zoom": 2
+  }
 }

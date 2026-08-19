@@ -207,7 +207,7 @@
         "x": -125.42525773195871,
         "y": 72.52061855670104
       },
-      "width": 256,
+      "width": 215,
       "height": 100,
       "selected": false,
       "positionAbsolute": {
@@ -399,7 +399,7 @@
           "conditionAgentSystemPrompt": "Clasifica el mensaje en exactamente una categoría. Ante cualquier duda, elige la categoría relacionada con el desarrollo.",
           "conditionAgentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.5",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "",
@@ -413,7 +413,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "conditionAgentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -452,7 +452,7 @@
         "x": 210.2684874025366,
         "y": -1.8917790284472886
       },
-      "width": 305,
+      "width": 202,
       "height": 100,
       "selected": false,
       "positionAbsolute": {
@@ -929,7 +929,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.5",
+            "modelName": "gpt-5.4",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -967,7 +967,7 @@
         "x": 211.6609170474999,
         "y": 143.12802584747845
       },
-      "width": 228,
+      "width": 212,
       "height": 100,
       "selected": false,
       "positionAbsolute": {
@@ -1444,7 +1444,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.5",
+            "modelName": "gpt-5.4",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "100",
@@ -1482,7 +1482,7 @@
         "x": 218.7232475048568,
         "y": 290.1637337447049
       },
-      "width": 287,
+      "width": 276,
       "height": 72,
       "selected": true,
       "positionAbsolute": {
@@ -1941,11 +1941,11 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.5",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0",
             "streaming": true,
             "allowImageUploads": false,
-            "reasoning": "",
+            "reasoning": "low",
             "maxTokens": "",
             "topP": "",
             "frequencyPenalty": "",
@@ -2028,5 +2028,10 @@
       "type": "agentFlow",
       "id": "conditionAgentAgentflow_0-conditionAgentAgentflow_0-output-2-agentAgentflow_2-agentAgentflow_2"
     }
-  ]
+  ],
+  "viewport": {
+    "x": 570.4034137552577,
+    "y": 33.218198680975945,
+    "zoom": 1.653094543834535
+  }
 }

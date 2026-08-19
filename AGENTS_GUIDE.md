@@ -230,23 +230,27 @@ Por eso el **Lead Agent queda en `gpt-5.4`** (sin `reasoning`). Si OpenAI lo sop
 futuro, se podrá mover también a Terra. Mientras tanto, NUNCA pongas `reasoning: low` en un
 nodo que use `customTool`.
 
-### 7.3.1 ⚠️ hallazgo (ago 2026) — agentes de generación vieja (4 nodos)
+### 7.3.1 ⚠️ hallazgo (ago 2026) — qué agentes aceptan terra en el Q&A
 
-En flujos de la generación anterior (4 nodos, sin Lead Agent — p.ej. SLS/NOMA), el nodo
-Q&A con `requestsGet` **no admite `gpt-5.6-terra` bajo ningún valor de `reasoning`**
-(`low`, `""` ni `"none"`): el API rechaza con el mismo 400 aunque el campo vaya vacío.
-Verificado por bisección con clones de prueba: los agentes del template actual
-(Vesta Park, WE WORK) sí corren terra+low+requestsGet sin problema en el mismo servidor,
-incluso en builds frescos. La causa exacta de la diferencia no se logró aislar (está en la
-interacción data/esquema del nodo + inputs de la plantilla vieja).
+El 400 *"Function tools with reasoning_effort are not supported for gpt-5.6-terra in
+/v1/chat/completions"* aparece en el nodo Q&A (con `requestsGet`) según la generación del
+flow. Verificado empíricamente con clones y smoke tests (campaña de ago 2026, 61 agentes):
 
-**Regla práctica:** en agentes viejos de 4 nodos, el Q&A se deja en `gpt-5.4` sin
-reasoning; router y guard (sin tools) sí pueden ir a terra+low. Para llevar el Q&A a
-terra, migrar el agente al template canónico de 5 nodos.
+- **Mayoría (47 + Vesta/WE WORK ya existentes): terra+low funciona directo.** NO activar
+  `web_search_preview` en ellos — en esa generación el built-in activo es justamente lo
+  que rompe el request (terraform+low solo → 200; con built-in → 500).
+- **Sub-generación intermedia (14 agentes: Gran Terraza Coapa, Hideaways, LST Santa
+  Jacinta, Los Nogales, Mahi, Mozaiko, Nauma Lomas, Punta Zero, Real Alcalá Sur, Reserva
+  Castilla, Terralago, Torre Alhena, Torre Zero Providencia, Xerena): terra en Q&A da 400
+  bajo cualquier reasoning.** Quedan en `gpt-5.4` sin reasoning; router/guard sí en
+  terra+low.
+- **NIZUC: su Q&A usa `agentModel: chatOpenAICustom`** (clase distinta) y no acepta terra
+  ("Unsupported"). Mantener en `gpt-5.2`.
+- **SLS/NOMA (generación vieja 4 nodos):** ver §7.3.2 — requiere migración de template.
 
-Nota aparte: los `chatflow_id` de "We Work General" y "We Work Santa Fe Directorio" en
-`projects.json` devuelven 404 en ecoflow.koppi.mx (esos bots viven en otra instancia o
-fueron recreados). Actualizar el registro cuando se confirme.
+**Regla operativa:** al cambiar modelos de un agente, siempre smoke-testear con rollback
+si falla; si el Q&A rechaza terra, dejarlo en `gpt-5.4` y seguir. Los Lead Agents
+(customTool) siempre en `gpt-5.4` sin reasoning (§7.3).
 
 ### 7.4 Por qué Terra+low y no Sol o Luna
 

@@ -399,7 +399,7 @@
           "conditionAgentSystemPrompt": "You are a routing assistant. Your ONLY job is to classify the user's message into exactly one category. When in doubt, always choose the project-related category instead of off-topic.",
           "conditionAgentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "",
@@ -413,7 +413,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": "",
-            "reasoning": "",
+            "reasoning": "low",
             "conditionAgentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -942,7 +942,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -956,7 +956,7 @@
             "proxyUrl": "",
             "baseOptions": "",
             "allowImageUploads": true,
-            "reasoning": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }
@@ -1457,7 +1457,7 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.4",
             "temperature": "0",
             "streaming": true,
             "maxTokens": "100",
@@ -1954,11 +1954,11 @@
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.2",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0",
             "streaming": true,
             "allowImageUploads": false,
-            "reasoning": "",
+            "reasoning": "low",
             "maxTokens": "",
             "topP": "",
             "frequencyPenalty": "",

@@ -230,6 +230,24 @@ Por eso el **Lead Agent queda en `gpt-5.4`** (sin `reasoning`). Si OpenAI lo sop
 futuro, se podrá mover también a Terra. Mientras tanto, NUNCA pongas `reasoning: low` en un
 nodo que use `customTool`.
 
+### 7.3.1 ⚠️ hallazgo (ago 2026) — agentes de generación vieja (4 nodos)
+
+En flujos de la generación anterior (4 nodos, sin Lead Agent — p.ej. SLS/NOMA), el nodo
+Q&A con `requestsGet` **no admite `gpt-5.6-terra` bajo ningún valor de `reasoning`**
+(`low`, `""` ni `"none"`): el API rechaza con el mismo 400 aunque el campo vaya vacío.
+Verificado por bisección con clones de prueba: los agentes del template actual
+(Vesta Park, WE WORK) sí corren terra+low+requestsGet sin problema en el mismo servidor,
+incluso en builds frescos. La causa exacta de la diferencia no se logró aislar (está en la
+interacción data/esquema del nodo + inputs de la plantilla vieja).
+
+**Regla práctica:** en agentes viejos de 4 nodos, el Q&A se deja en `gpt-5.4` sin
+reasoning; router y guard (sin tools) sí pueden ir a terra+low. Para llevar el Q&A a
+terra, migrar el agente al template canónico de 5 nodos.
+
+Nota aparte: los `chatflow_id` de "We Work General" y "We Work Santa Fe Directorio" en
+`projects.json` devuelven 404 en ecoflow.koppi.mx (esos bots viven en otra instancia o
+fueron recreados). Actualizar el registro cuando se confirme.
+
 ### 7.4 Por qué Terra+low y no Sol o Luna
 
 - **Sol** ($5/$30): más lento y caro; el razonamiento extra no se justifica en un chatbot.

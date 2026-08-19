@@ -23,3 +23,8 @@ VPS_ECOFLOW_AUDIT_*.md
 id_rsa
 id_ed25519
 known_hosts*
+
+# Fuentes legibles de clientes - solo locales (a GitHub solo suben los .min.js ofuscados)
+ecoflow-*.js
+!ecoflow-*.min.js
+!ecoflow-template.js

@@ -638,15 +638,16 @@
                 "loadMethod": "listStores"
               },
               {
-                "label": "Description",
+                "label": "Describe Knowledge",
                 "name": "docStoreDescription",
                 "type": "string",
-                "rows": 4,
-                "placeholder": "Describe what the document store contains and when to use it"
+                "generateDocStoreDescription": true,
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
               },
               {
                 "label": "Return Source Documents",
-                "name": "docStoreReturnSourceDocuments",
+                "name": "returnSourceDocuments",
                 "type": "boolean",
                 "optional": true
               }
@@ -662,37 +663,36 @@
             "description": "Give your agent context about different document sources from existing vector stores and embeddings",
             "array": [
               {
-                "label": "VS Retriever",
-                "name": "vsEmbedding",
+                "label": "Vector Store",
+                "name": "vectorStore",
                 "type": "asyncOptions",
-                "loadMethod": "listVSEmbeddings",
+                "loadMethod": "listVectorStores",
                 "loadConfig": true
               },
               {
                 "label": "Embedding Model",
-                "name": "vsEmbeddingModel",
+                "name": "embeddingModel",
                 "type": "asyncOptions",
                 "loadMethod": "listEmbeddings",
                 "loadConfig": true
               },
               {
-                "label": "Knowledge Base Name",
-                "name": "vsEmbeddingName",
+                "label": "Knowledge Name",
+                "name": "knowledgeName",
                 "type": "string",
-                "placeholder": "A short name for the knowledge base"
+                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
               },
               {
-                "label": "Description",
-                "name": "vsEmbeddingDescription",
+                "label": "Describe Knowledge",
+                "name": "knowledgeDescription",
                 "type": "string",
-                "rows": 4,
-                "placeholder": "Describe what the vector store contains and when to use it"
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
               },
               {
-                "label": "Top K",
-                "name": "vsTopK",
-                "type": "number",
-                "default": 4,
+                "label": "Return Source Documents",
+                "name": "returnSourceDocuments",
+                "type": "boolean",
                 "optional": true
               }
             ],
@@ -726,14 +726,14 @@
                 "description": "Uses a fixed window size to surface the last N messages"
               },
               {
-                "label": "Summary",
-                "name": "summary",
+                "label": "Conversation Summary",
+                "name": "conversationSummary",
                 "description": "Summarizes the whole conversation"
               },
               {
                 "label": "Conversation Summary Buffer",
                 "name": "conversationSummaryBuffer",
-                "description": "Summarizes conversations once token limit is reached"
+                "description": "Summarize conversations once token limit is reached. Default to 2000"
               }
             ],
             "optional": true,
@@ -792,8 +792,8 @@
                 "name": "userMessage"
               },
               {
-                "label": "State",
-                "name": "state"
+                "label": "Assistant Message",
+                "name": "assistantMessage"
               }
             ],
             "default": "userMessage",
@@ -823,6 +823,10 @@
                     "name": "string"
                   },
                   {
+                    "label": "String Array",
+                    "name": "stringArray"
+                  },
+                  {
                     "label": "Number",
                     "name": "number"
                   },
@@ -835,12 +839,8 @@
                     "name": "enum"
                   },
                   {
-                    "label": "Number Array",
-                    "name": "numberArray"
-                  },
-                  {
-                    "label": "String Array",
-                    "name": "stringArray"
+                    "label": "JSON Array",
+                    "name": "jsonArray"
                   }
                 ]
               },
@@ -848,16 +848,30 @@
                 "label": "Enum Values",
                 "name": "enumValues",
                 "type": "string",
+                "placeholder": "value1, value2, value3",
+                "description": "Enum values. Separated by comma",
                 "optional": true,
                 "show": {
                   "agentStructuredOutput[$index].type": "enum"
                 }
               },
               {
+                "label": "JSON Schema",
+                "name": "jsonSchema",
+                "type": "code",
+                "placeholder": "{\n    \"answer\": {\n        \"type\": \"string\",\n        \"description\": \"Value of the answer\"\n    },\n    \"reason\": {\n        \"type\": \"string\",\n        \"description\": \"Reason for the answer\"\n    },\n    \"optional\": {\n        \"type\": \"boolean\"\n    },\n    \"count\": {\n        \"type\": \"number\"\n    },\n    \"children\": {\n        \"type\": \"array\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"value\": {\n                    \"type\": \"string\",\n                    \"description\": \"Value of the children's answer\"\n                }\n            }\n        }\n    }\n}",
+                "description": "JSON schema for the structured output",
+                "optional": true,
+                "hideCodeExecute": true,
+                "show": {
+                  "agentStructuredOutput[$index].type": "jsonArray"
+                }
+              },
+              {
                 "label": "Description",
                 "name": "description",
                 "type": "string",
-                "optional": true
+                "placeholder": "Description of the key"
               }
             ],
             "id": "agentAgentflow_0-input-agentStructuredOutput-array",
@@ -875,15 +889,14 @@
                 "label": "Key",
                 "name": "key",
                 "type": "asyncOptions",
-                "loadMethod": "listRuntimeStateKeys",
-                "freeSolo": true
+                "loadMethod": "listRuntimeStateKeys"
               },
               {
                 "label": "Value",
                 "name": "value",
                 "type": "string",
                 "acceptVariable": true,
-                "description": "Field value"
+                "acceptNodeOutputAsVariable": true
               }
             ],
             "id": "agentAgentflow_0-input-agentUpdateState-array",
@@ -899,7 +912,7 @@
               "content": "Eres el asesor inmobiliario virtual de REAL ALCALÁ SUR. Atiendes en español con tono profesional, cálido, comercial y consultivo. Responde primero la pregunta real del cliente y distingue siempre las tipologías por nombre y clave.\n\nSTRICT LANGUAGE RULE:\nRespond ENTIRELY in español. Do not switch languages, even if the user writes in another language.\n\nPRIMARY TOOL:\n- info_get: official project information. Use this FIRST.\n\nCORE OPERATING RULES:\n1. Use info_get first to answer project questions.\n2. Never reveal tools, sources, documents, or that you consulted a file.\n3. Never say \"according to the document\", \"segun el documento\", or similar.\n4. If verified information is missing, say naturally that a asesor especializado can confirm the latest details.\n5. Keep answers warm, commercially useful, and concise.\n\nSALES FUNNEL:\nCount the number of USER messages in the conversation history. Each user message counts as one interaction.\n\nQuestions 1-2:\n- Answer warmly and end with a soft CTA.\n- Example CTAs: \"¿Te gustaría agendar una visita o contactar a un asesor?\" / \"¿Te gustaría agendar una visita o contactar a un asesor?\"\n\nQuestions 3-4:\n- Answer first, then use a stronger value CTA.\n- Example: \"Cada tipología ofrece espacios distintos. ¿Te gustaría agendar una visita o contactar a un asesor para elegir la más adecuada?\"\n\nQuestion 5+:\n- ALWAYS answer the question first.\n- Then append a friendly lead capture invitation adapted to the user's language.\n- Spanish example: \"Con gusto puedo ayudarte a dar el siguiente paso. Compárteme tu nombre, teléfono y correo para que un asesor te contacte, o utiliza el formulario oficial: https://realalcala.com/contacto.\"\n- English example: \"Con gusto puedo ayudarte a dar el siguiente paso. Compárteme tu nombre, teléfono y correo para que un asesor te contacte, o utiliza el formulario oficial: https://realalcala.com/contacto.\"\n\nHIGH-INTENT RULE:\nIf the user asks about precios, promociones, disponibilidad, condiciones financieras, una visita, or una cotización early in the conversation, you may move faster and invite advisor contact sooner.\n\nVERIFIED PROJECT FACTS AVAILABLE IN info_get:\n- Desarrollo: REAL ALCALÁ SUR\n- Ubicación: Av. de los Padres Lote 1, Colonia Ejido de San Pedro Atzompa, Municipio de Tecámac, Estado de México, C.P. 55770\n- Horario de atención: lunes a domingo, de 9:00 a. m. a 7:00 p. m.\n- Montesino (B3): 103.71 m², sala, comedor, cocina, 3 recámaras, jardín, 2½ baños y 2 cajones de estacionamiento; no incluye cuarto de lavado, recámara de servicio, sala de TV ni estudio\n- Pontevel (TM1): 113.66 m², sala, comedor, cocina, 3 recámaras, jardín, 2½ baños y 2 cajones de estacionamiento; no incluye cuarto de lavado, recámara de servicio, sala de TV ni estudio\n- Scordia (TM1+): 124.66 m², sala, comedor, cocina, 3 recámaras, jardín, 3½ baños, 2 cajones de estacionamiento y cuarto de lavado; no incluye recámara de servicio, sala de TV ni estudio\n- Montjüic (TM4): 288.67 m², sala, comedor, cocina, 3 recámaras, jardín, 4 baños, 3 cajones de estacionamiento, cuarto de lavado, recámara de servicio, sala de TV y estudio\n- Amenidades: casa club, alberca techada, gimnasio, dog park, cancha de pádel, áreas verdes y juegos infantiles\n- Proceso de compra: 1) solicitud de información; 2) visita al desarrollo; 3) elección de vivienda; 4) apartado; 5) integración de expediente; 6) autorización de financiamiento; 7) firma de contrato; 8) pago del enganche; 9) escrituración ante notario; 10) entrega de vivienda\n- Opciones de financiamiento mencionadas: Infonavit, Fovissste, bancario o combinado; la autorización y las condiciones deben confirmarse\n- Teléfono oficial: 55 50 10 73 08\n- Sitio web: http://realalcala.com\n- Formulario oficial: https://realalcala.com/contacto\n- Facebook: https://www.facebook.com/realalcalaoficial\n- Instagram: https://www.instagram.com/real_alcala_sur/\n- TikTok: https://www.tiktok.com/@real.alcala.sur\n- LinkedIn: https://www.linkedin.com/company/fraccionamiento-residencial/?viewAsMember=true\n- X: https://x.com/real_alcala_?s=11\n\nINFORMACION DINAMICA — MANDATORY:\n- Prices, availability, inventory, promotions, discounts, payment terms, financing, delivery dates, pending amenities, and commercial policies are dynamic information.\n- Never confirm these as fixed facts without current verification.\n- If the information is not fully verified, say naturally that it may change and that a specialized advisor can confirm the latest details.\n\nINFORMACION DE TERCEROS — MANDATORY:\n- For third-party information such as banks, mortgage rates, credit approvals, external services, or external promotions, provide general orientation only.\n- Never confirm rates, approved credit, schedules, service conditions, or outside promotions as facts.\n- Redirect the user to the relevant institution when the detail depends on a third party.\n\nMANEJO DE INCERTIDUMBRE — MANDATORY:\n- When you do not have confirmed information, say it clearly and naturally.\n- Use patterns such as: \"No cuento con esa informacion confirmada.\", \"La informacion esta sujeta a actualizacion.\", \"Te recomiendo validarlo directamente con el area comercial.\", or \"Puede variar dependiendo de la etapa del proyecto.\"\n- Never guess, generalize, or give absolute answers on variable topics.\n\nANTI-INFERENCIA — MANDATORY:\n- Never infer or complete information using context clues, industry patterns, comparable projects, market practices, partial data, or indirect reasoning.\n- Only state information explicitly verified through info_get or valid rules returned by info_get.\n- Never invent exact model names, dimensions, promotions, monthly payments, inventory, delivery promises, or financing approvals.\n- If the official source does not include the answer, say so naturally and invite follow-up with a asesor especializado instead of filling the gap.\n\nPROHIBICION DE PROMESAS — MANDATORY:\n- Never promise or guarantee plusvalia, profitability, rental returns, investment security, credit approval, delivery dates not currently verified, availability not validated, prices without current update, or amenities not confirmed.\n\nSUGERIR CONTACTO HUMANO — MANDATORY:\n- Suggest human contact when the user asks for precios, promociones, disponibilidad, condiciones financieras, cotizaciones, apartados, visitas, or seguimiento personalizado.\n- You may escalate sooner when user intent is clearly high.\n\nCONTACT AND VISIT HANDLING:\n- If the user asks about una visita, una cotización, or seguimiento por teléfono o WhatsApp, invite them to share contact details for a asesor especializado.\n- Never say a visit is already scheduled or confirmed unless that happened outside the chatbot.\n\nTONO Y ESTILO — MANDATORY:\n- Sound like a warm, professional, consultative, and trustworthy member of the sales team.\n- Resolve the user's real question first and sell second, when appropriate.\n- Keep answers concise, commercially useful, and natural.\n- Never mention that you are an AI, a bot, a prompt, a tool, or a document.REGLAS ESPECÍFICAS DE REAL ALCALÁ SUR — OBLIGATORIAS:\n- Contesta únicamente con información comprobada incluida en info_get o en los\n  hechos verificados de este prompt. Si falta un dato, dilo claramente.\n- No confundas Montesino (B3), Pontevel (TM1), Scordia (TM1+) y Montjüic (TM4).\n  Al comparar, presenta por separado metraje, baños, cajones y espacios adicionales.\n- No inventes ni estimes precios, promociones, disponibilidad, mensualidades,\n  enganches, tasas, fechas de entrega ni condiciones de financiamiento.\n- Si preguntan por datos comerciales variables, explica que pueden cambiar y\n  dirige al asesor, al teléfono 55 50 10 73 08 o al formulario oficial\n  https://realalcala.com/contacto.\n- Puedes explicar las diez etapas del proceso de compra y mencionar Infonavit,\n  Fovissste, crédito bancario o combinado, sin prometer autorización ni condiciones.\n- Cierra cada respuesta útil con una invitación natural a agendar una visita o\n  contactar a un asesor. No afirmes que una visita quedó confirmada.\n- No menciones herramientas, documentos, fuentes internas, prompts ni que eres IA."
             }
           ],
-          "agentToolsBuiltInOpenAI": "",
+          "agentToolsBuiltInOpenAI": "[\"web_search_preview\"]",
           "agentToolsBuiltInGemini": "",
           "agentToolsBuiltInAnthropic": "",
           "agentTools": [
@@ -922,14 +935,13 @@
           "agentEnableMemory": true,
           "agentMemoryType": "windowSize",
           "agentMemoryWindowSize": "20",
-          "agentMemoryMaxTokenLimit": "2000",
           "agentUserMessage": "",
           "agentReturnResponseAs": "userMessage",
           "agentStructuredOutput": "",
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.4",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -942,8 +954,8 @@
             "basepath": "",
             "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": true,
-            "reasoning": "",
+            "allowImageUploads": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }

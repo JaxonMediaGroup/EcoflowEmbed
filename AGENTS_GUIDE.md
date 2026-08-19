@@ -239,11 +239,13 @@ flow. Verificado empíricamente con clones y smoke tests (campaña de ago 2026, 
 - **Mayoría (47 + Vesta/WE WORK ya existentes): terra+low funciona directo.** NO activar
   `web_search_preview` en ellos — en esa generación el built-in activo es justamente lo
   que rompe el request (terraform+low solo → 200; con built-in → 500).
-- **Sub-generación intermedia (14 agentes: Gran Terraza Coapa, Hideaways, LST Santa
-  Jacinta, Los Nogales, Mahi, Mozaiko, Nauma Lomas, Punta Zero, Real Alcalá Sur, Reserva
-  Castilla, Terralago, Torre Alhena, Torre Zero Providencia, Xerena): terra en Q&A da 400
-  bajo cualquier reasoning.** Quedan en `gpt-5.4` sin reasoning; router/guard sí en
-  terra+low.
+- **Sub-generación intermedia (14 agentes): terra en Q&A daba 400 bajo cualquier
+  reasoning.** RESUELTO en ago 2026 trasplantando el `data` completo del nodo Q&A desde
+  un agente funcional (referencia: Mavila), conservando prompts/tools/label propios y
+  SIN `agentMemoryMaxTokenLimit`. Receta del transplante: copiar data del nodo Q&A de
+  referencia → restaurar `agentMessages`, `agentTools` y `label` propios →
+  `modelName: gpt-5.6-terra`, `reasoning: low` → eliminar `agentMemoryMaxTokenLimit`.
+  Los 14 quedaron en terra+low verificados.
 - **NIZUC: su Q&A usa `agentModel: chatOpenAICustom`** (clase distinta) y no acepta terra
   ("Unsupported"). Mantener en `gpt-5.2`.
 - **SLS/NOMA (generación vieja 4 nodos):** ver §7.3.2 — requiere migración de template.

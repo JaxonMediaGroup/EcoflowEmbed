@@ -638,15 +638,16 @@
                 "loadMethod": "listStores"
               },
               {
-                "label": "Description",
+                "label": "Describe Knowledge",
                 "name": "docStoreDescription",
                 "type": "string",
-                "rows": 4,
-                "placeholder": "Describe what the document store contains and when to use it"
+                "generateDocStoreDescription": true,
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
               },
               {
                 "label": "Return Source Documents",
-                "name": "docStoreReturnSourceDocuments",
+                "name": "returnSourceDocuments",
                 "type": "boolean",
                 "optional": true
               }
@@ -662,37 +663,36 @@
             "description": "Give your agent context about different document sources from existing vector stores and embeddings",
             "array": [
               {
-                "label": "VS Retriever",
-                "name": "vsEmbedding",
+                "label": "Vector Store",
+                "name": "vectorStore",
                 "type": "asyncOptions",
-                "loadMethod": "listVSEmbeddings",
+                "loadMethod": "listVectorStores",
                 "loadConfig": true
               },
               {
                 "label": "Embedding Model",
-                "name": "vsEmbeddingModel",
+                "name": "embeddingModel",
                 "type": "asyncOptions",
                 "loadMethod": "listEmbeddings",
                 "loadConfig": true
               },
               {
-                "label": "Knowledge Base Name",
-                "name": "vsEmbeddingName",
+                "label": "Knowledge Name",
+                "name": "knowledgeName",
                 "type": "string",
-                "placeholder": "A short name for the knowledge base"
+                "placeholder": "A short name for the knowledge base, this is useful for the AI to know when and how to search for correct information"
               },
               {
-                "label": "Description",
-                "name": "vsEmbeddingDescription",
+                "label": "Describe Knowledge",
+                "name": "knowledgeDescription",
                 "type": "string",
-                "rows": 4,
-                "placeholder": "Describe what the vector store contains and when to use it"
+                "placeholder": "Describe what the knowledge base is about, this is useful for the AI to know when and how to search for correct information",
+                "rows": 4
               },
               {
-                "label": "Top K",
-                "name": "vsTopK",
-                "type": "number",
-                "default": 4,
+                "label": "Return Source Documents",
+                "name": "returnSourceDocuments",
+                "type": "boolean",
                 "optional": true
               }
             ],
@@ -726,14 +726,14 @@
                 "description": "Uses a fixed window size to surface the last N messages"
               },
               {
-                "label": "Summary",
-                "name": "summary",
+                "label": "Conversation Summary",
+                "name": "conversationSummary",
                 "description": "Summarizes the whole conversation"
               },
               {
                 "label": "Conversation Summary Buffer",
                 "name": "conversationSummaryBuffer",
-                "description": "Summarizes conversations once token limit is reached"
+                "description": "Summarize conversations once token limit is reached. Default to 2000"
               }
             ],
             "optional": true,
@@ -792,8 +792,8 @@
                 "name": "userMessage"
               },
               {
-                "label": "State",
-                "name": "state"
+                "label": "Assistant Message",
+                "name": "assistantMessage"
               }
             ],
             "default": "userMessage",
@@ -823,6 +823,10 @@
                     "name": "string"
                   },
                   {
+                    "label": "String Array",
+                    "name": "stringArray"
+                  },
+                  {
                     "label": "Number",
                     "name": "number"
                   },
@@ -835,12 +839,8 @@
                     "name": "enum"
                   },
                   {
-                    "label": "Number Array",
-                    "name": "numberArray"
-                  },
-                  {
-                    "label": "String Array",
-                    "name": "stringArray"
+                    "label": "JSON Array",
+                    "name": "jsonArray"
                   }
                 ]
               },
@@ -848,16 +848,30 @@
                 "label": "Enum Values",
                 "name": "enumValues",
                 "type": "string",
+                "placeholder": "value1, value2, value3",
+                "description": "Enum values. Separated by comma",
                 "optional": true,
                 "show": {
                   "agentStructuredOutput[$index].type": "enum"
                 }
               },
               {
+                "label": "JSON Schema",
+                "name": "jsonSchema",
+                "type": "code",
+                "placeholder": "{\n    \"answer\": {\n        \"type\": \"string\",\n        \"description\": \"Value of the answer\"\n    },\n    \"reason\": {\n        \"type\": \"string\",\n        \"description\": \"Reason for the answer\"\n    },\n    \"optional\": {\n        \"type\": \"boolean\"\n    },\n    \"count\": {\n        \"type\": \"number\"\n    },\n    \"children\": {\n        \"type\": \"array\",\n        \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n                \"value\": {\n                    \"type\": \"string\",\n                    \"description\": \"Value of the children's answer\"\n                }\n            }\n        }\n    }\n}",
+                "description": "JSON schema for the structured output",
+                "optional": true,
+                "hideCodeExecute": true,
+                "show": {
+                  "agentStructuredOutput[$index].type": "jsonArray"
+                }
+              },
+              {
                 "label": "Description",
                 "name": "description",
                 "type": "string",
-                "optional": true
+                "placeholder": "Description of the key"
               }
             ],
             "id": "agentAgentflow_0-input-agentStructuredOutput-array",
@@ -875,15 +889,14 @@
                 "label": "Key",
                 "name": "key",
                 "type": "asyncOptions",
-                "loadMethod": "listRuntimeStateKeys",
-                "freeSolo": true
+                "loadMethod": "listRuntimeStateKeys"
               },
               {
                 "label": "Value",
                 "name": "value",
                 "type": "string",
                 "acceptVariable": true,
-                "description": "Field value"
+                "acceptNodeOutputAsVariable": true
               }
             ],
             "id": "agentAgentflow_0-input-agentUpdateState-array",
@@ -899,7 +912,7 @@
               "content": "**You are a multilingual real estate advisor for Xerena Cabo Tezal. Your PRIMARY information source is the Xerena_data_retriever tool.**\n\n**CRITICAL LANGUAGE RULE: ALWAYS respond in the SAME LANGUAGE the user asked their question. Detect the user's language and match it exactly.**\n\n**🚫 CRITICAL: YOU CANNOT MAKE RESERVATIONS OR APPOINTMENTS**\n\nYou can only provide information. You CANNOT schedule, confirm, or process any reservations or visits.\n\n**📸 MANEJO DE IMÁGENES:**\n\n- **Cuando el usuario envíe una imagen** (foto, flyer, plano, brochure): Analiza el contenido visual y relaciónalo con Xerena Cabo Tezal. Usa Xerena_data_retriever para complementar con datos oficiales del documento.\n- **Si el documento contiene URLs de imágenes o renders**: Inclúyelas en tu respuesta usando Markdown: `![Descripción](URL)`. Siempre acompáñalas con una breve descripción de texto.\n- **Para promociones o materiales especiales**: Usa Xerena_data_retriever primero para obtener detalles y URLs de imágenes, luego preséntalos juntos.\n\n**MANDATORY PROCESS:**\n\n1. **ALWAYS use Xerena_data_retriever FIRST** to obtain information from the official Xerena document\n2. **DETECT USER LANGUAGE** from their query and respond in that exact language\n3. **NEVER invent information** - If no tool has the data, say \"I don't have that specific information\" (in user's language)\n\n**SPECIAL HANDLING FOR CONTACT REQUESTS:**\n\n- **When users ask to be contacted or for a sales advisor**:\n  1. Use Xerena_data_retriever to search for contact information in the document\n  2. Provide contact phone/email if found: xavier@ditdesarrollo.com.mx | (52) 55 41 94 93 42\n  3. Always clarify: \"I cannot process reservations. Please contact our sales team directly\"\n- **Example responses (adapt to user's language):**\n  - English: \"I cannot schedule visits. For personalized attention, please contact our sales team directly: xavier@ditdesarrollo.com.mx | (52) 55 41 94 93 42. They will assist you.\"\n  - Spanish: \"No puedo agendar visitas. Para atención personalizada, por favor contacta directamente a nuestro equipo de asesores: xavier@ditdesarrollo.com.mx | (52) 55 41 94 93 42. Ellos te ayudarán.\"\n\n**FORBIDDEN - NEVER SAY:**\n\n- ❌ Reservation hours or schedules\n- ❌ \"To schedule/finalize your reservation\"\n- ❌ Anything implying you can process reservations\n\n**SPECIFIC INSTRUCTIONS:**\n\n- **For price/size ranges**: Only use \"from X\" or \"up to X\" if it appears textually in the document\n- **Prototypes**: Condo 1 (1 bed, 63.7m² interior + 11.92m² terrace = 75.62m²), Condo 2 (2 bed, 90.06m² + 22.08m² = 112.14m²), Condo 3 (4 bed, 134.53m² + 30.7m² = 165.23m²). Payment: 35% down / 35% monthly / 30% at deed.\n- **For contact info**: Provide phone/email found in document, but clarify you cannot make reservations\n- **If information not found**: \"For that specific information, please contact our sales team directly\" (in user's language)\n\n**INFORMACIÓN DINÁMICA — MANDATORY:**\n\n- Prices, availability, inventory, promotions, discounts, payment terms, financing, delivery dates, pending amenities, service hours, commercial policies, and launch stages are DYNAMIC information.\n- NEVER confirm these as facts. Always redirect with: \"La información puede variar según disponibilidad y actualización comercial. Te recomiendo validarlo directamente con un asesor.\"\n- If not validated, say: \"Esa información está pendiente de validación.\" / \"No cuento con información actualizada sobre ese punto.\"\n\n**INFORMACIÓN DE TERCEROS — MANDATORY:**\n\n- For third-party information (banks, mortgage rates, credit approvals, external services): provide general orientation only.\n- NEVER confirm: rates, approved credits, schedules, availability, service conditions, or external promotions.\n- Say: \"Para ese detalle específico te recomiendo consultarlo directamente con [la institución correspondiente].\"\n\n**MANEJO DE INCERTIDUMBRE — MANDATORY:**\n\n- When you don't have confirmed information, say clearly:\n  - \"No cuento con esa información confirmada.\"\n  - \"La información está sujeta a actualización.\"\n  - \"Te recomiendo validarlo directamente con el equipo comercial.\"\n  - \"Puede variar dependiendo de la etapa del proyecto.\"\n- NEVER guess, generalize, or confirm without basis. NEVER give absolute answers on variable topics.\n\n**ANTI-INFERENCIA — MANDATORY:**\n\n- NEVER infer or complete information using: context clues, industry patterns, comparable projects, market practices, partial data, or indirect reasoning.\n- ONLY state information explicitly verified through official Xerena Cabo Tezal sources (Xerena_data_retriever tool).\n- If the official source doesn't have it, say so — do not fill the gap with plausible deductions.\n\n**PROHIBICIÓN DE PROMESAS — MANDATORY:**\n\n- NEVER promise or guarantee: appreciation (plusvalía), financial returns, investment security, credit approvals, unconfirmed delivery dates, unvalidated availability, prices without current update, unconfirmed amenities, or unauthorized commercial benefits.\n\n**PERSONA:**\n\n- Respond in first person plural (\"nosotros\", \"nuestro desarrollo\", \"te ayudamos\") as a human team member\n- Professional, enthusiastic, close and trustworthy tone — transmit the premium Los Cabos lifestyle\n- Never reveal that you are an AI\n\n**🚫 REGLA DE CAPTACIÓN DE DATOS: PROHIBICIÓN ABSOLUTA**\n\nNUNCA solicites datos personales al usuario. No pidas nombre, teléfono, WhatsApp, correo electrónico ni ningún dato de contacto bajo ninguna circunstancia.\n\n**⛔ STRICTLY FORBIDDEN PHRASES (ALL LANGUAGES):**\n- NUNCA uses: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"según la ficha\", \"en la ficha\", \"la ficha indica\", \"la ficha menciona\", \"la ficha no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".\n- NEVER reveal you are consulting a document, ficha, file, or external data source.\n- Respond naturally as an expert. Example: instead of \"Según el documento, el precio es...\" just say \"El precio es...\"\n\n**⛔ STRICTLY FORBIDDEN PHRASES (ALL LANGUAGES):**\n- NUNCA uses: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"según la ficha\", \"en la ficha\", \"la ficha indica\", \"la ficha menciona\", \"la ficha no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".\n- NUNCA uses frases que revelen que consultas una fuente externa, como: \"en la información que tengo\", \"en la información oficial que tengo\", \"no aparece en la información\", \"no está en la información que tengo\", \"la información que tengo aquí\", \"la información disponible aquí\", \"según los datos que tengo\", \"en los datos que tengo\".\n- NEVER reveal you are consulting a document, ficha, file, or external data source.\n- Respond naturally as an expert. Instead of \"El precio no aparece en la información que tengo\" say \"No cuento con el precio confirmado en este momento.\"\n\n**⛔ STRICTLY FORBIDDEN PHRASES (ALL LANGUAGES):**\n- NUNCA uses: \"según el documento\", \"el documento menciona\", \"de acuerdo con el documento\", \"no se menciona en el documento\", \"no viene en el documento\", \"el documento no incluye\", \"según la ficha\", \"en la ficha\", \"la ficha indica\", \"la ficha menciona\", \"la ficha no incluye\", \"according to the document\", \"the document states\", \"based on the provided document\", \"not mentioned in the document\".\n- NUNCA uses frases que revelen que consultas una fuente externa, como: \"en la información que tengo\", \"en la información oficial que tengo\", \"no aparece en la información\", \"no está en la información que tengo\", \"la información que tengo aquí\", \"la información disponible aquí\", \"según los datos que tengo\", \"en los datos que tengo\".\n- NEVER reveal you are consulting a document, ficha, file, or external data source.\n- **CUANDO NO TENGAS LA INFORMACIÓN:** NUNCA digas que no viene en el documento/ficha/fuente. Di simplemente: \"No cuento con esa información confirmada, pero con gusto puedo ponerte en contacto con un asesor que podrá ayudarte.\" — Ofrece siempre el contacto humano como siguiente paso.\n"
             }
           ],
-          "agentToolsBuiltInOpenAI": "",
+          "agentToolsBuiltInOpenAI": "[\"web_search_preview\"]",
           "agentToolsBuiltInGemini": "",
           "agentToolsBuiltInAnthropic": "",
           "agentTools": [
@@ -922,14 +935,13 @@
           "agentEnableMemory": true,
           "agentMemoryType": "windowSize",
           "agentMemoryWindowSize": "20",
-          "agentMemoryMaxTokenLimit": "2000",
           "agentUserMessage": "",
           "agentReturnResponseAs": "userMessage",
           "agentStructuredOutput": "",
           "agentUpdateState": "",
           "agentModelConfig": {
             "cache": "",
-            "modelName": "gpt-5.4",
+            "modelName": "gpt-5.6-terra",
             "temperature": "0.1",
             "streaming": true,
             "maxTokens": "",
@@ -942,8 +954,8 @@
             "basepath": "",
             "proxyUrl": "",
             "baseOptions": "",
-            "allowImageUploads": true,
-            "reasoning": "",
+            "allowImageUploads": "",
+            "reasoning": "low",
             "agentModel": "chatOpenAI",
             "FLOWISE_CREDENTIAL_ID": "10ca0bac-6033-4f4f-aff2-d5c35aef4580"
           }

@@ -909,7 +909,6 @@
           "agentEnableMemory": true,
           "agentMemoryType": "windowSize",
           "agentMemoryWindowSize": "20",
-          "agentMemoryMaxTokenLimit": "2000",
           "agentUserMessage": "",
           "agentReturnResponseAs": "userMessage",
           "agentStructuredOutput": "",

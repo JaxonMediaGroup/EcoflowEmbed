@@ -392,6 +392,12 @@
       "json_file": "projects/Vesta Monterrey Agents.json",
       "type": "AGENTFLOW",
       "category": "industrial"
+    },
+    "Landmark Torreón": {
+      "chatflow_id": "447273a3-1142-48ac-84da-c772b6a9867f",
+      "json_file": "projects/Landmark Torreón Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
     }
   }
 }

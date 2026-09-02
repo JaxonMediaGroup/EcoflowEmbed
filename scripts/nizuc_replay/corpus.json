@@ -1,0 +1,7722 @@
+[
+ {
+  "id": 1,
+  "pregunta": "Hola",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 21,
+  "sesiones": 17,
+  "primera": "2025-07-14",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 2,
+  "pregunta": "Cual es la habitación más grande?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 3,
+  "pregunta": "que tan lejos esta de cancun centro?",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 4,
+  "pregunta": "como llego desde el aeropuerto?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 5,
+  "pregunta": "cual es la distancia del aeropuerto a nizuc?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 6,
+  "pregunta": "Cuanto tiempo es del aeropuerto a nizuc?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 7,
+  "pregunta": "como llego desde el aeropuerto",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 3,
+  "sesiones": 2,
+  "primera": "2025-07-14",
+  "ultima": "2026-04-28"
+ },
+ {
+  "id": 8,
+  "pregunta": "y que puedo comer?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 9,
+  "pregunta": "Is Nizuc kids inclusive?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-14",
+  "ultima": "2025-07-14"
+ },
+ {
+  "id": 10,
+  "pregunta": "do you have golf",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-15",
+  "ultima": "2025-07-15"
+ },
+ {
+  "id": 11,
+  "pregunta": "Hi I was wondering about the food, do I have to pay extra or is it all inclusive?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 12,
+  "pregunta": "The same with kosher options?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 13,
+  "pregunta": "hello if i stay at nizuc how far am i from cancun malls and shopping district",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 14,
+  "pregunta": "Hola quiero llegar desde el angel",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 15,
+  "pregunta": "que puedo cenar?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 16,
+  "pregunta": "estara guillermo jacxson ahi ?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 17,
+  "pregunta": "Can I have details about snorkeling activities?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 18,
+  "pregunta": "O Nizuc tem um kids club? Qual é a faixa etária permitida?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-16",
+  "ultima": "2025-07-16"
+ },
+ {
+  "id": 19,
+  "pregunta": "Spa, what are the charges",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-17",
+  "ultima": "2025-07-17"
+ },
+ {
+  "id": 20,
+  "pregunta": "en donde puedo comer un ceviche",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-07-17",
+  "ultima": "2025-07-17"
+ },
+ {
+  "id": 21,
+  "pregunta": "que tratamientos faciales tienes?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-17",
+  "ultima": "2025-07-17"
+ },
+ {
+  "id": 22,
+  "pregunta": "hello",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 3,
+  "sesiones": 3,
+  "primera": "2025-07-23",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 23,
+  "pregunta": "Sabes donde puedo cenar en Nizuc?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-23",
+  "ultima": "2025-07-23"
+ },
+ {
+  "id": 24,
+  "pregunta": "Tiene restaurantes con vista al mar?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-23",
+  "ultima": "2025-07-23"
+ },
+ {
+  "id": 25,
+  "pregunta": "Do the suites with private pools offer ocean views?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-25",
+  "ultima": "2025-07-25"
+ },
+ {
+  "id": 26,
+  "pregunta": "What’s the difference between the Ocean Suite and the Garden Villa?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-25",
+  "ultima": "2025-07-25"
+ },
+ {
+  "id": 27,
+  "pregunta": "What is the most recommended restaurant for a special dinner?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-25",
+  "ultima": "2025-07-25"
+ },
+ {
+  "id": 28,
+  "pregunta": "Are there connecting rooms for families?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-25",
+  "ultima": "2025-07-25"
+ },
+ {
+  "id": 29,
+  "pregunta": "Are there any hidden gems or exclusive experiences at the resort?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-25",
+  "ultima": "2025-07-25"
+ },
+ {
+  "id": 30,
+  "pregunta": "Do you have tennis or pickleball courts",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-25",
+  "ultima": "2025-07-25"
+ },
+ {
+  "id": 31,
+  "pregunta": "how far is it from the airport?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-26",
+  "ultima": "2025-07-26"
+ },
+ {
+  "id": 32,
+  "pregunta": "thank you",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 9,
+  "sesiones": 6,
+  "primera": "2025-07-26",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 33,
+  "pregunta": "Is there kosher restaurants on property",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-27",
+  "ultima": "2025-07-27"
+ },
+ {
+  "id": 34,
+  "pregunta": "Are there any water slide at the resort for kids? Can you give us more details about the kids club ?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-28",
+  "ultima": "2025-07-28"
+ },
+ {
+  "id": 35,
+  "pregunta": "Como llego desde st tropez",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-28",
+  "ultima": "2025-07-28"
+ },
+ {
+  "id": 36,
+  "pregunta": "Hola! cual es el platillo estrella?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-28",
+  "ultima": "2025-07-28"
+ },
+ {
+  "id": 37,
+  "pregunta": "Is there free transportation provided from the Resort?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 38,
+  "pregunta": "Are water shoes recommended on your property beaches?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 39,
+  "pregunta": "Is there a lot of sea weed currently?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 40,
+  "pregunta": "What is the white stuff on the beach edge on the live cam?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 41,
+  "pregunta": "Is there a fridge in the room?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 42,
+  "pregunta": "Will I be able to store soft drinks and water in the minibar?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 43,
+  "pregunta": "Que onda",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 44,
+  "pregunta": "G",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 45,
+  "pregunta": "Hola 👋",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-29",
+  "ultima": "2025-07-29"
+ },
+ {
+  "id": 46,
+  "pregunta": "Spa",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 4,
+  "sesiones": 4,
+  "primera": "2025-07-30",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 47,
+  "pregunta": "Is there a convenience store near by?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-30",
+  "ultima": "2025-07-30"
+ },
+ {
+  "id": 48,
+  "pregunta": "reservation",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-07-31",
+  "ultima": "2026-04-25"
+ },
+ {
+  "id": 49,
+  "pregunta": "DO YOU HAVE STEAM ROOMS",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-07-31",
+  "ultima": "2025-07-31"
+ },
+ {
+  "id": 50,
+  "pregunta": "amenidades?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-01",
+  "ultima": "2025-08-01"
+ },
+ {
+  "id": 51,
+  "pregunta": "Is there minaynim?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-04",
+  "ultima": "2025-08-04"
+ },
+ {
+  "id": 52,
+  "pregunta": "Hello, we are looking to book a stay in December with our daughter who is 36. She has challenges, but we are looking To find out what kind of activities you have at the pool daily.",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-04",
+  "ultima": "2025-08-04"
+ },
+ {
+  "id": 53,
+  "pregunta": "Is there anything like water aerobics or any games with an entertainment team or anything like that?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-04",
+  "ultima": "2025-08-04"
+ },
+ {
+  "id": 54,
+  "pregunta": "Can you also tell me what’s included in the breakfast buffet? We are booking with Expedia and we don’t know if the breakfast is included or not.",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-04",
+  "ultima": "2025-08-04"
+ },
+ {
+  "id": 55,
+  "pregunta": "Thank you very much",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-04",
+  "ultima": "2025-08-04"
+ },
+ {
+  "id": 56,
+  "pregunta": "tienen parque acuatico?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 57,
+  "pregunta": "Tem piscina?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 58,
+  "pregunta": "Qual o maior YouTuber que se hospedou ai",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 59,
+  "pregunta": "Me mostre suas piscinas",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 60,
+  "pregunta": "Me mostre as piscinas por favor",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 61,
+  "pregunta": "Tem piscina com toboágua?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 62,
+  "pregunta": "Tem piscina com escorregador",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 63,
+  "pregunta": "Rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-05",
+  "ultima": "2025-08-05"
+ },
+ {
+  "id": 64,
+  "pregunta": "want to see the venues",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-06",
+  "ultima": "2025-08-06"
+ },
+ {
+  "id": 65,
+  "pregunta": "can you show me pictures of the venues",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-06",
+  "ultima": "2025-08-06"
+ },
+ {
+  "id": 66,
+  "pregunta": "Cost per room",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-06",
+  "ultima": "2025-08-06"
+ },
+ {
+  "id": 67,
+  "pregunta": "hola, cual es el mejor vino que tienes disponible?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-06",
+  "ultima": "2025-08-06"
+ },
+ {
+  "id": 68,
+  "pregunta": "puedo hacer una reservacion",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-06",
+  "ultima": "2025-08-06"
+ },
+ {
+  "id": 69,
+  "pregunta": "Do you have live music in Sept at Havana lounge on Sun & Mon?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-10",
+  "ultima": "2025-08-10"
+ },
+ {
+  "id": 70,
+  "pregunta": "Do you have live music anywhere on property Sun or Mon?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-10",
+  "ultima": "2025-08-10"
+ },
+ {
+  "id": 71,
+  "pregunta": "Ocean view Felix double",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-11",
+  "ultima": "2025-08-11"
+ },
+ {
+  "id": 72,
+  "pregunta": "nrorrn4e9exlllflxeldl23l3oe333cexfrrj93l",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-11",
+  "ultima": "2025-08-11"
+ },
+ {
+  "id": 73,
+  "pregunta": "would like to book",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-12",
+  "ultima": "2025-08-12"
+ },
+ {
+  "id": 74,
+  "pregunta": "Activities",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 3,
+  "sesiones": 3,
+  "primera": "2025-08-14",
+  "ultima": "2026-01-09"
+ },
+ {
+  "id": 75,
+  "pregunta": "what is there to do with kids",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-15",
+  "ultima": "2025-08-15"
+ },
+ {
+  "id": 76,
+  "pregunta": "What’s a schedule like",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-17",
+  "ultima": "2025-08-17"
+ },
+ {
+  "id": 77,
+  "pregunta": "Hay playa?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-18",
+  "ultima": "2025-08-18"
+ },
+ {
+  "id": 78,
+  "pregunta": "Hello , how is the sargazo today ?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-19",
+  "ultima": "2025-08-19"
+ },
+ {
+  "id": 79,
+  "pregunta": "What are your birthday in room options",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-20",
+  "ultima": "2025-08-20"
+ },
+ {
+  "id": 80,
+  "pregunta": "What’s the best restaurant for bday",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-20",
+  "ultima": "2025-08-20"
+ },
+ {
+  "id": 81,
+  "pregunta": "what spaces can i reserve for meetings or events",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-20",
+  "ultima": "2025-08-20"
+ },
+ {
+  "id": 82,
+  "pregunta": "Hello I would like to know about the restaurant. Is it include with the room?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-21",
+  "ultima": "2025-08-21"
+ },
+ {
+  "id": 83,
+  "pregunta": "How do I get from airport to hotel",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-23",
+  "ultima": "2025-08-23"
+ },
+ {
+  "id": 84,
+  "pregunta": "How much is the resort's private SUV service",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-23",
+  "ultima": "2025-08-23"
+ },
+ {
+  "id": 85,
+  "pregunta": "buenas noches , estoy buscando una reserva para El 22 de septiembre hasta El 225 o 26 de septiembre",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 86,
+  "pregunta": "hi where is the junior suite with ocean view located?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 87,
+  "pregunta": "where is the suite with ocean view adults only",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 88,
+  "pregunta": "what are the best rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 89,
+  "pregunta": "does the ocean view junior suite have butlers",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 90,
+  "pregunta": "do the villas have roof tops",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 91,
+  "pregunta": "do the private pool villas have a private entence",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 92,
+  "pregunta": "is the terra nostra pool for adults only",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 93,
+  "pregunta": "what are the rooms next to the la punta pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 94,
+  "pregunta": "Which rooms come with outdoor showers",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 95,
+  "pregunta": "Does the penthouse have a outdoor shower",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 96,
+  "pregunta": "Yes I’d like to see More details and pictures",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 97,
+  "pregunta": "Do the villas have butlers",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 98,
+  "pregunta": "Do the penthouse have butlers",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 99,
+  "pregunta": "Is it pet friendly",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-25",
+  "ultima": "2025-08-25"
+ },
+ {
+  "id": 100,
+  "pregunta": "Where are the Private pool pavilion villa located",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-26",
+  "ultima": "2025-08-26"
+ },
+ {
+  "id": 101,
+  "pregunta": "how big is the beach?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-26",
+  "ultima": "2025-08-26"
+ },
+ {
+  "id": 102,
+  "pregunta": "hay en donde jugar tennis?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-27",
+  "ultima": "2025-08-27"
+ },
+ {
+  "id": 103,
+  "pregunta": "cual es el cuarto mas chico?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-27",
+  "ultima": "2025-08-27"
+ },
+ {
+  "id": 104,
+  "pregunta": "Hi, do I need to pay extra for the private decks?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 105,
+  "pregunta": "the private decks at the beach is free for all visitors?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 106,
+  "pregunta": "so what is the price if I want to reserve it for Sep 1st?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 107,
+  "pregunta": "what water activities do you have on site?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 108,
+  "pregunta": "oh cool, and what are the weathers like there now/",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 109,
+  "pregunta": "Cómo llego desde la CDMX",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 110,
+  "pregunta": "do suites have washer and dryer",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-08-28",
+  "ultima": "2025-08-28"
+ },
+ {
+  "id": 111,
+  "pregunta": "Hi how much does the jet skiing here cost for a half hour?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-02",
+  "ultima": "2025-09-02"
+ },
+ {
+  "id": 112,
+  "pregunta": "Ok. Can you please give me pricing and menu for the spa?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-02",
+  "ultima": "2025-09-02"
+ },
+ {
+  "id": 113,
+  "pregunta": "do you rent sailboats that we can take out ourselves? like 14 - 16 foot hobi cats?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-03",
+  "ultima": "2025-09-03"
+ },
+ {
+  "id": 114,
+  "pregunta": "Are there only 2 dinner option restaurants for families with young kids?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-03",
+  "ultima": "2025-09-03"
+ },
+ {
+  "id": 115,
+  "pregunta": "On website Cafe De Playa only shows for breakfast, not dinner.",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-03",
+  "ultima": "2025-09-03"
+ },
+ {
+  "id": 116,
+  "pregunta": "Cafe de la playa shows its only open until 12pm and Ni shows only open for lunch on website. Both of these restaurants are currently showing no dinner on website",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-03",
+  "ultima": "2025-09-03"
+ },
+ {
+  "id": 117,
+  "pregunta": "is the adult only pool for exclusive rooms",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-04",
+  "ultima": "2025-09-04"
+ },
+ {
+  "id": 118,
+  "pregunta": "is this a all inclusive resort",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-04",
+  "ultima": "2025-09-04"
+ },
+ {
+  "id": 119,
+  "pregunta": "Do you have any snack bars or cafes?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 120,
+  "pregunta": "yes i would like to see the menus for the poolside snacks and light meals",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 121,
+  "pregunta": "which snack bars and cafes are the kids allowed in",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 122,
+  "pregunta": "is there a place to get coffee that isn't a sit down restaurant",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 123,
+  "pregunta": "is there a menu for bar-a-kan",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 124,
+  "pregunta": "is there any place to get a casual dinner that does not require a reservation",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 125,
+  "pregunta": "what are the dinner options that allow kids?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-06",
+  "ultima": "2025-09-06"
+ },
+ {
+  "id": 126,
+  "pregunta": "Is the fitness center available 24/7?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-08",
+  "ultima": "2025-09-08"
+ },
+ {
+  "id": 127,
+  "pregunta": "how about the cold plunge?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-08",
+  "ultima": "2025-09-08"
+ },
+ {
+  "id": 128,
+  "pregunta": "Hablé hace rato al hotel y me comuniqué con el salón de belleza para sacar una cita y me dijeron que iban a mandarme un correo para confirmarla y aún no me mandan nada.",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-08",
+  "ultima": "2025-09-08"
+ },
+ {
+  "id": 129,
+  "pregunta": "book a private pool villa",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-08",
+  "ultima": "2025-09-08"
+ },
+ {
+  "id": 130,
+  "pregunta": "donde puedo cenar?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 131,
+  "pregunta": "hay cafe en playa?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 132,
+  "pregunta": "y puedo cenar?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 133,
+  "pregunta": "Hi Im looking to book a room for NOV 27-Dec 1st",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 134,
+  "pregunta": "hola! cual es el horario del cafe de la playa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 135,
+  "pregunta": "en que restaurantes puedo cenar? en el cafe de la playa no?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 136,
+  "pregunta": "en donde puedo cenar con niños",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 137,
+  "pregunta": "gracias",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 138,
+  "pregunta": "What are the family-friendly activities on property",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 139,
+  "pregunta": "What are the most Instagrammable spots on property",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 140,
+  "pregunta": "Where can we catch the most dramatic sunset reflections",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 141,
+  "pregunta": "Is there wildlife",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 142,
+  "pregunta": "Hands down the most beautiful hotel we’ve stayed at and the service is unbeatable.",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-09",
+  "ultima": "2025-09-09"
+ },
+ {
+  "id": 143,
+  "pregunta": "Could you give me you exact location and villa rates?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-11",
+  "ultima": "2025-09-11"
+ },
+ {
+  "id": 144,
+  "pregunta": "Do you have gluten free options at your restaurants?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-13",
+  "ultima": "2025-09-13"
+ },
+ {
+  "id": 145,
+  "pregunta": "Also can you arrange halal meat options as well?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-13",
+  "ultima": "2025-09-13"
+ },
+ {
+  "id": 146,
+  "pregunta": "Hello, can you speek Espanish",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-17",
+  "ultima": "2025-09-17"
+ },
+ {
+  "id": 147,
+  "pregunta": "Can you speek spanish?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-17",
+  "ultima": "2025-09-17"
+ },
+ {
+  "id": 148,
+  "pregunta": "how far is the hotel to the airport",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-18",
+  "ultima": "2025-09-18"
+ },
+ {
+  "id": 149,
+  "pregunta": "do restaurants require reservations?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-21",
+  "ultima": "2025-09-21"
+ },
+ {
+  "id": 150,
+  "pregunta": "How much are spa treatments",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-21",
+  "ultima": "2025-09-21"
+ },
+ {
+  "id": 151,
+  "pregunta": "Room service menu",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-23",
+  "ultima": "2025-09-23"
+ },
+ {
+  "id": 152,
+  "pregunta": "do you have island routes",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-24",
+  "ultima": "2025-09-24"
+ },
+ {
+  "id": 153,
+  "pregunta": "necesito apartar mi camastro o hay suficientes?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-24",
+  "ultima": "2025-09-24"
+ },
+ {
+  "id": 154,
+  "pregunta": "en donde puedo comer sin gluten",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-24",
+  "ultima": "2025-09-24"
+ },
+ {
+  "id": 155,
+  "pregunta": "Hello,",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-25",
+  "ultima": "2025-09-25"
+ },
+ {
+  "id": 156,
+  "pregunta": "cabana rental",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-25",
+  "ultima": "2025-09-25"
+ },
+ {
+  "id": 157,
+  "pregunta": "Daypass",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-25",
+  "ultima": "2025-09-25"
+ },
+ {
+  "id": 158,
+  "pregunta": "book a room",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-25",
+  "ultima": "2025-09-25"
+ },
+ {
+  "id": 159,
+  "pregunta": "we are 4 adults and one infant 5 months old, we wish to stay in the same room",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-26",
+  "ultima": "2025-09-26"
+ },
+ {
+  "id": 160,
+  "pregunta": "what about one room for 4 a0dults",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-26",
+  "ultima": "2025-09-26"
+ },
+ {
+  "id": 161,
+  "pregunta": "for an extra charge can we get a crib added to the ocean view double suites?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-26",
+  "ultima": "2025-09-26"
+ },
+ {
+  "id": 162,
+  "pregunta": "what will be the extra charge to add a bed in the double delux suite?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-26",
+  "ultima": "2025-09-26"
+ },
+ {
+  "id": 163,
+  "pregunta": "CUALES SON LAS MEMIDAS DE LA ALBERC A",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-27",
+  "ultima": "2025-09-27"
+ },
+ {
+  "id": 164,
+  "pregunta": "SI DE LA PENTHOUSE Y LA MASTERSUITE",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-27",
+  "ultima": "2025-09-27"
+ },
+ {
+  "id": 165,
+  "pregunta": "event for 200 project",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-29",
+  "ultima": "2025-09-29"
+ },
+ {
+  "id": 166,
+  "pregunta": "im a looking for a two bedroom suite the 26th of October",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-29",
+  "ultima": "2025-09-29"
+ },
+ {
+  "id": 167,
+  "pregunta": "how far is the cancun airport",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-09-29",
+  "ultima": "2025-09-29"
+ },
+ {
+  "id": 168,
+  "pregunta": "How do you reserve a beach cabana?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-01",
+  "ultima": "2025-10-01"
+ },
+ {
+  "id": 169,
+  "pregunta": "what time does the beach close?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-01",
+  "ultima": "2025-10-01"
+ },
+ {
+  "id": 170,
+  "pregunta": "Is the resort for families or adults o ly?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-02",
+  "ultima": "2025-10-02"
+ },
+ {
+  "id": 171,
+  "pregunta": "i would like to see your indochine restaurant menu",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-02",
+  "ultima": "2025-10-02"
+ },
+ {
+  "id": 172,
+  "pregunta": "cual es el mejor vino blanco que tienes disponible?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-03",
+  "ultima": "2025-10-03"
+ },
+ {
+  "id": 173,
+  "pregunta": "cual es el mejor vino que tienes disponible",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-08",
+  "ultima": "2025-10-08"
+ },
+ {
+  "id": 174,
+  "pregunta": "cual es el mejor vino tinto disponible?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-09",
+  "ultima": "2025-10-09"
+ },
+ {
+  "id": 175,
+  "pregunta": "how do i get here from miami?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-09",
+  "ultima": "2025-10-09"
+ },
+ {
+  "id": 176,
+  "pregunta": "en donde puedo comer algo si soy celiaco?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-09",
+  "ultima": "2025-10-09"
+ },
+ {
+  "id": 177,
+  "pregunta": "Cuál es el mejor vino tinto",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-09",
+  "ultima": "2025-10-09"
+ },
+ {
+  "id": 178,
+  "pregunta": "Reservaciones",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-09",
+  "ultima": "2025-10-09"
+ },
+ {
+  "id": 179,
+  "pregunta": "Cuál es el mejor vino?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-09",
+  "ultima": "2025-10-09"
+ },
+ {
+  "id": 180,
+  "pregunta": "I already have hotel reservations but would like to make restaurant reservations",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-10",
+  "ultima": "2025-10-10"
+ },
+ {
+  "id": 181,
+  "pregunta": "How do I reserve the yacht excursion?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-10",
+  "ultima": "2025-10-10"
+ },
+ {
+  "id": 182,
+  "pregunta": "Cómo llego desde Querétaro?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-10",
+  "ultima": "2025-10-10"
+ },
+ {
+  "id": 183,
+  "pregunta": "what water sports do you have available at the beach?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 184,
+  "pregunta": "Are any water sports for kids?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 185,
+  "pregunta": "do you have vegetarian options at the restaurants",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 186,
+  "pregunta": "Do you have pictures of the rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 187,
+  "pregunta": "do you have a picture of the quinoa salad",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 188,
+  "pregunta": "Hello can you tell me options to dinner?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 189,
+  "pregunta": "Y hablas en español? Me las pasas en español por favor?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-11",
+  "ultima": "2025-10-11"
+ },
+ {
+  "id": 190,
+  "pregunta": "es ruidoso el hotel?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-13",
+  "ultima": "2025-10-13"
+ },
+ {
+  "id": 191,
+  "pregunta": "tengo un gran danes puede venir?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-13",
+  "ultima": "2025-10-13"
+ },
+ {
+  "id": 192,
+  "pregunta": "tengo un gran danes puede entrar?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-14",
+  "ultima": "2025-10-14"
+ },
+ {
+  "id": 193,
+  "pregunta": "dame disponibilidad de habitaciones",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-14",
+  "ultima": "2025-10-14"
+ },
+ {
+  "id": 194,
+  "pregunta": "como reservo?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-14",
+  "ultima": "2025-10-14"
+ },
+ {
+  "id": 195,
+  "pregunta": "celestium conference room",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-15",
+  "ultima": "2025-10-15"
+ },
+ {
+  "id": 196,
+  "pregunta": "me gusta jugar basquetbol",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-15",
+  "ultima": "2025-10-15"
+ },
+ {
+  "id": 197,
+  "pregunta": "puedo jugar basquetbol en nizuc?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-15",
+  "ultima": "2025-10-15"
+ },
+ {
+  "id": 198,
+  "pregunta": "What time does the boutique close",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-17",
+  "ultima": "2025-10-17"
+ },
+ {
+  "id": 199,
+  "pregunta": "give me price pakages for villas",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-18",
+  "ultima": "2025-10-18"
+ },
+ {
+  "id": 200,
+  "pregunta": "which type of villa is the lease expencive",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-18",
+  "ultima": "2025-10-18"
+ },
+ {
+  "id": 201,
+  "pregunta": "where can i check the price online",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-18",
+  "ultima": "2025-10-18"
+ },
+ {
+  "id": 202,
+  "pregunta": "Roon",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-20",
+  "ultima": "2025-10-20"
+ },
+ {
+  "id": 203,
+  "pregunta": "Meeting room spaces",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-20",
+  "ultima": "2025-10-20"
+ },
+ {
+  "id": 204,
+  "pregunta": "What type of outlets do you have in the rooms?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-26",
+  "ultima": "2025-10-26"
+ },
+ {
+  "id": 205,
+  "pregunta": "hello. i have a reservation at your resort from November 29 to December 6. I'd like to find out your recommendation how to get from the airport to and from the resort on those days? I'd like to plan ahead. Also I'd like to book some spa services in advance so need some guidance where to look at the what are offered",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-26",
+  "ultima": "2025-10-26"
+ },
+ {
+  "id": 206,
+  "pregunta": "wonderful. another question is for meals do i need to make a reservation for all meals in advance of arrival?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-26",
+  "ultima": "2025-10-26"
+ },
+ {
+  "id": 207,
+  "pregunta": "thank you. Is there also in-room dining available?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-26",
+  "ultima": "2025-10-26"
+ },
+ {
+  "id": 208,
+  "pregunta": "is in-room dining available for garden view rooms?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-26",
+  "ultima": "2025-10-26"
+ },
+ {
+  "id": 209,
+  "pregunta": "do I need to make reservations for breakfast and lunch?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 210,
+  "pregunta": "which restaurants can I reserve dinner and how do i do that?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 211,
+  "pregunta": "Does Nizuc have solo travelers as guests?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 212,
+  "pregunta": "are there options for a boat trip during my stay",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 213,
+  "pregunta": "will i have wifi at the resort and in my room?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 214,
+  "pregunta": "is there good cellular service?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 215,
+  "pregunta": "room service",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 216,
+  "pregunta": "Hi! Im planning to book for Nov 16-21, was wondering if you have a kosher meal option",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 217,
+  "pregunta": "do I need to arrange the kosher meals in advance or can I arrange it at check in?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 218,
+  "pregunta": "ok, and are there any additional charges for kosher meals or is it included in the per night rate stay?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 219,
+  "pregunta": "whats the price for kosher meals breakfast, lunch and dinner for 2 adults for 5 week days",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 220,
+  "pregunta": "yes please help me with the email for kosher meal request",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 221,
+  "pregunta": "This is perfect Thank you",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 222,
+  "pregunta": "Hi. It looks like the seabed is covered with coral or seaweed ... has very dark patches everywhere. Is that correct?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 223,
+  "pregunta": "what are the dark areas?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 224,
+  "pregunta": "i want to be able to walk into the water and swim without having to wear shoes ... seems like this is not the beach for that ... correct? is there a nearby beach?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-27",
+  "ultima": "2025-10-27"
+ },
+ {
+  "id": 225,
+  "pregunta": "Hi - how far is the garden delux suite to the ocean?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-28",
+  "ultima": "2025-10-28"
+ },
+ {
+  "id": 226,
+  "pregunta": "The garden deluxe suite - how far is it from the beach?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-28",
+  "ultima": "2025-10-28"
+ },
+ {
+  "id": 227,
+  "pregunta": "tour of the resort",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-10-29",
+  "ultima": "2025-10-29"
+ },
+ {
+  "id": 228,
+  "pregunta": "What would be the best accommodation for 2 adults and 3 kids",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-02",
+  "ultima": "2025-11-02"
+ },
+ {
+  "id": 229,
+  "pregunta": "I would like to request our 2room reservations: #163617427 and 163618178 be lclose to each other and closest to the beach wher ethe chairs are located.",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-02",
+  "ultima": "2025-11-02"
+ },
+ {
+  "id": 230,
+  "pregunta": "I would like to book one of the private decks",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-02",
+  "ultima": "2025-11-02"
+ },
+ {
+  "id": 231,
+  "pregunta": "Can I have a discount I’m a teacher",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-03",
+  "ultima": "2025-11-03"
+ },
+ {
+  "id": 232,
+  "pregunta": "How many restaurants are there",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-03",
+  "ultima": "2025-11-03"
+ },
+ {
+  "id": 233,
+  "pregunta": "Are all restaurants all inclusive",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-03",
+  "ultima": "2025-11-03"
+ },
+ {
+  "id": 234,
+  "pregunta": "Can you please let me know if there is a beverage and food menu for the pool and/or beach?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 235,
+  "pregunta": "riority is to ensure your stay is nothing short of extraordinary. How can I assist you today? Can you please let me know if there is a beverage and food menu for the pool and/or beach?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 236,
+  "pregunta": "question about rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 237,
+  "pregunta": "i want to know more about garden view king rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 238,
+  "pregunta": "i would like to know more about ocean view deluxe king rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 239,
+  "pregunta": "i would like to know more about ocean suite rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 240,
+  "pregunta": "The private decks near the pier, what is the fee to reserve?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-04",
+  "ultima": "2025-11-04"
+ },
+ {
+  "id": 241,
+  "pregunta": "how do I prebook items at the hotel for my stay in December? I am not seeking to book at the spa",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-09",
+  "ultima": "2025-11-09"
+ },
+ {
+  "id": 242,
+  "pregunta": "interactive map of rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-09",
+  "ultima": "2025-11-09"
+ },
+ {
+  "id": 243,
+  "pregunta": "accomodation",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-09",
+  "ultima": "2025-11-09"
+ },
+ {
+  "id": 244,
+  "pregunta": "show interactive accomodations",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-09",
+  "ultima": "2025-11-09"
+ },
+ {
+  "id": 245,
+  "pregunta": "accomodations",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-09",
+  "ultima": "2025-11-09"
+ },
+ {
+  "id": 246,
+  "pregunta": "accomodations Interactive map",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-09",
+  "ultima": "2025-11-09"
+ },
+ {
+  "id": 247,
+  "pregunta": "hi, i have a reservation for nov 16. what tiime latest do i need to order dinner from the kosher kitchen?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 248,
+  "pregunta": "how do I order fresh fruit to my room?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 249,
+  "pregunta": "hi, how do i book the nichupte lagoon tour?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 250,
+  "pregunta": "ok",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 2,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 251,
+  "pregunta": "Is your tap water good for drinking? do you offer bottled water?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 252,
+  "pregunta": "ok, thank you",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 253,
+  "pregunta": "what are the snorkeling hours on site\\",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 254,
+  "pregunta": "Good afternoon what time is check-in? We are arriving soon.",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-11",
+  "ultima": "2025-11-11"
+ },
+ {
+  "id": 255,
+  "pregunta": "Hello, is pickleball court available?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-12",
+  "ultima": "2025-11-12"
+ },
+ {
+  "id": 256,
+  "pregunta": "Is there billiard table?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-12",
+  "ultima": "2025-11-12"
+ },
+ {
+  "id": 257,
+  "pregunta": "How about table tennis? or ping pong table?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-12",
+  "ultima": "2025-11-12"
+ },
+ {
+  "id": 258,
+  "pregunta": "Is chess board game available?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-12",
+  "ultima": "2025-11-12"
+ },
+ {
+  "id": 259,
+  "pregunta": "We are arriving November 14th. Are there any tennis clinics that we can take in Saturday, Sunday and Monday? Can we book the courts for court time?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-13",
+  "ultima": "2025-11-13"
+ },
+ {
+  "id": 260,
+  "pregunta": "is there a charge to use the cold plunge and sauna",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-13",
+  "ultima": "2025-11-13"
+ },
+ {
+  "id": 261,
+  "pregunta": "Hi",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 6,
+  "sesiones": 6,
+  "primera": "2025-11-14",
+  "ultima": "2026-07-27"
+ },
+ {
+  "id": 262,
+  "pregunta": "Is this a kosher resort?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-14",
+  "ultima": "2025-11-14"
+ },
+ {
+  "id": 263,
+  "pregunta": "Thank you- this would be for a fee correct? The restaurant is to be paid out of pocket?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-14",
+  "ultima": "2025-11-14"
+ },
+ {
+  "id": 264,
+  "pregunta": "And what about the regular restaurants — is it all inclusive with the resort?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-14",
+  "ultima": "2025-11-14"
+ },
+ {
+  "id": 265,
+  "pregunta": "Cuánto miden los cuartos",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-16",
+  "ultima": "2025-11-16"
+ },
+ {
+  "id": 266,
+  "pregunta": "Can you Talk in German?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-17",
+  "ultima": "2025-11-17"
+ },
+ {
+  "id": 267,
+  "pregunta": "Super, was für Tages Ausflüge gibt es und kosten diese extra.",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-17",
+  "ultima": "2025-11-17"
+ },
+ {
+  "id": 268,
+  "pregunta": "hello, We booked the penthouse arriving on the 27th of this month. Is the a 2nd bed for my son?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-18",
+  "ultima": "2025-11-18"
+ },
+ {
+  "id": 269,
+  "pregunta": "I have a question about my upcoming stay",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-19",
+  "ultima": "2025-11-19"
+ },
+ {
+  "id": 270,
+  "pregunta": "Anybody I can get on th phone with?",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-19",
+  "ultima": "2025-11-19"
+ },
+ {
+  "id": 271,
+  "pregunta": "i want to know what building i will be placed in . do you need my reservation number?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-20",
+  "ultima": "2025-11-20"
+ },
+ {
+  "id": 272,
+  "pregunta": "i need help with my room",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-20",
+  "ultima": "2025-11-20"
+ },
+ {
+  "id": 273,
+  "pregunta": "is it all inclusive",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-11-21",
+  "ultima": "2026-05-06"
+ },
+ {
+  "id": 274,
+  "pregunta": "is breakfast inlcuded?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-21",
+  "ultima": "2025-11-21"
+ },
+ {
+  "id": 275,
+  "pregunta": "can i see the price of menus and stuff",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-21",
+  "ultima": "2025-11-21"
+ },
+ {
+  "id": 276,
+  "pregunta": "What is private butler",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-22",
+  "ultima": "2025-11-22"
+ },
+ {
+  "id": 277,
+  "pregunta": "book cabana",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-22",
+  "ultima": "2025-11-22"
+ },
+ {
+  "id": 278,
+  "pregunta": "lookinfor availability for january 2026",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-23",
+  "ultima": "2025-11-23"
+ },
+ {
+  "id": 279,
+  "pregunta": "Do I need to make reservations for meals and if so breakfast, lunch dinner? I am there with my family of four from 12/20/25 to 12/27/25",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-23",
+  "ultima": "2025-11-23"
+ },
+ {
+  "id": 280,
+  "pregunta": "Has suite 528 been kept up or refurbished",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-24",
+  "ultima": "2025-11-24"
+ },
+ {
+  "id": 281,
+  "pregunta": "Hi, we are considering coming in May. Do you have kosher food available at the restaurant? What are the costs?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-28",
+  "ultima": "2025-11-28"
+ },
+ {
+  "id": 282,
+  "pregunta": "Thank you, what are the costs?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-28",
+  "ultima": "2025-11-28"
+ },
+ {
+  "id": 283,
+  "pregunta": "hello we want to book some dinners",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-11-30",
+  "ultima": "2025-11-30"
+ },
+ {
+  "id": 284,
+  "pregunta": "restaurant reservations",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 4,
+  "sesiones": 4,
+  "primera": "2025-12-01",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 285,
+  "pregunta": "kosher food options",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-12-02",
+  "ultima": "2026-01-07"
+ },
+ {
+  "id": 286,
+  "pregunta": "do rooms have provate pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-02",
+  "ultima": "2025-12-02"
+ },
+ {
+  "id": 287,
+  "pregunta": "whats the cheapest room with private pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-02",
+  "ultima": "2025-12-02"
+ },
+ {
+  "id": 288,
+  "pregunta": "Hi. I was wondering if the Ocean View Master suite has connecting rooms?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-04",
+  "ultima": "2025-12-04"
+ },
+ {
+  "id": 289,
+  "pregunta": "Does the penthouse connect to another room",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-04",
+  "ultima": "2025-12-04"
+ },
+ {
+  "id": 290,
+  "pregunta": "Are there all inclusive meal packages?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-04",
+  "ultima": "2025-12-04"
+ },
+ {
+  "id": 291,
+  "pregunta": "ocen view deluxe king",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-04",
+  "ultima": "2025-12-04"
+ },
+ {
+  "id": 292,
+  "pregunta": "Can you tell me more about the gym?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-05",
+  "ultima": "2025-12-05"
+ },
+ {
+  "id": 293,
+  "pregunta": "I would like to take a virtual tour",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-05",
+  "ultima": "2025-12-05"
+ },
+ {
+  "id": 294,
+  "pregunta": "Are the plunge pools heated",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-08",
+  "ultima": "2025-12-08"
+ },
+ {
+  "id": 295,
+  "pregunta": "What building is the double ocean front room in",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-11",
+  "ultima": "2025-12-11"
+ },
+ {
+  "id": 296,
+  "pregunta": "booking a room",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-12",
+  "ultima": "2025-12-12"
+ },
+ {
+  "id": 297,
+  "pregunta": "Good morning, do your suites have only one bathroom or more? And what is the sleeping arrangement for a 3rd person... our 19yo daughter? Thank you",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-15",
+  "ultima": "2025-12-15"
+ },
+ {
+  "id": 298,
+  "pregunta": "Hi we arrive tomorrow to the resort. We are a family of four, two adults, a baby and a toddler 3 years old. We are planning our stay and would like to know about activities we can do that are okay to bring our kids with us. Also we are looking for good food experiences in Cancun and maybe a day trip to isla mujeres and Playa del Carmen. Also interested in scuba diving activities for beginners.",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-15",
+  "ultima": "2025-12-15"
+ },
+ {
+  "id": 299,
+  "pregunta": "hol",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-15",
+  "ultima": "2025-12-15"
+ },
+ {
+  "id": 300,
+  "pregunta": "i know",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-15",
+  "ultima": "2025-12-15"
+ },
+ {
+  "id": 301,
+  "pregunta": "Is your resort all inclusive?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-15",
+  "ultima": "2025-12-15"
+ },
+ {
+  "id": 302,
+  "pregunta": "What cuisine is served at your restaurant?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-15",
+  "ultima": "2025-12-15"
+ },
+ {
+  "id": 303,
+  "pregunta": "wedding venues",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-17",
+  "ultima": "2025-12-17"
+ },
+ {
+  "id": 304,
+  "pregunta": "yes please photos of each venue",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-17",
+  "ultima": "2025-12-17"
+ },
+ {
+  "id": 305,
+  "pregunta": "I would like to send a gift to one of your guests staying there now/",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-18",
+  "ultima": "2025-12-18"
+ },
+ {
+  "id": 306,
+  "pregunta": "Do you have transportation",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-20",
+  "ultima": "2025-12-20"
+ },
+ {
+  "id": 307,
+  "pregunta": "we are 4 families that want to pas our vacationes together, two are kosher and the other two non in july 2026 we want to go there",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-24",
+  "ultima": "2025-12-24"
+ },
+ {
+  "id": 308,
+  "pregunta": "are you all-inclusive?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-24",
+  "ultima": "2025-12-24"
+ },
+ {
+  "id": 309,
+  "pregunta": "is it kosher",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-26",
+  "ultima": "2025-12-26"
+ },
+ {
+  "id": 310,
+  "pregunta": "prices",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-26",
+  "ultima": "2025-12-26"
+ },
+ {
+  "id": 311,
+  "pregunta": "jan 17 to the 25",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-26",
+  "ultima": "2025-12-26"
+ },
+ {
+  "id": 312,
+  "pregunta": "I am coming in on 01/10/26.. Christian Ames is the name the reservation is under. Can someone email me options for the private dinners?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-26",
+  "ultima": "2025-12-26"
+ },
+ {
+  "id": 313,
+  "pregunta": "Book restaurant",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-27",
+  "ultima": "2025-12-27"
+ },
+ {
+  "id": 314,
+  "pregunta": "Hi I have reservations for the 1-4 of January. am trying to book massages. How much in advance do I need to book?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-27",
+  "ultima": "2025-12-27"
+ },
+ {
+  "id": 315,
+  "pregunta": "Do they have whatsapp",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-27",
+  "ultima": "2025-12-27"
+ },
+ {
+  "id": 316,
+  "pregunta": "Is there a hair dryer in the rooms?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-27",
+  "ultima": "2025-12-27"
+ },
+ {
+  "id": 317,
+  "pregunta": "Is there an iron in the room?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-27",
+  "ultima": "2025-12-27"
+ },
+ {
+  "id": 318,
+  "pregunta": "spa treatment",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-12-28",
+  "ultima": "2026-03-04"
+ },
+ {
+  "id": 319,
+  "pregunta": "are the water activities on the beach free to use?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-28",
+  "ultima": "2025-12-28"
+ },
+ {
+  "id": 320,
+  "pregunta": "Hi any suggestions for a message theripest that can come to the room in mexicio ?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-29",
+  "ultima": "2025-12-29"
+ },
+ {
+  "id": 321,
+  "pregunta": "ia there a phone number to the spa ?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-29",
+  "ultima": "2025-12-29"
+ },
+ {
+  "id": 322,
+  "pregunta": "Agent",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2025-12-29",
+  "ultima": "2026-06-01"
+ },
+ {
+  "id": 323,
+  "pregunta": "Hi. We will check in tomorrow? My wife said we receive a complimentary hydrotherapy session. How do I sign up for that? Thank you",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-29",
+  "ultima": "2025-12-29"
+ },
+ {
+  "id": 324,
+  "pregunta": "Can you also please tell me the dress code for each of the restaurants. Thank you",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-29",
+  "ultima": "2025-12-29"
+ },
+ {
+  "id": 325,
+  "pregunta": "RESERVE",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-31",
+  "ultima": "2025-12-31"
+ },
+ {
+  "id": 326,
+  "pregunta": "can you get a cart to use to get around the complex",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-31",
+  "ultima": "2025-12-31"
+ },
+ {
+  "id": 327,
+  "pregunta": "can you have the cart during my stay not call for one",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2025-12-31",
+  "ultima": "2025-12-31"
+ },
+ {
+  "id": 328,
+  "pregunta": "Camera",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-01",
+  "ultima": "2026-01-01"
+ },
+ {
+  "id": 329,
+  "pregunta": "Is our room ready balsam ?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-01",
+  "ultima": "2026-01-01"
+ },
+ {
+  "id": 330,
+  "pregunta": "Do you have hot tubs anywhere?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-01",
+  "ultima": "2026-01-01"
+ },
+ {
+  "id": 331,
+  "pregunta": "What can we do tonight ?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-01",
+  "ultima": "2026-01-01"
+ },
+ {
+  "id": 332,
+  "pregunta": "Trying to identify exactly what room we will be in? Deborah and Kevin Kelly arrival is 2/14/2026 Ocean Suite",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-04",
+  "ultima": "2026-01-04"
+ },
+ {
+  "id": 333,
+  "pregunta": "Trying to call",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-04",
+  "ultima": "2026-01-04"
+ },
+ {
+  "id": 334,
+  "pregunta": "what can i do for my 11 year old and 2 year old",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 335,
+  "pregunta": "what about out of the resort is there stuff to do?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 336,
+  "pregunta": "what ele in the resort",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 337,
+  "pregunta": "how do i book?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 338,
+  "pregunta": "How to eat kosher ?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 339,
+  "pregunta": "we are family of 4: 2 parents, son 21-year old and daughter 12-years old. we are going to Cancun for spring break from March, 14th till March, 26th, 2026/ we like to play padel tennis and volleyball, also we like to swim in the pool and in the sea. We would like to have bed and breakfast and not all inclusive meals. So we need 5star luxury hotel in Cancun where they have a lot of activities.",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 340,
+  "pregunta": "ok, what sport activities do you have&",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 341,
+  "pregunta": "Hay algún club de playa para pasar el día ?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 342,
+  "pregunta": "Hi do u have kosher options?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-05",
+  "ultima": "2026-01-05"
+ },
+ {
+  "id": 343,
+  "pregunta": "Is there room service",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 344,
+  "pregunta": "Can you please give me the room service menu",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 345,
+  "pregunta": "What about halal",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 346,
+  "pregunta": "Can we order takeaway from the restaurants",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 347,
+  "pregunta": "I’d like to book",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 348,
+  "pregunta": "I am staying in the resort this week. Baldinger 510. Can I have info about the spa. I am interested in pedicures but I would want a male and my wife a fenale",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 349,
+  "pregunta": "How much is it",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 350,
+  "pregunta": "holoa!",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 351,
+  "pregunta": "bueno!",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 352,
+  "pregunta": "?",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-06",
+  "ultima": "2026-01-06"
+ },
+ {
+  "id": 353,
+  "pregunta": "is it an offical restorant?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-07",
+  "ultima": "2026-01-07"
+ },
+ {
+  "id": 354,
+  "pregunta": "Which restaurants are must-try during my stay?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-09",
+  "ultima": "2026-01-09"
+ },
+ {
+  "id": 355,
+  "pregunta": "Which areas of the resort are best for relaxation vs. social vibes?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-09",
+  "ultima": "2026-01-09"
+ },
+ {
+  "id": 356,
+  "pregunta": "what activities do u offer",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-11",
+  "ultima": "2026-01-11"
+ },
+ {
+  "id": 357,
+  "pregunta": "do u have any other water activties included like jet skis",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-11",
+  "ultima": "2026-01-11"
+ },
+ {
+  "id": 358,
+  "pregunta": "buen dia",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-12",
+  "ultima": "2026-01-12"
+ },
+ {
+  "id": 359,
+  "pregunta": "la proxima semana tengo reservacion en el hotel y me gustaria reservar en restaurantes cena",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-12",
+  "ultima": "2026-01-12"
+ },
+ {
+  "id": 360,
+  "pregunta": "el dia jueves 15 de enero seria en el restaurante Indochine a las 8:00pm El dia viernes 16 de enero en el restaurante Ramona a las 8:00pm y el 17 de enero en la punta grill a las 8:00pm todo seria para 2 personas",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-12",
+  "ultima": "2026-01-12"
+ },
+ {
+  "id": 361,
+  "pregunta": "My daughter is 2. Do we need to include her as an occupant?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-13",
+  "ultima": "2026-01-13"
+ },
+ {
+  "id": 362,
+  "pregunta": "book",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2026-01-13",
+  "ultima": "2026-05-04"
+ },
+ {
+  "id": 363,
+  "pregunta": "I need a shuttle from the airport to the hotel and back for my trip on Jan 29",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-15",
+  "ultima": "2026-01-15"
+ },
+ {
+  "id": 364,
+  "pregunta": "which is your kosher restaurant on the premises?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-15",
+  "ultima": "2026-01-15"
+ },
+ {
+  "id": 365,
+  "pregunta": "Hi, I'd like to know if I order kosher food can I have it served at any restaurant on the premises or just my room? Thanks!",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-16",
+  "ultima": "2026-01-16"
+ },
+ {
+  "id": 366,
+  "pregunta": "Thanks so much",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-16",
+  "ultima": "2026-01-16"
+ },
+ {
+  "id": 367,
+  "pregunta": "Tour",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-16",
+  "ultima": "2026-01-16"
+ },
+ {
+  "id": 368,
+  "pregunta": "What are the room options",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-16",
+  "ultima": "2026-01-16"
+ },
+ {
+  "id": 369,
+  "pregunta": "Which room is the nicest",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-16",
+  "ultima": "2026-01-16"
+ },
+ {
+  "id": 370,
+  "pregunta": "What features does the ocean suite have",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-16",
+  "ultima": "2026-01-16"
+ },
+ {
+  "id": 371,
+  "pregunta": "what tours does the hotel offer?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-17",
+  "ultima": "2026-01-17"
+ },
+ {
+  "id": 372,
+  "pregunta": "hi I would like to see prices for the menus please at all restaurants. We are also lookin for a birthday celebration dinner and want to see options for set dinner",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-17",
+  "ultima": "2026-01-17"
+ },
+ {
+  "id": 373,
+  "pregunta": "is the steam room co-ed",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-21",
+  "ultima": "2026-01-21"
+ },
+ {
+  "id": 374,
+  "pregunta": "which rooms offer 2 beds in the bedroom",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-21",
+  "ultima": "2026-01-21"
+ },
+ {
+  "id": 375,
+  "pregunta": "looking to book",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-21",
+  "ultima": "2026-01-21"
+ },
+ {
+  "id": 376,
+  "pregunta": "kosher food",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2026-01-21",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 377,
+  "pregunta": "Any availability?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-21",
+  "ultima": "2026-01-21"
+ },
+ {
+  "id": 378,
+  "pregunta": "Can I speak with a live person please?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-24",
+  "ultima": "2026-01-24"
+ },
+ {
+  "id": 379,
+  "pregunta": "Parking",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-25",
+  "ultima": "2026-01-25"
+ },
+ {
+  "id": 380,
+  "pregunta": "Do you have many activities for kids?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-26",
+  "ultima": "2026-01-26"
+ },
+ {
+  "id": 381,
+  "pregunta": "whats the schedule at the movement studio",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-29",
+  "ultima": "2026-01-29"
+ },
+ {
+  "id": 382,
+  "pregunta": "Tell me about trours of Mayan pyramids",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-29",
+  "ultima": "2026-01-29"
+ },
+ {
+  "id": 383,
+  "pregunta": "What is the pricing of the Chichén Itzá Tour:",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-29",
+  "ultima": "2026-01-29"
+ },
+ {
+  "id": 384,
+  "pregunta": "Whats the name of the Kosher restarant at the resort?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-30",
+  "ultima": "2026-01-30"
+ },
+ {
+  "id": 385,
+  "pregunta": "Can I book dinner reservations for our February stay?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-01-31",
+  "ultima": "2026-01-31"
+ },
+ {
+  "id": 386,
+  "pregunta": "does your gym have a smith machine",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 387,
+  "pregunta": "are you part of moon palace cancun",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 388,
+  "pregunta": "I want to book a room",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 389,
+  "pregunta": "Hello, we are arriving at your resort on February 10 for a 10-day stay. We have an Ocean suite booked, and I want to confirm our building and floor location. Which buildings are the best?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 390,
+  "pregunta": "Also, last week I reached out to book private airport transfers and no one has gotten back to me?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 391,
+  "pregunta": "Do I need to pre book restaurant reservations for all 10 days before we arrive?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 392,
+  "pregunta": "I tried to book and all of them said they can't receive reservations now because it is too early? How many days out should I book?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-01",
+  "ultima": "2026-02-01"
+ },
+ {
+  "id": 393,
+  "pregunta": "We have reserved three Ocean view Delux Kings. Can two of them adjoin or be close to each other?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-02",
+  "ultima": "2026-02-02"
+ },
+ {
+  "id": 394,
+  "pregunta": "Does the hotel offer tours to archeological sites?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-02",
+  "ultima": "2026-02-02"
+ },
+ {
+  "id": 395,
+  "pregunta": "What are the best water parks for kids in the Cancun area?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-02",
+  "ultima": "2026-02-02"
+ },
+ {
+  "id": 396,
+  "pregunta": "Where can I get information about Cancun?",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-02",
+  "ultima": "2026-02-02"
+ },
+ {
+  "id": 397,
+  "pregunta": "Do I need to book restaurants at Nizuc and outside the hotel? Can you made suggestions?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-02",
+  "ultima": "2026-02-02"
+ },
+ {
+  "id": 398,
+  "pregunta": "What day time activities are there in the hotel?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-03",
+  "ultima": "2026-02-03"
+ },
+ {
+  "id": 399,
+  "pregunta": "Do u have kosher wine",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-03",
+  "ultima": "2026-02-03"
+ },
+ {
+  "id": 400,
+  "pregunta": "Hi There, Do you provide kosher or Hallal meat",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-06",
+  "ultima": "2026-02-06"
+ },
+ {
+  "id": 401,
+  "pregunta": "could you give the right phone number",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-06",
+  "ultima": "2026-02-06"
+ },
+ {
+  "id": 402,
+  "pregunta": "Do the restaurants have a kids menu",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-06",
+  "ultima": "2026-02-06"
+ },
+ {
+  "id": 403,
+  "pregunta": "What kind of hand soap is in the private pavilion pool villa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-07",
+  "ultima": "2026-02-07"
+ },
+ {
+  "id": 404,
+  "pregunta": "Quiero ir este 14",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-08",
+  "ultima": "2026-02-08"
+ },
+ {
+  "id": 405,
+  "pregunta": "Hi. We are coming to Nuizuc next week. I just wanted to confirm that you have kosher Shabbat meals available (with preordering) for both Friday noght and Saturday lunch",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-10",
+  "ultima": "2026-02-10"
+ },
+ {
+  "id": 406,
+  "pregunta": "cuanto cuenta la transportacion",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 407,
+  "pregunta": "hay alimentos kosher",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 408,
+  "pregunta": "quiero categorias con alberca, cuales son?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 409,
+  "pregunta": "can you do price match?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 410,
+  "pregunta": "why are the rates so high?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 411,
+  "pregunta": "quiero fotos de la master suite y penthouse",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 412,
+  "pregunta": "quiero hacer una reserva de spa",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 413,
+  "pregunta": "visitan muchos judios?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 414,
+  "pregunta": "I want to make a reservation, could help me?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 415,
+  "pregunta": "dime un dato historico de nizuc",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 416,
+  "pregunta": "le pagan bien a sus empleados?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 417,
+  "pregunta": "Could you please let me know: Whether non-guests are able to attend the cigar rolling or visit the Havana Lounge? If reservations are required and how to make them? The dates/times that cigar rolling demonstrations are available (if there is a schedule)? Any costs involved (e.g., minimum spend, cigar purchases, etc.)?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-11",
+  "ultima": "2026-02-11"
+ },
+ {
+  "id": 418,
+  "pregunta": "does the garden deluxe suite have a pull out couch?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 419,
+  "pregunta": "Do people swim at the ocean at this resort?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 420,
+  "pregunta": "is there a bar at the adult pool or can I order a drink at the adult poo?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 421,
+  "pregunta": "can men wear leather sandal to dinner?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 422,
+  "pregunta": "can men wear dress shorts?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 423,
+  "pregunta": "do you recommend restaurants outside to the resort?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 424,
+  "pregunta": "spin class?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-12",
+  "ultima": "2026-02-12"
+ },
+ {
+  "id": 425,
+  "pregunta": "Can you wear tennis shoes to the restaurants?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-13",
+  "ultima": "2026-02-13"
+ },
+ {
+  "id": 426,
+  "pregunta": "cuantas personas caben en la master suite",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-14",
+  "ultima": "2026-02-14"
+ },
+ {
+  "id": 427,
+  "pregunta": "Where is the fitness center",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-14",
+  "ultima": "2026-02-14"
+ },
+ {
+  "id": 428,
+  "pregunta": "Is it all invludive",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-14",
+  "ultima": "2026-02-14"
+ },
+ {
+  "id": 429,
+  "pregunta": "What is the status of seaweed right now?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-15",
+  "ultima": "2026-02-15"
+ },
+ {
+  "id": 430,
+  "pregunta": "Hi there - I need to book a car from the airport to the hotel on Saturday, 2/21 - we are on United flight 1052, lands in Cancun at 12:25pm. Can you please have a private car/SUV pick us up? name on the reservation is Megan Young",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 431,
+  "pregunta": "How do I get a private deck?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 432,
+  "pregunta": "How much does it cost",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 433,
+  "pregunta": "cuales son los eventos de la noche?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 434,
+  "pregunta": "porque no puedes bajar la tarifa de grupo endless indulgence a 550 por noche?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 435,
+  "pregunta": "cual es la mejor tarifa endless indulgence para grupos?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 436,
+  "pregunta": "qu eincluye le paquete endless indulgence de grupos?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 437,
+  "pregunta": "con quien pueden comprar tours a Chiche itza",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 438,
+  "pregunta": "Hi It's Mr Scaba I am checking in Friday I need to arrange following Car pick up from airport on arrival tennis each day with instructor 5-7pm starting Friday through Monday Private yoga each morning 9am Any private spa options for me and my wife Also want to arrange private day on boat\"",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-16",
+  "ultima": "2026-02-16"
+ },
+ {
+  "id": 439,
+  "pregunta": "how much is a room a night",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-17",
+  "ultima": "2026-02-17"
+ },
+ {
+  "id": 440,
+  "pregunta": "is this adult only",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-17",
+  "ultima": "2026-02-17"
+ },
+ {
+  "id": 441,
+  "pregunta": "Good morning, I have a client arriving on March 8th for a four-night stay, and I wanted to reach out to confirm that everything is in place for their upcoming visit to your property. Could you please confirm the reservation details, included amenities, and advise on options for securing dining reservations in advance? I would greatly appreciate any recommendations as well. I have not yet had the opportunity to visit your property personally, so if there is anything you feel would be helpful for me to know prior to their arrival — particularly for a single mother traveling with her two teenage sons — I would be grateful for your insight so I can best prepare them. I’ve attached a copy of their confirmation for reference. Thank you in advance for your assistance, and I look forward to your reply. Warm regards,",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-17",
+  "ultima": "2026-02-17"
+ },
+ {
+  "id": 442,
+  "pregunta": "Hi there, I am coming in to stay at your hotel in April. I need to get information on your concierge service picking me up from the airport.",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-17",
+  "ultima": "2026-02-17"
+ },
+ {
+  "id": 443,
+  "pregunta": "A qué hora es el check in?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-18",
+  "ultima": "2026-02-18"
+ },
+ {
+  "id": 444,
+  "pregunta": "Cómo llego al hotel?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-18",
+  "ultima": "2026-02-18"
+ },
+ {
+  "id": 445,
+  "pregunta": "Necesito un early check in es posible?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-18",
+  "ultima": "2026-02-18"
+ },
+ {
+  "id": 446,
+  "pregunta": "Quiero un arreglo de flores para mí llegada",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-18",
+  "ultima": "2026-02-18"
+ },
+ {
+  "id": 447,
+  "pregunta": "What's the cheapest room option of the whole resort?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-19",
+  "ultima": "2026-02-19"
+ },
+ {
+  "id": 448,
+  "pregunta": "I am concerned about alligators and crocodiles. is it safe to swim at the beaches there at Nizuc?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-25",
+  "ultima": "2026-02-25"
+ },
+ {
+  "id": 449,
+  "pregunta": "are there mangroves on the property?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-25",
+  "ultima": "2026-02-25"
+ },
+ {
+  "id": 450,
+  "pregunta": "are there American crocodiles?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-25",
+  "ultima": "2026-02-25"
+ },
+ {
+  "id": 451,
+  "pregunta": "Hi do you have pickleball courts?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-25",
+  "ultima": "2026-02-25"
+ },
+ {
+  "id": 452,
+  "pregunta": "Booking",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-26",
+  "ultima": "2026-02-26"
+ },
+ {
+  "id": 453,
+  "pregunta": "Is Ni only open for lunch?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-27",
+  "ultima": "2026-02-27"
+ },
+ {
+  "id": 454,
+  "pregunta": "I cannot decide between Ni and terra Nostra?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-27",
+  "ultima": "2026-02-27"
+ },
+ {
+  "id": 455,
+  "pregunta": "we are there 4 nights and like the looks of LA PUNTA GRILL RESTAURANT & LOUNGE(BY THE ADULT POOL) RAMONA RESTAURANT (MEXICAN) INDOCHINE RESTAURANT(SUSHI) NI (PERUVIAN). Which order should we eat at these during our stay?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-27",
+  "ultima": "2026-02-27"
+ },
+ {
+  "id": 456,
+  "pregunta": "do you agree these are the best options for our family of four?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-27",
+  "ultima": "2026-02-27"
+ },
+ {
+  "id": 457,
+  "pregunta": "they are 19 and 17",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-02-27",
+  "ultima": "2026-02-27"
+ },
+ {
+  "id": 458,
+  "pregunta": "can you give some expensive water activities to do in cancun",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 459,
+  "pregunta": "or some activities in water activities in the resort",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 460,
+  "pregunta": "is this included in the presenditial villa",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 461,
+  "pregunta": "is there any butler included in the prestetial villa",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 462,
+  "pregunta": "can you give me all the privileges of this villa",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 463,
+  "pregunta": "do you talk dutch",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 464,
+  "pregunta": "is er een foto beschikbaar van het dakterras en de golfkar",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 465,
+  "pregunta": "kan je me een link geven naar het varen met de jacht",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 466,
+  "pregunta": "Is there a mini fridge in the ocean suite rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-01",
+  "ultima": "2026-03-01"
+ },
+ {
+  "id": 467,
+  "pregunta": "Hi, I am staying at Nizuc march 21-25 under Derek Li. Would like some help securing dinner reservations for each night, 5:30-6pm for three people. We are traveling with 2 adults and one child (4 years old). Which restaurants are kid friendly?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-02",
+  "ultima": "2026-03-02"
+ },
+ {
+  "id": 468,
+  "pregunta": "Quero como faço para reservar um jantar privativo",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-03",
+  "ultima": "2026-03-03"
+ },
+ {
+  "id": 469,
+  "pregunta": "voces tem whatsapp?",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-03",
+  "ultima": "2026-03-03"
+ },
+ {
+  "id": 470,
+  "pregunta": "Certo, o cardapio que vi do restaurante Café de La Playa esta em dollar os valores?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-03",
+  "ultima": "2026-03-03"
+ },
+ {
+  "id": 471,
+  "pregunta": "cual es la edad para poder entrar al spa? y como puedo hacer reservaciones?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-04",
+  "ultima": "2026-03-04"
+ },
+ {
+  "id": 472,
+  "pregunta": "Can you help me to view the Sisal room?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-04",
+  "ultima": "2026-03-04"
+ },
+ {
+  "id": 473,
+  "pregunta": "Español?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-07",
+  "ultima": "2026-03-07"
+ },
+ {
+  "id": 474,
+  "pregunta": "Ire al espa. Que cosas debo de llevar como debo de ir vestido?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-07",
+  "ultima": "2026-03-07"
+ },
+ {
+  "id": 475,
+  "pregunta": "Do you have gym?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-08",
+  "ultima": "2026-03-08"
+ },
+ {
+  "id": 476,
+  "pregunta": "Is the pool by la punta beach part of the nizuc resort",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-09",
+  "ultima": "2026-03-09"
+ },
+ {
+  "id": 477,
+  "pregunta": "Is the terra nostra lounge for people at the resort or for residents",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-09",
+  "ultima": "2026-03-09"
+ },
+ {
+  "id": 478,
+  "pregunta": "en la jerarquia del hotel, que puesto tiene el chef pastelero?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-10",
+  "ultima": "2026-03-10"
+ },
+ {
+  "id": 479,
+  "pregunta": "cuanto ganan",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-10",
+  "ultima": "2026-03-10"
+ },
+ {
+  "id": 480,
+  "pregunta": "Where is coffee shop located",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 481,
+  "pregunta": "Where do we go to sit for coffee after 12 PM?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 482,
+  "pregunta": "What about snack shop",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 483,
+  "pregunta": "Is there an ice cream shop?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 484,
+  "pregunta": "what's the difference between the private pool villa and the pavillion villa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 485,
+  "pregunta": "does every villa come with a butler",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 486,
+  "pregunta": "what does the butler do",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 487,
+  "pregunta": "tell me about the kosher options",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 488,
+  "pregunta": "cual es el mejor vino tinto que tienes]'",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 489,
+  "pregunta": "Reservation at la punta",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 490,
+  "pregunta": "How much are rates",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-12",
+  "ultima": "2026-03-12"
+ },
+ {
+  "id": 491,
+  "pregunta": "do you need to pay for the cabanas at the nizuc beach",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-13",
+  "ultima": "2026-03-13"
+ },
+ {
+  "id": 492,
+  "pregunta": "when is high and low seaso",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-13",
+  "ultima": "2026-03-13"
+ },
+ {
+  "id": 493,
+  "pregunta": "How does the tennis court work ?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-15",
+  "ultima": "2026-03-15"
+ },
+ {
+  "id": 494,
+  "pregunta": "How much would it cost to rent it for 1 hour ?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-15",
+  "ultima": "2026-03-15"
+ },
+ {
+  "id": 495,
+  "pregunta": "How much is a four day weekend for two at your hotel",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-15",
+  "ultima": "2026-03-15"
+ },
+ {
+  "id": 496,
+  "pregunta": "How do I get to the spa from the lobby",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-16",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 497,
+  "pregunta": "Can I change my 2pm spa appointment to 3pm",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-16",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 498,
+  "pregunta": "Hi would you be able to assist me with ordering a taxi",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-16",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 499,
+  "pregunta": "Hi how do I book jet sking",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-16",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 500,
+  "pregunta": "Is there boating available tomorrow",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-16",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 501,
+  "pregunta": "What type of boating",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-16",
+  "ultima": "2026-03-16"
+ },
+ {
+  "id": 502,
+  "pregunta": "where is the tennis court?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-17",
+  "ultima": "2026-03-17"
+ },
+ {
+  "id": 503,
+  "pregunta": "Cam o ser it in the360 view?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-17",
+  "ultima": "2026-03-17"
+ },
+ {
+  "id": 504,
+  "pregunta": "meeting",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-17",
+  "ultima": "2026-03-17"
+ },
+ {
+  "id": 505,
+  "pregunta": "sisac",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-17",
+  "ultima": "2026-03-17"
+ },
+ {
+  "id": 506,
+  "pregunta": "Is there a hot tub here",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-17",
+  "ultima": "2026-03-17"
+ },
+ {
+  "id": 507,
+  "pregunta": "What time does the Havana lounge open",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-17",
+  "ultima": "2026-03-17"
+ },
+ {
+  "id": 508,
+  "pregunta": "How contact the leisure sales manager?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-18",
+  "ultima": "2026-03-18"
+ },
+ {
+  "id": 509,
+  "pregunta": "Hola las villas presidenciales tienen vista al mar ?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-18",
+  "ultima": "2026-03-18"
+ },
+ {
+  "id": 510,
+  "pregunta": "La piscina es caliente",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-18",
+  "ultima": "2026-03-18"
+ },
+ {
+  "id": 511,
+  "pregunta": "Cuáles si tienen vista al mar ?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-18",
+  "ultima": "2026-03-18"
+ },
+ {
+  "id": 512,
+  "pregunta": "Cuentan con piscina?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-18",
+  "ultima": "2026-03-18"
+ },
+ {
+  "id": 513,
+  "pregunta": "Las habitaciones con vista al mar cuentan con piscina?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-18",
+  "ultima": "2026-03-18"
+ },
+ {
+  "id": 514,
+  "pregunta": "are jet skis included with stay?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-21",
+  "ultima": "2026-03-21"
+ },
+ {
+  "id": 515,
+  "pregunta": "do you have day pass?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-22",
+  "ultima": "2026-03-22"
+ },
+ {
+  "id": 516,
+  "pregunta": "pickle ball courts",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-22",
+  "ultima": "2026-03-22"
+ },
+ {
+  "id": 517,
+  "pregunta": "tengo un mastin napolitano puede venir?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-27",
+  "ultima": "2026-03-27"
+ },
+ {
+  "id": 518,
+  "pregunta": "quiero reservar",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2026-03-27",
+  "ultima": "2026-08-11"
+ },
+ {
+  "id": 519,
+  "pregunta": "Hola. Queríamos ir a comer a las 3:30 pm dos personas a Café de la Playa o Punta. Tienen disponibilidad?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-30",
+  "ultima": "2026-03-30"
+ },
+ {
+  "id": 520,
+  "pregunta": "En cual tendrían disponibilidad?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-30",
+  "ultima": "2026-03-30"
+ },
+ {
+  "id": 521,
+  "pregunta": "Me puedes reservar en la alberca principal?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-30",
+  "ultima": "2026-03-30"
+ },
+ {
+  "id": 522,
+  "pregunta": "Hola llegaremos el 2 de abril",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-30",
+  "ultima": "2026-03-30"
+ },
+ {
+  "id": 523,
+  "pregunta": "I did a reservation yesterday evening for my family. It will be my husband myself and our baby. He will turn one during our vacation with you. May 1st . Can we ask you a baby crib in the room? Would it be possible to have a birthday cake for his birthday on May 1st. We book a transfer with you from the airport on April 23th can you confirm? Where do you meet us? Is it possible to have a baby seat? How the hotel works? Does the breakfast is included? Does the pool in our balcony is heated? Would it be possible in the restaurant ask for some baby puree? Can you please send me the itinerary with price for the visit of chichen itza ? Thank you in advance for all the information",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-31",
+  "ultima": "2026-03-31"
+ },
+ {
+  "id": 524,
+  "pregunta": "Good Morning I did a reservation yesterday evening for my family. It will be my husband myself and our baby. He will turn one during our vacation with you. May 1st . Can we ask you a baby crib in the room? Would it be possible to have a birthday cake for his birthday on May 1st. We book a transfer with you from the airport on April 23th can you confirm? Where do you meet us? Is it possible to have a baby seat? How the hotel works? Does the breakfast is included? Does the pool in our balcony is heated? Would it be possible in the restaurant ask for some baby puree? Can you please send me the itinerary with price for the visit of chichen itza ? Thank you in advance for all the information Looking forward to come spend all our birthdays with you Best regards Oceane HIRSCHI",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-03-31",
+  "ultima": "2026-03-31"
+ },
+ {
+  "id": 525,
+  "pregunta": "Is this all inclusive",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-03",
+  "ultima": "2026-04-03"
+ },
+ {
+  "id": 526,
+  "pregunta": "What are the spa rates",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-03",
+  "ultima": "2026-04-03"
+ },
+ {
+  "id": 527,
+  "pregunta": "Hi what time does breakfast end?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-05",
+  "ultima": "2026-04-05"
+ },
+ {
+  "id": 528,
+  "pregunta": "Me puedes dar el costo promdeio de una cena en un nizuc",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-06",
+  "ultima": "2026-04-06"
+ },
+ {
+  "id": 529,
+  "pregunta": "Briefly in 2 sentences: what type of project is this? What is sold or rented here? (houses, apartments, lots, offices, hotel, vineyard, mall, etc) and where is it located?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-07",
+  "ultima": "2026-04-07"
+ },
+ {
+  "id": 530,
+  "pregunta": "Tienen gimnasio?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-07",
+  "ultima": "2026-04-07"
+ },
+ {
+  "id": 531,
+  "pregunta": "Oye, ¿me cuentas un poco de qué va el proyecto?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 532,
+  "pregunta": "¿Qué amenidades tiene este desarrollo?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 533,
+  "pregunta": "Si me interesa, ¿con quién me puedo contactar?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 534,
+  "pregunta": "¿Puedo traer conmigo a mis hijos y mascotas?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 535,
+  "pregunta": "Oye, y por cierto, ¿qué me recomiendas para cenar hoy?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 536,
+  "pregunta": "¿Puedo traer conmigo a mis hijos y mascotas? a Nizuc",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 537,
+  "pregunta": "¿Me podrías ayudar con la tarea de matemáticas de mi hijo?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 538,
+  "pregunta": "Hey, can you tell me a bit about what this project is?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 3,
+  "sesiones": 2,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 539,
+  "pregunta": "I just wanna knoe about Nizuc",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 540,
+  "pregunta": "What amenities does this development have?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 541,
+  "pregunta": "If I’m interested, who can I contact?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 542,
+  "pregunta": "Can I bring my kids and pets with me?",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 543,
+  "pregunta": "By the way, what would you recommend for dinner tonight? or Do you recommend any restaurants?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 544,
+  "pregunta": "Could you help me with my child’s math homework?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 545,
+  "pregunta": "hay areas prohibidas para los niños?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 546,
+  "pregunta": "cuanto vale la vila presidencial en mxn para 5 noches del 25 sl 6 de mayo",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 547,
+  "pregunta": "quien es el dueño del hotel?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-09",
+  "ultima": "2026-04-09"
+ },
+ {
+  "id": 548,
+  "pregunta": "does the 20% off food promotion apply to kosher food as well",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-12",
+  "ultima": "2026-04-12"
+ },
+ {
+  "id": 549,
+  "pregunta": "restaurant options",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-14",
+  "ultima": "2026-04-14"
+ },
+ {
+  "id": 550,
+  "pregunta": "do you guys have shuttles to the airport",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-14",
+  "ultima": "2026-04-14"
+ },
+ {
+  "id": 551,
+  "pregunta": "how much isit",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-14",
+  "ultima": "2026-04-14"
+ },
+ {
+  "id": 552,
+  "pregunta": "Reservar en el bar",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-19",
+  "ultima": "2026-04-19"
+ },
+ {
+  "id": 553,
+  "pregunta": "we are looking to book 4 rooms by june 12th is there any discount for the group ?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-19",
+  "ultima": "2026-04-19"
+ },
+ {
+  "id": 554,
+  "pregunta": "Also , is there room service at Nizuc hotel ? do we have access to Grand palace moon hotel or not ?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-19",
+  "ultima": "2026-04-19"
+ },
+ {
+  "id": 555,
+  "pregunta": "do they have any access to any other hotels ?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-19",
+  "ultima": "2026-04-19"
+ },
+ {
+  "id": 556,
+  "pregunta": "is it non all - inclusive >?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-19",
+  "ultima": "2026-04-19"
+ },
+ {
+  "id": 557,
+  "pregunta": "cost",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-19",
+  "ultima": "2026-04-19"
+ },
+ {
+  "id": 558,
+  "pregunta": "What are the best ocean front rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-20",
+  "ultima": "2026-04-20"
+ },
+ {
+  "id": 559,
+  "pregunta": "Hi, Is nizuc all inclusive?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-21",
+  "ultima": "2026-04-21"
+ },
+ {
+  "id": 560,
+  "pregunta": "quiero hacer una reservacion",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-22",
+  "ultima": "2026-04-22"
+ },
+ {
+  "id": 561,
+  "pregunta": "tengo un pastor aleman puede venir?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-22",
+  "ultima": "2026-04-22"
+ },
+ {
+  "id": 562,
+  "pregunta": "Price for villa",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-22",
+  "ultima": "2026-04-22"
+ },
+ {
+  "id": 563,
+  "pregunta": "Invita el ir",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-23",
+  "ultima": "2026-04-23"
+ },
+ {
+  "id": 564,
+  "pregunta": "Ubicación i8i un ma en un y7u uyy",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-23",
+  "ultima": "2026-04-23"
+ },
+ {
+  "id": 565,
+  "pregunta": "Hi my name is Tomy",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 566,
+  "pregunta": "Few questions",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 567,
+  "pregunta": "What’s the hours of the kosher restaurant",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 568,
+  "pregunta": "Can we order also room service kosher ?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 569,
+  "pregunta": "If I need a mini fridge for my villa it’s possible?",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 570,
+  "pregunta": "If I want to go to isla mujeres what’s my options ?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 571,
+  "pregunta": "What activities you have at the resorts",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 572,
+  "pregunta": "Do you know if next week will be busy",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-24",
+  "ultima": "2026-04-24"
+ },
+ {
+  "id": 573,
+  "pregunta": "Hi, I am staying at the resort starting May 2nd and I wanted to book a special dinner",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-25",
+  "ultima": "2026-04-25"
+ },
+ {
+  "id": 574,
+  "pregunta": "Do you have yoga classes and other activities?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-28",
+  "ultima": "2026-04-28"
+ },
+ {
+  "id": 575,
+  "pregunta": "oye y los cuartos son ruidosos?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-28",
+  "ultima": "2026-04-28"
+ },
+ {
+  "id": 576,
+  "pregunta": "oye puedo llevar a mi gran danes?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-28",
+  "ultima": "2026-04-28"
+ },
+ {
+  "id": 577,
+  "pregunta": "How much are the private decks",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-29",
+  "ultima": "2026-04-29"
+ },
+ {
+  "id": 578,
+  "pregunta": "What time does breakfast open",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-30",
+  "ultima": "2026-04-30"
+ },
+ {
+  "id": 579,
+  "pregunta": "are nizuc reservations all inclusive",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-04-30",
+  "ultima": "2026-04-30"
+ },
+ {
+  "id": 580,
+  "pregunta": "I made a reservation for Saturday at 6 at La punta but I never got a email confirmation",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-01",
+  "ultima": "2026-05-01"
+ },
+ {
+  "id": 581,
+  "pregunta": "I need rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-01",
+  "ultima": "2026-05-01"
+ },
+ {
+  "id": 582,
+  "pregunta": "I'm staying July 9th-July 11th. Do I need to make Lunch and Dinner reservations ahead of time?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-01",
+  "ultima": "2026-05-01"
+ },
+ {
+  "id": 583,
+  "pregunta": "how long is the walk from a garden view king room to the adults only pool?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-02",
+  "ultima": "2026-05-02"
+ },
+ {
+  "id": 584,
+  "pregunta": "how much longer is the walk from an ocean view deluxe king to the pool at la punta?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-02",
+  "ultima": "2026-05-02"
+ },
+ {
+  "id": 585,
+  "pregunta": "Marketing contact",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-03",
+  "ultima": "2026-05-03"
+ },
+ {
+  "id": 586,
+  "pregunta": "There is no direct email?",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-03",
+  "ultima": "2026-05-03"
+ },
+ {
+  "id": 587,
+  "pregunta": "show me the spa",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-03",
+  "ultima": "2026-05-03"
+ },
+ {
+  "id": 588,
+  "pregunta": "i wan to order room service, food.",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-04",
+  "ultima": "2026-05-04"
+ },
+ {
+  "id": 589,
+  "pregunta": "cuanto me cuesta una Garden View King?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 590,
+  "pregunta": "Where is the coffee shop",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 591,
+  "pregunta": "I am looking for the sweet bar",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 592,
+  "pregunta": "The place you can get coffee, cake, sandwhiches",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 593,
+  "pregunta": "Where is thinking is",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 594,
+  "pregunta": "Where is face Dr playa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 595,
+  "pregunta": "Care can plays",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 596,
+  "pregunta": "Face De la playa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 597,
+  "pregunta": "Hi is true the food in hotel is kosher",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 598,
+  "pregunta": "Adult pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 599,
+  "pregunta": "How do you get to the adult pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 600,
+  "pregunta": "Can I get a pedicure",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 601,
+  "pregunta": "grass areas for proposal overlooking beach",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 602,
+  "pregunta": "wheres A’Kan Arch ?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-05",
+  "ultima": "2026-05-05"
+ },
+ {
+  "id": 603,
+  "pregunta": "Room pricing and details",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-06",
+  "ultima": "2026-05-06"
+ },
+ {
+  "id": 604,
+  "pregunta": "Could you please confirm that the baby crib includes a mattress?",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-07",
+  "ultima": "2026-05-07"
+ },
+ {
+  "id": 605,
+  "pregunta": "Hi, my husband and I are staying at Nizuc at the end of May and would like to make a dinner reservation for La Punta on 5/28 at 8pm and for Ramona on 5/31 at 8pm - our room is booked under Alisse Kingsley.",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-07",
+  "ultima": "2026-05-07"
+ },
+ {
+  "id": 606,
+  "pregunta": "Que significan los huevos del lobby?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-09",
+  "ultima": "2026-05-09"
+ },
+ {
+  "id": 607,
+  "pregunta": "De donde viene la decoración del restaurante inducciones?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-09",
+  "ultima": "2026-05-09"
+ },
+ {
+  "id": 608,
+  "pregunta": "que significa la decoración de huevos en el lobby?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-09",
+  "ultima": "2026-05-09"
+ },
+ {
+  "id": 609,
+  "pregunta": "hi im lookin gfor a group rate for monday to friday on the first or second week of august. can i please have that",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-11",
+  "ultima": "2026-05-11"
+ },
+ {
+  "id": 610,
+  "pregunta": "buenos dias, me pueden dari informacion si cuentan con day pass por favor",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-12",
+  "ultima": "2026-05-12"
+ },
+ {
+  "id": 611,
+  "pregunta": "Voy con mi esposa tres días que me recomiendas hacer?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-13",
+  "ultima": "2026-05-13"
+ },
+ {
+  "id": 612,
+  "pregunta": "menu at Ramona restaurant",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-14",
+  "ultima": "2026-05-14"
+ },
+ {
+  "id": 613,
+  "pregunta": "Show me the gym",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-17",
+  "ultima": "2026-05-17"
+ },
+ {
+  "id": 614,
+  "pregunta": "airport transfer",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-22",
+  "ultima": "2026-05-22"
+ },
+ {
+  "id": 615,
+  "pregunta": "Would you have day passes",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-24",
+  "ultima": "2026-05-24"
+ },
+ {
+  "id": 616,
+  "pregunta": "Can I reserve la punta grill without staying the night",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-24",
+  "ultima": "2026-05-24"
+ },
+ {
+  "id": 617,
+  "pregunta": "ok, would you know the managers name by chance",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-24",
+  "ultima": "2026-05-24"
+ },
+ {
+  "id": 618,
+  "pregunta": "want to see all room types",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-24",
+  "ultima": "2026-05-24"
+ },
+ {
+  "id": 619,
+  "pregunta": "What are the price ranges on the private villas",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-24",
+  "ultima": "2026-05-24"
+ },
+ {
+  "id": 620,
+  "pregunta": "Is the hotel kosher",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-26",
+  "ultima": "2026-05-26"
+ },
+ {
+  "id": 621,
+  "pregunta": "Hi, I was Chief Product and Marketing Officer at Worldpay from 2015-2018 and loved our Rethink events, which you helped host. I’m so looking forward to sharing the Nizuk experience with my wife, Denise, next week. We would like a car service to & from the airport. We are arriving on June 2nd to CUN at 12:40pm on DL 0598. We will be departing on June 7 at 3:39pm on DL 1962. I'd also like to book a tee time on Thursday at Mayakoba. Please let me know if you need any further information. All the best, Dave Glaser +1 720-616-1787 glaser.dave@gmail.com",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-27",
+  "ultima": "2026-05-27"
+ },
+ {
+  "id": 622,
+  "pregunta": "Are you able to reserve cabanas by the beach and how much does that cost?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-28",
+  "ultima": "2026-05-28"
+ },
+ {
+  "id": 623,
+  "pregunta": "When is high season and when is low season",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-28",
+  "ultima": "2026-05-28"
+ },
+ {
+  "id": 624,
+  "pregunta": "What email address should I use to arrange dinner reservations during my stay?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-05-29",
+  "ultima": "2026-05-29"
+ },
+ {
+  "id": 625,
+  "pregunta": "are children allowed",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2026-05-31",
+  "ultima": "2026-05-31"
+ },
+ {
+  "id": 626,
+  "pregunta": "Tienen sargazo",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-01",
+  "ultima": "2026-06-01"
+ },
+ {
+  "id": 627,
+  "pregunta": "are you a bot or a real person?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-01",
+  "ultima": "2026-06-01"
+ },
+ {
+  "id": 628,
+  "pregunta": "Just wondering if kayak usage is included in the cost of room",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-03",
+  "ultima": "2026-06-03"
+ },
+ {
+  "id": 629,
+  "pregunta": "Great. are you allowed to kayak through the mangrove area?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-03",
+  "ultima": "2026-06-03"
+ },
+ {
+  "id": 630,
+  "pregunta": "Is the snorkeling from the beach good",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-04",
+  "ultima": "2026-06-04"
+ },
+ {
+  "id": 631,
+  "pregunta": "puedo llevar a mi gran danes?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2026-06-04",
+  "ultima": "2026-06-08"
+ },
+ {
+  "id": 632,
+  "pregunta": "We want to stay at your hotel for our honeymoon, please share your rooms and rates",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-06",
+  "ultima": "2026-06-06"
+ },
+ {
+  "id": 633,
+  "pregunta": "Are pool bags provided?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-06",
+  "ultima": "2026-06-06"
+ },
+ {
+  "id": 634,
+  "pregunta": "I would like to know, if I’m not staying at the hotel but I want to do a spa day, do you have any options?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-07",
+  "ultima": "2026-06-07"
+ },
+ {
+  "id": 635,
+  "pregunta": "Hello, my client wants to know if there is a heated pool at the property in July",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-09",
+  "ultima": "2026-06-09"
+ },
+ {
+  "id": 636,
+  "pregunta": "Do you have to pay extra for cabanas",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-10",
+  "ultima": "2026-06-10"
+ },
+ {
+  "id": 637,
+  "pregunta": "Is end of July low or high season",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-10",
+  "ultima": "2026-06-10"
+ },
+ {
+  "id": 638,
+  "pregunta": "What activities are included in the all inclusive",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-10",
+  "ultima": "2026-06-10"
+ },
+ {
+  "id": 639,
+  "pregunta": "What is the hydrotherapy spa treatment",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-10",
+  "ultima": "2026-06-10"
+ },
+ {
+  "id": 640,
+  "pregunta": "Quisiera agendar en spa el día sábado pero me gustaría pagarlo por que es un regalo",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-11",
+  "ultima": "2026-06-11"
+ },
+ {
+  "id": 641,
+  "pregunta": "I'd like to reserve a private deck while we stay here next week.",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-12",
+  "ultima": "2026-06-12"
+ },
+ {
+  "id": 642,
+  "pregunta": "Hello Juts confirming this hotel provides kosher food. Until what time is breakfast?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-13",
+  "ultima": "2026-06-13"
+ },
+ {
+  "id": 643,
+  "pregunta": "rates",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-15",
+  "ultima": "2026-06-15"
+ },
+ {
+  "id": 644,
+  "pregunta": "We will be arriving July 19th for 5 nights. What golf course would you recommend?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-16",
+  "ultima": "2026-06-16"
+ },
+ {
+  "id": 645,
+  "pregunta": "Thank you. When would be the best time to make restaurant reservations?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-16",
+  "ultima": "2026-06-16"
+ },
+ {
+  "id": 646,
+  "pregunta": "Thanks",
+  "bucket": "ruido",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-16",
+  "ultima": "2026-06-16"
+ },
+ {
+  "id": 647,
+  "pregunta": "jes ski",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-17",
+  "ultima": "2026-06-17"
+ },
+ {
+  "id": 648,
+  "pregunta": "jet ski rent",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-17",
+  "ultima": "2026-06-17"
+ },
+ {
+  "id": 649,
+  "pregunta": "We are considering booking a Deluxe Garden View Suite and would like to ask about the privacy of the private outdoor area. For religious reasons, it is very important that my wife cannot be seen by anyone while using the pool/terrace area. Can you please confirm whether the suite offers complete privacy, with no visibility from neighboring rooms, balconies, walkways, or other areas of the resort? Thank you for your help.",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-17",
+  "ultima": "2026-06-17"
+ },
+ {
+  "id": 650,
+  "pregunta": "dinner reservation for Sunday June 21 for fathers day party of 2",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-17",
+  "ultima": "2026-06-17"
+ },
+ {
+  "id": 651,
+  "pregunta": "The junior suite garden are more privacy then the Deluxe? The kosher kitchen available every time ?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-18",
+  "ultima": "2026-06-18"
+ },
+ {
+  "id": 652,
+  "pregunta": "Hi. Is there kosher food at the resort",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-18",
+  "ultima": "2026-06-18"
+ },
+ {
+  "id": 653,
+  "pregunta": "i need a suite with 3 beds and 2 bathrooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-20",
+  "ultima": "2026-06-20"
+ },
+ {
+  "id": 654,
+  "pregunta": "maybe 2 separate connecting rooms for 3 adults",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-20",
+  "ultima": "2026-06-20"
+ },
+ {
+  "id": 655,
+  "pregunta": "Hi, we are checking in today (Saxon) and landing at Cancun airport at 1230pm. Jet Blue 1851. Can you have a car pick us up and bring us to the hotel?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-24",
+  "ultima": "2026-06-24"
+ },
+ {
+  "id": 656,
+  "pregunta": "what is the menu for breackfast?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-24",
+  "ultima": "2026-06-24"
+ },
+ {
+  "id": 657,
+  "pregunta": "can i bring my great dane?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-25",
+  "ultima": "2026-06-25"
+ },
+ {
+  "id": 658,
+  "pregunta": "can you tell me about the construction close to the resort",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-26",
+  "ultima": "2026-06-26"
+ },
+ {
+  "id": 659,
+  "pregunta": "what is teh cheapest room you have to stay in for 2 ppeople",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-26",
+  "ultima": "2026-06-26"
+ },
+ {
+  "id": 660,
+  "pregunta": "is everything incluede in the price or will there be activities you have to pay for",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-26",
+  "ultima": "2026-06-26"
+ },
+ {
+  "id": 661,
+  "pregunta": "is november high season and what are your kosher meal options how does that work",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-26",
+  "ultima": "2026-06-26"
+ },
+ {
+  "id": 662,
+  "pregunta": "ok and are the pool hours and beach hours seprate for men and women or avialble all the time and would there be times when the ppol is empty it woul be jsut me in november",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-26",
+  "ultima": "2026-06-26"
+ },
+ {
+  "id": 663,
+  "pregunta": "Is there a convenience stoe on premises",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-29",
+  "ultima": "2026-06-29"
+ },
+ {
+  "id": 664,
+  "pregunta": "like a store that sells drinks, ice cream",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-29",
+  "ultima": "2026-06-29"
+ },
+ {
+  "id": 665,
+  "pregunta": "store that sells medication",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-06-29",
+  "ultima": "2026-06-29"
+ },
+ {
+  "id": 666,
+  "pregunta": "What could I do if my flight arrives earlier than check in",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-01",
+  "ultima": "2026-07-01"
+ },
+ {
+  "id": 667,
+  "pregunta": "Are there microwaves in room",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-01",
+  "ultima": "2026-07-01"
+ },
+ {
+  "id": 668,
+  "pregunta": "is there a live camera feed",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-01",
+  "ultima": "2026-07-01"
+ },
+ {
+  "id": 669,
+  "pregunta": "link",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-01",
+  "ultima": "2026-07-01"
+ },
+ {
+  "id": 670,
+  "pregunta": "Weddings",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-03",
+  "ultima": "2026-07-03"
+ },
+ {
+  "id": 671,
+  "pregunta": "N hm,",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-04",
+  "ultima": "2026-07-04"
+ },
+ {
+  "id": 672,
+  "pregunta": "Hola, que tal?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-04",
+  "ultima": "2026-07-04"
+ },
+ {
+  "id": 673,
+  "pregunta": "tenemos reservacion para las fechas desde 13/07 hasta 17/07 en NIZUC. Mi hoje y yo vamos a desfrutar mucgioo del hotel. Nos gustaria saber como hacer la reserva para esnorquel, Yoga, Danza, padle boarding y si hay tasas para esas modalidades. Saludos cordiales, Liza Jaworski",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-04",
+  "ultima": "2026-07-04"
+ },
+ {
+  "id": 674,
+  "pregunta": "Is it all inclusive resort?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-04",
+  "ultima": "2026-07-04"
+ },
+ {
+  "id": 675,
+  "pregunta": "What kind of children’s activities do you have around the Xmas holidays. Do you have a kids club and for what ages",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-15",
+  "ultima": "2026-07-15"
+ },
+ {
+  "id": 676,
+  "pregunta": "What are the available water sports",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-15",
+  "ultima": "2026-07-15"
+ },
+ {
+  "id": 677,
+  "pregunta": "What restaurants do you have and the price range for dinners",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-15",
+  "ultima": "2026-07-15"
+ },
+ {
+  "id": 678,
+  "pregunta": "massage",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-15",
+  "ultima": "2026-07-15"
+ },
+ {
+  "id": 679,
+  "pregunta": "can we add two extra beds in the Private Pool Pavillion Villa?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-16",
+  "ultima": "2026-07-16"
+ },
+ {
+  "id": 680,
+  "pregunta": "how can i schedule spa treatment, yoga, yacht excursions, snorkeling etc for during my stay",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-16",
+  "ultima": "2026-07-16"
+ },
+ {
+  "id": 681,
+  "pregunta": "I wanted more information about the kosher food available at the hotel",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-17",
+  "ultima": "2026-07-17"
+ },
+ {
+  "id": 682,
+  "pregunta": "Hello, what is your calendar for movement classes",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-18",
+  "ultima": "2026-07-18"
+ },
+ {
+  "id": 683,
+  "pregunta": "hi , i have a reservation for next week, i wanted to know about the activities , like snorkling , is that on site , or can you arrange for that",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-20",
+  "ultima": "2026-07-20"
+ },
+ {
+  "id": 684,
+  "pregunta": "how far is the MUSA from the nizuc",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-20",
+  "ultima": "2026-07-20"
+ },
+ {
+  "id": 685,
+  "pregunta": "how do i get in touch with the concierge ?",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-20",
+  "ultima": "2026-07-20"
+ },
+ {
+  "id": 686,
+  "pregunta": "Golf course",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-21",
+  "ultima": "2026-07-21"
+ },
+ {
+  "id": 687,
+  "pregunta": "What’s the nearby golf course",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-21",
+  "ultima": "2026-07-21"
+ },
+ {
+  "id": 688,
+  "pregunta": "What’s the nearest one?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-21",
+  "ultima": "2026-07-21"
+ },
+ {
+  "id": 689,
+  "pregunta": "Transfers from airport",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-21",
+  "ultima": "2026-07-21"
+ },
+ {
+  "id": 690,
+  "pregunta": "Is there a phone number",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-21",
+  "ultima": "2026-07-21"
+ },
+ {
+  "id": 691,
+  "pregunta": "do you offer meal plans?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-22",
+  "ultima": "2026-07-22"
+ },
+ {
+  "id": 692,
+  "pregunta": "Restaurante",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-22",
+  "ultima": "2026-07-22"
+ },
+ {
+  "id": 693,
+  "pregunta": "La punta grill",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-22",
+  "ultima": "2026-07-22"
+ },
+ {
+  "id": 694,
+  "pregunta": "Whats the naes of the kosher restaurants on your resort?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 695,
+  "pregunta": "Cafe de la playa isnt a kosher restauruant?",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 696,
+  "pregunta": "Cafe de le playa is on your resort?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 697,
+  "pregunta": "what activities are included in my stay at the resort?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 698,
+  "pregunta": "there is no additional cost for snorkling?",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 699,
+  "pregunta": "do i need to book these activities in advance?",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 700,
+  "pregunta": "what type of water sports are included in my stay?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-23",
+  "ultima": "2026-07-23"
+ },
+ {
+  "id": 701,
+  "pregunta": "is there availibility for these water sports between aug 2-5?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-24",
+  "ultima": "2026-07-24"
+ },
+ {
+  "id": 702,
+  "pregunta": "Do you also have motorized water sports?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-24",
+  "ultima": "2026-07-24"
+ },
+ {
+  "id": 703,
+  "pregunta": "Do you have a waterpark?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-24",
+  "ultima": "2026-07-24"
+ },
+ {
+  "id": 704,
+  "pregunta": "what's ur name",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-24",
+  "ultima": "2026-07-24"
+ },
+ {
+  "id": 705,
+  "pregunta": "how much are the rooms",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-24",
+  "ultima": "2026-07-24"
+ },
+ {
+  "id": 706,
+  "pregunta": "is this an all-inclusive resort?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-25",
+  "ultima": "2026-07-25"
+ },
+ {
+  "id": 707,
+  "pregunta": "I made a reservation on the website but I want to cancel it and make with a travel agent.",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-27",
+  "ultima": "2026-07-27"
+ },
+ {
+  "id": 708,
+  "pregunta": "Is ur restaurant have kosher",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-27",
+  "ultima": "2026-07-27"
+ },
+ {
+  "id": 709,
+  "pregunta": "I would like to know the seaweed situation for this week",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-27",
+  "ultima": "2026-07-27"
+ },
+ {
+  "id": 710,
+  "pregunta": "Can you send me the link to the cameras?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-27",
+  "ultima": "2026-07-27"
+ },
+ {
+  "id": 711,
+  "pregunta": "Activities please",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-28",
+  "ultima": "2026-07-28"
+ },
+ {
+  "id": 712,
+  "pregunta": "Garden deluxe suite",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-29",
+  "ultima": "2026-07-29"
+ },
+ {
+  "id": 713,
+  "pregunta": "Private pool villa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-29",
+  "ultima": "2026-07-29"
+ },
+ {
+  "id": 714,
+  "pregunta": "Amenidades",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-29",
+  "ultima": "2026-07-29"
+ },
+ {
+  "id": 715,
+  "pregunta": "Dinner reservations",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-29",
+  "ultima": "2026-07-29"
+ },
+ {
+  "id": 716,
+  "pregunta": "I will be staying at NIZUC in February 2027 and have just received an email notifying me of ongoing construction and noise. Please let me know where the construction is located and if it will be happening in February 2027",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-30",
+  "ultima": "2026-07-30"
+ },
+ {
+  "id": 717,
+  "pregunta": "What is the daily cost for reserving a beach lounge and umbrella",
+  "bucket": "pregunta",
+  "tema": "PRECIOS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-30",
+  "ultima": "2026-07-30"
+ },
+ {
+  "id": 718,
+  "pregunta": "What dates are considered high season",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-30",
+  "ultima": "2026-07-30"
+ },
+ {
+  "id": 719,
+  "pregunta": "do you guys accept Apple Pay?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-30",
+  "ultima": "2026-07-30"
+ },
+ {
+  "id": 720,
+  "pregunta": "Is there a fee for the gym? What time does it open?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-31",
+  "ultima": "2026-07-31"
+ },
+ {
+  "id": 721,
+  "pregunta": "Transportation from airport",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-07-31",
+  "ultima": "2026-07-31"
+ },
+ {
+  "id": 722,
+  "pregunta": "Which hotel is this?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-01",
+  "ultima": "2026-08-01"
+ },
+ {
+  "id": 723,
+  "pregunta": "Hi there. I was curious what the food costs were in general as well as what type of kids food is on property",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 724,
+  "pregunta": "WHat is your address?",
+  "bucket": "pregunta",
+  "tema": "UBICACION",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 725,
+  "pregunta": "Do we need to rent chairs on the beach or is it first come first serve?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 726,
+  "pregunta": "How long of a walk is it from the deluxe garden view room to the beach?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 727,
+  "pregunta": "Is there parking available if we rent a car?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 728,
+  "pregunta": "How much is parking?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 729,
+  "pregunta": "how much is yacht excursion?",
+  "bucket": "pregunta",
+  "tema": "ACTIVIDADES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-02",
+  "ultima": "2026-08-02"
+ },
+ {
+  "id": 730,
+  "pregunta": "Hi can I please speak to a repersentave",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 731,
+  "pregunta": "What is the pool measurement size difference between the",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 732,
+  "pregunta": "What is the pool difference in size between the garden deluxe suite and a private pool villa?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 733,
+  "pregunta": "Are all the plunge pool suites the same size pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 734,
+  "pregunta": "Which one would you say has the biggest plunge pool size?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 735,
+  "pregunta": "What’s the difference between guardians deluxe and ocean view Junior suite",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 736,
+  "pregunta": "Which one has a bigger plunge pool?",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 737,
+  "pregunta": "Is there a suite that has the bigger blunts pool not in a garden",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 738,
+  "pregunta": "Looking for the cheapest option that had a larger plunge pool and not as many bushes",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 739,
+  "pregunta": "What is junior suite",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 740,
+  "pregunta": "Do you have a junior suite with the larger plunge pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 741,
+  "pregunta": "How big is this pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 742,
+  "pregunta": "How big is the pool in the private pool villa",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 743,
+  "pregunta": "Is there any other type room for cheaper with this size pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-04",
+  "ultima": "2026-08-04"
+ },
+ {
+  "id": 744,
+  "pregunta": "Gym",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-05",
+  "ultima": "2026-08-05"
+ },
+ {
+  "id": 745,
+  "pregunta": "hola cual es el horario del gym?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-06",
+  "ultima": "2026-08-06"
+ },
+ {
+  "id": 746,
+  "pregunta": "Garden deluxe suit with plunge pool",
+  "bucket": "pregunta",
+  "tema": "PLAYAS_PISCINAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-07",
+  "ultima": "2026-08-07"
+ },
+ {
+  "id": 747,
+  "pregunta": "Can I see it",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-07",
+  "ultima": "2026-08-07"
+ },
+ {
+  "id": 748,
+  "pregunta": "Hola! Tienen paquetes para bodas?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-09",
+  "ultima": "2026-08-09"
+ },
+ {
+  "id": 749,
+  "pregunta": "I have a upcoming reservation for 08/28-09/01 I was wondering about activities are going on at the hotel",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-10",
+  "ultima": "2026-08-10"
+ },
+ {
+  "id": 750,
+  "pregunta": "Hola en podrás llamr",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-11",
+  "ultima": "2026-08-11"
+ },
+ {
+  "id": 751,
+  "pregunta": "children activities",
+  "bucket": "pregunta",
+  "tema": "FAMILIA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-12",
+  "ultima": "2026-08-12"
+ },
+ {
+  "id": 752,
+  "pregunta": "how much can i expect to spend on food and drinks for a 6 night trip",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-15",
+  "ultima": "2026-08-15"
+ },
+ {
+  "id": 753,
+  "pregunta": "Help me make a reservation for a restaurant tonight",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-16",
+  "ultima": "2026-08-16"
+ },
+ {
+  "id": 754,
+  "pregunta": "How far from Cancun airport?",
+  "bucket": "pregunta",
+  "tema": "TRANSPORTE",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-19",
+  "ultima": "2026-08-19"
+ },
+ {
+  "id": 755,
+  "pregunta": "Reservations for Ocean suites",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-19",
+  "ultima": "2026-08-19"
+ },
+ {
+  "id": 756,
+  "pregunta": "Get men in contact with reservation team",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-19",
+  "ultima": "2026-08-19"
+ },
+ {
+  "id": 757,
+  "pregunta": "Tienen ceviche?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-20",
+  "ultima": "2026-08-20"
+ },
+ {
+  "id": 758,
+  "pregunta": "where is the construction located near or at the hotel",
+  "bucket": "pregunta",
+  "tema": "MASCOTAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-21",
+  "ultima": "2026-08-21"
+ },
+ {
+  "id": 759,
+  "pregunta": "Me gustaría reservar en el",
+  "bucket": "pregunta",
+  "tema": "RESERVAS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-23",
+  "ultima": "2026-08-23"
+ },
+ {
+  "id": 760,
+  "pregunta": "Indochine, 2 personas el dia de mañana a las 8:30",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-23",
+  "ultima": "2026-08-23"
+ },
+ {
+  "id": 761,
+  "pregunta": "would like to schedule off site activities, but the information about them on this site is very vague, and there is no answer when I emailed for more information.",
+  "bucket": "pregunta",
+  "tema": "CONTACTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-26",
+  "ultima": "2026-08-26"
+ },
+ {
+  "id": 762,
+  "pregunta": "Are you able send me a menu of the restaurants and the spa service pls",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-29",
+  "ultima": "2026-08-29"
+ },
+ {
+  "id": 763,
+  "pregunta": "Kosher",
+  "bucket": "pregunta",
+  "tema": "RESTAURANTES",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-08-31",
+  "ultima": "2026-08-31"
+ },
+ {
+  "id": 764,
+  "pregunta": "What floor is it on?",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 765,
+  "pregunta": "Ocean suite",
+  "bucket": "pregunta",
+  "tema": "ALOJAMIENTO",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 766,
+  "pregunta": "I do not want ground floor",
+  "bucket": "pregunta",
+  "tema": "OTROS",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 767,
+  "pregunta": "Horario de gym",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 768,
+  "pregunta": "Gym schedule",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 2,
+  "sesiones": 2,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 769,
+  "pregunta": "Hola, ¿cuál es el horario del gimnasio?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 3,
+  "sesiones": 3,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 770,
+  "pregunta": "¿Puedo ir al gym a las 7 de la tarde?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 771,
+  "pregunta": "¿Cuál es el horario del spa?",
+  "bucket": "pregunta",
+  "tema": "SPA",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ },
+ {
+  "id": 772,
+  "pregunta": "Hola tienes el horario del gimnasio?",
+  "bucket": "pregunta",
+  "tema": "GYM",
+  "veces": 1,
+  "sesiones": 1,
+  "primera": "2026-09-01",
+  "ultima": "2026-09-01"
+ }
+]

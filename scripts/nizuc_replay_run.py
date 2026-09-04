@@ -8,10 +8,16 @@ reanudacion automatica (los resultados ya guardados no se repiten).
 Entrada:  scripts/nizuc_replay/corpus.json     (Fase 1)
 Salida:   scripts/nizuc_replay/replay_results.json
 
+Al terminar purga del servidor las sesiones creadas (replay-*) para no
+acumular historial basura: el endpoint de mensajes de Flowise no pagina y
+miles de sesiones con trazas de tools pueden tumbar el servidor por OOM.
+Usar --keep-sessions para conservarlas e inspeccionarlas en la UI.
+
 Uso:
     export FLOWISE_API_KEY=...   (o definir en .env del repo)
-    python scripts/nizuc_replay_run.py
+    python scripts/nizuc_replay_run.py [--keep-sessions]
 """
+import argparse
 import json
 import os
 import time
@@ -60,7 +66,35 @@ def preguntar(item, api_key):
                 "status": f"error: {type(e).__name__}: {str(e)[:120]}"}
 
 
+def purgar_sesiones(corpus, api_key):
+    flow_id = FLOW_URL.rsplit("/", 1)[-1]
+    base_url = FLOW_URL.rsplit("/prediction/", 1)[0]
+    purgadas = 0
+    for item in corpus:
+        sid = f"{SESSION_PREFIX}-{item['id']:04d}"
+        try:
+            r = requests.delete(
+                f"{base_url}/api/v1/chatmessage/{flow_id}",
+                headers={"Authorization": f"Bearer {api_key}"},
+                params={"sessionId": sid},
+                timeout=30,
+            )
+            if r.ok:
+                purgadas += 1
+        except requests.RequestException:
+            pass
+    print(f"sesiones purgadas del servidor: {purgadas}/{len(corpus)}")
+
+
 def main():
+    parser = argparse.ArgumentParser(description="Replay del corpus historico de NIZUC")
+    parser.add_argument(
+        "--keep-sessions",
+        action="store_true",
+        help="no purgar las sesiones replay-* del servidor al terminar",
+    )
+    args = parser.parse_args()
+
     with open(CORPUS, encoding="utf-8") as f:
         corpus = json.load(f)
 
@@ -102,6 +136,9 @@ def main():
     if ok:
         segs = sorted(r["segundos"] for r in ok)
         print(f"latencia: mediana {segs[len(segs)//2]}s | p90 {segs[int(len(segs)*0.9)]}s | max {segs[-1]}s")
+
+    if not args.keep_sessions:
+        purgar_sesiones(corpus, api_key)
 
 
 if __name__ == "__main__":

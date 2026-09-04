@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly Flowise heavy fields trim
+
+[Timer]
+OnCalendar=Sun *-*-* 04:45:00
+Persistent=true
+RandomizedDelaySec=10m
+Unit=flowise-heavyfields-trim.service
+
+[Install]
+WantedBy=timers.target

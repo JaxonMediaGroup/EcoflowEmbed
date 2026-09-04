@@ -1,0 +1,6 @@
+[Unit]
+Description=Auto-sync NIZUC Google Doc to Flowise knowledge store
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/sbin/flowise-kb-sync

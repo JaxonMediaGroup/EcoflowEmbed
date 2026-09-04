@@ -3,6 +3,12 @@
 analytics/.env
 analytics/insights/.env
 
+# The Flowise source/runtime now lives in the sibling Ecoflow repository.
+# Never add a local clone, its database, or runtime files to this repository.
+/flowise-local/
+/.flowise-local-data/
+/.flowise-local-data.*/
+
 node_modules/
 analytics/frontend/node_modules/
 
@@ -14,6 +20,18 @@ analytics/data/.ai_cache/
 analytics/data/.ai_results/
 __pycache__/
 *.pyc
+
+# Generated local agent artifacts. Canonical agent definitions remain in
+# projects/<Agent> Agents.json; these files are disposable snapshots or run output.
+/projects/*.backup-*.json
+/projects/*.server_snapshot
+/projects/*.tmp.json
+/projects/.audit/
+/scripts/**/insert_*.sql
+/scripts/**/inserted_ids*.txt
+/scripts/**/replay-*.json
+/scripts/**/test-run-*.json
+/artifacts/
 
 # Sensitive infrastructure/security files - do not commit
 .ssh_known_hosts_ecoflow

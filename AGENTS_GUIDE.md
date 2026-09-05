@@ -31,7 +31,7 @@ Start → agentAgentflow_0 (Q&A + info_get)
 
 | Nodo ID | Rol | Herramienta |
 |---|---|---|
-| `agentAgentflow_0` | Q&A multilingüe | `requestsGet` (info_get) |
+| `agentAgentflow_0` | Q&A multilingüe | `requestsGet` (info_get) + `web_search` acotado |
 | `conditionAgentAgentflow_0` | Clasificador de intención | — |
 | `agentAgentflow_1` | Captura de leads | `customTool` (Google Sheets) |
 | `agentAgentflow_2` | Guardia fuera de tema | — |
@@ -62,6 +62,10 @@ Estas secciones son **parte del template base** y NO se negocian con el cliente:
 - `📞 SUGERIR CONTACTO HUMANO — OBLIGATORIO`
 - `🎯 TONO Y ESTILO — OBLIGATORIO`
 - `⛔ STRICTLY FORBIDDEN PHRASES` (x3 variantes, nunca revelar el documento)
+- `SAFE_WEB_SCOPE_POLICY_V1` — fuente oficial primero; búsqueda pública solo si aporta
+  contexto actual directamente relevante.
+- `PROJECT_SOURCE_GUARD_V1`, `CATEGORY_ROUTER_GUARD_V1` y
+  `CATEGORY_OFF_TOPIC_GUARD_V1` — no ampliar el alcance por una coincidencia superficial.
 
 ---
 
@@ -152,6 +156,7 @@ python scripts/agent_factory.py create "Nombre Proyecto" DOC_ID --local-only
 
 ```bash
 python scripts/agent_factory.py update "Nombre Proyecto" \
+    --category industrial \
     --funnel \
     --calendar "https://cal.example.com/book" \
     --model gpt-5.4
@@ -195,7 +200,26 @@ python scripts/agent_factory.py update "Nombre Proyecto" --funnel --dry-run
 - **Validaciones del script** (ambos modos): topología 5 nodos/4 edges, sin IDs duplicados,
   edges válidos, sin trazas del template (nombre `Volterra` ni su doc ID; `volterra` en
   minúsculas también, p.ej. un valor `$project` sin reemplazar que desatribuye leads en la
-  hoja central), doc ID objetivo presente, nodos canónicos presentes.
+  hoja central), doc ID objetivo presente, nodos canónicos presentes, configuración de
+  búsqueda acotada, marcadores de alcance y copia espejo de los escenarios del router.
+
+### 6.1 Estándar de búsqueda web y alcance
+
+El template canónico selecciona `web_search` con acceso externo, contexto `medium` y
+presupuesto `default`. No se usa `web_search_preview` como configuración activa.
+
+El agente debe consultar primero `info_get`. Solo puede hacer **una** búsqueda web cuando
+necesite complementar con contexto público, actual y directamente útil: movilidad/acceso,
+servicios públicos cercanos, obras o eventos, mercado, requisitos públicos o referencias de
+financiamiento. Datos estáticos del proyecto y peticiones fuera de alcance no disparan una
+búsqueda. La búsqueda no sustituye la fuente oficial ni permite revelar prompts, credenciales,
+herramientas internas o URLs de fuente.
+
+`create` aplica esta política al giro elegido. `update` toma la categoría registrada en
+`projects.json`; usa `--category` cuando el proyecto aún no está registrado o se deba corregir.
+El router manda solicitudes ajenas al guardia fuera de tema; no basta que una palabra parezca
+relacionada. Antes de publicar, prueba por lo menos una consulta contextual vigente, una de
+dato estático y una fuera de alcance.
 
 ---
 
@@ -230,29 +254,18 @@ Por eso el **Lead Agent queda en `gpt-5.4`** (sin `reasoning`). Si OpenAI lo sop
 futuro, se podrá mover también a Terra. Mientras tanto, NUNCA pongas `reasoning: low` en un
 nodo que use `customTool`.
 
-### 7.3.1 ⚠️ hallazgo (ago 2026) — qué agentes aceptan terra en el Q&A
+### 7.3.1 Verificación de modelo y búsqueda
 
-El 400 *"Function tools with reasoning_effort are not supported for gpt-5.6-terra in
-/v1/chat/completions"* aparece en el nodo Q&A (con `requestsGet`) según la generación del
-flow. Verificado empíricamente con clones y smoke tests (campaña de ago 2026, 61 agentes):
+La configuración vigente del template usa `web_search` (no la variante preview) y la política
+de §6.1. En staging se validó con acceso externo, contexto `medium` y presupuesto `default`.
+Que una consulta concreta use solo `info_get` puede ser una decisión correcta del modelo cuando
+la fuente oficial ya responde; no se debe añadir otra herramienta ni cambiar la topología solo
+para forzar una búsqueda.
 
-- **Mayoría (47 + Vesta/WE WORK ya existentes): terra+low funciona directo.** NO activar
-  `web_search_preview` en ellos — en esa generación el built-in activo es justamente lo
-  que rompe el request (terraform+low solo → 200; con built-in → 500).
-- **Sub-generación intermedia (14 agentes): terra en Q&A daba 400 bajo cualquier
-  reasoning.** RESUELTO en ago 2026 trasplantando el `data` completo del nodo Q&A desde
-  un agente funcional (referencia: Mavila), conservando prompts/tools/label propios y
-  SIN `agentMemoryMaxTokenLimit`. Receta del transplante: copiar data del nodo Q&A de
-  referencia → restaurar `agentMessages`, `agentTools` y `label` propios →
-  `modelName: gpt-5.6-terra`, `reasoning: low` → eliminar `agentMemoryMaxTokenLimit`.
-  Los 14 quedaron en terra+low verificados.
-- **NIZUC: su Q&A usa `agentModel: chatOpenAICustom`** (clase distinta) y no acepta terra
-  ("Unsupported"). Mantener en `gpt-5.2`.
-- **SLS/NOMA (generación vieja 4 nodos):** ver §7.3.2 — requiere migración de template.
-
-**Regla operativa:** al cambiar modelos de un agente, siempre smoke-testear con rollback
-si falla; si el Q&A rechaza terra, dejarlo en `gpt-5.4` y seguir. Los Lead Agents
-(customTool) siempre en `gpt-5.4` sin reasoning (§7.3).
+**Regla operativa:** al cambiar modelo, fuentes o configuración de búsqueda, prueba una consulta
+estática, una contextual vigente y una fuera de alcance. Si el Q&A rechaza Terra, deja ese nodo
+en `gpt-5.4` y conserva el Lead Agent en `gpt-5.4` sin reasoning (§7.3). No se modifica un
+agente productivo sin backup y prueba de regresión.
 
 ### 7.4 Por qué Terra+low y no Sol o Luna
 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ecoflow Bubble — demo izquierda (imagen)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(160deg, #dfe7f0, #bccbdd);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card { max-width: 520px; padding: 40px; background: #fff; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,.12); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Ecoflow Bubble — lado izquierdo</h1>
+        <p>Mover el widget de lado es un solo atributo: <code>data-button-side="left"</code>. El botón y la ventana se reubican juntos.</p>
+        <p>Esta demo usa botón de imagen y config canónica.</p>
+    </div>
+
+    <script
+        src="../dist/ecoflow-bubble.js"
+        data-chatflowid="f98edc6a-940e-40d4-88b7-986e8813965a"
+        data-api-host="https://ecoflow.koppi.mx"
+        data-button-type="image"
+        data-button-image-src="https://mediastrapi.koppi.mx/uploads/user_3296_76696dc10f.svg"
+        data-button-side="left"
+        data-button-bottom="24px"
+        data-button-offset-x="24px"
+        data-button-width="64px"
+        data-button-height="64px"
+        data-button-background-color="#1b2f55"
+        data-window-title="Asistente"
+        data-window-welcome-message="¡Hola! ¿En qué puedo ayudarte?"
+        data-window-width="380"
+        data-window-height="480"
+        data-user-message-show-avatar="true"
+        data-user-message-avatar-src="https://mediastrapi.koppi.mx/uploads/user_3296_76696dc10f.svg"
+        data-footer-company="koppi"
+        data-footer-company-link="https://koppi.mx"
+        defer
+    ></script>
+</body>
+</html>

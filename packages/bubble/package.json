@@ -1,0 +1,53 @@
+{
+  "name": "@koppi/ecoflow-bubble",
+  "version": "0.1.0",
+  "description": "Bubble chat embebible para ECOflow (fork de Flowise). Web component <ecoflow-chat> usable desde HTML plano (IIFE) o React (ESM).",
+  "type": "module",
+  "main": "./dist/ecoflow-bubble.mjs",
+  "module": "./dist/ecoflow-bubble.mjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/ecoflow-bubble.mjs"
+    },
+    "./react": {
+      "types": "./dist/types/react/index.d.ts",
+      "import": "./dist/ecoflow-bubble-react.mjs"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --noEmit && vite build && vite build --config vite.react.config.ts",
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.4",
+    "lottie-web": "^5.12.2",
+    "marked": "^12.0.2",
+    "preact": "^10.26.9"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.0",
+    "@types/react": "^18.3.12",
+    "typescript": "^5.8.2",
+    "vite": "^5.4.14",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^3.0.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

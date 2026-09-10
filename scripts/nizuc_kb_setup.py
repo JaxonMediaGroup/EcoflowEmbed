@@ -154,7 +154,9 @@ UPSERT = {
     'embeddingName': 'openAIEmbeddings',
     'embeddingConfig': {'modelName': 'text-embedding-3-small', 'credentialId': CREDENTIAL},
     'vectorStoreName': 'faiss',
-    'vectorStoreConfig': {'basePath': '/root/.flowise/nizuc_kb_faiss', 'topK': '10'},
+    # El contenedor corre como usuario "node": solo /home/node/.flowise está en la
+    # allowlist de paths. /root/.flowise provocaba "Invalid path" al construir el Agent node.
+    'vectorStoreConfig': {'basePath': '/home/node/.flowise/storage/nizuc_kb_faiss', 'topK': '10'},
 }
 
 

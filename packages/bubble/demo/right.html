@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ecoflow Bubble — demo derecha (lottie)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(160deg, #e8ebe4, #cfd8cf);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card { max-width: 520px; padding: 40px; background: #fff; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,.12); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Ecoflow Bubble — lado derecho</h1>
+        <p>Mismo patrón de siempre: un solo <code>&lt;script&gt;</code> con data-attributes. Sin scripts de reposicionamiento: la ventana se ancla sola al botón.</p>
+        <p>Pulsa el botón de Lottie abajo a la derecha.</p>
+    </div>
+
+    <!-- Todo lo que un cliente necesita: el IIFE + data-attributes (legacy o canónicos) -->
+    <script
+        src="../dist/ecoflow-bubble.js"
+        data-chatflowid="f98edc6a-940e-40d4-88b7-986e8813965a"
+        data-api-host="https://ecoflow.koppi.mx"
+        data-lottie-animation-path="https://mediastrapi.koppi.mx/uploads/Chatbot_Off_v2_01b544fff6.json"
+        data-button-bottom="10vh"
+        data-button-offset-x="20px"
+        data-button-width="70px"
+        data-button-height="70px"
+        data-button-side="right"
+        data-button-background-color="#4e635c"
+        data-tooltip-enabled="true"
+        data-tooltip-text="¡Pregúntame cualquier cosa!"
+        data-window-title="Terralago"
+        data-window-welcome-message="¡Hola! Bienvenido a Terralago. ¿En qué puedo ayudarte hoy?"
+        data-user-message-background-color="#4e635c"
+        data-text-input-send-button-color="#4e635c"
+        data-bot-message-show-avatar="false"
+        data-footer-company="koppi"
+        data-footer-company-link="https://koppi.mx"
+        defer
+    ></script>
+</body>
+</html>

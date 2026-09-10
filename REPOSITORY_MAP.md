@@ -14,7 +14,11 @@ con configuraciones de clientes y evita publicar datos de ejecución.
 - `scripts/`: automatización de creación, actualización, auditoría, sincronización y QA.
 - `ops/`: automatización de infraestructura que debe revisarse antes de incorporarse a
   producción.
-- `ecoflow-*.min.js` y `ecoflow-template.js`: artefactos públicos del widget.
+- `packages/bubble/`: fuente del widget propio `<ecoflow-chat>` (web component con
+  Shadow DOM, Preact). Un solo código produce el IIFE para HTML plano y el ESM +
+  wrapper para React; `dist/` se versiona y se sirve por CDN igual que los `.min.js`.
+- `ecoflow-*.min.js` y `ecoflow-template.js`: artefactos públicos del widget (builds
+  legacy de terceros; los sitios nuevos deben usar `packages/bubble`).
 - `analytics/`: panel y herramientas analíticas.
 
 ## Qué es estrictamente local

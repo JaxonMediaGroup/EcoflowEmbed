@@ -89,6 +89,37 @@ export interface EcoflowChatConfig {
     footerCompany: string
     footerCompanyLink: string
     footerTextColor: string
+
+    // ---- Capacidades del agente (voz / imagen) ----
+    /**
+     * Micrófono (STT): 'auto' consulta /chatflows-uploads/{id} y se activa solo
+     * si el agente lo tiene configurado (p.ej. NIZUC sí, Terralago no).
+     * true/false fuerza el comportamiento manualmente.
+     */
+    voiceInput: boolean | 'auto'
+    /** Voz de salida (TTS): 'auto' detecta desde la config del chatflow */
+    voiceOutput: boolean | 'auto'
+    /** Adjuntar imágenes: 'auto' detecta desde la config del chatflow */
+    imageUploads: boolean | 'auto'
+
+    // ---- Conversación ----
+    /** Botón de reinicio de conversación en el header */
+    showResetButton: boolean
+    /** Conservar mensajes y chatId entre recargas de la página (localStorage) */
+    persistConversation: boolean
+
+    // ---- Estilo ----
+    /** Tema liquid glass: ventana translúcida con blur (como el bundle liquidglass) */
+    glass: boolean
+}
+
+export interface FileUpload {
+    name: string
+    mime: string
+    /** Data URI base64; ausente en mensajes restaurados sin imagen */
+    data?: string
+    /** image: se envía al modelo multimodal; audio: el server lo transcribe (STT) */
+    type?: 'image' | 'audio' | 'file'
 }
 
 export const DEFAULT_CONFIG: EcoflowChatConfig = {
@@ -153,7 +184,16 @@ export const DEFAULT_CONFIG: EcoflowChatConfig = {
     footerText: 'Powered by',
     footerCompany: '',
     footerCompanyLink: '',
-    footerTextColor: '#9aa0a6'
+    footerTextColor: '#9aa0a6',
+
+    voiceInput: 'auto',
+    voiceOutput: 'auto',
+    imageUploads: 'auto',
+
+    showResetButton: true,
+    persistConversation: true,
+
+    glass: false
 }
 
 /** Eventos SSE que emite el servidor del fork (utils/SSEStreamer.ts) */
@@ -186,4 +226,6 @@ export interface Message {
     role: 'bot' | 'user' | 'agent' | 'error'
     text: string
     followUps?: string[]
+    /** Imágenes adjuntas del mensaje del usuario */
+    fileUploads?: FileUpload[]
 }

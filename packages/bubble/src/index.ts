@@ -1,4 +1,5 @@
 import { configFromAttributes } from './config/attrs'
+import { getAutoMountScripts, queueAutoMount } from './automount'
 import { ECOFLOW_ELEMENT, EcoflowChatElement } from './element'
 import type { EcoflowChatConfig } from './types'
 
@@ -31,8 +32,7 @@ declare global {
  * currentScript debe capturarse de forma síncrona: en módulos ES es null y el
  * auto-mount simplemente no ocurre (el consumidor importa y define manualmente).
  */
-function automount(): void {
-    const script = document.currentScript as HTMLScriptElement | null
+function automount(script: HTMLScriptElement): void {
     defineEcoflowChat()
 
     if (!script) return
@@ -50,9 +50,9 @@ function automount(): void {
 defineEcoflowChat()
 
 if (typeof document !== 'undefined') {
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', automount)
-    } else {
-        automount()
-    }
+    const scripts = getAutoMountScripts(
+        document.currentScript as HTMLScriptElement | null,
+        document.scripts
+    )
+    queueAutoMount(document, scripts, automount)
 }

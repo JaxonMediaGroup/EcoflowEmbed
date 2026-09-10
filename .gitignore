@@ -42,7 +42,9 @@ id_rsa
 id_ed25519
 known_hosts*
 
-# Fuentes legibles de clientes - solo locales (a GitHub solo suben los .min.js ofuscados)
+# Fuentes legibles de clientes - solo locales. El IIFE de bubble es una excepción:
+# Vite ya lo minifica y se publica como el asset HTML/CDN del paquete.
 ecoflow-*.js
 !ecoflow-*.min.js
 !ecoflow-template.js
+!packages/bubble/dist/ecoflow-bubble.js

@@ -146,5 +146,22 @@ export function resolveConfig(parts: Partial<EcoflowChatConfig>[]): EcoflowChatC
     if (!merged.windowHeaderBackgroundColor) {
         merged.windowHeaderBackgroundColor = merged.buttonBackgroundColor
     }
+    if (merged.glass) {
+        // El tema glass necesita paleta translúcida oscura; solo aplica en las
+        // claves que el sitio NO personalizó explícitamente
+        const glassDefaults: Partial<EcoflowChatConfig> = {
+            windowBackgroundColor: 'rgba(255, 255, 255, 0.07)',
+            botMessageBackgroundColor: 'rgba(255, 255, 255, 0.12)',
+            botMessageTextColor: '#ffffff',
+            textInputTextColor: '#ffffff',
+            textInputBackgroundColor: 'rgba(255, 255, 255, 0.08)',
+            footerTextColor: 'rgba(255, 255, 255, 0.65)'
+        }
+        for (const [key, value] of Object.entries(glassDefaults)) {
+            if (merged[key as keyof EcoflowChatConfig] === DEFAULT_CONFIG[key as keyof EcoflowChatConfig]) {
+                ;(merged as unknown as Record<string, unknown>)[key] = value
+            }
+        }
+    }
     return merged
 }

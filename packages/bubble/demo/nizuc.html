@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ecoflow Bubble — NIZUC Concierge (liquid glass, voz e imagen)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            min-height: 100vh;
+            background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2400') center/cover no-repeat fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card { max-width: 520px; padding: 40px; background: rgba(0,0,0,.55); color:#fff; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
+        .card ul { padding-left: 18px; line-height: 1.7; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>NIZUC Concierge</h1>
+        <p>Misma configuración que la página real del tour (chatflow, Lottie, textos), más el tema liquid glass del bundle actual. Capacidades auto-detectadas:</p>
+        <ul>
+            <li><b>Voz</b>: botón de micrófono (STT) y reproducción TTS solo si el agente las tiene activas</li>
+            <li><b>Imagen</b>: clip solo si el agente es multimodal</li>
+            <li><b>Reset</b>: botón en el header reinicia la conversación</li>
+            <li><b>Persistencia</b>: los mensajes sobreviven la recarga (24h)</li>
+        </ul>
+        <p>Prueba: recarga la página con el chat abierto y el historial sigue ahí.</p>
+    </div>
+
+    <!-- Config real del cliente NIZUC (chatflow concierge) + glass -->
+    <script
+        src="../dist/ecoflow-bubble.js"
+        data-chatflowid="cd55ce82-5916-4117-aa3a-98ebd5d0c890"
+        data-api-host="https://ecoflow.koppi.mx"
+        data-lottie-animation-path="https://mediastrapi.koppi.mx/uploads/btn_koppi_hotel_1_8eb802928a.json"
+        data-button-bottom="60vh"
+        data-button-offset-x="-12px"
+        data-button-width="80px"
+        data-button-height="80px"
+        data-button-side="right"
+        data-button-background-color="#000000"
+        data-tooltip-enabled="true"
+        data-tooltip-text="Let me enhance your experience—what do you need?"
+        data-tooltip-background-color="#ffffff"
+        data-tooltip-text-color="#000000"
+        data-tooltip-font-size="18px"
+        data-tooltip-padding="6px 12px"
+        data-tooltip-border-radius="10px"
+        data-window-title="Nizuc Concierge"
+        data-window-welcome-message="Hello! Welcome to Nizuc Resort &amp; Spa. I'm your personal concierge, here to help with anything you need—whether it's details about our rooms, restaurant options, spa treatments, or activities. My priority is to ensure your stay is nothing short of extraordinary. How can I assist you today?"
+        data-window-height="500"
+        data-window-width="400"
+        data-text-input-placeholder="Ask me anything..."
+        data-window-error-message="I can't understand your message, perhaps because of the connection. Could you try again?"
+        data-user-message-background-color="#000000"
+        data-user-message-text-color="#ffffff"
+        data-text-input-send-button-color="#000000"
+        data-bot-message-show-avatar="false"
+        data-user-message-show-avatar="true"
+        data-user-message-avatar-src="https://mediastrapi.koppi.mx/uploads/user_3296_76696dc10f.svg"
+        data-footer-company="koppi"
+        data-footer-company-link="https://koppi.mx"
+        data-glass="true"
+        defer
+    ></script>
+</body>
+</html>

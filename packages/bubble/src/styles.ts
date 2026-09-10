@@ -118,6 +118,24 @@ export const WIDGET_CSS = `
 .ecoflow-close:hover { background: rgba(255, 255, 255, 0.18); }
 .ecoflow-close svg { width: 16px; height: 16px; }
 
+/* Botones de acción del header (reset comparte base con close) */
+.ecoflow-header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+}
+.ecoflow-header-btn:hover { background: rgba(255, 255, 255, 0.18); }
+.ecoflow-header-btn svg { width: 15px; height: 15px; }
+
 /* ============ Mensajes ============ */
 .ecoflow-messages {
   flex: 1;
@@ -237,6 +255,24 @@ export const WIDGET_CSS = `
 }
 .ecoflow-chip:hover { background: color-mix(in srgb, var(--ec-c-send) 10%, transparent); }
 
+/* ============ Adjuntos en mensajes ============ */
+.ecoflow-attachments { display: flex; flex-direction: column; gap: 6px; }
+.ecoflow-attachment-img {
+  max-width: 200px;
+  max-height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}
+.ecoflow-attachment-audio {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: calc(var(--ec-fs) * 0.85);
+  opacity: 0.85;
+}
+.ecoflow-attachment-audio svg { width: 14px; height: 14px; }
+
 /* ============ Input ============ */
 .ecoflow-input-row {
   display: flex;
@@ -246,6 +282,64 @@ export const WIDGET_CSS = `
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   flex-shrink: 0;
   background: var(--ec-bg-input);
+  flex-wrap: wrap;
+}
+.ecoflow-preview {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ecoflow-preview img {
+  height: 64px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.ecoflow-preview-remove {
+  position: absolute;
+  left: 54px;
+  top: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+.ecoflow-preview-remove svg { width: 11px; height: 11px; }
+
+/* Botones cuadrados de la barra de input (imagen, micrófono) */
+.ecoflow-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ec-c-send);
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+.ecoflow-icon-btn:hover:not(:disabled) { background: rgba(128, 128, 128, 0.18); }
+.ecoflow-icon-btn:disabled { opacity: 0.4; cursor: default; }
+.ecoflow-icon-btn svg { width: 18px; height: 18px; }
+.ecoflow-icon-btn--recording {
+  background: #e5484d;
+  color: #fff;
+  animation: ecoflow-rec-pulse 1.2s infinite ease-in-out;
+}
+@keyframes ecoflow-rec-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(229, 72, 77, 0.5); }
+  50% { box-shadow: 0 0 0 8px rgba(229, 72, 77, 0); }
 }
 .ecoflow-input {
   flex: 1;
@@ -289,6 +383,26 @@ export const WIDGET_CSS = `
 }
 .ecoflow-footer a { color: inherit; text-decoration: none; font-weight: 600; }
 .ecoflow-footer a:hover { text-decoration: underline; }
+
+/* ============ Tema liquid glass ============ */
+.ecoflow-window--glass {
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.ecoflow-window--glass .ecoflow-header {
+  background: color-mix(in srgb, var(--ec-bg-header) 55%, transparent);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.ecoflow-window--glass .ecoflow-input-row { border-top-color: rgba(255, 255, 255, 0.12); }
+.ecoflow-window--glass .ecoflow-input { border-color: rgba(255, 255, 255, 0.22); }
+.ecoflow-window--glass .ecoflow-agent-pill { background: rgba(255, 255, 255, 0.1); }
+.ecoflow-window--glass .ecoflow-markdown code { background: rgba(255, 255, 255, 0.14); }
+.ecoflow-window--glass .ecoflow-markdown pre { background: rgba(255, 255, 255, 0.1); }
+.ecoflow-window--glass .ecoflow-bubble--error { background: rgba(179, 38, 30, 0.28); color: #ffb4ab; }
+.ecoflow-window--glass .ecoflow-messages::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); }
 
 @media (prefers-reduced-motion: reduce) {
   .ecoflow-window, .ecoflow-button--shape, .ecoflow-send { animation: none; transition: none; }

@@ -112,6 +112,42 @@ Tooltip: `tooltipEnabled`, `tooltipText`, `tooltipBackgroundColor`,
 `tooltipTextColor`, `tooltipFontSize`, `tooltipPadding`,
 `tooltipBorderRadius`, `tooltipPositionOffset` (px).
 
+### Capacidades del agente: voz e imagen (auto-detectadas)
+
+No todos los agentes tienen voz o imagen (Terralago no; NIZUC sí). El widget
+consulta al servidor qué tiene activo cada chatflow y muestra los controles
+en consecuencia — sin configurar nada:
+
+| Clave | Default | Descripción |
+|---|---|---|
+| `voiceInput` | `auto` | Botón de micrófono (STT). `auto`: detecta del chatflow; `true`/`false`: manual |
+| `voiceOutput` | `auto` | Reproducción TTS de las respuestas. `auto`: se activa al recibir eventos TTS |
+| `imageUploads` | `auto` | Botón de adjuntar imagen (agentes multimodales). `auto`: detecta del chatflow |
+
+- Voz de entrada: graba con MediaRecorder (webm/mp4 según navegador), envía el
+  audio al server que lo transcribe y la transcripción aparece como mensaje.
+- Voz de salida: el server emite chunks de audio en el mismo SSE; el widget los
+  reproduce al terminar cada respuesta.
+- Imagen: preview antes de enviar; validación de tipo/tamaño contra lo que
+  reporta el server para el chatflow.
+
+Detección (cacheada por chatflow): `GET /api/v1/chatflows-uploads/{id}` para
+STT/imagen. TTS se confirma con los eventos `tts_*` de la respuesta SSE, así
+no depende de que la configuración del flujo sea pública.
+
+### Conversación
+
+| Clave | Default | Descripción |
+|---|---|---|
+| `showResetButton` | `true` | Botón de reinicio en el header: historial nuevo, chatId nuevo |
+| `persistConversation` | `true` | Mensajes y chatId sobreviven la recarga (localStorage, caduca a 24h) |
+
+### Estilo
+
+| Clave | Default | Descripción |
+|---|---|---|
+| `glass` | `false` | Tema liquid glass: ventana/header translúcidos con `backdrop-filter` (como el bundle liquidglass). Las claves de color que el sitio no personalice toman una paleta translúcida oscura. |
+
 ### Ventana (`window-*`)
 
 | Clave | Default | Descripción |

@@ -1,4 +1,5 @@
 import { parseSseChunk } from './sse'
+import type { FileUpload } from '../types'
 
 export interface PredictionHandlers {
     /** Primer evento del stream */
@@ -13,6 +14,12 @@ export interface PredictionHandlers {
     onError: (message: string) => void
     /** Stream terminado correctamente */
     onDone: () => void
+    /** TTS: el servidor empezó a sintetizar audio */
+    onTtsStart?: (format: string) => void
+    /** TTS: chunk de audio base64 */
+    onTtsChunk?: (base64: string) => void
+    /** TTS: fin del audio del mensaje */
+    onTtsEnd?: () => void
 }
 
 export interface PredictionRequest {
@@ -22,6 +29,8 @@ export interface PredictionRequest {
     chatId: string
     streaming?: boolean
     overrideConfig?: Record<string, unknown>
+    /** Adjuntos (imágenes/audio) como data URIs base64, formato del campo uploads del fork */
+    uploads?: FileUpload[]
 }
 
 function predictionUrl(req: PredictionRequest): string {
@@ -45,7 +54,8 @@ export async function sendPrediction(
         question: req.question,
         chatId: req.chatId,
         streaming: req.streaming ?? true,
-        ...(req.overrideConfig ? { overrideConfig: req.overrideConfig } : {})
+        ...(req.overrideConfig ? { overrideConfig: req.overrideConfig } : {}),
+        ...(req.uploads?.length ? { uploads: req.uploads } : {})
     }
 
     const response = await fetch(predictionUrl(req), {
@@ -104,6 +114,21 @@ export async function sendPrediction(
                 break
             case 'metadata':
                 if (data && typeof data === 'object') handlers.onMetadata?.(data as Record<string, unknown>)
+                break
+            case 'tts_start':
+                if (data && typeof data === 'object') {
+                    const format = (data as { format?: string }).format ?? 'audio/mpeg'
+                    handlers.onTtsStart?.(format)
+                }
+                break
+            case 'tts_data':
+                if (data && typeof data === 'object') {
+                    const chunk = (data as { audioChunk?: string }).audioChunk
+                    if (chunk) handlers.onTtsChunk?.(chunk)
+                }
+                break
+            case 'tts_end':
+                handlers.onTtsEnd?.()
                 break
             case 'error':
                 sawError = true

@@ -395,6 +395,7 @@ export const WIDGET_CSS = `
 
 /* ============ Tema liquid glass ============ */
 .ecoflow-window--glass {
+  background: color-mix(in srgb, var(--ec-glass-tint) 26%, var(--ec-bg-window));
   -webkit-backdrop-filter: blur(24px) saturate(160%);
   backdrop-filter: blur(24px) saturate(160%);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -405,13 +406,16 @@ export const WIDGET_CSS = `
   backdrop-filter: blur(24px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
-.ecoflow-window--glass .ecoflow-input-row { border-top-color: rgba(255, 255, 255, 0.12); }
+.ecoflow-window--glass .ecoflow-input-row {
+  background: color-mix(in srgb, var(--ec-glass-tint) 12%, var(--ec-bg-input));
+  border-top-color: rgba(255, 255, 255, 0.12);
+}
 .ecoflow-window--glass .ecoflow-input { border-color: rgba(255, 255, 255, 0.22); }
 .ecoflow-window--glass .ecoflow-agent-pill { background: rgba(255, 255, 255, 0.1); }
 .ecoflow-window--glass .ecoflow-markdown code { background: rgba(255, 255, 255, 0.14); }
 .ecoflow-window--glass .ecoflow-markdown pre { background: rgba(255, 255, 255, 0.1); }
 .ecoflow-window--glass .ecoflow-bubble--bot {
-  background: color-mix(in srgb, var(--ec-bg-bot) 88%, black);
+  background: color-mix(in srgb, var(--ec-glass-tint) 52%, black);
 }
 .ecoflow-window--glass .ecoflow-bubble--error { background: rgba(179, 38, 30, 0.28); color: #ffb4ab; }
 .ecoflow-window--glass .ecoflow-messages {

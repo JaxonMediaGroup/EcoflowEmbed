@@ -111,6 +111,8 @@ export interface EcoflowChatConfig {
     // ---- Estilo ----
     /** Tema liquid glass: ventana translúcida con blur (como el bundle liquidglass) */
     glass: boolean
+    /** Color base del liquid glass; vacío = hereda buttonBackgroundColor */
+    glassTintColor: string
 }
 
 export interface FileUpload {
@@ -193,7 +195,8 @@ export const DEFAULT_CONFIG: EcoflowChatConfig = {
     showResetButton: true,
     persistConversation: true,
 
-    glass: false
+    glass: false,
+    glassTintColor: ''
 }
 
 /** Eventos SSE que emite el servidor del fork (utils/SSEStreamer.ts) */

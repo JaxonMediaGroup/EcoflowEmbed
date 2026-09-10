@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Real Alcalá Sur — Ecoflow Bubble</title>
+    <style>
+        :root { color-scheme: dark; }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            font-family: Poppins, ui-sans-serif, system-ui, sans-serif;
+            color: #efffff;
+            background:
+                radial-gradient(circle at 8% 12%, rgba(7, 157, 148, .5), transparent 31rem),
+                radial-gradient(circle at 88% 85%, rgba(9, 69, 69, .9), transparent 27rem),
+                #082624;
+        }
+        .panel {
+            width: min(560px, calc(100vw - 48px));
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, .16);
+            border-radius: 24px;
+            background: rgba(4, 37, 35, .58);
+            box-shadow: 0 24px 70px rgba(0, 0, 0, .32);
+            backdrop-filter: blur(12px);
+        }
+        .eyebrow { color: #7de2dc; font-size: .78rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+        h1 { margin: 10px 0 14px; font-size: clamp(2rem, 5vw, 3rem); }
+        p { max-width: 44ch; margin: 0; color: rgba(239, 255, 255, .8); line-height: 1.6; }
+        .swatch { display: inline-flex; gap: 9px; align-items: center; margin-top: 24px; color: #7de2dc; font-size: .9rem; }
+        .swatch::before { width: 12px; height: 12px; border-radius: 50%; background: #079d94; box-shadow: 0 0 0 4px rgba(7, 157, 148, .22); content: ''; }
+    </style>
+</head>
+<body>
+    <main class="panel">
+        <div class="eyebrow">Demo de integración</div>
+        <h1>Real Alcalá Sur</h1>
+        <p>El mismo componente usa el turquesa de marca para entintar el cristal, sin perder la legibilidad de las respuestas.</p>
+        <div class="swatch">Turquesa Real Alcalá Sur · #079d94</div>
+    </main>
+
+    <script
+        src="../../dist/ecoflow-bubble.js"
+        data-chatflowid="8e51eda7-26a9-43c6-b284-71f02baf5c71"
+        data-api-host="https://ecoflow.koppi.mx"
+        data-button-background-color="#079d94"
+        data-glass-tint-color="#079d94"
+        data-text-input-send-button-color="#079d94"
+        data-user-message-background-color="#0b726c"
+        data-window-title="Real Alcalá Sur"
+        data-window-welcome-message="¡Hola! Soy el asistente virtual de Real Alcalá Sur. ¿Cómo puedo ayudarte?"
+        data-window-width="400"
+        data-window-height="500"
+        data-glass="true"
+        data-persist-conversation="false"
+        defer
+    ></script>
+</body>
+</html>

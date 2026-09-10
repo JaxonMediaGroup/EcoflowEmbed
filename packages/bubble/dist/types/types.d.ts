@@ -88,6 +88,8 @@ export interface EcoflowChatConfig {
     persistConversation: boolean;
     /** Tema liquid glass: ventana translúcida con blur (como el bundle liquidglass) */
     glass: boolean;
+    /** Color base del liquid glass; vacío = hereda buttonBackgroundColor */
+    glassTintColor: string;
 }
 export interface FileUpload {
     name: string;

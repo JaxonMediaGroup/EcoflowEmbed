@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reserva Castilla — Ecoflow Bubble</title>
+    <style>
+        :root { color-scheme: dark; }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            font-family: Poppins, ui-sans-serif, system-ui, sans-serif;
+            color: #fffaf0;
+            background:
+                radial-gradient(circle at 12% 18%, rgba(201, 151, 43, .38), transparent 30rem),
+                radial-gradient(circle at 88% 82%, rgba(103, 76, 31, .72), transparent 28rem),
+                #17150f;
+        }
+        .panel {
+            width: min(560px, calc(100vw - 48px));
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, .16);
+            border-radius: 24px;
+            background: rgba(20, 18, 12, .58);
+            box-shadow: 0 24px 70px rgba(0, 0, 0, .32);
+            backdrop-filter: blur(12px);
+        }
+        .eyebrow { color: #e7c36d; font-size: .78rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+        h1 { margin: 10px 0 14px; font-size: clamp(2rem, 5vw, 3rem); }
+        p { max-width: 44ch; margin: 0; color: rgba(255, 250, 240, .8); line-height: 1.6; }
+        .swatch { display: inline-flex; gap: 9px; align-items: center; margin-top: 24px; color: #e7c36d; font-size: .9rem; }
+        .swatch::before { width: 12px; height: 12px; border-radius: 50%; background: #c9972b; box-shadow: 0 0 0 4px rgba(201, 151, 43, .22); content: ''; }
+    </style>
+</head>
+<body>
+    <main class="panel">
+        <div class="eyebrow">Demo de integración</div>
+        <h1>Reserva Castilla</h1>
+        <p>El liquid glass toma el dorado de marca como tinte y conserva los mensajes del visitante visualmente distintos.</p>
+        <div class="swatch">Dorado Reserva Castilla · #c9972b</div>
+    </main>
+
+    <script
+        src="../../dist/ecoflow-bubble.js"
+        data-chatflowid="74813737-0ed3-4e82-a1ce-9ed90d879632"
+        data-api-host="https://ecoflow.koppi.mx"
+        data-button-background-color="#c9972b"
+        data-glass-tint-color="#c9972b"
+        data-text-input-send-button-color="#c9972b"
+        data-user-message-background-color="#8c671b"
+        data-window-title="Reserva Castilla"
+        data-window-welcome-message="¡Hola! Soy el asistente virtual de Reserva Castilla. ¿Qué te gustaría conocer del desarrollo?"
+        data-window-width="400"
+        data-window-height="500"
+        data-glass="true"
+        data-persist-conversation="false"
+        defer
+    ></script>
+</body>
+</html>

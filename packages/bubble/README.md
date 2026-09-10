@@ -147,6 +147,7 @@ no depende de que la configuración del flujo sea pública.
 | Clave | Default | Descripción |
 |---|---|---|
 | `glass` | `false` | Tema liquid glass: ventana/header translúcidos con `backdrop-filter` (como el bundle liquidglass). Las claves de color que el sitio no personalice toman una paleta translúcida oscura. |
+| `glassTintColor` | = `buttonBackgroundColor` | Color base que entinta ventana, input y fondo del bot. Es opcional: un embed legacy usa automáticamente su color de botón. |
 
 ### Ventana (`window-*`)
 
@@ -199,6 +200,7 @@ Demos locales (requieren build previo):
 ```bash
 npx serve packages/bubble/demo
 # right.html (lottie, derecha) · left.html (imagen, izquierda) · react.html
+# reserva-castilla/index.html · real-alcala-sur/index.html (liquid glass entintado)
 ```
 
 ### Publicación

@@ -101,7 +101,7 @@ function Icon({ name }: { name: 'chat' | 'close' | 'send' | 'mic' | 'stop' | 'im
     }
 }
 
-function themeVars(config: EcoflowChatConfig): CSSProperties {
+export function themeVars(config: EcoflowChatConfig): CSSProperties {
     return {
         '--ec-font': config.windowFontFamily,
         '--ec-fs': config.windowFontSize + 'px',
@@ -121,6 +121,7 @@ function themeVars(config: EcoflowChatConfig): CSSProperties {
         '--ec-z-window': config.windowZIndex,
         '--ec-tooltip-bg': config.tooltipBackgroundColor,
         '--ec-tooltip-c': config.tooltipTextColor,
+        '--ec-glass-tint': config.glassTintColor || config.buttonBackgroundColor,
         '--ec-tooltip-fs': config.tooltipFontSize,
         '--ec-tooltip-pad': config.tooltipPadding,
         '--ec-tooltip-radius': config.tooltipBorderRadius,

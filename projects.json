@@ -195,6 +195,12 @@
       "type": "AGENTFLOW",
       "category": "real-estate"
     },
+    "plataforma v4": {
+      "chatflow_id": "92d10ba6-786f-48eb-8dda-5319d433b83e",
+      "json_file": "projects/plataforma v4 Agents.json",
+      "type": "AGENTFLOW",
+      "category": "real-estate"
+    },
     "Virreyes": {
       "chatflow_id": "1868dfd5-4647-4dbe-902b-759b18891515",
       "json_file": "projects/Virreyes Agents.json",

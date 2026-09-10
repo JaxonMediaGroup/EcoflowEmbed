@@ -8632,9 +8632,18 @@ const Vh = `
   flex-direction: column;
   gap: 10px;
   scrollbar-width: thin;
+  scrollbar-color: var(--ec-c-send) var(--ec-bg-window);
 }
 .ecoflow-messages::-webkit-scrollbar { width: 6px; }
-.ecoflow-messages::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+.ecoflow-messages::-webkit-scrollbar-track { background: var(--ec-bg-window); }
+.ecoflow-messages::-webkit-scrollbar-thumb {
+  background: var(--ec-c-send);
+  border: 1px solid var(--ec-bg-window);
+  border-radius: 999px;
+}
+.ecoflow-messages::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--ec-c-send) 82%, black);
+}
 
 .ecoflow-msg { display: flex; align-items: flex-end; gap: 8px; }
 .ecoflow-msg--user { justify-content: flex-end; }
@@ -8888,8 +8897,18 @@ const Vh = `
 .ecoflow-window--glass .ecoflow-agent-pill { background: rgba(255, 255, 255, 0.1); }
 .ecoflow-window--glass .ecoflow-markdown code { background: rgba(255, 255, 255, 0.14); }
 .ecoflow-window--glass .ecoflow-markdown pre { background: rgba(255, 255, 255, 0.1); }
+.ecoflow-window--glass .ecoflow-bubble--bot {
+  background: color-mix(in srgb, var(--ec-bg-bot) 88%, black);
+}
 .ecoflow-window--glass .ecoflow-bubble--error { background: rgba(179, 38, 30, 0.28); color: #ffb4ab; }
-.ecoflow-window--glass .ecoflow-messages::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); }
+.ecoflow-window--glass .ecoflow-messages {
+  scrollbar-color: color-mix(in srgb, var(--ec-c-send) 72%, white) transparent;
+}
+.ecoflow-window--glass .ecoflow-messages::-webkit-scrollbar-track { background: transparent; }
+.ecoflow-window--glass .ecoflow-messages::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--ec-c-send) 72%, white);
+  border-color: rgba(255, 255, 255, 0.16);
+}
 
 @media (prefers-reduced-motion: reduce) {
   .ecoflow-window, .ecoflow-button--shape, .ecoflow-send { animation: none; transition: none; }

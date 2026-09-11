@@ -14,12 +14,40 @@
             overflow: hidden;
             font-family: Poppins, ui-sans-serif, system-ui, sans-serif;
             color: #fffaf0;
+            background: #17150f;
+        }
+        .photo-showcase {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            display: grid;
+            grid-template-columns: 1.15fr .85fr 1.15fr;
+            gap: 4px;
+            overflow: hidden;
+            background: #17150f;
+        }
+        .scene {
+            min-width: 0;
+            background: center / cover no-repeat;
+        }
+        .scene::after {
+            display: block;
+            height: 100%;
+            content: '';
             background:
-                radial-gradient(circle at 12% 18%, rgba(201, 151, 43, .38), transparent 30rem),
-                radial-gradient(circle at 88% 82%, rgba(103, 76, 31, .72), transparent 28rem),
-                #17150f;
+                linear-gradient(130deg, rgba(78, 57, 14, .16), rgba(15, 11, 3, .52)),
+                radial-gradient(circle at 50% 22%, transparent 20%, rgba(23, 16, 4, .42));
+        }
+        .scene--facade { background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85'); }
+        .scene--interior { background-image: url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85'); }
+        .scene--pool { background-image: url('https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=85'); }
+        @media (max-width: 700px) {
+            .photo-showcase { grid-template-columns: 1.15fr .85fr; }
+            .scene--pool { display: none; }
         }
         .panel {
+            position: relative;
+            z-index: 1;
             width: min(560px, calc(100vw - 48px));
             padding: 40px;
             border: 1px solid rgba(255, 255, 255, .16);
@@ -33,13 +61,32 @@
         p { max-width: 44ch; margin: 0; color: rgba(255, 250, 240, .8); line-height: 1.6; }
         .swatch { display: inline-flex; gap: 9px; align-items: center; margin-top: 24px; color: #e7c36d; font-size: .9rem; }
         .swatch::before { width: 12px; height: 12px; border-radius: 50%; background: #c9972b; box-shadow: 0 0 0 4px rgba(201, 151, 43, .22); content: ''; }
+        /* Ajuste exclusivo de este índice; los demás embeds mantienen sus defaults. */
+        ecoflow-chat::part(window) {
+            background: rgba(255, 255, 255, .07);
+        }
+        ecoflow-chat::part(input) {
+            background: rgba(255, 255, 255, .08);
+        }
+        ecoflow-chat::part(message-bot) {
+            --ec-glass-bot-bg: rgba(65, 47, 12, .72);
+            --ec-glass-bot-color: #fff;
+            backdrop-filter: blur(16px) saturate(140%);
+            border: 1px solid rgba(255, 255, 255, .18);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, .22);
+        }
     </style>
 </head>
 <body>
+    <div class="photo-showcase" aria-hidden="true">
+        <div class="scene scene--facade"></div>
+        <div class="scene scene--interior"></div>
+        <div class="scene scene--pool"></div>
+    </div>
     <main class="panel">
         <div class="eyebrow">Demo de integración</div>
         <h1>Reserva Castilla</h1>
-        <p>El liquid glass toma el dorado de marca como tinte y conserva los mensajes del visitante visualmente distintos.</p>
+        <p>El liquid glass se prueba sobre fachada, interior y alberca para apreciar su respuesta a luces y materiales distintos.</p>
         <div class="swatch">Dorado Reserva Castilla · #c9972b</div>
     </main>
 

@@ -16,6 +16,14 @@
         }
         .card { max-width: 520px; padding: 40px; background: rgba(0,0,0,.55); color:#fff; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
         .card ul { padding-left: 18px; line-height: 1.7; }
+        /* Sólo las respuestas del concierge adoptan este vidrio oscuro. */
+        ecoflow-chat::part(message-bot) {
+            --ec-glass-bot-bg: rgba(13, 21, 21, .66);
+            --ec-glass-bot-color: #fff;
+            backdrop-filter: blur(16px) saturate(140%);
+            border: 1px solid rgba(255, 255, 255, .18);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, .22);
+        }
     </style>
 </head>
 <body>

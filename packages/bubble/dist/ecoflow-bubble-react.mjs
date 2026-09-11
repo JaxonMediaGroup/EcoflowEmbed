@@ -8095,6 +8095,7 @@ function $h({ message: l, config: r }) {
       "div",
       {
         class: `ecoflow-bubble ecoflow-bubble--${h ? "error" : n ? "user" : "bot"}`,
+        part: `message message-${h ? "error" : n ? "user" : "bot"}`,
         children: [
           /* @__PURE__ */ tt(Vh, { uploads: l.fileUploads }),
           n ? l.text : /* @__PURE__ */ tt(
@@ -8905,10 +8906,12 @@ const jh = `
 .ecoflow-window--glass .ecoflow-markdown code { background: rgba(255, 255, 255, 0.14); }
 .ecoflow-window--glass .ecoflow-markdown pre { background: rgba(255, 255, 255, 0.1); }
 .ecoflow-window--glass .ecoflow-bubble--bot {
-  background: color-mix(in srgb, var(--ec-glass-tint) 52%, black);
+  background: var(--ec-glass-bot-bg, color-mix(in srgb, var(--ec-glass-tint) 52%, black));
+  color: var(--ec-glass-bot-color, var(--ec-c-bot));
 }
 .ecoflow-window--glass .ecoflow-bubble--error { background: rgba(179, 38, 30, 0.28); color: #ffb4ab; }
 .ecoflow-window--glass .ecoflow-messages {
+  background: var(--ec-glass-messages-bg, transparent);
   scrollbar-color: color-mix(in srgb, var(--ec-c-send) 72%, white) transparent;
 }
 .ecoflow-window--glass .ecoflow-messages::-webkit-scrollbar-track { background: transparent; }

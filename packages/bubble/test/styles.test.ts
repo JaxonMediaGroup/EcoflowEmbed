@@ -21,7 +21,9 @@ describe('scrollbar theme', () => {
 describe('glass message contrast', () => {
     it('mantiene el fondo del bot oscuro y distinto al mensaje del usuario', () => {
         expect(WIDGET_CSS).toContain('.ecoflow-window--glass .ecoflow-bubble--bot {')
-        expect(WIDGET_CSS).toContain('background: color-mix(in srgb, var(--ec-glass-tint) 52%, black);')
+        expect(WIDGET_CSS).toContain(
+            'background: var(--ec-glass-bot-bg, color-mix(in srgb, var(--ec-glass-tint) 52%, black));'
+        )
         expect(WIDGET_CSS).not.toContain('.ecoflow-window--glass .ecoflow-bubble--user {')
     })
 })
@@ -44,6 +46,8 @@ describe('glass tint', () => {
     it('aplica el tinte a ventana, input y mensajes del bot conservando alto contraste', () => {
         expect(WIDGET_CSS).toContain('background: color-mix(in srgb, var(--ec-glass-tint) 26%, var(--ec-bg-window));')
         expect(WIDGET_CSS).toContain('background: color-mix(in srgb, var(--ec-glass-tint) 12%, var(--ec-bg-input));')
-        expect(WIDGET_CSS).toContain('background: color-mix(in srgb, var(--ec-glass-tint) 52%, black);')
+        expect(WIDGET_CSS).toContain(
+            'background: var(--ec-glass-bot-bg, color-mix(in srgb, var(--ec-glass-tint) 52%, black));'
+        )
     })
 })

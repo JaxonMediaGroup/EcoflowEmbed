@@ -203,6 +203,7 @@ function MessageBubble({ message, config }: { message: Message; config: EcoflowC
                 class={`ecoflow-bubble ecoflow-bubble--${
                     isError ? 'error' : isUser ? 'user' : 'bot'
                 }`}
+                part={`message message-${isError ? 'error' : isUser ? 'user' : 'bot'}`}
             >
                 <AttachedFiles uploads={message.fileUploads} />
                 {isUser ? (

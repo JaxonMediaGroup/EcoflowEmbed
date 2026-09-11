@@ -186,6 +186,18 @@ ecoflow-chat::part(window) { border-radius: 8px; }
 ecoflow-chat::part(button) { filter: drop-shadow(0 4px 8px rgba(0,0,0,.3)); }
 ```
 
+También están disponibles `messages`, `message`, `message-bot`, `message-user`
+y `message-error`. Por ejemplo, un sitio que usa `glass` puede conservar el
+marco entintado y aclarar solo el historial:
+
+```css
+ecoflow-chat::part(messages) { --ec-glass-messages-bg: rgba(255, 255, 255, .94); }
+ecoflow-chat::part(message-bot) {
+    --ec-glass-bot-bg: #d8f0ee;
+    --ec-glass-bot-color: #0b514d;
+}
+```
+
 ## Desarrollo
 
 ```bash

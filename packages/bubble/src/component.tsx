@@ -271,6 +271,23 @@ export function ChatApp({ host, config }: ChatAppProps) {
     // Si hay mensajes restaurados, el welcome ya está en el historial
     if (messages.length > 0) welcomedRef.current = true
 
+    // Config tardía (wrapper de React o element.config tras connectedCallback):
+    // el useState inicial corre con chatflowId vacío y salta la restauración,
+    // así que se reintenta una única vez cuando la config real está disponible
+    const lateRestoreRef = useRef(false)
+    useEffect(() => {
+        if (lateRestoreRef.current) return
+        if (!config.persistConversation || !config.chatflowId) return
+        lateRestoreRef.current = true
+        const stored = loadConversation(storageKey)
+        if (!stored) return
+        if (stored.messages.length > 0) {
+            setMessages((prev) => (prev.length > 0 ? prev : stored.messages))
+            welcomedRef.current = true
+        }
+        if (stored.chatId) chatIdRef.current = stored.chatId
+    }, [config.persistConversation, config.chatflowId, storageKey])
+
     // Resolución de capacidades: 'auto' pregunta al server, true/false es manual
     const voiceInputOn =
         config.voiceInput === 'auto' ? (capabilities?.stt ?? false) : config.voiceInput === true
